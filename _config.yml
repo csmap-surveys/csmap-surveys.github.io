@@ -7,3 +7,4 @@ relative_links:
 include:
   - README.md
   - csmap_url_historian.md
+  - csmap_url_historian_es.md
