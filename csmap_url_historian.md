@@ -5,7 +5,12 @@ Participation in web browsing collection is voluntary. You can delete data for u
 
 For any questions regarding the use of the extension, the data we collect, or the research that your data will be used in, please contact [csmap-surveys@nyu.edu](mailto:csmap-surveys@nyu.edu). 
 
-URL Historian is a Chrome extension that enables the collection of web browsing activities in real-time. It collects browsing data from research participants who opt-in to share their browsing history for research purposes. Collected data is securely stored using AWS and only accessible to the CSMaP research team. The extension is available in the Chrome Web Store and accessible via invitation only.
+URL Historian is a Chrome extension that enables the collection of web browsing activities or website content in real-time. It collects browsing data for research purposes from research participants who opt-in to share their browsing history and page content when browsing Twitter, Facebook and Youtube. Page content information is collected if the research participant opt-in and the data collected is only for the social media site(s) opted for. 
+
+The extension provides visualization feature that beautifully displays the participant's locally stored browsing history. The visual displays reflects browsing habits such as frequency of visits and word searches on search engines, visits times in a heatmap graph, and visit details in a tabulated format. Importantly, the visualization information presented remains in the user's local machine and is composed of the entirety browsing history. Therefore, websites visit before and during extension installation is used to generate the visualizations. Of the entire browsing history displayed, the extension only collects information the participant has opted to be collected.
+
+Collected data is securely stored in Amazon Web Services(AWS) and only accessible to the CSMaP research team. The extension is available in the Chrome Web Store and accessible via invitation only.
+
 
 ## FAQ
 1. What if I install and forget to activate the extension? 
@@ -18,6 +23,7 @@ URL Historian is a Chrome extension that enables the collection of web browsing 
 
 ### What if I install and forget to activate the extension?
 The extension will send you a reminder 5 minutes after installing and every 30-minutes until you activate it.
+![Image]("images/inactive_en.jpg")
 
 ### How do I pause and reactivate the extension?
 1. Slide the toggle button to the left to pause, and to the right to reactivate the extension.
