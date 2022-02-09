@@ -23,7 +23,7 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 
 ### What if I install and forget to activate the extension?
 The extension will send you a reminder 5 minutes after installing and every 30-minutes until you activate it.
-![inactive]("/docs/assets/images/alerts/inactive_en.jpg")
+![inactive]("docs/assets/images/alerts/inactive_en.jpg")
 
 
 ### How do I pause and reactivate the extension?
