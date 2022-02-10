@@ -33,11 +33,10 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 		<li>Slide the toggle button to the left to pause, and to the right to reactivate the extension.</li>
 		<!-- <p align ="center"> -->
 		<video width="320" height="240" controls>
-  			<source src="videos/url_historian.mp4" type="video/mp4">
+  			<source src="videos/url_historian_pause.mp4" type="video/mp4">
 		</video>
 			<!-- <img align="center" width="300" height="200" src="videos/url_historian.mp4"> -->
 		<!-- </p> -->
-
 		<li>The extension will send you reminders after you have paused the extension for 60 minutes. After the first reminder, it will send follow-ups in 4-hour intervals.</li>
 	</ol>
 </div>
