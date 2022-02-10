@@ -23,7 +23,7 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 
 ### What if I install and forget to activate the extension?
 The extension will send you a reminder 5 minutes after installing and every 30-minutes until you activate it.
-![inactive](https://www.iconsdb.com/icons/download/soylent-red/youtube-2-16.png)
+![inactive](images/alerts/inactive.jpg)
 
 
 ### How do I pause and reactivate the extension?
