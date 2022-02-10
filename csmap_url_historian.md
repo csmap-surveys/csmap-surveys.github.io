@@ -32,8 +32,8 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 	<ol>
 		<li>Slide the toggle button to the left to pause, and to the right to reactivate the extension.</li>
 		<!-- <p align ="center"> -->
-			<iframe width="800" height="400" src="videos/pause_480p.mov">
-			</iframe>
+			<img align="center" width="700" height="400" src="videos/pause_480p.mov">
+			>
 		<!-- </p> -->
 
 		<li>The extension will send you reminders after you have paused the extension for 60 minutes. After the first reminder, it will send follow-ups in 4-hour intervals.</li>
@@ -42,10 +42,10 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 <div>
  	<h2>Can I delete data collected from me?</h2>
 	<p>Yes, we currently allow users to delete data within the past 7 days. (You can contact our research team at nyu-smapp-engineers@nyu.edu to request data deletion beyond the 7-day time frame.)</p>
-	<p align ="center">
+	<!-- <p align ="center">
 		<iframe allow="fullscreen" width="500" height="300" src="https://www.youtube.com/embed/HIYvJHWNsRw">
 		</iframe>
-	</p>
+	</p> -->
 </div>
 
 You can also delete data by selecting a date or selecting a time range in "Delete browse history."
