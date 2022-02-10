@@ -32,49 +32,52 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 	<ol>
 		<li>Slide the toggle button to the left to pause, and to the right to reactivate the extension.</li>
 		<!-- <p align ="center"> -->
-		<video width="320" height="240" controls>
+		<video align="center" width="320" height="240" controls>
   			<source src="videos/url_historian_pause.mp4" type="video/mp4">
 		</video>
-			<!-- <img align="center" width="300" height="200" src="videos/url_historian.mp4"> -->
-		<!-- </p> -->
 		<li>The extension will send you reminders after you have paused the extension for 60 minutes. After the first reminder, it will send follow-ups in 4-hour intervals.</li>
 	</ol>
 </div>
 <div>
  	<h2>Can I delete data collected from me?</h2>
 	<p>Yes, we currently allow users to delete data within the past 7 days. (You can contact our research team at nyu-smapp-engineers@nyu.edu to request data deletion beyond the 7-day time frame.)</p>
-	<!-- <p align ="center">
-		<iframe allow="fullscreen" width="500" height="300" src="https://www.youtube.com/embed/HIYvJHWNsRw">
-		</iframe>
-	</p> -->
 </div>
 
 You can also delete data by selecting a date or selecting a time range in "Delete browse history."
 
 To delete by date:
 1. Click on _by Date_.
-2. Select the _TimeZone_ you are in (Default: Eastern Time (US and Canada)). You can also search for a time zone using keywords (e.g. Eastern, -04).
+2. Select the _TimeZone_ you were are in ). You can also search for a time zone using keywords (e.g. Eastern, -04).
 3. Select a _Date_.
 4. Click on _Delete_. All your data collected on the selected date will be permanently deleted from our storage.
 
 To delete by time:
 1. Click on _by Time_.
-2. Select the _TimeZone_ you are in (Default: Eastern Time (US and Canada)). You can also search for a time zone using keywords (e.g. Eastern, -04).
+2. Select source of data you are interested to delete (e.g. Social media sites or Non social media sites)
+2. Select the _TimeZone_ you are in. You can also search for a time zone using keywords (e.g. Eastern, -04).
 3. Select a _Date_.
 4. Then, select a _StartTime_ (inclusive) and an _EndTime_ (inclusive) to specify a range of hours, OR select a _Time_ to specify a single hour. You can reset all fields using the Reset button.
 6. Click on _Delete_. All your data collected within the specified time frame will be permanently deleted from our storage.
 
-### How can I prevent the extension from recording visits to websites that I wish to keep private?
-You can set up a list of web domains that you wish to keep private in _Blacklist a website_. Enter a domain name in this format: `www.paypal.com`, and click on _Add_. The URL will be added to the list of _Current Blacklisted Sites_. When you visit any of these sites, we will not record the URLs. 
+<div>
+	<h2>How can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
+	<p>You can set up a list of web domains that you wish to keep private in _Blacklist a website_. Enter a domain name in this format: `www.paypal.com`, and click on _Add_. The URL will be added to the list of _Current Blacklisted Sites_. When you visit any of these sites, we will not record the URLs.</p> 
+	<p>You can remove a blacklisted website from _Current Blacklisted Sites_ by clicking on the red `x` next to a domain name.</p> 
+</div>
 
-You can remove a blacklisted website from _Current Blacklisted Sites_ by clicking on the red `x` next to a domain name. 
+<div>
+	</h2>What should I do if I forget my login ID?</h2>
+	<p>You can always find your User ID in your survey. You have 5 login attempts to activate the extension. With each failed attempt a notification message will popup. After 5 failed login attempts, the extension will auto uninstall, you should contact us at [nyu-smapp-engineers@nyu.edu](mailto:nyu-smapp-engineers@nyu.edu) for assistance.</p>
+</div>
+<div>
+	<h2>What do I do if the extension uninstalls itself and not because of failed attempts?</h2>
+	<p>This is meant to happen based on the study. A notification will popup informing you that the extension will auto uninstall. If you believe this happened due to an error, please contact [csmap-surveys@nyu.edu](mailto:csmap-surveys@nyu.edu).</p>
+	<p align="center"><img src="images/alerts/uninstall.jpg"></p>
+</div>
 
-### What should I do if I forget my login ID?
-You can always find your User ID in your survey. You have 5 login attempts to activate the extension. With each failed attempt a notification message will popup. After 5 failed login attempts, the extension will auto uninstall, you should contact us at [nyu-smapp-engineers@nyu.edu](mailto:nyu-smapp-engineers@nyu.edu) for assistance.
-
-### What do I do if the extension uninstalls itself and not because of failed attempts?
-This is meant to happen based on the study. A notification will popup informing you that the extension will auto uninstall. If you believe this happened due to an error, please contact [csmap-surveys@nyu.edu](mailto:csmap-surveys@nyu.edu).
-
-### Who should I contact for further information?
-1. For any questions on using the extension, requesting data deletion or other technical problems, please reach out to nyu-smapp-engineers@nyu.edu 
-2. For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact csmap-surveys@nyu.edu
+<div> Who should I contact for further information?
+	<ol>
+		<li>For any questions on using the extension, requesting data deletion or other technical problems, please reach out to nyu-smapp-engineers@nyu.edu</li>
+		<li>For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact [csmap-surveys@nyu.edu](mailto:csmap-surveys@nyu.edu)</li>
+	</ol>
+</div>
