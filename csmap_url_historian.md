@@ -31,10 +31,11 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 	<h2>How do I pause and reactivate the extension?</h2>
 	<ol>
 		<li>Slide the toggle button to the left to pause, and to the right to reactivate the extension.</li>
-		<!-- <p align ="center"> -->
-		<video align="center" width="320" height="240" controls>
-  			<source src="videos/url_historian_pause.mp4" type="video/mp4">
-		</video>
+		<p align ="center">
+			<video width="320" height="240" controls>
+  				<source src="videos/url_historian_pause.mp4" type="video/mp4">
+			</video>
+		</p>
 		<li>The extension will send you reminders after you have paused the extension for 60 minutes. After the first reminder, it will send follow-ups in 4-hour intervals.</li>
 	</ol>
 </div>
@@ -78,6 +79,6 @@ To delete by time:
 <div> Who should I contact for further information?
 	<ol>
 		<li>For any questions on using the extension, requesting data deletion or other technical problems, please reach out to nyu-smapp-engineers@nyu.edu</li>
-		<li>For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact [csmap-surveys@nyu.edu](mailto:csmap-surveys@nyu.edu)</li>
+		<li>For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact<a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a></li>
 	</ol>
 </div>
