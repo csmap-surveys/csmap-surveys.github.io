@@ -27,18 +27,17 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 	<p align="center"><img align="left" src="images/alerts/inactive.jpg"></p>
 </div>
 
-### What if I install and forget to activate the extension?
-
-
-
-
-
-### How do I pause and reactivate the extension?
-1. Slide the toggle button to the left to pause, and to the right to reactivate the extension.
-2. The extension will send you reminders after you have paused the extension for 60 minutes. After the first reminder, it will send follow-ups in 4-hour intervals.
-
+<div>
+	<h2>How do I pause and reactivate the extension?</h2>
+	<ol>
+		<li>Slide the toggle button to the left to pause, and to the right to reactivate the extension.</li>
+		<li>The extension will send you reminders after you have paused the extension for 60 minutes. After the first reminder, it will send follow-ups in 4-hour intervals.</li>
+	</ol>
+</div>
+<div>
 ### Can I delete data collected from me?
 Yes, we currently allow users to delete data within the past 7 days. (You can contact our research team at nyu-smapp-engineers@nyu.edu to request data deletion beyond the 7-day time frame.)
+</div>
 
 You can also delete data by selecting a date or selecting a time range in "Delete browse history."
 
