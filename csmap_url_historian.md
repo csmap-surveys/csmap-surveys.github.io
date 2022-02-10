@@ -38,7 +38,7 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
  	<h2>Can I delete data collected from me?</h2>
 	<p>Yes, we currently allow users to delete data within the past 7 days. (You can contact our research team at nyu-smapp-engineers@nyu.edu to request data deletion beyond the 7-day time frame.)</p>
 	<p align ="center">
-		<iframe allow="fullscreen" width="500" height="600" src="https://www.youtube.com/embed/HIYvJHWNsRw">
+		<iframe allow="fullscreen" width="500" height="300" src="https://www.youtube.com/embed/HIYvJHWNsRw">
 		</iframe>
 	</p>
 </div>
