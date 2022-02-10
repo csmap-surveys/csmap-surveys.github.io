@@ -41,7 +41,7 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 </div>
 <div>
  	<h2>Can I delete data collected from me?</h2>
-	<p>Yes, we currently allow users to delete data within the past 7 days. (You can contact our research team at nyu-smapp-engineers@nyu.edu to request data deletion beyond the 7-day time frame.)</p>
+	<p>Yes, we currently allow users to delete data within the past 7 days. (You can contact our research team at <a href="mailto:nyu-smapp-engineers@nyu.edu">nyu-smapp-engineers@nyu.edu</a> to request data deletion beyond the 7-day time frame.)</p>
 </div>
 
 You can also delete data by selecting a date or selecting a time range in "Delete browse history."
@@ -62,23 +62,23 @@ To delete by time:
 
 <div>
 	<h2>How can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
-	<p>You can set up a list of web domains that you wish to keep private in _Blacklist a website_. Enter a domain name in this format: `www.paypal.com`, and click on _Add_. The URL will be added to the list of _Current Blacklisted Sites_. When you visit any of these sites, we will not record the URLs.</p> 
-	<p>You can remove a blacklisted website from _Current Blacklisted Sites_ by clicking on the red `x` next to a domain name.</p> 
+	<p>You can set up a list of web domains that you wish to keep private in _Blacklist a website_. Enter a domain name in this format: <a href="www.paypal.com"> www.paypal.com</a>, and click on <em>Add</em> The URL will be added to the list of <em>Current Blacklisted Sites</em>. When you visit any of these sites, we will not record the URLs.</p> 
+	<p>You can remove a blacklisted website from <em>Current Blacklisted Sites</em> by clicking on the red `x` next to a domain name.</p> 
 </div>
 
 <div>
-	</h2>What should I do if I forget my login ID?</h2>
-	<p>You can always find your User ID in your survey. You have 5 login attempts to activate the extension. With each failed attempt a notification message will popup. After 5 failed login attempts, the extension will auto uninstall, you should contact us at [nyu-smapp-engineers@nyu.edu](mailto:nyu-smapp-engineers@nyu.edu) for assistance.</p>
+	<h2>What should I do if I forget my login ID?</h2>
+	<p>You can always find your User ID in your survey. You have 5 login attempts to activate the extension. With each failed attempt a notification message will popup. After 5 failed login attempts, the extension will auto uninstall, you should contact us at  <a href="mailto:nyu-smapp-engineers@nyu.edu"> nyu-smapp-engineers@nyu.edu</a> for assistance.</p>
 </div>
 <div>
 	<h2>What do I do if the extension uninstalls itself and not because of failed attempts?</h2>
-	<p>This is meant to happen based on the study. A notification will popup informing you that the extension will auto uninstall. If you believe this happened due to an error, please contact [csmap-surveys@nyu.edu](mailto:csmap-surveys@nyu.edu).</p>
+	<p>This is meant to happen based on the study. A notification will popup informing you that the extension will auto uninstall. If you believe this happened due to an error, please contact  <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a></p>
 	<p align="center"><img src="images/alerts/uninstall.jpg"></p>
 </div>
 
 <div> Who should I contact for further information?
 	<ol>
 		<li>For any questions on using the extension, requesting data deletion or other technical problems, please reach out to nyu-smapp-engineers@nyu.edu</li>
-		<li>For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact<a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a></li>
+		<li>For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> for assistance</li>
 	</ol>
 </div>
