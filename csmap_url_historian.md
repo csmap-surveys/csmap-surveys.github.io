@@ -32,7 +32,7 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 	<ol>
 		<li>Slide the toggle button to the left to pause, and to the right to reactivate the extension.</li>
 		<!-- <p align ="center"> -->
-			<iframe allow="fullscreen" width="800" height="400" src="videos/pause_480p.mov">
+			<iframe width="800" height="400" src="videos/pause_480p.mov">
 			</iframe>
 		<!-- </p> -->
 
