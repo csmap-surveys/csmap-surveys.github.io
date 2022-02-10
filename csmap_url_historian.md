@@ -35,8 +35,12 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 	</ol>
 </div>
 <div>
-### Can I delete data collected from me?
-Yes, we currently allow users to delete data within the past 7 days. (You can contact our research team at nyu-smapp-engineers@nyu.edu to request data deletion beyond the 7-day time frame.)
+ 	<h2>Can I delete data collected from me?</h2>
+	<p>Yes, we currently allow users to delete data within the past 7 days. (You can contact our research team at nyu-smapp-engineers@nyu.edu to request data deletion beyond the 7-day time frame.)</p>
+	<p>
+		<iframe allow="fullscreen" width="300" height="200" src="https://www.youtube.com/embed/HIYvJHWNsRw">
+		</iframe>
+	</p>
 </div>
 
 You can also delete data by selecting a date or selecting a time range in "Delete browse history."
