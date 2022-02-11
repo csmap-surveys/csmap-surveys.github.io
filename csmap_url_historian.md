@@ -19,7 +19,7 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 4. [How can I prevent the extension from recording visits to websites that I wish to keep private?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#how-can-i-prevent-the-extension-from-recording-visits-to-websites-that-i-wish-to-keep-private)
 5. [What should I do if I forget my login ID?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#what-should-i-do-if-i-forget-my-login-id)
 6. [What do I do if the extension uninstalls itself and not because of failed attempts?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#what-do-i-do-if-the-extension-uninstalls-itself-and-not-because-of-failed-attempts)
-7. [Who should I contact for further information?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#who-should-i-contact-for-further-information)
+7. [Who should I contact for further information?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#-who-should-i-contact-for-further-information)
 
 <div>
 	<h2>What if I install and forget to activate the extension?</h2>
@@ -60,7 +60,7 @@ To delete by date:
 	<h2>How can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
 	<p>You can set up a list of web domains that you wish to keep private in <strong>Add Website to Blacklist</strong>
 	<p align ="center">
-		<video width="320" height="240" controls>
+		<video width="400" height="320" controls>
   			<source src="videos/uh_blacklist.mp4" type="video/mp4">
 		</video>
 	</p>
