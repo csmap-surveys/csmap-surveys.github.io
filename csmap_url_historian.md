@@ -26,14 +26,13 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 	<p>The extension will send you a reminder 5 minutes after installing and every 30-minutes until you activate it.</p>
 	<p align="center"><img src="images/alerts/inactive.jpg"></p>
 </div>
-
 <div>
 	<h2>How do I pause and reactivate the extension?</h2>
 	<ol>
 		<li>Slide the toggle button to the left to pause, and to the right to reactivate the extension.</li>
 		<p align ="center">
 			<video width="320" height="240" controls>
-  				<source src="videos/url_historian_pause.mp4" type="video/mp4">
+  				<source src="videos/uh_pause.mp4" type="video/mp4">
 			</video>
 		</p>
 		<li>The extension will send you reminders after you have paused the extension for 60 minutes. After the first reminder, it will send follow-ups in 4-hour intervals.</li>
@@ -42,9 +41,13 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 <div>
  	<h2>Can I delete data collected from me?</h2>
 	<p>Yes, we currently allow users to delete data within the past 7 days. (You can contact our research team at <a href="mailto:nyu-smapp-engineers@nyu.edu">nyu-smapp-engineers@nyu.edu</a> to request data deletion beyond the 7-day time frame.)</p>
-</div>
+	<p>You can also delete data collected within the specified date and time frame or date will be permanently deleted from our storage.</p>
+	<h6> Delete by date and time</h6>
+	<video width="640" height="480" controls>
+  		<source src="videos/uh_delbytime.mp4" type="video/mp4">
+	</video>
 
-You can also delete data by selecting a date or selecting a time range in "Delete browse history."
+</div>
 
 To delete by date:
 1. Click on _by Date_.
@@ -52,20 +55,19 @@ To delete by date:
 3. Select a _Date_.
 4. Click on _Delete_. All your data collected on the selected date will be permanently deleted from our storage.
 
-To delete by time:
-1. Click on _by Time_.
-2. Select source of data you are interested to delete (e.g. Social media sites or Non social media sites)
-2. Select the _TimeZone_ you are in. You can also search for a time zone using keywords (e.g. Eastern, -04).
-3. Select a _Date_.
-4. Then, select a _StartTime_ (inclusive) and an _EndTime_ (inclusive) to specify a range of hours, OR select a _Time_ to specify a single hour. You can reset all fields using the Reset button.
-6. Click on _Delete_. All your data collected within the specified time frame will be permanently deleted from our storage.
-
 <div>
 	<h2>How can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
-	<p>You can set up a list of web domains that you wish to keep private in _Blacklist a website_. Enter a domain name in this format: <a href="www.paypal.com"> www.paypal.com</a>, and click on <em>Add</em> The URL will be added to the list of <em>Current Blacklisted Sites</em>. When you visit any of these sites, we will not record the URLs.</p> 
-	<p>You can remove a blacklisted website from <em>Current Blacklisted Sites</em> by clicking on the red `x` next to a domain name.</p> 
-</div>
+	<p>You can set up a list of web domains that you wish to keep private in <em>Add Website to Blacklist<em>
+	<video width="320" height="240" controls>
+  		<source src="videos/url_historian_blacklist.mp4" type="video/mp4">
+	</video>
+	<p>The URL will be added to the list of <em>Websites currently Blacklisted</em>. When you visit any of these sites, we will not record the URLs.</p> 
+	<p>You can remove a blacklisted website from <em>Websites currently Blacklisted</em> by </p> 
+	<video width="320" height="240" controls>
+  		<source src="videos/uh_unblacklist.mp4" type="video/mp4">
+	</video>
 
+</div>
 <div>
 	<h2>What should I do if I forget my login ID?</h2>
 	<p>You can always find your User ID in your survey. You have 5 login attempts to activate the extension. With each failed attempt a notification message will popup. After 5 failed login attempts, the extension will auto uninstall, you should contact us at  <a href="mailto:nyu-smapp-engineers@nyu.edu"> nyu-smapp-engineers@nyu.edu</a> for assistance.</p>
@@ -75,7 +77,6 @@ To delete by time:
 	<p>This is meant to happen based on the study. A notification will popup informing you that the extension will auto uninstall. If you believe this happened due to an error, please contact  <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a></p>
 	<p align="center"><img src="images/alerts/uninstall.jpg"></p>
 </div>
-
 <div> Who should I contact for further information?
 	<ol>
 		<li>For any questions on using the extension, requesting data deletion or other technical problems, please reach out to nyu-smapp-engineers@nyu.edu</li>
