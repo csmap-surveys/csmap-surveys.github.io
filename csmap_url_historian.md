@@ -19,7 +19,7 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 4. [How can I prevent the extension from recording visits to websites that I wish to keep private?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#how-can-i-prevent-the-extension-from-recording-visits-to-websites-that-i-wish-to-keep-private)
 5. [What should I do if I forget my login ID?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#what-should-i-do-if-i-forget-my-login-id)
 6. [What do I do if the extension uninstalls itself and not because of failed attempts?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#what-do-i-do-if-the-extension-uninstalls-itself-and-not-because-of-failed-attempts)
-7. Who should I contact for further information?(https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#who-should-i-contact-for-further-information)
+7. [Who should I contact for further information?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#who-should-i-contact-for-further-information)
 
 <div>
 	<h2>What if I install and forget to activate the extension?</h2>
@@ -58,15 +58,15 @@ To delete by date:
 
 <div>
 	<h2>How can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
-	<p>You can set up a list of web domains that you wish to keep private in <em>Add Website to Blacklist<em>
+	<p>You can set up a list of web domains that you wish to keep private in <strong>Add Website to Blacklist</strong>
 	<p align ="center">
 		<video width="320" height="240" controls>
   			<source src="videos/uh_blacklist.mp4" type="video/mp4">
 		</video>
 	</p>
 	<p>The URL will be added to the list of <strong>Websites currently Blacklisted</strong>. When you visit any of these sites, we will not record the URLs.</p> 
-	<p>You can remove a blacklisted website from <strong><em>Websites currently Blacklisted</em></strong> by </p> 
-	<p align="center">
+	<p>You can remove a blacklisted website from <strong>Websites currently Blacklisted</strong> by </p> 
+	<p align="center">s
 		<video width="300" height="240" controls>
 	  		<source src="videos/uh_unblacklist.mp4" type="video/mp4">
 		</video>
@@ -75,7 +75,10 @@ To delete by date:
 </div>
 <div>
 	<h2>What should I do if I forget my login ID?</h2>
-	<p>You can always find your User ID in your survey. You have 5 login attempts to activate the extension. With each failed attempt a notification message will popup. After 5 failed login attempts, the extension will auto uninstall, you should contact us at  <a href="mailto:nyu-smapp-engineers@nyu.edu"> nyu-smapp-engineers@nyu.edu</a> for assistance.</p>
+	<p>You can always find your User ID in your survey. You have 5 login attempts to activate the extension.</p>
+	<p> With each failed attempt a notification message will popup.</p>
+	<p align="center"><img src="images/alerts/failed_attempt.jpg"></p>
+	<p>After 5 failed login attempts, the extension will auto uninstall, you should contact us at <a href="mailto:nyu-smapp-engineers@nyu.edu"> nyu-smapp-engineers@nyu.edu</a> for assistance.</p>
 	<p align="center"><img src="images/alerts/final_failed_attempt.jpg"></p>
 </div>
 <div>
