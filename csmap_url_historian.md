@@ -32,7 +32,7 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 		<li>Slide the toggle button to the left to pause, and to the right to reactivate the extension.</li>
 		<p align ="center">
 			<video width="320" height="240" controls>
-  				<source src="videos/uh_pause.mp4" type="video/mp4">
+  				<source src="https://youtu.be/embed/Z9z7SfkZp0Q" type="video/mp4">
 			</video>
 		</p>
 		<li>The extension will send you reminders after you have paused the extension for 60 minutes. After the first reminder, it will send follow-ups in 4-hour intervals.</li>
@@ -57,7 +57,7 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 </div>
 <div>
 	<h2>How can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
-	<p>You can set up a list of web domains that you wish to keep private in <strong>Add Website to Blacklist</strong>
+	<p>You can set up a list of web domains that you wish to keep private in <strong>Add Website to Blacklist</strong></p>
 	<p align ="center">
 		<video width="320" height="240" controls>
   			<source src="https://drive.google.com/drive/folders/1nMx4FD1pxOGmRsGfAKccFzHCrk8SrkcE" type="video/mp4">
