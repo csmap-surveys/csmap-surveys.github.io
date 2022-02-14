@@ -55,13 +55,6 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 		</video>
 	</p>
 </div>
-
-To delete by date:
-1. Click on _by Date_.
-2. Select the _TimeZone_ you were are in ). You can also search for a time zone using keywords (e.g. Eastern, -04).
-3. Select a _Date_.
-4. Click on _Delete_. All your data collected on the selected date will be permanently deleted from our storage.
-
 <div>
 	<h2>How can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
 	<p>You can set up a list of web domains that you wish to keep private in <strong>Add Website to Blacklist</strong>
