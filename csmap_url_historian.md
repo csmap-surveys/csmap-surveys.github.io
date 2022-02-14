@@ -44,14 +44,14 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 	<p>You can also delete data collected within the specified date and time frame or date will be permanently deleted from our storage.</p>
 	<center><h2> Delete by date and time</h2></center>
 	<p align ="center">
-		<video width="400" height="300" controls>
+		<video width="600" height="400" controls>
 	  		<source src="videos/uh_delbytime.mp4" type="video/mp4">
 		</video>
 	</p>
 	<center><h2> Delete by date</h2></center>
 	<p align ="center">
-		<video width="400" height="300" controls>
-	  		<source src="videos/uh_delbyday.mp4" type="video/mp4">
+		<video width="600" height="400" controls>
+	  		<source src="videos/uh_delbydate.mp4" type="video/mp4">
 		</video>
 	</p>
 </div>
