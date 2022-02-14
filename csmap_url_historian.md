@@ -31,7 +31,7 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 	<ol>
 		<li>Slide the toggle button to the left to pause, and to the right to reactivate the extension.</li>
 		<p align ="center">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/Z9z7SfkZp0Q?controls=1" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Z9z7SfkZp0Q"></iframe>
 			<!-- <iframe width="320" height="240" src="https://youtu.be/embed/Z9z7SfkZp0Q" ></iframe> -->
 		</p>
 		<li>The extension will send you reminders after you have paused the extension for 60 minutes. After the first reminder, it will send follow-ups in 4-hour intervals.</li>
