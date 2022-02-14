@@ -12,15 +12,15 @@ The extension provides visualization feature that beautifully displays the parti
 Collected data is securely stored in Amazon Web Services(AWS) and only accessible to the CSMaP research team. The extension is available in the Chrome Web Store and accessible via invitation only.
 
 
-## FAQ
-1. [What if I install and forget to activate the extension?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#what-if-i-install-and-forget-to-activate-the-extension) 
+## FREQUENTLY ASKED QUESTIONS
+<!-- 1. [What if I install and forget to activate the extension?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#what-if-i-install-and-forget-to-activate-the-extension) 
 2. [How do I pause and reactivate the extension?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#how-do-i-pause-and-reactivate-the-extension)
 3. [Can I delete data collected from me?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#can-i-delete-data-collected-from-me)
 4. [How can I prevent the extension from recording visits to websites that I wish to keep private?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#how-can-i-prevent-the-extension-from-recording-visits-to-websites-that-i-wish-to-keep-private)
 5. [What should I do if I forget my login ID?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#what-should-i-do-if-i-forget-my-login-id)
 6. [What do I do if the extension uninstalls itself and not because of failed attempts?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#what-do-i-do-if-the-extension-uninstalls-itself-and-not-because-of-failed-attempts)
 7. [Who should I contact for further information?](https://github.com/csmap-surveys/csmap-surveys.github.io/blob/main/csmap_url_historian.md#-who-should-i-contact-for-further-information)
-
+ -->
 <div>
 	<h2>What if I install and forget to activate the extension?</h2>
 	<p>The extension will send you a reminder 5 minutes after installing and every 30-minutes until you activate it.</p>
@@ -42,10 +42,16 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
  	<h2>Can I delete data collected from me?</h2>
 	<p>Yes, we currently allow users to delete data within the past 7 days. (You can contact our research team at <a href="mailto:nyu-smapp-engineers@nyu.edu">nyu-smapp-engineers@nyu.edu</a> to request data deletion beyond the 7-day time frame.)</p>
 	<p>You can also delete data collected within the specified date and time frame or date will be permanently deleted from our storage.</p>
-	<center><h3> Delete by date and time</h3></center>
+	<center><h2> Delete by date and time</h2></center>
 	<p align ="center">
-		<video width="640" height="480" controls>
+		<video width="400" height="300" controls>
 	  		<source src="videos/uh_delbytime.mp4" type="video/mp4">
+		</video>
+	</p>
+	<center><h2> Delete by date</h2></center>
+	<p align ="center">
+		<video width="400" height="300" controls>
+	  		<source src="videos/uh_delbyday.mp4" type="video/mp4">
 		</video>
 	</p>
 </div>
@@ -60,18 +66,17 @@ To delete by date:
 	<h2>How can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
 	<p>You can set up a list of web domains that you wish to keep private in <strong>Add Website to Blacklist</strong>
 	<p align ="center">
-		<video width="400" height="320" controls>
+		<video width="320" height="240" controls>
   			<source src="videos/uh_blacklist.mp4" type="video/mp4">
 		</video>
 	</p>
 	<p>The URL will be added to the list of <strong>Websites currently Blacklisted</strong>. When you visit any of these sites, we will not record the URLs.</p> 
 	<p>You can remove a blacklisted website from <strong>Websites currently Blacklisted</strong> by </p> 
-	<p align="center">s
+	<p align="center">
 		<video width="300" height="240" controls>
 	  		<source src="videos/uh_unblacklist.mp4" type="video/mp4">
 		</video>
 	</p>
-
 </div>
 <div>
 	<h2>What should I do if I forget my login ID?</h2>
