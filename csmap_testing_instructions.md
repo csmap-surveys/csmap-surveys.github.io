@@ -1,8 +1,12 @@
-
-<p>Thank you for your support and willingness to test the extension</p>
-
-<p>These purpose of the test is to ensure that the extension functionality is as expected as well as help the developers make any necessary modification pertaining to data capture, functionality, and user experience.
+<html>
+<head>
+	<h1>Testing Instruction</h1>
+</head>
+<body>
+<p>These purpose of these tests is to ensure that the URL Historian functionality is as expected as well as help the developers make any necessary modification pertaining to data collection, deletion, pause, activation, and blacklisting  functionality and overall user experience
 The data that will be collected during testing phase will be deleted from our storage and will not be used for CSMaP research purposes. 
+
+The CSMaP team appreciates your support in testing the extension. 
 </p>
 
 <div>
@@ -221,3 +225,5 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 		<li>For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> for assistance</li>
 	</ol>
 </div>
+</body>
+</html>
