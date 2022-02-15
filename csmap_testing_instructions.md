@@ -10,13 +10,14 @@ The data that will be collected during testing phase will be deleted from our st
 		<ol>
 			<li> Installing the extension from the Chrome web store</li>
 			<li> Activating the extension for testing</li>
-			<li> Navigating to specific set of URLs</li>
-			<li> Navigating to Youtube, Twitter and Facebook</li>
+			<li> Sharing page content</li>
+			<li> Navigate to specific set of URLs</li>
+			<li> Navigate Youtube</li>
+			<li> Navigate Facebook</li>
+			<li> Navigate Twitter </li>
 			<li> Use core functions of the extension</li>
 		</ol>
-	</p>
 </div>
-
 <div>
 	<h2>Installing and Activating the Extension</h2>
 	<ol>
@@ -48,7 +49,7 @@ The data that will be collected during testing phase will be deleted from our st
 </div>
 
 <div>
-	<h2> Navigating to Youtube</h2>
+	<h2> Navigate Youtube</h2>
 	<p> Click the link below to visit Youtube</p>
 	<ol>
 		<li>Click <a href="https:www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com<a/></li>
@@ -59,7 +60,7 @@ The data that will be collected during testing phase will be deleted from our st
 	</ol>
 </div>
 <div>
-	<h2> Navigating to Facebook</h2>
+	<h2> Navigate to Facebook</h2>
 	<p> If you have Facebook Login to your account (if not logged in)</p>
 	<ol>
 		<li>Click on one of your friends page<a/></li>
@@ -71,7 +72,7 @@ The data that will be collected during testing phase will be deleted from our st
 	</ol>
 </div>
 <div>
-	<h2> Navigating  Twitter</h2>
+	<h2> Navigate to Twitter</h2>
 	<p> If you have Twitter Account Login to your account (if not logged in)</p>
 	<ol>
 		<li>Click on one of your friends page<a/></li>
