@@ -37,13 +37,13 @@ The data that will be collected during testing phase will be deleted from our st
 	 </ol>
 </div> 
 <div>
-	<h2> Navigating to specific URL set of URLs</h2>
+	<h2> Navigating to specific set of URLs</h2>
 	<p> Click the links below to visit associated websites</p>
 	<ol>
-		<li><a href="https:www.google.com">www.google.com<a/></li>
-		<li><a href="https://www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html">https://www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html</a></li>
-		<li><a href="https://www.cnn.com/style/article/birkenstocks-history-comfortable-shoes-sandals/index.html">https://www.cnn.com/style/article/birkenstocks-history-comfortable-shoes-sandals/index.html</li>
-		<li><a href="https://www.nyu.edu">https://www.nyu.edu</a></li>
+		<li><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">www.google.com</a></li>
+		<li><a href="https://www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html" target="_blank" rel="noopener noreferrer">https://www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html</a></li>
+		<li><a href="https://www.cnn.com/style/article/birkenstocks-history-comfortable-shoes-sandals/index.html" target="_blank" rel="noopener noreferrer">https://www.cnn.com/style/article/birkenstocks-history-comfortable-shoes-sandals/index.html</li>
+		<li><a href="https://www.nyu.edu" target="_blank" rel="noopener noreferrer">https://www.nyu.edu</a></li>
 	</ol>
 </div>
 
@@ -51,10 +51,10 @@ The data that will be collected during testing phase will be deleted from our st
 	<h2> Navigating to Youtube</h2>
 	<p> Click the link below to visit Youtube</p>
 	<ol>
-		<li>Click <a href="https:www.youtube.com">www.youtube.com<a/></li>
+		<li>Click <a href="https:www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com<a/></li>
 		<li>Click on any YouTube video of your interest on your home page</li>
 		<li>Click on 2 more Youtube video of your interest sequentially without watching the content</li>
-		<li>Click <a href="https:www.youtube.com">www.youtube.com<a/> </li>
+		<li>Click <a href="https:www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com<a/> </li>
 		<li>After 10 minutes, close both tabs running YouTube</li>
 	</ol>
 </div>
