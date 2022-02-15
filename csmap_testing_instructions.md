@@ -24,12 +24,12 @@ The data that will be collected during testing phase will be deleted from our st
 		<li>Follow instructions on Installing and activating the extension demo below</li>
 			<video width="320" height="240" controls>
 	  		<source src="videos/uh_activate.mp4" type="video/mp4"></video>
-		<li>Click <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en">here to install</a> </li>
+		<li>Click <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">here to install</a> </li>
 	  	<li> Activate the extension using the user ID provided with your email</li>
 	 </ol>
 </div> 
 <div>
-	<h2>Allowing share page content</h2>
+	<h2>Sharing Page Content</h2>
 	<ol>
 		<li>Follow instructions below to allow sharing of social media website page content</li>
 			<video width="320" height="240" controls>
@@ -42,9 +42,9 @@ The data that will be collected during testing phase will be deleted from our st
 	<p> Click the links below to visit associated websites</p>
 	<ol>
 		<li><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">www.google.com</a></li>
-		<li><a href="https://www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html" target="_blank" rel="noopener noreferrer">https://www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html</a></li>
-		<li><a href="https://www.cnn.com/style/article/birkenstocks-history-comfortable-shoes-sandals/index.html" target="_blank" rel="noopener noreferrer">https://www.cnn.com/style/article/birkenstocks-history-comfortable-shoes-sandals/index.html</li>
-		<li><a href="https://www.nyu.edu" target="_blank" rel="noopener noreferrer">https://www.nyu.edu</a></li>
+		<li><a href="https://www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html" target="_blank" rel="noopener noreferrer">www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html</a></li>
+		<li><a href="https://www.cnn.com/style/article/birkenstocks-history-comfortable-shoes-sandals/index.html" target="_blank" rel="noopener noreferrer">www.cnn.com/style/article/birkenstocks-history-comfortable-shoes-sandals/index.html</a></li>
+		<li><a href="https://www.nyu.edu" target="_blank" rel="noopener noreferrer">www.nyu.edu</a></li>
 	</ol>
 </div>
 
@@ -55,7 +55,7 @@ The data that will be collected during testing phase will be deleted from our st
 		<li>Click <a href="https:www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com<a/></li>
 		<li>Click on any YouTube video of your interest on your home page</li>
 		<li>Click on 2 more Youtube video of your interest sequentially without watching the content</li>
-		<li>Click <a href="https:www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com<a/> </li>
+		<li>Click <a href="https:www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com<a/></li>
 		<li>After 10 minutes, close both tabs running YouTube</li>
 	</ol>
 </div>
