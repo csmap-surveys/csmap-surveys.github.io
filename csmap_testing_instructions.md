@@ -7,7 +7,7 @@ The data that will be collected during testing phase will be deleted from our st
 </p>
 
 <div>
-	<h2> Required Tasks </h2>
+	<h2> Overview of the tasks you will perform </h2>
 		<ol>
 			<li> Installing the extension from the Chrome web store</li>
 			<li> Activating the extension for testing</li>
@@ -20,28 +20,69 @@ The data that will be collected during testing phase will be deleted from our st
 
 <div>
 	<h2>Installing and Activating the Extension</h2>
-	<p> You will need</p>
 	<ol>
-		<li>Copy the extension <a href="#" onclick="CopyToClipboard('https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en');return false;">URL</a> </li>
-		<li> A chrome browser </li>
-	  	<li> User ID provided with your email</li>
-	  	<li> <video width="320" height="240" controls>
+		<li>Follow instructions on Installing and activating the extension demo below</li>
+			<video width="320" height="240" controls>
 	  		<source src="videos/uh_activate.mp4" type="video/mp4"></video>
-	  	</li>
+		<li>Click <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en">here to install</a> </li>
+	  	<li> Activate the extension using the user ID provided with your email</li>
 	 </ol>
 </div> 
 <div>
-	<h2> Navigating to specific set of URLs</h2>
-	<p> Visit the following websites in this order </p>
+	<h2>Allowing share page content</h2>
 	<ol>
-		<li>www.google.com</li>
-		<li>https://www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html</li>
-		<li>https://www.cnn.com/style/article/birkenstocks-history-comfortable-shoes-sandals/index.html</li>
-		<li>https://www.nyu.edu/</li>
+		<li>Follow instructions below to allow sharing of social media website page content</li>
+			<video width="320" height="240" controls>
+	  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
+	  	<li> Allow Share Page content</li>
+	 </ol>
+</div> 
+<div>
+	<h2> Navigating to specific URL set of URLs</h2>
+	<p> Click the links below to visit associated websites</p>
+	<ol>
+		<li><a href="https:www.google.com">www.google.com<a/></li>
+		<li><a href="https://www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html">https://www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html</a></li>
+		<li><a href="https://www.cnn.com/style/article/birkenstocks-history-comfortable-shoes-sandals/index.html">https://www.cnn.com/style/article/birkenstocks-history-comfortable-shoes-sandals/index.html</li>
+		<li><a href="https://www.nyu.edu">https://www.nyu.edu</a></li>
 	</ol>
 </div>
 
-
+<div>
+	<h2> Navigating to Youtube</h2>
+	<p> Click the link below to visit Youtube</p>
+	<ol>
+		<li>Click <a href="https:www.youtube.com">www.youtube.com<a/></li>
+		<li>Click on any YouTube video of your interest on your home page</li>
+		<li>Click on 2 more Youtube video of your interest sequentially without watching the content</li>
+		<li>Click <a href="https:www.youtube.com">www.youtube.com<a/> </li>
+		<li>After 10 minutes, close both tabs running YouTube</li>
+	</ol>
+</div>
+<div>
+	<h2> Navigating to Facebook</h2>
+	<p> If you have Facebook Login to your account (if not logged in)</p>
+	<ol>
+		<li>Click on one of your friends page<a/></li>
+		<li>Click on your messages tab and onto any of your messages </li>
+		<li>Click on your groups and then click to a specific group you are a member</li>
+		<li>Click on your stories tab and view any stories</li>
+		<li>Click on watch tab and then on video on your watch page</li>
+		<li>Click on marketplace and then to any item on sale displayed on your page</li>
+	</ol>
+</div>
+<div>
+	<h2> Navigating  Twitter</h2>
+	<p> If you have Twitter Account Login to your account (if not logged in)</p>
+	<ol>
+		<li>Click on one of your friends page<a/></li>
+		<li>Click on your messages tab and onto any of your messages </li>
+		<li>Click on your groups and then click to a specific group you are a member</li>
+		<li>Click on your stories tab and view any stories</li>
+		<li>Click on watch tab and then on video on your watch page</li>
+		<li>Click on marketplace and then to any item on sale displayed on your page</li>
+	</ol>
+</div>
 
 
 
