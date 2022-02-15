@@ -1,4 +1,3 @@
-# Testing Instructions
 
 <p>Thank you for your support and willingness to test the extension</p>
 
