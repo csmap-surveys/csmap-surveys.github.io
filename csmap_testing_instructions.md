@@ -2,7 +2,13 @@
 <head>
 	<h1>Testing Instructions</h1>
 </head>
-<body style="font-size: 15px">
+<style> h1, h2, h3, h4, p, li { 
+	line-height: 1.25;} ;
+	p,li {
+		margin-top: 1em;
+		font-size: 10px }; 
+</style>
+<body>
 <p>These purpose of these tests is to ensure that the URL Historian functionality is as expected as well as help the developers make any necessary modifications pertaining to user experience, data collection and deletion as well as pause, activation and blacklisting functionalities</p>
 <p>The data that will be collected during testing phase will be completely removed from our storage database both by your deletion activity as well as by CSMaP engineers. </p>
 <p>Please use the chrome browser for the entirety of this test. The extension does not collect browse history from other browsers</p>
@@ -14,7 +20,7 @@
 			<li> Installing from Chrome Web Store and Activating the extension</li>
 			<li> Sharing Page Content</li>
 			<li> Navigate to specific set of URLs</li>
-			<li> Navigate Youtube</li>
+			<li> Navigate YouTube</li>
 			<li> Navigate Facebook</li>
 			<li> Pausing and Reactivating Data Collection</li>
             <li> Unpause the extension</li>
@@ -24,9 +30,9 @@
 		</ol>
 </div>
 <div>
-	<h2>Installing from Chrome Web store and Activating the Extension</h2>
+	<h2>Installing from Chrome Web Store and Activating the Extension</h2>
 	<ol>
-		<li>Follow instructions below on how to Install and Activate the extension</li>
+		<li>Follow instructions below on how to install and activate the extension</li>
 			<video width="320" height="240" controls>
 	  		<source src="videos/uh_activate.mp4" type="video/mp4"></video>
 		<li>Click to <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">install</a> </li>
@@ -39,11 +45,11 @@
 		<li>Follow instructions below on how to allow sharing page content</li>
 			<video width="320" height="240" controls>
 	  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
-	  	<li> Please Share Page content for Twitter, Facebook, and Youtube</li>
+	  	<li> Please Share Page content for Twitter, Facebook, and YouTube</li>
 	 </ol>
 </div> 
 <div>
-	<h2> Navigating to specific set of URLs</h2>
+	<h2> Navigating to specific set of websites</h2>
 	<p> Click the links below in order to visit the associated websites</p>
 	<ol>
 		<li><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">www.google.com</a></li>
@@ -53,12 +59,12 @@
 	</ol>
 </div>
 <div>
-	<h2> Navigate Youtube</h2>
-	<p> Click the link below to visit Youtube</p>
+	<h2> Navigate YouTube</h2>
+	<p> Click the link below to visit YouTube</p>
 	<ol>
 		<li>Click <a href="https:www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com</a></li>
 		<li>Click on any YouTube video of your choice on your home page</li>
-		<li>Click on 2 more Youtube video of your interest sequentially without watching the content</li>
+		<li>Click on 2 more YouTube video of your interest sequentially without watching the content</li>
 		<li>Click <a href="https:www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com</a></li>
 		<li>After 10 minutes, close both tabs running YouTube</li>
 	</ol>
