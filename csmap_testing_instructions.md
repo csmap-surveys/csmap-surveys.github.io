@@ -108,7 +108,7 @@ The data that will be collected during testing phase will be deleted from our st
 		<li>Click on Profile tab</li>
 	</ol>
 </div>
-<div>
+<!-- <div>
 	<h2>Deleting collected data</h2>
 	<p> You can delete your individual data by clicking either the <strong><em>by Date</em></strong> or the <strong><em>by Time</em></strong> button in the <strong><em>Delete Browse History</em></strong> section.</p>
 	<p><strong><em>by Time</em></strong>--deletes data collected for the selected hour range or single hour.</p>
@@ -116,22 +116,21 @@ The data that will be collected during testing phase will be deleted from our st
 	<ol>
 		<li>Follow the instructions below on how to delete collected data <strong>by Time</strong><li>
 			<video width="320" height="240" controls>
-	  		<source src="videos/uh_page_delbytime.mp4" type="video/mp4"></video>
+	  		<source src="videos/uh_delbytime.mp4" type="video/mp4"></video>
 		<li>Follow the instructions below on how to delete collected data <strong>by Date</strong><li>
 			<video width="320" height="240" controls>
-	  		<source src="videos/uh_page_delbydate.mp4" type="video/mp4"></video>
+	  		<source src="videos/uh_delbydate.mp4" type="video/mp4"></video>
 		<li>Please use <strong>by Date</strong> and delete data collected yesterday from all social media and non-social media sources.</li>
 	</ol>
-</div>
+</div> -->
 
 <div>
 	<h2>Add Website to Blacklist</h2>
 	<p> <strong><em>Blacklisting</em></strong> creates a list of web domains which prevents those websites in the blacklist from been sent to our database.</p>
 	<ol>
 		<li>Follow the instructions below on how to <strong>Add Website to Blacklist</strong><li>
-			<video width="320" height="240" controls>
-	  		<source src="videos/uh_page_blacklist.mp4" type="video/mp4"></video>
-		<li>Please add <strong>www.cnn.com</strong> to the blacklist</li>
+		<video width="320" height="240" controls><source src="videos/uh_blacklist.mp4" type="video/mp4"></video>
+	  	<li>Please add <strong>www.cnn.com</strong> to the blacklist</li>
 		<li>Visit <a href="https://www.cnn.com/travel/destinations/colorado" target="_blank" rel="noopener noreferrer">www.cnn.com/travel</a></li>
 		<li>Remove <strong>www.cnn.com</strong> from the blacklist by clicking on the <strong style="color: #FF0000 ">x</strong> next to www.cnn.com</li>
 		<li>Visit <a href="https://www.cnn.com/travel/destinations/colorado" target="_blank" rel="noopener noreferrer">www.cnn.com/travel</a></li>
