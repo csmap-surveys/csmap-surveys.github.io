@@ -11,8 +11,8 @@ The data that will be collected during testing phase will be deleted from our st
 <div>
 	<h2> Overview of the tasks you will perform </h2>
 		<ol>
-			<li> Installing from Chrome webstor and Activating the extension</li>
-			<li> Sharing page content</li>
+			<li> Installing from Chrome Web Store and Activating the extension</li>
+			<li> Sharing Page Content</li>
 			<li> Navigate to specific set of URLs</li>
 			<li> Navigate Youtube</li>
 			<li> Navigate Facebook</li>
@@ -26,25 +26,25 @@ The data that will be collected during testing phase will be deleted from our st
 <div>
 	<h2>Installing from Chrome Web store and Activating the Extension</h2>
 	<ol>
-		<li>Follow instructions below on how to Installing and Activating the extension</li>
+		<li>Follow instructions below on how to Install and Activate the extension</li>
 			<video width="320" height="240" controls>
 	  		<source src="videos/uh_activate.mp4" type="video/mp4"></video>
-		<li>Click <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">here to install</a> </li>
+		<li>Click to <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">install</a> </li>
 	  	<li> Activate the extension using the user ID provided with your email</li>
 	 </ol>
 </div> 
 <div>
 	<h2>Sharing Page Content</h2>
 	<ol>
-		<li>Follow instructions below to allow sharing of social media website page content</li>
+		<li>Follow instructions below on how to allow sharing page content</li>
 			<video width="320" height="240" controls>
 	  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
-	  	<li> Allow Share Page content</li>
+	  	<li> Please Share Page content for Twitter, Facebook, and Youtube</li>
 	 </ol>
 </div> 
 <div>
 	<h2> Navigating to specific set of URLs</h2>
-	<p> Click the links below to visit associated websites</p>
+	<p> Click the links below in order to visit the associated websites</p>
 	<ol>
 		<li><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">www.google.com</a></li>
 		<li><a href="https://www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html" target="_blank" rel="noopener noreferrer">www.nytimes.com/2020/08/21/movies/tenet-review-christopher-nolan.html</a></li>
@@ -68,10 +68,10 @@ The data that will be collected during testing phase will be deleted from our st
 	<p> If you have Facebook account</p>
 	<ol>
 		<li>Login to <a href="https://www.facebook.com/login/" target="_blank" rel="noopener noreferrer">your account</a></li>
-		<li>Click on <a href="https://www.facebook.com/friends" target="_blank" rel="noopener noreferrer">Friends tab<a/> then to one of your friends page</li>
+		<li>Click on <a href="https://www.facebook.com/friends" target="_blank" rel="noopener noreferrer">Friends tab</a> then to one of your friends page</li>
 		<li>Click on <a href="https://www.facebook.com/groups/feed/" target="_blank" rel="noopener noreferrer">Groups tab</a> then to any group you are a member</li>
-		<li>Click on <a href="https://www.facebook.com/search/posts/?q=stories"> Posts tab <</a> and view any post of your choice</li>
-		<li>Click on <a href="https://www.facebook.com/watch/?ref=tab" target="_blank" rel="noopener noreferrer">Watch tab</a> and then on any tab or video of your choice</li>
+		<li>Click on <a href="https://www.facebook.com/search/posts/?q=stories"> Posts tab </a> and view any post of your choice</li>
+		<li>Click on <a href="https://www.facebook.com/watch/?ref=tab" target="_blank" rel="noopener noreferrer">Watch tab</a> and then on any video of your choice</li>
 		<li>Click on <a href="https://www.facebook.com/news"> News tab</a> and then to any news item </li>
 	</ol>
 </div>
@@ -84,10 +84,10 @@ The data that will be collected during testing phase will be deleted from our st
 	  		<source src="videos/uh_pause.mp4" type="video/mp4">
 	  	</video>
 	</ol>
-	<p style="font-size: 1rem; color: #686868" >After the plugin is paused for 60 minutes, it sends an reminder for you to reactivate the plugin. Then every 4 hours until its reactivated</p>
+	<p style="font-size: 0.5rem; color: #686868" >After the plugin is paused for 60 minutes, it sends an reminder for you to reactivate the plugin. Then every 4 hours until its reactivated</p>
 </div>
 
-<p >Please wait 12-24 hours before following the next steps. While the extension is paused it will not be sending your browsing data to our databases.</p>
+<p >Please wait <strong>12-24</strong> hours before following the next steps. While the extension is paused it will not be sending your browsing data to our databases.</p>
 
 <div>
 	<h2>Unpause the extension</h2>
@@ -103,7 +103,7 @@ The data that will be collected during testing phase will be deleted from our st
 	<p> If you have Twitter Account, login to your account </p>
 	<ol>
 		<li>Login to <a href="https://twitter.com/i/flow/login" target="_blank" rel="noopener noreferrer">your account</a></li>
-		<li>Click on <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer">Home page</a> then any twitter handle of your choice <a/></li>
+		<li>Click on <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer">Home page</a> then any twitter handle of your choice </a></li>
 		<li>Click on <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer">Explore page</a> then any twitter handle of your choice</li>
 		<li>Click on Profile tab</li>
 	</ol>
@@ -111,20 +111,20 @@ The data that will be collected during testing phase will be deleted from our st
 <div>
 	<h2>Deleting collected data</h2>
 	<p> You can delete your individual data by clicking either the <strong><em>by Date</em></strong> or the <strong><em>by Time</em></strong> button in the <strong><em>Delete browse history</em></strong> section.</p>
-	<p><strong><em>by Time</em></strong> deletes data collected for the selected hour range or single hour.</p>
-	<p><strong><em>by Date</em></strong> deletes all the data collected for the selected day. This is restricted to the past 7 days</p>
+	<p><strong><em>by Time</em></strong>--deletes data collected for the selected hour range or single hour.</p>
+	<p><strong><em>by Date</em></strong>--deletes all the data collected for the selected day. This is restricted to the past 7 days</p>
 	<ol>
 		<li>Follow the instructions below on how to delete collected data <em><strong>by Time</strong></em><li>
 		<video width="320" height="240" controls><source src="videos/uh_delbytime.mp4" type="video/mp4"></video>
 		<li>Follow the instructions below on how to delete collected data <strong><em>by Date</strong></em><li>
 		<video width="320" height="240" controls><source src="videos/uh_delbydate.mp4" type="video/mp4"></video>
-		<li>Please use <strong><em>by Date</strong></em> and delete data collected yesterday from all sources.</li>
+		<li>Please use <strong><em>by Date</em></strong> and delete data collected yesterday from all sources.</li>
 	</ol>
 </div>
 
 <div>
 	<h2>Add Website to Blacklist</h2>
-	<p> <strong><em>Blacklisting<em></em></strong> creates a list of web domains which prevents those websites in the blacklist from been sent to our database.</p>
+	<p> <strong><em>Blacklisting</em></strong> creates a list of web domains which prevents those websites in the blacklist from been sent to our database.</p>
 	<ol>
 		<li>Follow the instructions below on how to <strong>Add Website to Blacklist</strong><li>
 		<video width="320" height="240" controls><source src="videos/uh_blacklist.mp4" type="video/mp4"></video>
