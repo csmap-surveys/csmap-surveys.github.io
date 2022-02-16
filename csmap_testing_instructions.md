@@ -99,14 +99,14 @@
 </div>
 
 <div>
-	<h1><center><strong style="color: #FF0000">STOP!</strong></center></h1> 
+	<h1><center><strong style="font-size: 30px; color: #FF0000">STOP!</strong></center></h1> 
 	<p>Please wait <strong>12-24</strong> hours before proceeding to the next steps.</p> 
 	<p>While the extension is paused, it will not be sending your browsing data to our databases.</p>
 </div>
 
 <div>
 	<h2>Unpause the extension</h2>
-	<p>Re-activate the extension as demonstrated in <em style="color: #159957"> Pausing and Reactivating Data Collection</em> above</p>
+	<p>Re-activate the extension as demonstrated in <strong style="color: #159957"> Pausing and Reactivating Data Collection</strong> above</p>
 	<p>Visit a few more websites in the order below:</p>
 	<ol>
 		<li>Click <a href="https://www.washingtonpost.com/entertainment/music/qanda-with-yo-yo-ma-how-music-can-be-like-touch-during-these-socially-distant-times/2020/08/13/9725a22c-db07-11ea-8051-d5f887d73381_story.html" target="_blank" rel="noopener noreferrer">www.washingtonpost.com</a></li>
