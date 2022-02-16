@@ -110,14 +110,18 @@ The data that will be collected during testing phase will be deleted from our st
 </div>
 <div>
 	<h2>Deleting collected data</h2>
-	<p> You can delete your individual data by clicking either the <strong><em>by Date</em></strong> or the <strong><em>by Time</em></strong> button in the <strong><em>Delete browse history</em></strong> section.</p>
+	<p> You can delete your individual data by clicking either the <strong><em>by Date</em></strong> or the <strong><em>by Time</em></strong> button in the <strong><em>Delete Browse History</em></strong> section.</p>
 	<p><strong><em>by Time</em></strong>--deletes data collected for the selected hour range or single hour.</p>
-	<p><strong><em>by Date</em></strong>--deletes all the data collected for the selected day. This is restricted to the past 7 days</p>
+	<p><strong><em>by Date</em></strong>--deletes all the data collected for the selected day. This is restricted to the past 7 days.</p>
 	<ol>
 		<li>Follow the instructions below on how to delete collected data <em><strong>by Time</strong></em><li>
-		<video width="320" height="240" controls><source src="videos/uh_delbytime.mp4" type="video/mp4"></video>
-		<li>Follow the instructions below on how to delete collected data <strong><em>by Date</strong></em><li>
-		<video width="320" height="240" controls><source src="videos/uh_delbydate.mp4" type="video/mp4"></video>
+			<video width="320" height="240" controls>
+				<source src="videos/uh_delbytime.mp4" type="video/mp4">
+			</video>
+		<li>Follow the instructions below on how to delete collected data <strong><em>by Date</em></strong><li>
+			<video width="320" height="240" controls>
+				<source src="videos/uh_delbydate.mp4" type="video/mp4">
+			</video>
 		<li>Please use <strong><em>by Date</em></strong> and delete data collected yesterday from all sources.</li>
 	</ol>
 </div>
@@ -127,7 +131,9 @@ The data that will be collected during testing phase will be deleted from our st
 	<p> <strong><em>Blacklisting</em></strong> creates a list of web domains which prevents those websites in the blacklist from been sent to our database.</p>
 	<ol>
 		<li>Follow the instructions below on how to <strong>Add Website to Blacklist</strong><li>
-		<video width="320" height="240" controls><source src="videos/uh_blacklist.mp4" type="video/mp4"></video>
+			<video width="320" height="240" controls>
+				<source src="videos/uh_blacklist.mp4" type="video/mp4">
+			</video>
 		<li>Please add <strong>www.cnn.com</strong> to the blacklist</li>
 		<li>Visit <a href="https://www.cnn.com/travel/destinations/colorado" target="_blank" rel="noopener noreferrer">www.cnn.com/travel</a></li>
 		<li>Remove <strong>www.cnn.com</strong> from the blacklist by clicking on the <strong style="color: #FF0000 ">x</strong> next to www.cnn.com</li>
