@@ -3,10 +3,11 @@
 	<h1>Testing Instructions</h1>
 </head>
 
-<p>These purpose of these tests is to ensure that the URL Historian functionality is as expected as well as help the developers make any necessary modification pertaining to data collection, deletion, pause, activation, and blacklisting  functionality and overall user experience
-The data that will be collected during testing phase will be deleted from our storage and will not be used for CSMaP research purposes. </p>
+<p>These purpose of these tests is to ensure that the URL Historian functionality is as expected as well as help the developers make any necessary modifications pertaining to user experience, data collection and deletion as well as pause, activation and blacklisting functionalities</p>
+<p>The data that will be collected during testing phase will be completely removed from our storage database both by your deletion activity as well as by CSMaP engineers. </p>
 
 <p>The CSMaP team appreciates your support in testing the extension. </p>
+<p>Please use the chrome browser for the entirety of this test. The extension does not collect browse history from other browsers</p>
 
 <div>
 	<h2> Overview of the tasks you will perform </h2>
