@@ -129,8 +129,8 @@
 	<p><strong>by Time</strong>--deletes data collected for the selected hour range or single hour.</p>
 	<p><strong>by Date</strong>--deletes all the data collected for the selected day. This is restricted to the past 7 days.</p>
 	<ol>
-		<li>Follow the instructions below on how to delete collected data <strong>by Time</strong></li>
-		<video width="320" height="240" controls><source src="videos/uh_delbytime.mp4" type="video/mp4"></video>
+		<!-- <li>Follow the instructions below on how to delete collected data <strong>by Time</strong></li>
+		<video width="320" height="240" controls><source src="videos/uh_delbytime.mp4" type="video/mp4"></video> -->
 		<li>Follow the instructions below on how to delete collected data <strong>by Date</strong></li>
 		<video width="320" height="240" controls><source src="videos/uh_delbydate.mp4" type="video/mp4"></video>
 		<li>Please use <strong>by Date</strong> and delete data collected yesterday from all social media and non-social media sources.</li>
