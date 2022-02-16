@@ -98,7 +98,10 @@
 	<p style="font-size: 1rem; color: #686868" >After the plugin is paused for 60 minutes, it sends an reminder for you to reactivate the plugin. Then every 4 hours until its reactivated</p>
 </div>
 
-<p >Please wait <strong>12-24</strong> hours before following the next steps. While the extension is paused it will not be sending your browsing data to our databases.</p>
+<div>
+	<h1><strong style="color: #FF0000">STOP</strong></h1> 
+	<p>Please wait <strong>12-24</strong> hours before proceeding to the next steps. While the extension is paused it will not be sending your browsing data to our databases.
+</div>
 
 <div>
 	<h2>Unpause the extension</h2>
