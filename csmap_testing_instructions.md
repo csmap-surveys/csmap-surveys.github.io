@@ -40,7 +40,7 @@
 		<li>Follow instructions below on how to install and activate the extension</li>
 			<video width="320" height="240" controls>
 	  		<source src="videos/uh_activate.mp4" type="video/mp4"></video>
-		<li>Click to <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">install</a> </li>
+		<li><a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">install</a> URL Historian extension </li>
 	  	<li> Activate the extension using the user ID provided with your email</li>
 	 </ol>
 </div> 
