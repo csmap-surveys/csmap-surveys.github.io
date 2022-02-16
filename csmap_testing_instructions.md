@@ -1,7 +1,7 @@
 # Testing Instructions
 <html>
 <head>
- <!-- <style> 
+ <style> 
  	h1, h2, h3, h4, p, li { 
 		line-height: 1.25;
 		font-size:	20px;
@@ -11,7 +11,7 @@
 		margin-top: 0.5em;
 		font-size: 14px ;
 	}; 
-</style> -->
+</style>
 </head>
 <body>
 <p>These purpose of these tests is to ensure that the URL Historian functionality is as expected as well as help the developers make any necessary modifications pertaining to user experience, data collection and deletion as well as pause, activation and blacklisting functionalities</p>
