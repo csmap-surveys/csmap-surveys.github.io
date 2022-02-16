@@ -129,7 +129,7 @@ The data that will be collected during testing phase will be deleted from our st
 	<p> <strong><em>Blacklisting</em></strong> creates a list of web domains which prevents those websites in the blacklist from been sent to our database.</p>
 	<ol>
 		<li>Follow the instructions below on how to <strong>Add Website to Blacklist</strong><li>
-		<video width="320" height="240" controls><source src="videos/uh_blacklist.mp4" type="video/mp4"></video>
+		<!-- <video width="320" height="240" controls><source src="videos/uh_blacklist.mp4" type="video/mp4"></video> -->
 	  	<li>Please add <strong>www.cnn.com</strong> to the blacklist</li>
 		<li>Visit <a href="https://www.cnn.com/travel/destinations/colorado" target="_blank" rel="noopener noreferrer">www.cnn.com/travel</a></li>
 		<li>Remove <strong>www.cnn.com</strong> from the blacklist by clicking on the <strong style="color: #FF0000 ">x</strong> next to www.cnn.com</li>
