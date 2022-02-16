@@ -1,18 +1,18 @@
+# Testing Instructions
 <html>
 <head>
-	<title>csmap-surveys Testing Instructions</title>
- <style> h1, h2, h3, h4, p, li { 
-	line-height: 1.25;} ;
-	p,li {
-		margin-top: 1em;
-		font-size: 10px }; 
+ <style> 
+ 	h1, h2, h3, h4, p, li { 
+		line-height: 1.25;
+		font-size:	20px;
+	}
+	p,ol,li {
+		margin-top: 0.5em;
+		font-size: 14px ;
+	}; 
 </style>
-
+</head>
 <body>
-<header>
-	<h1 class="project-name">Testing Instructions</h1>
-	<h2 class="project-tagline"></h2>
-</header>
 <p>These purpose of these tests is to ensure that the URL Historian functionality is as expected as well as help the developers make any necessary modifications pertaining to user experience, data collection and deletion as well as pause, activation and blacklisting functionalities</p>
 <p>The data that will be collected during testing phase will be completely removed from our storage database both by your deletion activity as well as by CSMaP engineers. </p>
 <p>Please use the chrome browser for the entirety of this test. The extension does not collect browse history from other browsers</p>
@@ -94,7 +94,7 @@
 	  		<source src="videos/uh_pause.mp4" type="video/mp4">
 	  	</video>
 	</ol>
-	<p style="font-size: 0.5rem; color: #686868" >After the plugin is paused for 60 minutes, it sends an reminder for you to reactivate the plugin. Then every 4 hours until its reactivated</p>
+	<p style="font-size: 1rem; color: #686868" >After the plugin is paused for 60 minutes, it sends an reminder for you to reactivate the plugin. Then every 4 hours until its reactivated</p>
 </div>
 
 <p >Please wait <strong>12-24</strong> hours before following the next steps. While the extension is paused it will not be sending your browsing data to our databases.</p>
