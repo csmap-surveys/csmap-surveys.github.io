@@ -75,10 +75,10 @@
 	<h2> Navigate YouTube</h2>
 	<p> Click the link below to visit YouTube</p>
 	<ol>
-		<li>Click <a href="https:www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com</a></li>
+		<li>Click <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com</a></li>
 		<li>Click on any YouTube video of your choice on your home page</li>
 		<li>Click on 2 more YouTube video of your interest sequentially without watching the content</li>
-		<li>Click <a href="https:www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com</a></li>
+		<li>Click <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com</a></li>
 		<li>After 10 minutes, close both tabs running YouTube</li>
 	</ol>
 </div>
