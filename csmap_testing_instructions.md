@@ -10,7 +10,15 @@
 	p,ol,li {
 		margin-top: 0.5em;
 		font-size: 14px ;
-	}; 
+	}
+	.blink-two {
+        animation: blinker-two 1.5s linear infinite;
+      }
+    @keyframes blinker-two {
+        100% {
+          opacity: 0;
+        }
+      }
 </style>
 </head>
 <body>
@@ -99,7 +107,7 @@
 </div>
 
 <div>
-	<h1><center><strong style="font-size: 30px; color: #FF0000">STOP!</strong></center></h1> 
+	<h1 class="blink-two" ><center><strong style="font-size: 30px; color: #FF0000">STOP!</strong></center></h1> 
 	<p>Please wait <strong>12-24</strong> hours before proceeding to the next steps.</p> 
 	<p>While the extension is paused, it will not be sending your browsing data to our databases.</p>
 </div>
