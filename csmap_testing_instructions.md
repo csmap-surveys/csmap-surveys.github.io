@@ -99,8 +99,9 @@
 </div>
 
 <div>
-	<h1><strong style="color: #FF0000">STOP</strong></h1> 
-	<p>Please wait <strong>12-24</strong> hours before proceeding to the next steps. While the extension is paused it will not be sending your browsing data to our databases.
+	<h1><center><strong style="color: #FF0000">STOP!</strong></center></h1> 
+	<p>Please wait <strong>12-24</strong> hours before proceeding to the next steps.</p> 
+	<p>While the extension is paused, it will not be sending your browsing data to our databases.</p>
 </div>
 
 <div>
