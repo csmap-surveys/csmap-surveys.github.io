@@ -1,8 +1,8 @@
-<html>
+
 <head>
 	<h1>Testing Instructions</h1>
 </head>
-<body>
+
 <p>These purpose of these tests is to ensure that the URL Historian functionality is as expected as well as help the developers make any necessary modification pertaining to data collection, deletion, pause, activation, and blacklisting  functionality and overall user experience
 The data that will be collected during testing phase will be deleted from our storage and will not be used for CSMaP research purposes. </p>
 
@@ -114,15 +114,13 @@ The data that will be collected during testing phase will be deleted from our st
 	<p><strong><em>by Time</em></strong>--deletes data collected for the selected hour range or single hour.</p>
 	<p><strong><em>by Date</em></strong>--deletes all the data collected for the selected day. This is restricted to the past 7 days.</p>
 	<ol>
-		<li>Follow the instructions below on how to delete collected data <em><strong>by Time</strong></em><li>
+		<li>Follow the instructions below on how to delete collected data <strong>by Time</strong><li>
 			<video width="320" height="240" controls>
-				<source src="videos/uh_delbytime.mp4" type="video/mp4">
-			</video>
-		<li>Follow the instructions below on how to delete collected data <strong><em>by Date</em></strong><li>
+	  		<source src="videos/uh_page_delbytime.mp4" type="video/mp4"></video>
+		<li>Follow the instructions below on how to delete collected data <strong>by Date</strong><li>
 			<video width="320" height="240" controls>
-				<source src="videos/uh_delbydate.mp4" type="video/mp4">
-			</video>
-		<li>Please use <strong><em>by Date</em></strong> and delete data collected yesterday from all sources.</li>
+	  		<source src="videos/uh_page_delbydate.mp4" type="video/mp4"></video>
+		<li>Please use <strong>by Date</strong> and delete data collected yesterday from all social media and non-social media sources.</li>
 	</ol>
 </div>
 
@@ -132,17 +130,12 @@ The data that will be collected during testing phase will be deleted from our st
 	<ol>
 		<li>Follow the instructions below on how to <strong>Add Website to Blacklist</strong><li>
 			<video width="320" height="240" controls>
-				<source src="videos/uh_blacklist.mp4" type="video/mp4">
-			</video>
+	  		<source src="videos/uh_page_blacklist.mp4" type="video/mp4"></video>
 		<li>Please add <strong>www.cnn.com</strong> to the blacklist</li>
 		<li>Visit <a href="https://www.cnn.com/travel/destinations/colorado" target="_blank" rel="noopener noreferrer">www.cnn.com/travel</a></li>
 		<li>Remove <strong>www.cnn.com</strong> from the blacklist by clicking on the <strong style="color: #FF0000 ">x</strong> next to www.cnn.com</li>
 		<li>Visit <a href="https://www.cnn.com/travel/destinations/colorado" target="_blank" rel="noopener noreferrer">www.cnn.com/travel</a></li>
 	</ol>
 </div>
-
 <p>After this, you can remove the extension from the browser by right-clicking the icon and clicking “Remove from Chrome”.</p>
 <p>We appreciate your help with the testing! Please email <a href="nyu-smapp-engineers@nyu.edu">nyu-smapp-engineers@nyu.edu</a> if you run into any problems with the plug in.</p>
-
-</body>
-</html>
