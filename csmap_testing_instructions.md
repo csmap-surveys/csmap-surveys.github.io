@@ -106,8 +106,10 @@
 
 <div>
 	<h2>Unpause the extension</h2>
-	<p>Please visit a few more websites in this order:</p>
+	<p>Re-activate the extension as demonstrated in Pausing and Reactivating Data Collection above</p>
+	<p>Visit a few more websites in the order below:</p>
 	<ol>
+		<li>Re
 		<li>Click <a href="https://www.washingtonpost.com/entertainment/music/qanda-with-yo-yo-ma-how-music-can-be-like-touch-during-these-socially-distant-times/2020/08/13/9725a22c-db07-11ea-8051-d5f887d73381_story.html" target="_blank" rel="noopener noreferrer">www.washingtonpost.com</a></li>
 		<li>Click <a href="https://csmapnyu.org/" target="_blank" rel="noopener noreferrer">csmapnyu.org</a></li>
 		<li>Click <a href="https://www.youtube.com/watch?v=-N5fEeD4Mnk" target="_blank" rel="noopener noreferrer">www.youtube.com</a></li>
