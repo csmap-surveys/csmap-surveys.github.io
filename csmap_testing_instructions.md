@@ -104,7 +104,7 @@
 	  	</video>
 	  	<li>Pause the extension</li>
 	</ol>
-	<p style="font-size: 0.5rem; color: #686868" >After the plugin has been paused for 60 minutes, it will sends an reminder for you to reactivate it. Then every 4 hours until its reactivated</p>
+	<p style="font-size: 0.8rem; color: #686868" >After the plugin has been paused for 60 minutes, it will sends a reminder for you to reactivate it. Then every 4 hours until its reactivated</p>
 </div>
 
 <div>
