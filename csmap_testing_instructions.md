@@ -104,13 +104,14 @@
 	  	</video>
 	  	<li>Pause the extension</li>
 	</ol>
-	<p style="font-size: 0.8rem; color: #686868" >After the plugin has been paused for 60 minutes, it will sends a reminder for you to reactivate it. Then every 4 hours until its reactivated</p>
+	<p style="font-size: 0.6rem; color: #686868" >After the plugin has been paused for 60 minutes, it will sends a reminder for you to reactivate it. Then every 4 hours until its reactivated</p>
+	<p style="font-size: 0.6rem; color: #686868">While the extension is paused, it will not be sending your browsing data to our databases.</p>
+
 </div>
 
 <div>
 	<h1 class="blink-two" ><center><strong style="font-size: 30px; color: #FF0000">STOP!</strong></center></h1> 
 	<p>Please wait <strong>12-24</strong> hours before proceeding to the next steps.</p> 
-	<p>While the extension is paused, it will not be sending your browsing data to our databases.</p>
 </div>
 
 <div>
