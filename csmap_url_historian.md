@@ -59,7 +59,7 @@ Collected data is securely stored in Amazon Web Services(AWS) and only accessibl
 	<p>You can set up a list of web domains that you wish to keep private in <strong>Add Website to Blacklist</strong></p>
 	<p align ="center">
 		<video width="320" height="240" controls>
-  			<source src="https://drive.google.com/drive/folders/1nMx4FD1pxOGmRsGfAKccFzHCrk8SrkcE" type="video/mp4">
+  			<source src="videos/uh_blacklist.mp4" type="video/mp4">
 		</video>
 	</p>
 	<p>The URL will be added to the list of <strong>Websites currently Blacklisted</strong>. When you visit any of these sites, we will not record the URLs.</p> 
