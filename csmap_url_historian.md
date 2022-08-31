@@ -2,7 +2,7 @@
 <head>
  <style> 
  	h1, h2, h3, h4, p, li { 
-		line-height: 1.25;
+		line-height: 1.30;
 		font-size:	20px;
 		margin-top: 0.5em;
 	}
