@@ -15,7 +15,7 @@
 </head>
 <body>
 <div>
-<h1>CSMaP URL Historian</h1>
+<!-- <h1>CSMaP URL Historian</h1> -->
 <p>
 Thank you for downloading CSMaP URL Historian. URL Historian is a Chrome extension that collects browsing data from research participants who agree to share their browsing history and page content when browsing Twitter, Facebook and YouTube. All collected data is securely stored in Amazon Web Services (AWS) and only accessible by CSMaP researchers. </p>
 
