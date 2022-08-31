@@ -98,3 +98,5 @@ Thank you for downloading CSMaP URL Historian. URL Historian is a Chrome extensi
 		<li>For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact <a href="mailto:csmap@nyu.edu">csmap-surveys@nyu.edu</a> for assistance</li>
 	</ol>
 </div>
+</body>
+</html>
