@@ -19,23 +19,23 @@
 <p>
 Thank you for downloading CSMaP URL Historian. URL Historian is a Chrome extension that collects browsing data from research participants who agree to share their browsing history and page content when browsing Twitter, Facebook and YouTube. All the data collected is securely stored in Amazon Web Services (AWS) and only accessible by CSMaP researchers. 
 
-This page will help you address issues that you may have encounterd using the extension</p>
+This page will help you information on how to use the extension effectively as well as address issues that you may encounter while using it</p>
 
 <div>
 	<h2>FREQUENTLY ASKED QUESTIONS</h2>
-	<ol>
+	<ul>
 		<li><a href="#survey">What should I do if i forget my Survey ID?</a></li>
 		<li><a href="#forget">What if I install and forget to activate the extension?</a></li>
 		<li><a href="#pause">How do I pause and resume data collection?</a></li>
 		<li><a href="#html">How do i share page content from Twitter, Facebook or YouTube?</a></li>
-		<li><a href="#delete">How do i delete data already collected from me?</a>
-			<ul><a href="#byTime">How to delete by date and time?</a></ul>
-			<ul><a href="#byDate">How to delete by time</ul></li>
+		<li><a href="#delete">How do i delete data already collected from me?</a></li>
+			<ol><a href="#byTime">How to delete by date and time?</a></ol>
+			<ol><a href="#byDate">How to delete by time</a></ol>
 		<li>How can I prevent the extension from recording visits to websites that I wish to keep private?</li>
 		<li><a href="#unblacklist">How can I remove a website from the blacklist?</a></li>
 		<li><a href="#uninstall">What do I do if the extension uninstalls itself and not because of failed activation attempt?</a></li>
 		<li><a href="#assistance">Who should I contact for further information?</a></li>
-	</ol>
+	</ul>
 
  </div>
 
