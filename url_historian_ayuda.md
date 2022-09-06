@@ -52,7 +52,7 @@ This page provides information on how to use the extension effectively as well a
 	<h2 id="activate">How do I activate the extension after I install it?</h2>
 	<p> To activate the extension follow the video instructions below</p>
 	<p align ="center">
-			<iframe width="560" height="315" src="https://youtu.be/E0yvIBu4QbQ"></iframe>
+			<iframe width="560" height="315" src="https://youtube.com/embed/E0yvIBu4QbQ"></iframe>
 	</p>
 </div>
 
@@ -80,7 +80,7 @@ This page provides information on how to use the extension effectively as well a
 	<h2 id="remove">How do I remove the extension from my Chrome browser</h2>
 	<p>To remove the extension from your Chrome browser. Follow the video instructions below</p>
 	<p align ="center">
-			<iframe width="560" height="315" src="https://youtu.be/fPyXU4lRwKg"></iframe>
+			<iframe width="560" height="315" src="https://youtube.com/embed/fPyXU4lRwKg"></iframe>
 	</p>
 </div>
 <!-- SHARING SOCIAL MEDIA CONTENT -->
