@@ -1,4 +1,3 @@
-# Testing Instructions
 <html>
 <head>
  <style> 
@@ -11,14 +10,6 @@
 		margin-top: 0.5em;
 		font-size: 14px ;
 	}
-	.blink-two {
-        animation: blinker-two 1.5s linear infinite;
-      }
-    @keyframes blinker-two {
-        100% {
-          opacity: 0;
-        }
-      }
 </style>
 </head>
 <body>
@@ -38,22 +29,25 @@
 	<p align ="center">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/E0yvIBu4QbQ" title="Activate" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 	</p>
-
 </div> 
 
 <h1> Step 3: Configure the extension for data collection</h1>
 <div>
 	<h2>Pausing and Resuming Data Collection</h2>
 	<p>As shown in the video below, toggling in the top right side of the extension window allows you to pause and resume data collection at any time. When the toggle is in “Active” state, the extension is collecting data </p>
-	<video width="320" height="240" controls><source src="videos/uh_pause.mp4" type="video/mp4"></video>
+	<p align="center">
+		<video width="320" height="240" controls><source src="videos/uh_pause.mp4" type="video/mp4"></video>
+	</p>
 	<p style="font-size: 0.6rem; color: #686868" >After the plugin has been paused for 60 minutes, it will sends a reminder for you to reactivate it. Then every 4 hours until its reactivated</p>
 	<p style="font-size: 0.6rem; color: #686868">While the extension is paused, it will not be sending your browsing data to our databases.</p>
 </div>
 <div>
 	<h2>Sharing Page Content</h2>
-	<li>Follow instructions below on how to allow sharing page content</li>
-			<video width="320" height="240" controls>
-	  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
+	<p>Follow instructions below on how to allow sharing page content</p>
+	<p align ="center">
+		<video width="320" height="240" controls>
+  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
+	</p>
 </div> 
 <div>
  	<h2> Deleting data already collected from you</h2>
@@ -84,12 +78,12 @@
   			<source src="videos/uh_blacklist.mp4" type="video/mp4">
 		</video>
 	</p>
-	<p>You will see all domains you have blocked in the <strong>Websites Currenly Blacklisted</strong> field</p>
+	<p>You will see all domains you have blocked in the <strong>Websites Currently Blacklisted</strong> field</p>
 </div>
 <div> 
 	<h2 id="unblacklist">Removing a website from the Blacklist</h2>
-	<p>You can remove a blacklisted website from <strong> Websites currently blacklisted</strong> list </p> 
-	<p>Simply click the <strong>X</strong> on the right of the website domain as shown in the video below</p>
+	<p>You can remove a blacklisted website from <strong> Websites currently blacklisted</strong> field </p> 
+	<p>Simply click the <strong style="color:red;">X</strong> on the right of the website domain as shown in the video below</p>
 	<p align="center">
 		<video width="300" height="240" controls>
 	  		<source src="videos/uh_unblacklist.mp4" type="video/mp4">
@@ -98,13 +92,11 @@
 </div>
 
 <div>
-	<h2 id="remove">Removing the extension from your Chrome browser</h2>
+	<h2>Removing the extension from your Chrome browser</h2>
 	<p>You can uninstall the extension from your computer by following the instruction in the video below</p>
 	<p align ="center">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/fPyXU4lRwKg" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 	</p>
 </div>
-
-
 </body>
 </html>
