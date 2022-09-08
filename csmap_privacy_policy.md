@@ -1,3 +1,6 @@
+
+# Privacy Policy
+
 This Privacy Policy (“Policy”) pertains to the URL Historian Chrome extension (“extension”) provided by New York University’'s Center for Social Media and Politics (“CSMaP”, "Company," "we," "us," or "our"). We are committed to protecting your personal information and research participants (“you,”your”) right to privacy. 
 
 You have been invited to take part in a research study to help researchers at CSMaP understand how our ever-shifting online environment impacts politics, policy, and democracy.
