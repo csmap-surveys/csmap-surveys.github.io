@@ -4,6 +4,10 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+header_pages:
+  - csmap_url_historian.md
+  - csmap_privacy_policy.md
+  - url_historian_help.md
 include:
   - README.md
   - csmap_url_historian.md
