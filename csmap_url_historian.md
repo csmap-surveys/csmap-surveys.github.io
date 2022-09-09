@@ -1,17 +1,7 @@
 # URL Historian
 <html>
 <head>
- <style> 
- 	h1, h2, h3, h4, p, li { 
-		line-height: 1.30;
-		font-size:	20px;
-		margin-top: 0.5em;
-	}
-	p,ol,li {
-		margin-top: 0.5em;
-		font-size: 14px ;
-	}
-</style>
+ 
 </head>
 <body>
 <div>
