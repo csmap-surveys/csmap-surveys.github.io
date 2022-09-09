@@ -2,7 +2,7 @@
 
 ## Introduction
 
-### URL Historian is a Chrome extension developed by New York University’s <a href="https://csmapnyu.org/">Center for Social Media and Politics (CSMaP)</a>. URL Historian allows participants to share data that contributes to better understanding of how our ever-shifting online environment impacts politics and democracy.
+#### URL Historian is a Chrome extension developed by New York University’s <a href="https://csmapnyu.org/">Center for Social Media and Politics (CSMaP)</a>. URL Historian allows participants to share data that contributes to better understanding of how our ever-shifting online environment impacts politics and democracy.
 
 When the URL Historian plug-in is activated and registered, it automatically begins collecting URLs visited. Participants can pause this collection at any time through the extension interface. Participants can also block specific domains from being collected through a blacklist feature provided in the extension. Participants can also opt-in to sharing data from popular social media websites. Data will only be collected from the social media web sites that the participant has opted-in to sharing. Configuration instructions are explained in detail below.
 
@@ -24,12 +24,11 @@ When the plug-in is registered and activated, it automatically begins collecting
 ### Social Media Data
 
 You can also opt-in to sharing data from popular social media websites. To contribute this data, you can toggle the following options: 
-	<ul>
-	<li>the Twitter option will collect tweet data when you visit twitter.com,</li>
-	<li>the YouTube option will collect videos listed when visiting youtube.com,</li> 
-	<li>the Facebook option will solely collect URLs that appear on your Facebook pages when visiting facebook.com.</li>
-	</ul>
 	
+* the Twitter option will collect tweet data when you visit twitter.com,
+* the YouTube option will collect videos listed when visiting youtube.com,
+* the Facebook option will solely collect URLs that appear on your Facebook pages when visiting facebook.com.
+
 This data is only collected if a you opt-in to add these sites. Each social media site is activated separately. Data will only be collected from the social media websites that you have opted-in to sharing.
 
 ### Controlling what you share
@@ -43,7 +42,7 @@ You can revoke your shared data at any time. Within URL Historian, you can delet
 
 **Participation**
 
-Participation in this study is voluntary. You may refuse to participate or withdraw at any time without penalty. To revoke your consent of any portion of a study, email csmap-surveys@nyu.edu, where your request will be handled by the appropriate teams. If there is anything about the study or your participation that is unclear or that you do not understand, or if you have questions or wish to report a research-related problem, you may contact csmap-surveys@nyu.edu.
+Participation in this study is voluntary. You may refuse to participate or withdraw at any time without penalty. To revoke your consent of any portion of a study, email <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>, where your request will be handled by the appropriate teams. If there is anything about the study or your participation that is unclear or that you do not understand, or if you have questions or wish to report a research-related problem, you may contact <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.
 	
 	
 	
