@@ -21,7 +21,7 @@ For any questions regarding the use of the extension, the data we collect, or th
 
 When the plug-in is registered and activated, it automatically begins collecting URLs visited. You can pause and resume data collection at any time through options on the extension interface. You can also block specific domains from being collected by adding the URLs of these domains to a blacklist feature within the extension.
 
-**Social Media Data**
+### Social Media Data
 
 You can also opt-in to sharing data from popular social media websites. To contribute this data, you can toggle the following options: 
 	<ul>
@@ -30,7 +30,7 @@ You can also opt-in to sharing data from popular social media websites. To contr
 	<li>the Facebook option will solely collect URLs that appear on your Facebook pages when visiting facebook.com.</li>
 	</ul>
 	
-	This data is only collected if a you opt-in to add these sites. Each social media site is activated separately. Data will only be collected from the social media websites that you have opted-in to sharing.
+This data is only collected if a you opt-in to add these sites. Each social media site is activated separately. Data will only be collected from the social media websites that you have opted-in to sharing.
 
 ### Controlling what you share
 **Pausing data collection**
