@@ -1,7 +1,9 @@
 # URL Historian
-
+[Introduction](#intro)
 [How to install](#install)
-## Introduction
+[How to configure](#configure) 
+
+## Introduction {#intro}
 
 #### URL Historian is a Chrome extension developed by New York University’s <a href="https://csmapnyu.org/">Center for Social Media and Politics (CSMaP)</a> This extension allows participants to share data that contributes to better understanding of how our ever-shifting online environment impacts politics and democracy.
 
@@ -34,7 +36,7 @@ For any questions regarding the use of the extension, the data we collect, or th
 8. When you hit “Submit,” a pop-up window will appear prompting you to enter your Survey ID provided by the survey.
 
 	
-## How to configure
+## How to configure {#configure}
 
 ![Annotated screencapture](images/url_historian-marked-up.png)
 	
