@@ -1,8 +1,6 @@
 # URL Historian
 [Introduction](#intro)
-
 [How to install](#install)
-
 [How to configure](#configure) 
 
 
