@@ -14,24 +14,28 @@ For any questions on using the extension, requesting data deletion or other tech
 
 For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact <a href="mailto:csmap@nyu.edu">csmap-surveys@nyu.edu</a> for assistance.
 	
-![Annotated screencapture](images/url_historian-marked-up.png)
+
 	
 ## Download the extension
 
 **Step 1: Download the the URL Historian extension from the Chrome Store **
+
 1. Go to the URL Historian page from your Chrome browser using a laptop or desktop computer: https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en
 2. From the URL Historian page, click on the blue “Add to Chrome” button to start installing the extension.
 3. A pop-up window will appear to inform you of the data the extension can read, click “Add Extension” to accept.
 4. The extension will install automatically. It will need to be registered before setup is complete. 
 
 **Step 2: Submit your User ID to register the extension**
+
 5. Access the extension by clicking on the extensions (puzzle piece) icon to the right of the address bar on the Chrome browser. 
 6. Select URL Historian from the dropdown menu.
 7. When the extension window appears, enter your user id provided through the survey in the field at the top right. 
 8. When you hit “Submit,” a pop-up window will appear prompting you to enter your Survey ID provided by the survey.
 
 	
-## Configuring the plug-in
+## Configuring the extension
+
+![Annotated screencapture](images/url_historian-marked-up.png)
 	
 ### Web browsing history
 
