@@ -16,9 +16,9 @@ For any questions regarding the use of the extension, the data we collect, or th
 	
 
 	
-## Download the extension
+## How to install
 
-**Step 1: Download the the URL Historian extension from the Chrome Store **
+**Step 1: Download the the URL Historian extension from the Chrome Store**
 
 1. Go to the URL Historian page from your Chrome browser using a laptop or desktop computer: https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en
 2. From the URL Historian page, click on the blue “Add to Chrome” button to start installing the extension.
@@ -33,7 +33,7 @@ For any questions regarding the use of the extension, the data we collect, or th
 8. When you hit “Submit,” a pop-up window will appear prompting you to enter your Survey ID provided by the survey.
 
 	
-## Configuring the extension
+## How to configure
 
 ![Annotated screencapture](images/url_historian-marked-up.png)
 	
@@ -51,7 +51,7 @@ You can also opt-in to sharing data from popular social media websites. To contr
 
 This data is only collected if a you opt-in to add these sites. Each social media site is activated separately. Data will only be collected from the social media websites that you have opted-in to sharing.
 
-### Controlling what you share
+### How to control what you share
 **Pausing data collection**
 
 <p>You can pause data collection using the pause toggle feature on the extension. This will pause all data collection until you toggle the pause control back to active.</p>
