@@ -35,4 +35,6 @@ Data collected through the URL Historian Chrome plug-in will be held on an encry
 <p>Information that is anonymized and does not contain personal identifying information may be used in more than one research study, shared with other academic researchers, or placed in a data repository without your additional consent.</p>
 
 ## Contact
-For questions about your rights as a research participant, you may contact the University Committee on Activities Involving Human Subjects (UCAIHS), New York University, 665 Broadway, Suite 804, New York, New York, 10012, at ask.humansubjects@nyu.edu or (212) 998-4808.
+If there is anything about the study or your participation that is unclear or that you do not understand, or if you have additional questions or wish to report a research-related problem, you may contact csmap-surveys@nyu.edu.
+ 
+ For questions about your rights as a research participant, you may contact the University Committee on Activities Involving Human Subjects (UCAIHS), New York University, 665 Broadway, Suite 804, New York, New York, 10012, at ask.humansubjects@nyu.edu or (212) 998-4808.
