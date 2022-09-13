@@ -8,16 +8,12 @@
 
 #### URL Historian is a Chrome extension developed by New York University’s <a href="https://csmapnyu.org/">Center for Social Media and Politics (CSMaP)</a> This extension allows participants to share data that contributes to better understanding of how our ever-shifting online environment impacts politics and democracy.
 
-When the URL Historian plug-in is activated and registered, it automatically begins collecting URLs visited. Participants can pause this collection at any time through the extension interface. Participants can also block specific domains from being collected through a blacklist feature provided in the extension. Participants can also opt-in to sharing data from popular social media websites. Data will only be collected from the social media web sites that the participant has opted-in to sharing. Configuration instructions are explained in detail below.
+![Annotated screencapture](images/url_historian-marked-up.png)
 
-	
-Data collected through URL Historian is anonymized and used for academic purposes only. All collected data is securely stored on Amazon Web Services (AWS) and only accessible by CSMaP researchers. 
+When the URL Historian plug-in is activated and registered, it automatically begins collecting URLs visited. Data collected through URL Historian is anonymized and used for academic purposes only. All collected data is securely stored on Amazon Web Services (AWS) and only accessible by CSMaP researchers. 
 
 
-For any questions on using the extension, requesting data deletion or other technical problems, please reach out to <a href="mailto:nyu-smapp-engineers@nyu.edu"> nyu-smapp-engineers@nyu.edu</a>
-
-For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact <a href="mailto:csmap@nyu.edu">csmap-surveys@nyu.edu</a> for assistance.
-	
+For more information about URL Historian's data collection and privacy protection measures, see our <a href="https://www.csmapsurveys.org/csmap_privacy_policy.html">privacy policy</a>. If you have any questions on using the extension, would like to revoke your data, or encounter other technical problems, please reach out to <a href="mailto:csmap@nyu.edu">csmap-surveys@nyu.edu</a>.
 
 	
 ## How to install {#install}
@@ -39,7 +35,7 @@ For any questions regarding the use of the extension, the data we collect, or th
 	
 ## How to configure {#configure}
 
-![Annotated screencapture](images/url_historian-marked-up.png)
+
 	
 ### Web browsing history
 
