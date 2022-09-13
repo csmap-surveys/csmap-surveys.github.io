@@ -1,7 +1,7 @@
 # URL Historian
 [Overview](#overview)<br>
 [How to install](#install)<br>
-[Privacy Disclosures](#privacy)<br>
+[Privacy Disclosure](#privacy)<br>
 
 
 
@@ -40,8 +40,8 @@ For more information about URL Historian's data collection and privacy protectio
 7. When the extension window appears, enter your User ID provided through the survey in the field at the top right. 
 8. When you hit “Submit,” a pop-up window will appear prompting you to enter your Survey ID provided by the survey.
 
-## Privacy Disclosures {#privacy}
-**Please be aware that URL Historian collects the web browsing data of anyone using Google Chrome on the computer that URL Historian is installed on. If you share your computer with anyone, you should inform them that URL Historian is installed and collecting web browsing data. You can show them how to pause the app and/or delete their browsing history when they use your computer iwht URL Historian installed.**
+## Privacy Disclosure {#privacy}
+**Please be aware that URL Historian collects the web browsing data of anyone using Google Chrome on the computer that URL Historian is installed on. If you share your computer with anyone, you should inform them that URL Historian is installed and collecting web browsing data. You can show them how to pause the app and/or delete their browsing history when they use your computer with URL Historian installed.**
 
 **Participation**
 
