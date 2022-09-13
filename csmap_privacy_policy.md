@@ -5,7 +5,7 @@ This Privacy Policy (“Policy”) pertains to the URL Historian Chrome extensio
 
 You have been invited to take part in a research study to help researchers at CSMaP understand how our ever-shifting online environment impacts politics, policy, and democracy.
 
-URL Historian is a Chrome extension that collects browsing data from registered research participants who agree to be part of a study. To be part of a CSMaP study, a participant first completes a survey and opts-in to sharing web browsing data through the URL Historian extension. The participant is then provided a User ID and the Panel ID associated with the study. These IDs are required to register and use the URL Historian extension. 
+URL Historian is a Chrome extension that collects browsing data from registered research participants who agree to be part of a study. To be part of a CSMaP study, a participant first completes a survey and opts-in to sharing web browsing data through the URL Historian extension. The participant is then provided a User ID and the Survey ID associated with the study. These IDs are required to register and use the URL Historian extension. 
 Data collected through URL Historian is anonymized and used for academic purposes only. All collected data is securely stored on Amazon Web Services (AWS) and only accessible by CSMaP researchers. 
 
 ## What the extension collects
