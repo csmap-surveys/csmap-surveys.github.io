@@ -1,7 +1,7 @@
 # URL Historian
-[Introduction](#intro) 
-[How to install](#install) 
-[How to configure](#configure) 
+[Introduction](#intro)<br>
+[How to install](#install)<br>
+[How to configure](#configure) <br>
 
 
 ## Introduction {#intro}
