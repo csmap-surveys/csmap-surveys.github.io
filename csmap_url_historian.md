@@ -1,4 +1,5 @@
 # URL Historian
+[Overview](#overview)<br>
 [Introduction](#intro)<br>
 [How to install](#install)<br>
 [How to configure](#configure) <br>
@@ -10,6 +11,7 @@
 
 ![Annotated screencapture](images/url_historian-marked-up.png)
 
+## Overview {#overview}
 When the URL Historian plug-in is activated and registered, it automatically begins collecting URLs visited. Data collected through URL Historian is anonymized and used for academic purposes only. All collected data is securely stored on Amazon Web Services (AWS) and only accessible by CSMaP researchers. 
 1. You can set the default language of the extension to Spanish using the **"Español"** option.
 2. Click the **"Help"** button to go to Frequently Asked Questions (FAQ) on your browser.
