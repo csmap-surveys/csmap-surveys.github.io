@@ -1,6 +1,7 @@
 # URL Historian
 [Overview](#overview)<br>
 [How to install](#install)<br>
+[Privacy Disclosures](#privacy)<br>
 
 
 
