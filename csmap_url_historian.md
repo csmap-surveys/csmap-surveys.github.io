@@ -40,6 +40,8 @@ For more information about URL Historian's data collection and privacy protectio
 8. When you hit “Submit,” a pop-up window will appear prompting you to enter your Survey ID provided by the survey.
 
 
+**Please be aware that URL Historian collects the web browsing data of anyone using Google Chrome on the computer that URL Historian is installed on. If you share this computer with anyone, you should inform them that URL Historian is installed, and show them how they can pause the app and/or delete their browsing history when they use the computer.**
+
 **Participation**
 
 Participation in this study is voluntary. You may refuse to participate or withdraw at any time without penalty. To revoke your consent of any portion of a study, email <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>, where your request will be handled by the appropriate teams. 
