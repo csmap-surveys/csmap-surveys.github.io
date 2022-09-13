@@ -1,7 +1,7 @@
 # URL Historian
 [Overview](#overview)<br>
 [How to install](#install)<br>
-[How to configure](#configure) <br>
+
 
 
 
@@ -39,33 +39,6 @@ For more information about URL Historian's data collection and privacy protectio
 7. When the extension window appears, enter your user id provided through the survey in the field at the top right. 
 8. When you hit “Submit,” a pop-up window will appear prompting you to enter your Survey ID provided by the survey.
 
-	
-## How to configure {#configure}
-
-
-	
-### Web browsing history
-
-When the plug-in is registered and activated, it automatically begins collecting URLs visited. You can pause and resume data collection at any time through options on the extension interface. You can also block specific domains from being collected by adding the URLs of these domains to a blacklist feature within the extension.
-
-### Social Media Data
-
-You can also opt-in to sharing data from popular social media websites. To contribute this data, you can toggle the following options: 
-	
-* the Twitter option will collect tweet data when you visit twitter.com,
-* the YouTube option will collect videos listed when visiting youtube.com,
-* the Facebook option will solely collect URLs that appear on your Facebook pages when visiting facebook.com.
-
-This data is only collected if a you opt-in to add these sites. Each social media site is activated separately. Data will only be collected from the social media websites that you have opted-in to sharing.
-
-### How to control what you share
-**Pausing data collection**
-
-<p>You can pause data collection using the pause toggle feature on the extension. This will pause all data collection until you toggle the pause control back to active.</p>
-
-**Removing data**
-
-You can revoke your shared data at any time. Within URL Historian, you can delete data that has been shared for up to ten days after it was collected. If more than ten days have passed since data was collected, you can contact NYU CSMaP Engineers at csmap-engineers@nyu.edu to request your data be deleted.
 
 **Participation**
 
