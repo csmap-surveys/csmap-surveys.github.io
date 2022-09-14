@@ -1,38 +1,19 @@
 # Frequently Asked Questions
 <html>
 <head>
- <style> 
- 	h1, h2, h3, h4, p, li { 
-		line-height: 1.30;
-		font-size:	20px;
-		margin-top: 0.5em;
-	}
-	p,ol,li {
-		margin-top: 0.5em;
-		font-size: 14px ;
-	}
-	window.scroll({
-	  top: 0, 
-	  left: 0, 
-	  behavior: 'smooth'
-	});
-</style>
+
 </head>
-<body >
+<body>
 <a id="top"></a>
-<p>
-Thank you for downloading CSMaP URL Historian. URL Historian is a Chrome extension that collects browsing data from research participants who agree to share their browsing history and page content when browsing Twitter, Facebook and YouTube. All the data collected is securely stored in Amazon Web Services (AWS) and only accessible by CSMaP researchers. 
 
-This page provides information on how to use the extension effectively as well as address issues that you may encounter while using URL Historian</p>
+Thank you for downloading CSMaP's URL Historian. This page provides guidance to issues that might come up when using the extension. 
 
-<div>
-	<h2>FREQUENTLY ASKED QUESTIONS</h2>
 	<ul>
 		<li><a href="activate">How do I activate the extension after I install it?</a></li>
 		<li><a href="#forget">What happens if I install the extension and forget to activate?</a></li>
 		<li><a href="#survey">What should I do if i forget my Survey ID?</a></li>
 		<li><a href="#uninstall">What do I do if the extension uninstalls itself and not because of failed activation attempt?</a></li>
-		<li><a href="remove">How do I remove the extension from my Chrome browser</a></li>
+		<li><a href="#remove">How do I remove the extension from my Chrome browser</a></li>
 		<li><a href="#html">How do I opt to share page content from Twitter, Facebook or YouTube?</a></li>
 		<li><a href="#pause">Can I pause and resume data collection?</a></li>
 		<li><a href="#delete">Can i delete data already collected from me?</a></li>
