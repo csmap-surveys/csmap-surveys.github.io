@@ -1,9 +1,12 @@
 # Frequently Asked Questions
 
-	<iframe width="560" height="315" src="https://youtube.com/embed/E0yvIBu4QbQ"></iframe>
+	
 <html>
 <head>
-
+<style>
+	h2{padding-top:20px;}
+	
+	</style>	
 </head>
 <body>
 <a id="top"></a>
@@ -14,7 +17,7 @@ Thank you for downloading CSMaP's URL Historian. This page provides guidance to 
 	
 	<ul>
 	<a href="activate">How do I register and activate the extension?</a>
-	<a href="#forget">Why does a popup window appear after installing the extension?</a>
+	<a href="#forget">Why does a popup window keep appearing after installing the extension?</a>
 	<a href="#survey">How do I get a Survey ID and User ID?</a>
 	<a href="#uninstall">I got a failed activation error and the extension uninstalled itself, what should I do?</a>
 	<a href="#remove">I no longer wish to participate. How do I remove the extension from my Chrome browser?</a>
@@ -42,17 +45,18 @@ Thank you for downloading CSMaP's URL Historian. This page provides guidance to 
 	</ol>
 <p>The extension allows three registration attempts. After three failed registration attempts, the extension will uninstall automatically.</p>
 
-	<p align ="center">
-		
-	</p>
-</div>
+	<p align ="center"><iframe width="560" height="315" src="https://youtube.com/embed/E0yvIBu4QbQ"></iframe></p>
 
-<div>
-	<h2 id="forget">What happens if I install the extension and forget to activate it?</h2>
-	<p>The extension will send you a reminder 5 minutes after installing it and every 30-minutes until you activate it.</p>
-	<p align="center"><img src="images/alerts/inactive.jpg"></p>
-</div>
-<!-- Forgetfull ness -->
+	
+	
+	<h2 id="forget">Why does a popup window keep appearing after installing the extension?</h2>
+	<p>If you installed the extension and see a pop-up window (pictured below), you will need to register the extension. Refer to the instructions above to complete that step.</p>
+	<p align="center"><img src="images/alerts/inactive.jpg" style="padding:15px; border:1px solid #efefef;"></p>
+
+
+	
+	
+	
 <div id="survey">
 	<h2 id="survey">What should I do if I forget my Survey ID?</h2>
 	<p>Your <strong>survey ID</strong> is provided together with your <strong>user ID</strong> through either an email sent to you or through a link to install and activate the extension.</p>
