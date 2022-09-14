@@ -4,7 +4,7 @@
 <html>
 <head>
 <style>
-	h2{padding-top:10px; margin-top:40px; border-top:1px solid #000;}
+	h2{line-height:100%;}
 	ol li {padding-bottom:10px;}
 	.extrapadding{padding:30px;}
 	</style>	
@@ -105,7 +105,7 @@ The toggles next to the social media icons allow you to share data that appears 
 		<video width="560" height="420" controls>
 	  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
 	</p>
-
+	<div class="extrapadding"></div>
 
 	<h2 id="pause">What options are available if there are times I don’t want to share data?</h2>
 	<p>The toggle at the top left side of the extension window allows you to pause and resume data collection at any time. When the toggle is in “Active” state, the extension is collecting URLs for sites you visit.</p>
@@ -114,7 +114,7 @@ The toggles next to the social media icons allow you to share data that appears 
 		<li>After the extension is paused for 60 minutes, a popup window will appear reminding you to resume activity. After the first reminder, follow-up reminders will appear every four hours.</li>
 	</ol>		
 
-
+	<div class="extrapadding"></div>
  	<h2 id="delete">Is there a way to delete data that I didn’t mean to share?
 </h2>
 	
@@ -144,37 +144,30 @@ The toggles next to the social media icons allow you to share data that appears 
 		</video>
 	
 
-<!-- BlackList -->
-<div>
+	<div class="extrapadding"></div>
+	
 	<h2 id="blacklist">Can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
-	<p>You can enter website domains that you wish to keep private using the <Strong>Blacklist</Strong> feature in the extension</p> 
-	<p>Simply enter any URL in the format www.domain.com in <strong>Add Website to Blacklist</strong> field. Data from that domain will not be collected while you visiting it. </p>
-	<p align ="center">
-		<video width="320" height="240" controls>
+	<p>The Add Website to Blacklist field allows you to enter the address of domains you don’t want to share.
+Enter any URL in the format www.domain.com in Add Website to Blacklist field. Visits to these websites will be blocked from collection. You will see all blocked domains Websites Currently Blacklisted field.</p>
+
+	<p align="center">
+		<video width="560" height="420" controls>
   			<source src="videos/uh_blacklist.mp4" type="video/mp4">
 		</video>
-	</p>
-	<p>You will see all domains you have blocked in the <strong>Websites Currenly Blacklisted</strong> field</p>
-</div>
+
 <!-- Unblacklist -->
-<div> 
-	<h2 id="unblacklist">Can I remove a website that I no longer wish to keep private?</h2>
-	<p>You can remove <strong>a blacklisted website from Websites currently blacklisted</strong> by </p> 
-	<p>Simply click the <strong>X</strong> on the right of the website domain you wish to unblacklist</p>
-	<p align="center">
-		<video width="300" height="240" controls>
-	  		<source src="videos/uh_unblacklist.mp4" type="video/mp4">
-		</video>
-	</p>
-</div>
-<!-- Assistance -->
-<div>
-	<h2 id="assistance"> Who should I contact for further information?</h2>
+
+		<!--<video width="300" height="240" controls>
+     <source src="videos/uh_unblacklist.mp4" type="video/mp4"></video>-->
+
+<div class="extrapadding"></div>
+
+	<h2 id="assistance">How do I contact support?</h2>
 	<ol>
-		<li>For any questions on using the extension, requesting data deletion or other technical problems, please reach out to <a href="mailto:nyu-smapp-engineers@nyu.edu"> nyu-smapp-engineers@nyu.edu</a></li>
-		<li>For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact <a href="mailto:csmap@nyu.edu">csmap-surveys@nyu.edu</a> for assistance</li>
+	<li>For questions about  using the extension, to request your data be deleted or other technical problems, please reach out to <a href="mailto:csmap-engineers@nyu.edu">csmap-engineers@nyu.edu</a>.</li>
+<li>For questions regarding the data we collect or research projects that may use your data, please contact <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.</li>
 	</ol>
-</div>
+
 <p><a href="#top">Return to top </a></p>
-</body>
-</html>
+
+</body></html>
