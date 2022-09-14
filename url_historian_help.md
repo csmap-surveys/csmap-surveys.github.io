@@ -4,7 +4,7 @@
 <html>
 <head>
 <style>
-	h2{padding-top:20px; margin-top:20px; border-top:1px solid #000;}
+	h2{padding-top:10px; margin-top:40px; border-top:1px solid #000;}
 	ol li {padding-bottom:10px;}
 	</style>	
 </head>
@@ -46,43 +46,57 @@ Thank you for downloading CSMaP's URL Historian. This page provides guidance to 
 	
 	
 	<h2 id="forget">Why does a popup window keep appearing after installing the extension?</h2>
-	<p>If you installed the extension and see a pop-up window (pictured below), you will need to register the extension. Refer to the instructions above to complete that step.</p>
+	<p>If you installed the extension and see a pop-up window (pictured below), you will need to register the extension. Refer to the <a href="activate">instructions above</a> to complete that step.</p>
 	<p align="center"><img src="images/alerts/inactive.jpg" style="padding:15px;"></p>
 
 
 	
 	
-	
-<div id="survey">
-	<h2 id="survey">What should I do if I forget my Survey ID?</h2>
+	<h2 id="survey">How do I get a Survey ID and User ID?</h2>
 	<p>Your <strong>survey ID</strong> is provided together with your <strong>user ID</strong> through either an email sent to you or through a link to install and activate the extension.</p>
-	<p> If you received an email please refer to it for both your user ID and surver ID. Otherwise, please contact <a href="mailto:nyu-smapp-engineers@nyu.edu"> nyu-smapp-engineers@nyu.edu</a>. Ensure that you provide your study provider information as a reference</p>
-	<p> You have three login attempts to activate the extension using your <strong>survey ID</strong>. With each failed attempt a prompt window will appear for you to input a valid <strong>survey ID.</strong></p>
-	<p>After 3 failed attempts the extension will auto uninstall from your browser.You should contact us at <a href="mailto:nyu-smapp-engineers@nyu.edu"> nyu-smapp-engineers@nyu.edu</a> for assistance.</p>	
-	<p align="center"><img src="images/alerts/final_failed_attempt.jpg"></p>
-</div>
-<div>
-	<h2 id="uninstall">What do I do if the extension uninstalls itself and not because of failed activation attempt?</h2>
-	<p>This is meant to happen based on the study. A notification will popup informing you that the extension will auto uninstall. If you believe this happened due to an error, please contact <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a></p>
-	<p align="center"><img src="images/alerts/uninstall.jpg"></p>
-</div>
-<!-- Removing Extension  -->
-<div>
-	<h2 id="remove">How do I remove the extension from my Chrome browser</h2>
-	<p>To remove the extension from your Chrome browser. Follow the video instructions below</p>
+	<p>Your Survey ID and User ID are provided in the survey and through email when you agree to install the extension. If you no longer have access to these codes, you can request a code by emailing <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> and referencing where you completed the survey.</p>
+	<p> The extension allows three login attempts. After three failed login attempts the extension will uninstall automatically. You can contact  <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> for assistance.</p>	
+	<p align="center"><img src="images/alerts/final_failed_attempt.jpg style="padding:15px;"></p>
+
+		
+		
+	<h2 id="uninstall">I got a failed activation error and the extension uninstalled itself, what should I do?</h2>
+	<p>When you install the extension, you have three attempts to enter your User ID and Survey ID. If one of these codes was entered incorrectly or isn’t working, the extension will automatically uninstall. Please reach out to <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> for assistance.
+</p>
+	<p align="center"><img src="images/alerts/uninstall.jpg" style="padding:15px;></p>
+
+	
+	
+	
+	<h2 id="remove">I no longer want to participate. How do I remove the extension from my Chrome browser?</h2>
+	
+	<p>You can remove the extension two ways.</p>
+	<p>Through the Chrome browser:</p>
+<ol>
+	<li>Go to the extension menu in your Chrome browser, located next to the address bar (puzzle piece icon).</li> 
+<li>From the extensions menu, you will see URL Historian listed. Select the three dots next to the extension name to reveal a submenu. The submenu provides the option “Remove from Chrome…”  to uninstall the extension.</li>
+	</ol>
+	<p>Alternatively, you can visit the <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en">URL Historian</a> page on the Chrome store. Click the blue  “Remove from Chrome” button in the top right corner. </p>
+	
 	<p align ="center">
 			<iframe width="560" height="315" src="https://youtube.com/embed/fPyXU4lRwKg"></iframe>
 	</p>
-</div>
-<!-- SHARING SOCIAL MEDIA CONTENT -->
-<div>
-	<h2 id="html">How do I opt to share Page Content from Twitter, Facebook or YouTube</h2>
-	<ol>
-		<li>Follow instructions below on how to allow sharing page content</li>
-			<video width="320" height="240" controls>
+
+	
+	<h2 id="html">What do the toggles next to the Twitter, Facebook and YouTube icons do?</h2>
+	
+The toggles next to the social media icons allow you to share data that appears on these websites. Sharing this data is optional and not required. Each social media site is activated separately. 
+<ul>
+	<li>The Twitter option will collect tweet data when you visit twitter.com.</li>
+	<li>The YouTube option will collect videos listed when visiting youtube.com.</li>
+	<li>The Facebook option will solely collect URLs that appear on your Facebook news feed when visiting facebook.com.</li> 
+</ul>
+			
+		
+		<video width="560" height="420" controls>
 	  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
-	 </ol>
-</div> 
+	
+
 	<!-- PAUSING AND REACTIVATING -->
 <div>
 	<h2 id="pause">Can I pause and resume data collection?</h2>
