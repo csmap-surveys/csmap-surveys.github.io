@@ -6,7 +6,7 @@
 <style>
 	h2{padding-top:10px; margin-top:40px; border-top:1px solid #000;}
 	ol li {padding-bottom:10px;}
-	.extrapadding{padding:50px;}
+	.extrapadding{padding:30px;}
 	</style>	
 </head>
 <body>
@@ -14,10 +14,11 @@
 
 Thank you for downloading CSMaP's URL Historian. This page provides guidance to issues that might come up when using the extension. 
 
+		<div class="extrapadding"></div>
 	<h4>Table of contents</h4>
 	
 	<ul>
-		<li><a href="activate">How do I register and activate the extension?</a></li>
+		<li><a href="#activate">How do I register and activate the extension?</a></li>
 	<li><a href="#forget">Why does a popup window keep appearing after installing the extension?</a></li>
 	<li><a href="#survey">How do I get a Survey ID and User ID?</a></li>
 	<li><a href="#uninstall">I got a failed activation error and the extension uninstalled itself, what should I do?</a></li>
@@ -61,7 +62,7 @@ Thank you for downloading CSMaP's URL Historian. This page provides guidance to 
 	<p>Your <strong>survey ID</strong> is provided together with your <strong>user ID</strong> through either an email sent to you or through a link to install and activate the extension.</p>
 	<p>Your Survey ID and User ID are provided in the survey and through email when you agree to install the extension. If you no longer have access to these codes, you can request a code by emailing <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> and referencing where you completed the survey.</p>
 	<p> The extension allows three login attempts. After three failed login attempts the extension will uninstall automatically. You can contact  <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> for assistance.</p>	
-	<p align="center"><img src="images/alerts/final_failed_attempt.jpg style="padding:15px;"></p>
+	<p align="center"><img src="images/alerts/final_failed_attempt.jpg" style="padding:15px;"></p>
 
 	<div class="extrapadding"></div>
 	
@@ -69,7 +70,7 @@ Thank you for downloading CSMaP's URL Historian. This page provides guidance to 
 	<h2 id="uninstall">I got a failed activation error and the extension uninstalled itself, what should I do?</h2>
 	<p>When you install the extension, you have three attempts to enter your User ID and Survey ID. If one of these codes was entered incorrectly or isn’t working, the extension will automatically uninstall. Please reach out to <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> for assistance.
 </p>
-	<p align="center"><img src="images/alerts/uninstall.jpg" style="padding:15px;></p>
+	<p align="center"><img src="images/alerts/uninstall.jpg" style="padding:15px;"></p>
 
 	
 	<div class="extrapadding"></div>
