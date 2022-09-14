@@ -12,10 +12,10 @@
 <body>
 <a id="top"></a>
 
-Thank you for downloading CSMaP's URL Historian. This page provides guidance to issues that might come up when using the extension. 
+<h3>Thank you for downloading CSMaP's URL Historian. This page provides guidance to issues that might come up when using the extension. </h3>
 
-		<div class="extrapadding"></div>
-	<h4>Table of contents</h4>
+	<p>&nbsp;</p>
+	<strong>Table of contents</strong>
 	
 	<ul>
 		<li><a href="#activate">How do I register and activate the extension?</a></li>
