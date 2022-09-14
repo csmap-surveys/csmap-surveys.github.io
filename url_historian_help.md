@@ -4,8 +4,8 @@
 <html>
 <head>
 <style>
-	h2{padding-top:20px;}
-	
+	h2{padding-top:20px; margin-top:20px; border-top:1px solid #000;}
+	ol li {padding-bottom:10px;}
 	</style>	
 </head>
 <body>
@@ -13,26 +13,22 @@
 
 Thank you for downloading CSMaP's URL Historian. This page provides guidance to issues that might come up when using the extension. 
 
-	<h2>Table of contents</h2>
+	<h4>Table of contents</h4>
 	
 	<ul>
-	<a href="activate">How do I register and activate the extension?</a>
-	<a href="#forget">Why does a popup window keep appearing after installing the extension?</a>
-	<a href="#survey">How do I get a Survey ID and User ID?</a>
-	<a href="#uninstall">I got a failed activation error and the extension uninstalled itself, what should I do?</a>
-	<a href="#remove">I no longer wish to participate. How do I remove the extension from my Chrome browser?</a>
-	<a href="#html">What do the toggles next to the Twitter, Facebook and YouTube icons do?</a>
-	<a href="#pause">What options are available if there are times I don’t want to share data?</a>
-	<a href="#delete">Is there a way to delete data collected from me?</a>
-	<a href="blacklist">Can I prevent the extension collecting visits to websites I want to keep private?</a>
-	<a href="#assistance">How do I contact support?</a>
+		<li><a href="activate">How do I register and activate the extension?</a></li>
+	<li><a href="#forget">Why does a popup window keep appearing after installing the extension?</a></li>
+	<li><a href="#survey">How do I get a Survey ID and User ID?</a></li>
+	<li><a href="#uninstall">I got a failed activation error and the extension uninstalled itself, what should I do?</a></li>
+	<li><a href="#remove">I no longer wish to participate. How do I remove the extension from my Chrome browser?</a></li>
+	<li><a href="#html">What do the toggles next to the Twitter, Facebook and YouTube icons do?</a></li>
+	<li><a href="#pause">What options are available if there are times I don’t want to share data?</a></li>
+	<li><a href="#delete">Is there a way to delete data collected from me?</a></li>
+	<li><a href="blacklist">Can I prevent the extension collecting visits to websites I want to keep private?</a></li>
+	<li><a href="#assistance">How do I contact support?</a></li>
 
 	</ul>
 		
-	
-		
- <!-- install: https://youtu.be/kx0iVRzRFwQ -->
-
 
 	<h2 id="activate">How do I register and activate the extension?</h2>
 	<p>You will receive a User ID and Survey ID when you complete a CSMaP survey and express interest in installing the URL Historian extension. These IDs will be shared in the survey or in an email after you complete the survey.</p>
@@ -51,7 +47,7 @@ Thank you for downloading CSMaP's URL Historian. This page provides guidance to 
 	
 	<h2 id="forget">Why does a popup window keep appearing after installing the extension?</h2>
 	<p>If you installed the extension and see a pop-up window (pictured below), you will need to register the extension. Refer to the instructions above to complete that step.</p>
-	<p align="center"><img src="images/alerts/inactive.jpg" style="padding:15px; border:1px solid #efefef;"></p>
+	<p align="center"><img src="images/alerts/inactive.jpg" style="padding:15px;"></p>
 
 
 	
