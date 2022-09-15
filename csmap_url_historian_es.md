@@ -1,55 +1,50 @@
-# Sobre Extensión
-Gracias por descargar CSMaP URL Historian. CSMaP URL Historian es un complemento de Chrome que recopila datos de navegación web de individuos que participan en investigaciones y deciden compartir datos de navegación y contenido de páginas de Twitter, Facebook, y YouTube. Los datos recopilados son almacenados de forma segura en Amazon Web Services (AWS) y sólo es accesible a los investigadores de CSMaP.
-
-Esta extensión incluye una función para visualizar el historial de navegación del usuario que es almacenado localmente. La pantalla de visualización muestra los hábitos de navegación del usuario, la frecuencia de visitas a páginas web, frases usadas en servidores de búsqueda, los periodos en un sitio web a través de un mapa de calor, y detalles de la visita en un formato tabulado. Toda la información de visualización permanece en la máquina local del usuario.  Los sitios web visitados antes y durante la instalación de la extensión se utilizan para generar las visualizaciones. Sin embargo, URL Historian solo recopila información que el participante opta a compartir. 
-
-La participación en la colección de datos de navegación web es totalmente voluntaria. Los Participantes pueden indicar cuales datos de sitios quieren compartir, eliminar datos de hasta una semana anterior, y pueden eliminar datos más antiguos comunicándose con los ingenieros del centro NYU CSMaP. El contenido de páginas web sólo es recopilada de los sitios que usted indique, incluyendo los de redes sociales. La sección de “Preguntas Más Frecuentes” tiene más información sobre cómo usar URL Historian. 
-
-Por favor tome en cuenta que URL Historian recopila datos de cualquier persona que use Google Chrome en la computadora donde está la aplicación descargada. Si esta computadora es de familia, informele a cada miembro sobre el complemento de Chrome y como usarlo (p. cómo ponerle pausa o borrar datos de navegación.) 
-
-URL Historian es un proyecto sin fines de lucro y de fuente abierta. Fue desarrollada para proveer información sobre el impacto social y político de la red. Si tiene algunas preguntas sobre este complemento de Chrome, quiere borrar datos de su información, o tiene problemas técnicos, mande un correo electrónico a nyu-smapp-engineers@nyu.edu. 
-
-PREGUNTAS MÁS FRECUENTES 
-
-¿Qué sucede si instalo la extensión y olvido activarla?
-
-La extensión le enviará un recordatorio 5 minutos después de instalarlo y luego cada 30 minutos hasta que sea activado. 
-
-¿Cómo puedo parar y reactivar la extensión ?
-
-Deslice el botón de activación hacia la izquierda para ponerle pausa a la extensión y hacia la derecha para volver a activar la extensión. Recibirá un recordatorio luego de haber pausado la extensión por 60 minutos. Luego del primer recordatorio, recibirá mensajes de seguimiento cada 4 horas. 
-
-¿Puedo borrar los datos recopilados sobre mi?
-
-Sí. Usuarios pueden borrar datos recolectados en los últimos 7 días en la aplicación y si desea borrar datos de hace más de 7 días puede contactar a nuestro equipo de investigación nyu-smapp-engineers@nyu.edu. 
-
-También puede borrar datos recopilados entre ciertas fechas y horarios
-
-Como borrar datos a traves de fecha y horario 
-
-Como borrar datos de cierta fecha 
-
-¿Cómo puedo evitar que la extensión registre visitas a sitios web que prefiero mantener privado?
-
-Puede registrar una lista de sitios web que usted prefiere mantener privado agregandolo a “Agregar Página a la Lista Negra” y el URL será agregado a la lista de páginas web que no deben de ser grabadas. Cuándo usted visite esas páginas web, no serán registrados sus URLs. 
-
-Puedo eliminar los sitios de la “Lista Negra” visitando Sitios en la “Lista Negra” por 
-
-¿Qué debo de hacer si olvido mi usuario de acceso?
-
-Puede conseguir su usuario en el correo electrónico que le mandamos originalmente con el enlace a URL Historia. Tendrá 5 intentos para activar su extensión. 
-
-Por cada intento fallado usted recibirá el siguiente mensaje. “Luego de 5 intentos fallados, la extensión se va a desinstalar automáticamente. Contactenos a nyu-smapp-engineers@nyu.edu si necesita asistencia.”
-
- 
-¿Qué debo de hacer si la extensión se desinstala sola y no por intentos fallados?
-
-Esto debe de suceder al final de la investigación.. Una notificación aparecerá informándole que la extensión se va a desinstalar automáticamente. Si usted cree que esto sucedió por error, por favor contacte a csmap-surveys@nyu.edu.
-
-¿A quién contactar para más información?
-
-Para cualquier pregunta sobre la extensión, solicitudes para borrar sus datos u otros problemas técnicos, por favor contacte a nyu-smapp-engineers@nyu.edu. 
-Para cualquier pregunta sobre el uso de la extensión, los datos que recopilamos, o los proyectos de investigación en los que serán utilizados sus datos, por favor contacte a csmap-surveys@nyu.edu para cualquier ayuda. 
+# URL Historian
+[Descripción general](#descripción general)<br>
+[Cómo instalar](#cómo instalar)<br>
+[Divulgación de privacidad](#divulgación de privacidad) <br>
 
 
 
+
+#### URL Historian es una extensión de Chrome desarrollada por el <a href="https://csmapnyu.org/">Center for Social Media and Politics (CSMaP) </a> de la Universidad de Nueva York. Esta extensión permite que los participantes compartan datos que contribuyen a una mejor comprensión de cómo nuestro entorno en línea en constante cambio impacta la política y la democracia.
+
+![Annotated screencapture]
+
+## Descripción general {#Descripción general}
+Al activar y registrar el complemento URL Historian, este comienza a recopilar automáticamente las URL visitadas. Los datos recopilados a través de URL Historian son anónimos y se utilizan solo con fines académicos. Todos los datos recopilados se almacenan de forma segura en Amazon Web Services (AWS) y solo los investigadores de CSMaP pueden acceder a ellos.
+1. Puede establecer el idioma predeterminado de la extensión al español usando la opción **"Español"**.
+2. Haga clic en el botón **"Ayuda"** para ir a Preguntas frecuentes en su navegador.
+3. Use el campo ID de usuario para ingresar su ID de usuario único después de contestar una encuesta.
+4. Puede pausar la recopilación de datos mediante el botón **"Activo"**. Al registrar la extensión, la configuración por defecto de este botón de selección es “Activo”.
+5. Los botones para **Compartir el contenido de la página** le permiten compartir información de las redes sociales. Este paso es opcional, consulte nuestra <a href="https://www.csmapsurveys.org/csmap_privacy_policy_es.html">política de privacidad </a> para obtener más información sobre qué datos de las redes sociales se recopilan.
+6. **Borrar el historial de navegación** le permite revocar los datos que has compartido por hora o fecha.
+7. El campo **Añadir sitio web a la lista negra** le permite incluir dominios que no desea que se recopilen.
+8. El área denominada **Sitios web actualmente en la lista negra** mostrará todos los dominios que ha bloqueado de la recopilación.
+
+Para obtener más información sobre la recopilación de datos de URL Historian y las medidas de protección de la privacidad, consulte nuestra <a href="https://www.csmapsurveys.org/csmap_privacy_policy_es.html">política de privacidad </a>. Si tiene alguna pregunta sobre el uso de la extensión, si desea revocar sus datos o si encuentra otros problemas técnicos, comuníquese con csmap-surveys@nyu.edu.
+
+
+## Cómo instalar {#Cómo instalar}
+
+**Paso 1: descargue la extensión URL Historian desde la tienda Chrome Store**
+
+1. Vaya a la página de <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=es">URL Historian</a> de la tienda Chrome Store en su navegador Chrome usando una computadora portátil o de escritorio.
+2. Desde la página de URL Historian, haga clic en el botón azul “Añadir a Chrome” para comenzar a instalar la extensión. 
+3. Una ventana emergente le informa sobre los datos que la extensión puede leer, haga clic en “Añadir extensión” para aceptar.
+4.La extensión se instala automáticamente. Debe registrarse antes de que se complete la configuración
+
+**Paso 2: envíe su ID de usuario para registrar la extensión**
+
+5. Acceda a la extensión haciendo clic en el icono de extensiones (pieza del rompecabezas) situado a la derecha de la barra de direcciones del navegador Chrome.
+6. Seleccione URL Historian en el menú desplegable. 
+7. Cuando aparezca la ventana de extensión, ingrese su ID de usuario proporcionado a través de la encuesta en el campo de la parte superior derecha.
+8. Al presionar "Enviar", aparecerá una ventana emergente en la que se le solicitará que ingrese el ID de la encuesta proporcionado en la encuesta o por correo electrónico.
+
+## Divulgación de privacidad {#Divulgación de privacidad}
+**Tenga en cuenta que URL Historian recopila los datos de navegación web de cualquier persona que use Google Chrome en la computadora en la que se ha instalado. Si comparte cu computadora con alguien, debe informarle sobre la instalación de URL Historian y la recopilación de datos de navegación web. Puede mostrarle cómo pausar la aplicación y borrar su historial de navegación al usar una computadora en la que se haya instalado URL Historian.**
+
+**Participación**
+
+La participación en este estudio es voluntaria. Usted podrá negarse a participar o retirarse en cualquier momento sin sanción. Para revocar su consentimiento de cualquier parte de un estudio, envíe un correo electrónico a <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>, donde los equipos correspondientes se encargarán de su solicitud.
+
+Consulte nuestra <a href="https://www.csmapsurveys.org/csmap_privacy_policy_es.html">política de privacidad </a> para obtener más información sobre qué recopila URL Historian. Si tiene problemas técnicos, puede encontrar una solución con capturas de pantalla de video en <a href="https://www.csmapsurveys.org/url_historian_ayuda.html"> preguntas frecuentes</a>. Si tiene preguntas adicionales o desea informar sobre un problema relacionado con la investigación, puede comunicarse con <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.
