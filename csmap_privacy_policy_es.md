@@ -1,4 +1,4 @@
-# Política de privacidad de la extensión de Chrome
+# Política de Privacidad
 
 Políticas de la extensión de Chrome del Centro de Redes Sociales y Política 
 
