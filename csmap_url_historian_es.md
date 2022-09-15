@@ -1,4 +1,4 @@
-# URL Historian
+# Sobre Extensión
 Gracias por descargar CSMaP URL Historian. CSMaP URL Historian es un complemento de Chrome que recopila datos de navegación web de individuos que participan en investigaciones y deciden compartir datos de navegación y contenido de páginas de Twitter, Facebook, y YouTube. Los datos recopilados son almacenados de forma segura en Amazon Web Services (AWS) y sólo es accesible a los investigadores de CSMaP.
 
 Esta extensión incluye una función para visualizar el historial de navegación del usuario que es almacenado localmente. La pantalla de visualización muestra los hábitos de navegación del usuario, la frecuencia de visitas a páginas web, frases usadas en servidores de búsqueda, los periodos en un sitio web a través de un mapa de calor, y detalles de la visita en un formato tabulado. Toda la información de visualización permanece en la máquina local del usuario.  Los sitios web visitados antes y durante la instalación de la extensión se utilizan para generar las visualizaciones. Sin embargo, URL Historian solo recopila información que el participante opta a compartir. 
