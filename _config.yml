@@ -12,7 +12,6 @@ header_pages_es:
   - csmap_url_historian_es.md
   - csmap_privacy_policy_es.md
   - url_historian_ayuda.md
-
 include:
   - README.md
   - csmap_url_historian.md
