@@ -1,27 +1,44 @@
+
 # Política de Privacidad
 
-Políticas de la extensión de Chrome del Centro de Redes Sociales y Política 
+Esta política de privacidad ("política") pertenece a la extensión URL Historian de Chrome ("extensión") proporcionada por el Center for Social Media and Politics de la New York University ("CSMaP", "compañía", "nosotros", "nos" o "nuestro"). Nos comprometemos a proteger su información personal y el derecho a la privacidad de los participantes de la investigación ("usted").
 
+Se le ha invitado a participar en un estudio de investigación para ayudar a los investigadores del CSMaP a entender cómo nuestro entorno en línea en constante cambio influye en la política, en las políticas y en la democracia.
 
-Usted ha recibido una invitación para participar en una investigación que ayudará a investigadores a entender la relación entre las redes sociales y la política. 
+URL Historian es una extensión de Chrome que recopila datos de navegación de participantes registrados en una investigación que aceptan ser parte de un estudio. Para formar parte de un estudio CSMaP, un participante primero completa una encuesta y opta por compartir datos de navegación web a través de la extensión URL Historian. A continuación, se le proporciona al participante un ID de usuario y el ID de la encuesta asociados al estudio. Estos ID son necesarios para registrarse y usar la extensión URL Historian. Los datos recopilados a través de URL Historian son anónimos y se utilizan solo con fines académicos. Todos los datos recopilados se almacenan de forma segura en Amazon Web Services (AWS) y solo los investigadores de CSMaP pueden acceder a ellos.
 
-Esta investigación será realizada por Joshua Tucker, FAS - Política, Artes y Ciencias, Universidad de Nueva York; Jonathan Nagler, FAS – Política, Artes y Ciencias, Universidad de Nueva York; y Richard Bonneau, FAS – Biología, Ciencias de la Computación, Artes y Ciencias, Universidad de Nueva York. Si usted acepta ser parte de esta investigación, se le pedirá que instale una extensión de Chrome que  permitirá a los investigadores recopilar información sobre su actividad de navegación web, relacionada con la investigación en la cual está participando específica al trabajo en el que está participando. Solo se colectaralos datos que usted acceda compartir. 
+## Lo que recopila la extensión
 
+**Historial de navegación web**
 
-No conocemos riesgos asociados con su participación en esta investigación más allá de los riesgos asociados con la vida cotidiana. Aunque no recibirá beneficios directos, esta investigación puede ayudar al investigador a entender mejor las redes sociales y la política. Será compensado por la cantidad prometida al completar la encuesta .
+Cuando el complemento está registrado y activado, comienza a recopilar automáticamente las URL visitadas. Puede pausar y reanudar la recopilación de datos en cualquier momento a través de las opciones de la interfaz de la extensión. También puede bloquear dominios específicos para que no se recopilen añadiendo las URL de estos dominios a una función de lista negra dentro de la extensión.
 
+**Datos de redes sociales**
 
+También puede optar por compartir datos de sitios web populares de redes sociales. Para aportar estos datos, puede alternar las siguientes opciones: la opción de Twitter recopilará datos de los tweets al visitar twitter.com, la opción YouTube recopilará videos que aparezcan al visitar youtube.com y la opción de Facebook recopilará únicamente las URL que aparezcan en su feed de noticias de Facebook al visitar facebook.com. Estos datos solo se recopilan si opta por agregar estos sitios. Cada sitio de redes sociales se activa por separado. Los datos solo se recopilarán de los sitios web de redes sociales que haya optado por compartir.
 
-La confidencialidad de sus registros de investigación es nuestra prioridad. Mantenemos estrictos procedimientos y reglas para mantener la seguridad de sus datos.. Los datos de la encuesta se guardarán en un disco duro encriptado, separados de todos los demás conjuntos de datos. Estos discos duros se almacenarán en gabinetes cerrados. Al ser  anonimizados, los datos de la encuesta se almacenarán en servidores seguros de NYU. 
+## Cómo controlar lo que comparte
 
-Su participación en este estudio es voluntario. Usted puede negarse a participar o puede retirarse en cualquier momento sin penalidad. Para entrevistas, cuestionarios o encuestas usted tiene el derecho a omitir o dejar de responder cualquier pregunta que prefiere no responder. La información que es anonimizada puede ser utilizada en investigaciones futuras, puede compartirse con otros investigadores o puede colocarse en un depósito de datos sin su consentimiento adicional. 
+**Cómo pausar la recopilación de datos**
 
-Para revocar su consentimiento en cualquier parte de este estudio, envíe un correo electrónico a csmap-surveys@nyu.edu, donde el equipo adecuado manejará su solicitud. Si hay algo sobre el estudio o su participación que no está claro, tiene preguntas o desea comunicar un problema relacionado con la investigación, puede comunicarse al csmap-surveys@nyu.edu.
+Puede pausar la recopilación de datos usando la función de alternar pausa en la extensión. Esto pausará toda la recopilación de datos hasta que vuelva a activar el control de pausa.
 
+**Cómo eliminar datos**
 
+Puede revocar sus datos compartidos en cualquier momento. Dentro de URL Historian, puede eliminar los datos que se han compartido hasta por diez días después de que se recopilaron. Si han pasado más de diez días desde que se recopilaron los datos, puede comunicarse con NYU CSMap Engineers en csmap-engineers@nyu.edu para solicitar que se eliminen sus datos.
 
-Si tiene preguntas sobre sus derechos como participante en la investigación, usted podrá contactar al Comité Universitario de Actividades con Sujetos Humanos (UCAIHS), Universidad de Nueva York, 665 Broadway, Suite 804, New York, New York, 10012, a ask.humansubjects@nyu.edu o llamar al (212) 998-4808. 
+**Participación**
 
-Usted ha recibido una copia de este documento de consentimiento para guardar.. 
+La participación en este estudio es voluntaria. Usted podrá negarse a participar o retirarse en cualquier momento sin sanción. Para revocar su consentimiento de cualquier parte de un estudio, envíe un correo electrónico a csmap-surveys@nyu.edu, donde los equipos correspondientes se encargarán de su solicitud. Si hay algo sobre el estudio o su participación que no esté claro o que no entienda, o si tiene preguntas o desea reportar un problema relacionado con la investigación, puede comunicarse con csmap-surveys@nyu.edu.
 
-Esta página fue generada por Github Pages. 
+## Almacenamiento y acceso a los datos
+
+Los datos recopilados a través del complemento URL Historian Chrome se retendrán en un disco duro encriptado administrado por CSMaP. Solo los investigadores aprobados tendrán acceso a los datos. CSMaP no compartirá ni venderá sus datos a terceras partes comerciales. Todos los datos recopilados serán anonimizados y utilizados únicamente con fines de investigación.
+
+La información que se anonimiza y no contiene información de identificación personal puede usarse en más de un estudio de investigación, compartirse con otros investigadores académicos o incluirse en un repositorio de datos sin su consentimiento adicional.
+
+## Contacto
+
+Si hay algo sobre el estudio o su participación que no esté claro o que no entienda, o si tiene preguntas adicionales o desea informar sobre un problema relacionado con la investigación, puede comunicarse con csmap-surveys@nyu.edu.
+
+Si tiene preguntas sobre sus derechos como participante de la investigación, puede comunicarse con el University Committee on Activities Involving Human Subjects (UCAIHS), New York University, 665 Broadway, Suite 804, New York, New York, 10012, en ask.humansubjects@nyu.edu o al (212) 998-4808.
