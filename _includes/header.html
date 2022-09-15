@@ -19,6 +19,7 @@
         </label>
 
         <div class="trigger">
+          English:
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
@@ -27,6 +28,7 @@
           {%- endfor -%}
         </div>
          <div class="trigger">
+           español:
           {%- for path in page_paths_es -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
