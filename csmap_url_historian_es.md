@@ -1,7 +1,7 @@
 # Sobre
 [Descripción general](#descripción general)<br>
-[Cómo instalar](#cómo instalar)<br>
-[Divulgación de privacidad](#divulgación de privacidad) <br>
+[Cómo instalar](#comoinstalar)<br>
+[Divulgación de privacidad](#divulgaciondeprivacidad) <br>
 
 
 
@@ -10,7 +10,7 @@
 
 ![Annotated screencapture](images/url_historian-marked-up-es.png)
 
-## Descripción general {#Descripción general}
+## Descripción general {#descripción general}
 Al activar y registrar el complemento URL Historian, este comienza a recopilar automáticamente las URL visitadas. Los datos recopilados a través de URL Historian son anónimos y se utilizan solo con fines académicos. Todos los datos recopilados se almacenan de forma segura en Amazon Web Services (AWS) y solo los investigadores de CSMaP pueden acceder a ellos.
 1. Puede establecer el idioma predeterminado de la extensión al español usando la opción **"Español"**.
 2. Haga clic en el botón **"Ayuda"** para ir a Preguntas frecuentes en su navegador.
@@ -24,7 +24,7 @@ Al activar y registrar el complemento URL Historian, este comienza a recopilar a
 Para obtener más información sobre la recopilación de datos de URL Historian y las medidas de protección de la privacidad, consulte nuestra <a href="https://www.csmapsurveys.org/csmap_privacy_policy_es.html">política de privacidad </a>. Si tiene alguna pregunta sobre el uso de la extensión, si desea revocar sus datos o si encuentra otros problemas técnicos, comuníquese con csmap-surveys@nyu.edu.
 
 
-## Cómo instalar {#Cómo instalar}
+## Cómo instalar {#comoinstalar}
 
 **Paso 1: descargue la extensión URL Historian desde la tienda Chrome Store**
 
@@ -40,7 +40,7 @@ Para obtener más información sobre la recopilación de datos de URL Historian 
 7. Cuando aparezca la ventana de extensión, ingrese su ID de usuario proporcionado a través de la encuesta en el campo de la parte superior derecha.
 8. Al presionar "Enviar", aparecerá una ventana emergente en la que se le solicitará que ingrese el ID de la encuesta proporcionado en la encuesta o por correo electrónico.
 
-## Divulgación de privacidad {#Divulgación de privacidad}
+## Divulgación de privacidad {#divulgaciondeprivacidad}
 **Tenga en cuenta que URL Historian recopila los datos de navegación web de cualquier persona que use Google Chrome en la computadora en la que se ha instalado. Si comparte cu computadora con alguien, debe informarle sobre la instalación de URL Historian y la recopilación de datos de navegación web. Puede mostrarle cómo pausar la aplicación y borrar su historial de navegación al usar una computadora en la que se haya instalado URL Historian.**
 
 **Participación**
