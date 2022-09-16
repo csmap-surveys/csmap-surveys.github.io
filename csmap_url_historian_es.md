@@ -1,5 +1,5 @@
 # Sobre
-[Descripción general](#descripción general)<br>
+[Descripción general](#descripciongeneral)<br>
 [Cómo instalar](#comoinstalar)<br>
 [Divulgación de privacidad](#divulgaciondeprivacidad) <br>
 
@@ -10,7 +10,7 @@
 
 ![Annotated screencapture](images/url_historian-marked-up-es.png)
 
-## Descripción general {#descripción general}
+## Descripción general {#descripciongeneral}
 Al activar y registrar el complemento URL Historian, este comienza a recopilar automáticamente las URL visitadas. Los datos recopilados a través de URL Historian son anónimos y se utilizan solo con fines académicos. Todos los datos recopilados se almacenan de forma segura en Amazon Web Services (AWS) y solo los investigadores de CSMaP pueden acceder a ellos.
 1. Puede establecer el idioma predeterminado de la extensión al español usando la opción **"Español"**.
 2. Haga clic en el botón **"Ayuda"** para ir a Preguntas frecuentes en su navegador.
