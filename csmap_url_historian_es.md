@@ -1,4 +1,4 @@
-# URL Historian
+# Sobre
 [Descripción general](#descripción general)<br>
 [Cómo instalar](#cómo instalar)<br>
 [Divulgación de privacidad](#divulgación de privacidad) <br>
