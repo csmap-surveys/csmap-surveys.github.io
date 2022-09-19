@@ -1,160 +1,172 @@
-# Preguntas Más Frecuentes
+# Preguntas Frecuentes
+
+	
 <html>
 <head>
- <style> 
- 	h1, h2, h3, h4, p, li { 
-		line-height: 1.30;
-		font-size:	20px;
-		margin-top: 0.5em;
-	}
-	p,ol,li {
-		margin-top: 0.5em;
-		font-size: 14px ;
-	}
-	window.scroll({
-	  top: 0, 
-	  left: 0, 
-	  behavior: 'smooth'
-	});
-</style>
+<style>
+	h2{line-height:100%;}
+	ol li {padding-bottom:10px;}
+	.extrapadding{padding:30px;}
+	</style>	
 </head>
-<body >
+<body>
 <a id="top"></a>
-<p>
-Thank you for downloading CSMaP URL Historian. URL Historian is a Chrome extension that collects browsing data from research participants who agree to share their browsing history and page content when browsing Twitter, Facebook and YouTube. All the data collected is securely stored in Amazon Web Services (AWS) and only accessible by CSMaP researchers. 
 
-This page provides information on how to use the extension effectively as well as address issues that you may encounter while using URL Historian</p>
+<h3>Gracias por descargar URL Historian de CSMap. Esta página brinda orientación sobre los problemas que podrían surgir al usar la extensión. </h3>
 
-<div>
-	<h2>FREQUENTLY ASKED QUESTIONS</h2>
+	<p>&nbsp;</p>
+	<strong>Table of contents</strong>
+	
 	<ul>
-		<li><a href="activate">How do I activate the extension after I install it?</a></li>
-		<li><a href="#forget">What happens if I install the extension and forget to activate?</a></li>
-		<li><a href="#survey">What should I do if i forget my Survey ID?</a></li>
-		<li><a href="#uninstall">What do I do if the extension uninstalls itself and not because of failed activation attempt?</a></li>
-		<li><a href="remove">How do I remove the extension from my Chrome browser</a></li>
-		<li><a href="#html">How do I opt to share page content from Twitter, Facebook or YouTube?</a></li>
-		<li><a href="#pause">Can I pause and resume data collection?</a></li>
-		<li><a href="#delete">Can i delete data already collected from me?</a></li>
-			<ol><a href="#byTime">How to delete by date and time</a></ol>
-			<ol><a href="#byDate">How to delete by date</a></ol>
-		<li><a href="blacklist">Can I prevent the extension from recording visits to websites that I wish to keep private?</a></li>
-		<li><a href="#unblacklist">Can I resume recording visits to websites that I no longer wish to keep private?</a></li>
-		<li><a href="#assistance">Who should I contact for assistance and for further information?</a></li>
+		<li><a href="#activate">¿Cómo registro y activo la extensión?</a></li>
+	<li><a href="#forget">Por qué sigue apareciendo una ventana emergente después de instalar la extensión?</a></li>
+	<li><a href="#survey">¿Cómo obtengo un Survey ID (ID de la encuesta) y un User ID (ID de usuario)?</a></li>
+	<li><a href="#uninstall">Me apareció un error de activación fallida y la extensión se desinstaló, ¿qué debo hacer?</a></li>
+	<li><a href="#remove">Ya no deseo participar. ¿Cómo elimino la extensión de mi navegador Chrome? </a></li>
+	<li><a href="#html">¿Qué hacen los botones de activación junto a los íconos de Twitter, Facebook y YouTube?</a></li>
+	<li><a href="#pause">¿Qué opciones están disponibles si en ocasiones no quiero compartir datos?</a></li>
+	<li><a href="#delete">¿Hay alguna manera de eliminar datos que no quise compartir?</a></li>
+	<li><a href="blacklist">¿Puedo evitar que la extensión recopile visitas a sitios web que quiero mantener privadas?</a></li>
+	<li><a href="#assistance">¿Cómo me comunico con soporte?</a></li>
 
 	</ul>
+	
+	<div class="extrapadding"></div>
 
- </div>
+h2 id="activate">How do I register and activate the extension?</h2>
+	<p>Recibirá un ID de usuario y un ID de la encuesta cuando complete una encuesta de CSMap y exprese interés en instalar la extensión URL Historian. Estos ID se compartirán en la encuesta o en un correo electrónico después de completar la encuesta.</p>
+	
+<p>Después de instalar la extensión, puede acceder a la ventana de URL Historian seleccionando la extensión en el menú de extensión de Chrome al que se puede acceder junto a la barra de direcciones (icono de la pieza del rompecabezas).</p>
+<ol>		
+	<li>En la ventana de extensión, verá un campo para ingresar su ID de usuario.</li>
+<li>Después de ingresar su ID de usuario, verá una pantalla emergente que le solicitará ingresar su ID de la encuesta.</li>
+<li>Después de ingresar su ID de la encuesta, la configuración estará completa. La extensión comenzará a recopilar su historial web automáticamente.</li>
+	</ol>
+<p>La extensión permite tres intentos de registro. Después de tres intentos fallidos de registro, la extensión se desinstalará automáticamente.</p>
 
- <!-- install: https://youtu.be/kx0iVRzRFwQ -->
+	<p align ="center"><iframe width="560" height="315" src="https://youtube.com/embed/E0yvIBu4QbQ"></iframe></p>
 
-<div>
-	<h2 id="activate">How do I activate the extension after I install it?</h2>
-	<p> To activate the extension follow the video instructions below</p>
-	<p align ="center">
-			<iframe width="560" height="315" src="https://youtube.com/embed/E0yvIBu4QbQ"></iframe>
-	</p>
-</div>
+	<div class="extrapadding"></div>
+	
+	
+	<h2 id="forget">¿Por qué sigue apareciendo una ventana emergente después de instalar la extensión?</h2>
+	<p>Si instaló la extensión y ve una ventana emergente (en la foto de abajo), deberá registrar la extensión. Consulte las <a href="activate">instrucciones anteriores</a> para completar ese paso.</p>
+	<p align="center"><img src="images/alerts/inactive.jpg" style="padding:15px;"></p>
 
-<div>
-	<h2 id="forget">What happens if I install the extension and forget to activate it?</h2>
-	<p>The extension will send you a reminder 5 minutes after installing it and every 30-minutes until you activate it.</p>
-	<p align="center"><img src="images/alerts/inactive.jpg"></p>
-</div>
-<!-- Forgetfull ness -->
-<div id="survey">
-	<h2 id="survey">What should I do if I forget my Survey ID?</h2>
-	<p>Your <strong>survey ID</strong> is provided together with your <strong>user ID</strong> through either an email sent to you or through a link to install and activate the extension.</p>
-	<p> If you received an email please refer to it for both your user ID and surver ID. Otherwise, please contact <a href="mailto:nyu-smapp-engineers@nyu.edu"> nyu-smapp-engineers@nyu.edu</a>. Ensure that you provide your study provider information as a reference</p>
-	<p> You have three login attempts to activate the extension using your <strong>survey ID</strong>. With each failed attempt a prompt window will appear for you to input a valid <strong>survey ID.</strong></p>
-	<p>After 3 failed attempts the extension will auto uninstall from your browser.You should contact us at <a href="mailto:nyu-smapp-engineers@nyu.edu"> nyu-smapp-engineers@nyu.edu</a> for assistance.</p>	
-	<p align="center"><img src="images/alerts/final_failed_attempt.jpg"></p>
-</div>
-<div>
-	<h2 id="uninstall">What do I do if the extension uninstalls itself and not because of failed activation attempt?</h2>
-	<p>This is meant to happen based on the study. A notification will popup informing you that the extension will auto uninstall. If you believe this happened due to an error, please contact <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a></p>
-	<p align="center"><img src="images/alerts/uninstall.jpg"></p>
-</div>
-<!-- Removing Extension  -->
-<div>
-	<h2 id="remove">How do I remove the extension from my Chrome browser</h2>
-	<p>To remove the extension from your Chrome browser. Follow the video instructions below</p>
+
+	<div class="extrapadding"></div>
+	
+	
+	<h2 id="survey">¿Cómo obtengo un ID de la encuesta y un ID de usuario?</h2>
+	<p>Su<strong>ID de la encuesta</strong> se proporciona junto con su <strong>ID de usuario</strong> a través de un correo electrónico que se le envía o a través de un enlace para instalar y activar la extensión.</p>
+	<p>Su ID de la encuesta y su ID de usuario se proporcionan en la encuesta y por correo electrónico cuando acepta instalar la extensión. Si ya no tiene acceso a estos códigos, puede solicitar un código enviando un correo electrónico a <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> e indicando dónde completó la encuesta.</p>
+	<p> La extensión permite tres intentos de inicio de sesión. Después de tres intentos fallidos de inicio de sesión la extensión se desinstalará automáticamente Puede comunicarse con <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>para obtener ayuda.</p>	
+	<p align="center"><img src="images/alerts/final_failed_attempt.jpg" style="padding:15px;"></p>
+
+	<div class="extrapadding"></div>
+	
+	
+	<h2 id="uninstall">Me apareció un error de activación fallida y la extensión se desinstaló, ¿qué debo hacer?</h2>
+	<p>WCuando instala la extensión, tiene tres intentos para ingresar su ID de usuario y su ID de la encuesta. Si uno de estos códigos se ingresó incorrectamente o no funciona, la extensión se desinstalará automáticamente. Comuníquese con <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> para obtener ayuda.
+</p>
+	<p align="center"><img src="images/alerts/uninstall.jpg" style="padding:15px;"></p>
+
+	
+	<div class="extrapadding"></div>
+
+	
+	<h2 id="remove">Ya no quiero participar. ¿Cómo elimino la extensión de mi navegador Chrome?</h2>
+	
+	<p>Se puede quitar la extensión de dos maneras.</p>
+	<p>A través del navegador Chrome:</p>
+<ol>
+	<li>Vaya al menú de extensión en su navegador Chrome, ubicado junto a la barra de direcciones (icono de la pieza del rompecabezas).</li> 
+<li>En el menú de extensiones, verá URL Historian en la lista. Seleccione los tres puntos junto al nombre de la extensión para mostrar un submenú. El submenú proporciona la opción “Eliminar de Chrome...” para desinstalar la extensión.</li>
+	</ol>
+	<p>Como alternativa, puede visitar la página <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en">URL Historian</a> en la tienda de Chrome. Haga clic en el botón azul “Eliminar de Chrome” en la esquina superior derecha. </p>
+	
 	<p align ="center">
 			<iframe width="560" height="315" src="https://youtube.com/embed/fPyXU4lRwKg"></iframe>
 	</p>
-</div>
-<!-- SHARING SOCIAL MEDIA CONTENT -->
-<div>
-	<h2 id="html">How do I opt to share Page Content from Twitter, Facebook or YouTube</h2>
-	<ol>
-		<li>Follow instructions below on how to allow sharing page content</li>
-			<video width="320" height="240" controls>
+
+	<div class="extrapadding"></div>
+
+	<h2 id="html">¿Qué hacen los botones de activación junto a los íconos de Twitter, Facebook y YouTube?</h2>
+	
+Los botones de activación junto a los iconos de las redes sociales permiten compartir datos que aparecen en estos sitios web. Compartir estos datos es opcional y no es obligatorio. Cada sitio de redes sociales se activa por separado.
+<ul>
+	<li>La opción de Twitter recopilará datos de tuits cuando visite twitter.com.</li>
+	<li>La opción de YouTube recopilará videos listados al visitar youtube.com.</li>
+	<li>La opción de Facebook recopilará únicamente las URL que aparezcan en su feed de noticias de Facebook cuando visite facebook.com.</li> 
+</ul>
+	
+	<p align="center">
+		<video width="560" height="420" controls>
 	  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
-	 </ol>
-</div> 
-	<!-- PAUSING AND REACTIVATING -->
-<div>
-	<h2 id="pause">Can I pause and resume data collection?</h2>
-	<p>Using the button on the top right side of the extension window allows you to pause and resume data collection at any time. When the toggle is in “Active” state, the extension is collecting data </p>
+	</p>
+	<div class="extrapadding"></div>
+
+	<h2 id="pause">¿Qué opciones están disponibles si en ocasiones no quiero compartir datos?</h2>
+	<p>El botón de activación en la parte superior izquierda de la ventana de extensión le permite pausar y reanudar la recopilación de datos en cualquier momento. Cuando el botón de activación está “Activo”, la extensión está recopilando URL de los sitios que visita.</p>
 	<ol>
-		<li>Slide the toggle button to the left to pause data collection, and to the right to resume data collection.</li>
-		<p align ="center">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/Z9z7SfkZp0Q"></iframe>
-		</p>
-		<li>The extension will send you reminders after you have paused the extension for 60 minutes. After the first reminder, it will send follow-up reminders every 4-hour.</li>
+		<li>Deslice el botón de activación hacia la izquierda para pausar la recopilación de datos y hacia la derecha para reanudarla.</li>
+		<li>Después de que la extensión esté en pausa durante 60 minutos, aparecerá una ventana emergente recordándole que debe reanudar la actividad. Después del primer recordatorio, aparecerán recordatorios de seguimiento cada cuatro horas.</li>
 	</ol>
-</div>
-<!-- Delete -->
-<div>
- 	<h2 id="delete">Can I delete data already collected from me?</h2>
-	<p> You can delete data collected from you in the last 10 days within the extension either by specific date and time or by specific date. Deleting data by specific date and time deletes the specified time within the date specified. Deleting data by date deletes all the data collected for that date.
-	<p>Your request to delete data within the extension is effected immediately and the data permanently deleted from the secure databases in AWS</p>
-	<center><h2 id="byTime"> How to delete by date and time</h2></center>
+	
+		<div class="extrapadding"></div>
+ 	<h2 id="delete">¿Hay alguna manera de eliminar datos que no quise compartir?
+</h2>
+	
+	<p>Dentro de URL Historian, puede eliminar los datos compartidos hasta por diez días después de que se recopilaron.</p>
+
+	<p>La función Eliminar historial de navegación le permite eliminar datos por hora o por fecha.</p>
+	<ul>
+		<li>Por hora le permite eliminar datos por hora.</li>
+		<li>Por fecha le permite eliminar datos de los días que seleccione.</li>
+	</ul>
+<p>Cuando borra datos dentro de la extensión, se hace efectivo de inmediato y eliminará los registros seleccionados de nuestro servidor.</p>
+
+<p>Si han pasado más de diez días desde que se recopilaron los datos, puede comunicarse con NYU CSMap Engineers en csmap-engineers@nyu.edu para solicitar que se eliminen sus datos. Incluya las fechas u horas de recopilación que necesita eliminar.</p>
+	
+	
+	<strong>Por tiempo:</strong>
 	<p align ="center">
-		<video width="600" height="400" controls>
+		<video width="560" height="373" controls>
 	  		<source src="videos/uh_delbytime.mp4" type="video/mp4">
 		</video>
 	</p>
-	<center><h2 id="byDate"> How to delete by date</h2></center>
+	
+	<strong>Por fecha:</strong>
 	<p align ="center">
-		<video width="320" height="240" controls>
+		<video width="560" height="420" controls>
 	  		<source src="videos/uh_delbydate.mp4" type="video/mp4">
 		</video>
-	</p>
-	<p> To delete data older than 10 days, send an email to  <a href="mailto:nyu-smapp-engineers@nyu.edu">nyu-smapp-engineers@nyu.edu.</a>. You must reference the user ID that you used to activate the extenson in your email and include the date(s) or date(s) and time(s) that you wish data to be deleted </p>
-</div>
+	
 
-<!-- BlackList -->
-<div>
-	<h2 id="blacklist">Can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
-	<p>You can enter website domains that you wish to keep private using the <Strong>Blacklist</Strong> feature in the extension</p> 
-	<p>Simply enter any URL in the format www.domain.com in <strong>Add Website to Blacklist</strong> field. Data from that domain will not be collected while you visiting it. </p>
-	<p align ="center">
-		<video width="320" height="240" controls>
+	<div class="extrapadding"></div>
+	
+	<h2 id="blacklist">¿Puedo evitar que la extensión grabe visitas a sitios web que deseo mantener privadas?</h2>
+	<p>El campo Agregar sitio web a la lista negra le permite ingresar la dirección de los dominios que no desea compartir. Ingrese cualquier URL en el formato www.domain.com en el campo Agregar sitio web a la lista negra. Las visitas a estos sitios web quedarán bloqueadas de la recopilación. Verá todos los dominios bloqueados en el campo Sitios web actualmente en la lista negra.</p>
+	
+	
+	<p align="center">
+		<video width="560" height="420" controls>
   			<source src="videos/uh_blacklist.mp4" type="video/mp4">
 		</video>
-	</p>
-	<p>You will see all domains you have blocked in the <strong>Websites Currenly Blacklisted</strong> field</p>
-</div>
+
 <!-- Unblacklist -->
-<div> 
-	<h2 id="unblacklist">Can I remove a website that I no longer wish to keep private?</h2>
-	<p>You can remove <strong>a blacklisted website from Websites currently blacklisted</strong> by </p> 
-	<p>Simply click the <strong>X</strong> on the right of the website domain you wish to unblacklist</p>
-	<p align="center">
-		<video width="300" height="240" controls>
-	  		<source src="videos/uh_unblacklist.mp4" type="video/mp4">
-		</video>
-	</p>
-</div>
-<!-- Assistance -->
-<div>
-	<h2 id="assistance"> Who should I contact for further information?</h2>
+
+		<!--<video width="300" height="240" controls>
+     <source src="videos/uh_unblacklist.mp4" type="video/mp4"></video>-->
+
+<div class="extrapadding"></div>
+
+	<h2 id="assistance">¿Cómo me comunico con soporte?</h2>
 	<ol>
-		<li>For any questions on using the extension, requesting data deletion or other technical problems, please reach out to <a href="mailto:nyu-smapp-engineers@nyu.edu"> nyu-smapp-engineers@nyu.edu</a></li>
-		<li>For any questions regarding the use of the extension, the data we collect, or the research projects that your data will be used in, please contact <a href="mailto:csmap@nyu.edu">csmap-surveys@nyu.edu</a> for assistance</li>
+	<li>Para preguntas sobre el uso de la extensión, para solicitar que se eliminen sus datos u otros problemas técnicos, comuníquese con <a href="mailto:csmap-engineers@nyu.edu">csmap-engineers@nyu.edu</a>.</li>
+<li>Para preguntas sobre los datos que recopilamos o proyectos de investigación que puedan usar sus datos, comuníquese con <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.</li>
 	</ol>
-</div>
+
 <p><a href="#top">Return to top </a></p>
-</body>
-</html>
+
+
