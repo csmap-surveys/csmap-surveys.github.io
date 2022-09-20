@@ -12,7 +12,7 @@
 <body>
 <a id="top"></a>
 
-<h3>Gracias por descargar URL Historian de CSMap. Esta página brinda orientación sobre los problemas que podrían surgir al usar la extensión. </h3>
+<h3>Gracias por descargar URL Historian de CSMaP. Esta página brinda orientación sobre los problemas que podrían surgir al usar la extensión. </h3>
 
 	<p>&nbsp;</p>
 	<strong>Table of contents</strong>
@@ -25,7 +25,7 @@
 	<li><a href="#html">¿Qué hacen los botones de activación junto a los íconos de Twitter, Facebook y YouTube?</a></li>
 	<li><a href="#pause">¿Qué opciones están disponibles si en ocasiones no quiero compartir datos?</a></li>
 	<li><a href="#delete">¿Hay alguna manera de eliminar datos que no quise compartir?</a></li>
-	<li><a href="blacklist">¿Puedo evitar que la extensión recopile visitas a sitios web que quiero mantener privadas?</a></li>
+	<li><a href="#blacklist">¿Puedo evitar que la extensión recopile visitas a sitios web que quiero mantener privadas?</a></li>
 	<li><a href="#assistance">¿Cómo me comunico con soporte?</a></li>
 
 	</ul>
