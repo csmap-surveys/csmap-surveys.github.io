@@ -14,7 +14,7 @@ header_pages_es:
   - url_historian_ayuda.md
 include:
   - README.md
-  - index.html
+  - index.md
   - csmap_url_historian.md
   - csmap_testing_instructions.md
   - csmap_url_historian_es.md
