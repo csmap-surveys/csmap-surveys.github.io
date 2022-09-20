@@ -52,14 +52,10 @@
 	<p align="center"><img src="images/alerts/inactive.jpg" style="padding:15px;"></p>
 
 
-	<div class="extrapadding"></div>
-
 	
 	<h2 id="survey">How do I get a Survey ID and User ID?</h2>
 	<p>Your <strong>survey ID</strong> is provided together with your <strong>user ID</strong> through either an email sent to you or through a link to install and activate the extension.</p>
 	<p>Your Survey ID and User ID are provided in the survey and through email when you agree to install the extension. If you no longer have access to these codes, you can request a code by emailing <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> and referencing where you completed the survey.</p>
-
-	<div class="extrapadding"></div>
 	
 
 	
@@ -89,8 +85,6 @@ The toggles next to the social media icons allow you to share data that appears 
 </ul>
 			
 
-	<div class="extrapadding"></div>
-
 	<h2 id="pause">What options are available if there are times I don’t want to share data?</h2>
 	<p>The toggle at the top left side of the extension window allows you to pause and resume data collection at any time. When the toggle is in “Active” state, the extension is collecting URLs for sites you visit.</p>
 	<ol>
@@ -98,7 +92,6 @@ The toggles next to the social media icons allow you to share data that appears 
 		<li>After the extension is paused for 60 minutes, a popup window will appear reminding you to resume activity. After the first reminder, follow-up reminders will appear every four hours.</li>
 	</ol>		
 
-	<div class="extrapadding"></div>
  	<h2 id="delete">Is there a way to delete data that I didn’t mean to share?
 </h2>
 	
