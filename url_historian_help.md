@@ -100,8 +100,6 @@ The toggles next to the social media icons allow you to share data that appears 
 	
 	<p>Within URL Historian, you can delete shared data for up to ten days after it was collected.</p>
 
-<div class="extrapadding"></div>
-
 	<p>The Delete Browse History feature allows you to delete data by Time or by Date.</p>
 	<ul>
 		<li>By Time allows you to delete data by the hour.</li>
