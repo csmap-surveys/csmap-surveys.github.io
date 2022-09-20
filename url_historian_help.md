@@ -21,7 +21,6 @@
 		<li><a href="#activate">How do I register and activate the extension?</a></li>
 	<li><a href="#forget">Why does a popup window keep appearing after installing the extension?</a></li>
 	<li><a href="#survey">How do I get a Survey ID and User ID?</a></li>
-	<li><a href="#uninstall">I got a failed activation error and the extension uninstalled itself, what should I do?</a></li>
 	<li><a href="#remove">I no longer wish to participate. How do I remove the extension from my Chrome browser?</a></li>
 	<li><a href="#html">What do the toggles next to the Twitter, Facebook and YouTube icons do?</a></li>
 	<li><a href="#pause">What options are available if there are times I don’t want to share data?</a></li>
@@ -42,7 +41,6 @@
 <li>After entering your User ID, you will see a pop-up screen prompting you to enter your Survey ID.</li>
 <li>After entering your Survey ID, the setup is complete. The extension will begin collecting your web history automatically.</li>
 	</ol>
-<p>The extension allows three registration attempts. After three failed registration attempts, the extension will uninstall automatically.</p>
 
 	<p align ="center"><iframe width="560" height="315" src="https://youtube.com/embed/E0yvIBu4QbQ"></iframe></p>
 
@@ -60,19 +58,9 @@
 	<h2 id="survey">How do I get a Survey ID and User ID?</h2>
 	<p>Your <strong>survey ID</strong> is provided together with your <strong>user ID</strong> through either an email sent to you or through a link to install and activate the extension.</p>
 	<p>Your Survey ID and User ID are provided in the survey and through email when you agree to install the extension. If you no longer have access to these codes, you can request a code by emailing <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> and referencing where you completed the survey.</p>
-	<p> The extension allows three login attempts. After three failed login attempts the extension will uninstall automatically. You can contact  <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> for assistance.</p>	
-	<p align="center"><img src="images/alerts/final_failed_attempt.jpg" style="padding:15px;"></p>
 
 	<div class="extrapadding"></div>
 	
-		
-	<h2 id="uninstall">I got a failed activation error and the extension uninstalled itself, what should I do?</h2>
-	<p>When you install the extension, you have three attempts to enter your User ID and Survey ID. If one of these codes was entered incorrectly or isn’t working, the extension will automatically uninstall. Please reach out to <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> for assistance.
-</p>
-	<p align="center"><img src="images/alerts/uninstall.jpg" style="padding:15px;"></p>
-
-	
-	<div class="extrapadding"></div>
 
 	
 	<h2 id="remove">I no longer want to participate. How do I remove the extension from my Chrome browser?</h2>
@@ -100,10 +88,7 @@ The toggles next to the social media icons allow you to share data that appears 
 	<li>The Facebook option will solely collect URLs that appear on your Facebook news feed when visiting facebook.com.</li> 
 </ul>
 			
-		<p align="center">
-		<video width="560" height="420" controls>
-	  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
-	</p>
+
 	<div class="extrapadding"></div>
 
 	<h2 id="pause">What options are available if there are times I don’t want to share data?</h2>
