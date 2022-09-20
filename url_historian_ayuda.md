@@ -21,7 +21,6 @@
 		<li><a href="#activate">¿Cómo registro y activo la extensión?</a></li>
 	<li><a href="#forget">Por qué sigue apareciendo una ventana emergente después de instalar la extensión?</a></li>
 	<li><a href="#survey">¿Cómo obtengo un Survey ID (ID de la encuesta) y un User ID (ID de usuario)?</a></li>
-	<li><a href="#uninstall">Me apareció un error de activación fallida y la extensión se desinstaló, ¿qué debo hacer?</a></li>
 	<li><a href="#remove">Ya no deseo participar. ¿Cómo elimino la extensión de mi navegador Chrome? </a></li>
 	<li><a href="#html">¿Qué hacen los botones de activación junto a los íconos de Twitter, Facebook y YouTube?</a></li>
 	<li><a href="#pause">¿Qué opciones están disponibles si en ocasiones no quiero compartir datos?</a></li>
@@ -42,7 +41,6 @@
 <li>Después de ingresar su ID de usuario, verá una pantalla emergente que le solicitará ingresar su ID de la encuesta.</li>
 <li>Después de ingresar su ID de la encuesta, la configuración estará completa. La extensión comenzará a recopilar su historial web automáticamente.</li>
 	</ol>
-<p>La extensión permite tres intentos de registro. Después de tres intentos fallidos de registro, la extensión se desinstalará automáticamente.</p>
 <p align="center"><img src="images/url_historian_userID_surveyID_es.png" style="padding:15px;"></p>
 
 
@@ -60,19 +58,9 @@
 	<h2 id="survey">¿Cómo obtengo un ID de la encuesta y un ID de usuario?</h2>
 	<p>Su<strong>ID de la encuesta</strong> se proporciona junto con su <strong>ID de usuario</strong> a través de un correo electrónico que se le envía o a través de un enlace para instalar y activar la extensión.</p>
 	<p>Su ID de la encuesta y su ID de usuario se proporcionan en la encuesta y por correo electrónico cuando acepta instalar la extensión. Si ya no tiene acceso a estos códigos, puede solicitar un código enviando un correo electrónico a <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> e indicando dónde completó la encuesta.</p>
-	<p> La extensión permite tres intentos de inicio de sesión. Después de tres intentos fallidos de inicio de sesión la extensión se desinstalará automáticamente Puede comunicarse con <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>para obtener ayuda.</p>	
-	<p align="center"><img src="images/alerts/final_failed_attempt.jpg" style="padding:15px;"></p>
 
 	<div class="extrapadding"></div>
 	
-	
-	<h2 id="uninstall">Me apareció un error de activación fallida y la extensión se desinstaló, ¿qué debo hacer?</h2>
-	<p>WCuando instala la extensión, tiene tres intentos para ingresar su ID de usuario y su ID de la encuesta. Si uno de estos códigos se ingresó incorrectamente o no funciona, la extensión se desinstalará automáticamente. Comuníquese con <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> para obtener ayuda.
-</p>
-	<p align="center"><img src="images/alerts/uninstall.jpg" style="padding:15px;"></p>
-
-	
-	<div class="extrapadding"></div>
 
 	
 	<h2 id="remove">Ya no quiero participar. ¿Cómo elimino la extensión de mi navegador Chrome?</h2>
@@ -85,9 +73,11 @@
 	</ol>
 	<p>Como alternativa, puede visitar la página <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en">URL Historian</a> en la tienda de Chrome. Haga clic en el botón azul “Eliminar de Chrome” en la esquina superior derecha. </p>
 	
-	<p align ="center">
-			<iframe width="560" height="315" src="https://youtube.com/embed/fPyXU4lRwKg"></iframe>
-	</p>
+<p align="center"><img src="images/url_historian_deintall_1.png" style="padding:15px;"></p>
+
+	<div class="extrapadding"></div>
+
+<p align="center"><img src="images/url_historian_deintall_2.png" style="padding:15px;"></p>
 
 	<div class="extrapadding"></div>
 
@@ -99,11 +89,7 @@ Los botones de activación junto a los iconos de las redes sociales permiten com
 	<li>La opción de YouTube recopilará videos listados al visitar youtube.com.</li>
 	<li>La opción de Facebook recopilará únicamente las URL que aparezcan en su feed de noticias de Facebook cuando visite facebook.com.</li> 
 </ul>
-	
-	<p align="center">
-		<video width="560" height="420" controls>
-	  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
-	</p>
+
 	<div class="extrapadding"></div>
 
 	<h2 id="pause">¿Qué opciones están disponibles si en ocasiones no quiero compartir datos?</h2>
@@ -132,14 +118,14 @@ Los botones de activación junto a los iconos de las redes sociales permiten com
 	<strong>Por tiempo:</strong>
 	<p align ="center">
 		<video width="560" height="373" controls>
-	  		<source src="videos/uh_delbytime.mp4" type="video/mp4">
+	  		<source src="videos/uh_delbytime_es.mov" type="video/mp4">
 		</video>
 	</p>
 	
 	<strong>Por fecha:</strong>
 	<p align ="center">
 		<video width="560" height="420" controls>
-	  		<source src="videos/uh_delbydate.mp4" type="video/mp4">
+	  		<source src="videos/uh_delbydate_es.mov" type="video/mp4">
 		</video>
 	
 
@@ -157,7 +143,7 @@ Los botones de activación junto a los iconos de las redes sociales permiten com
 <!-- Unblacklist -->
 
 		<!--<video width="300" height="240" controls>
-     <source src="videos/uh_unblacklist.mp4" type="video/mp4"></video>-->
+     <source src="videos/uh_unblacklist_es.mov" type="video/mp4"></video>-->
 
 <div class="extrapadding"></div>
 
