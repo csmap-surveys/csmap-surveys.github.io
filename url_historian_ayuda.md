@@ -59,7 +59,7 @@
 	<p>Su<strong>ID de la encuesta</strong> se proporciona junto con su <strong>ID de usuario</strong> a través de un correo electrónico que se le envía o a través de un enlace para instalar y activar la extensión.</p>
 	<p>Su ID de la encuesta y su ID de usuario se proporcionan en la encuesta y por correo electrónico cuando acepta instalar la extensión. Si ya no tiene acceso a estos códigos, puede solicitar un código enviando un correo electrónico a <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> e indicando dónde completó la encuesta.</p>
 	
-
+<div class="extrapadding"></div>
 	
 	<h2 id="remove">Ya no quiero participar. ¿Cómo elimino la extensión de mi navegador Chrome?</h2>
 	
