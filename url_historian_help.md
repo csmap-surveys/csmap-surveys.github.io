@@ -25,7 +25,7 @@
 	<li><a href="#html">What do the toggles next to the Twitter, Facebook and YouTube icons do?</a></li>
 	<li><a href="#pause">What options are available if there are times I don’t want to share data?</a></li>
 	<li><a href="#delete">Is there a way to delete data that I didn’t mean to share?</a></li>
-	<li><a href="blacklist">Can I prevent the extension collecting visits to websites I want to keep private?</a></li>
+	<li><a href="#blacklist">Can I prevent the extension collecting visits to websites I want to keep private?</a></li>
 	<li><a href="#assistance">How do I contact support?</a></li>
 
 	</ul>
