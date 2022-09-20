@@ -116,14 +116,14 @@ Los botones de activación junto a los iconos de las redes sociales permiten com
 	<strong>Por tiempo:</strong>
 	<p align ="center">
 		<video width="560" height="373" controls>
-	  		<source src="videos/uh_delbytime_es.mov" type="video/mp4">
+	  		<source src="videos/uh_delbytime_es.mov" type="video/mov">
 		</video>
 	</p>
 	
 	<strong>Por fecha:</strong>
 	<p align ="center">
 		<video width="560" height="420" controls>
-	  		<source src="videos/uh_delbydate_es.mov" type="video/mp4">
+	  		<source src="videos/uh_delbydate_es.mov" type="video/mov">
 		</video>
 	
 
@@ -135,7 +135,7 @@ Los botones de activación junto a los iconos de las redes sociales permiten com
 	
 	<p align="center">
 		<video width="560" height="420" controls>
-  			<source src="videos/uh_blacklist_es.mp4" type="video/mp4">
+  			<source src="uh_blacklist_es.mov" type="video/mov">
 		</video>
 
 <div class="extrapadding"></div>
