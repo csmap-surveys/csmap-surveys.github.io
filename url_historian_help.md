@@ -83,7 +83,7 @@ The toggles next to the social media icons allow you to share data that appears 
 	<li>The YouTube option will collect videos listed when visiting youtube.com.</li>
 	<li>The Facebook option will solely collect URLs that appear on your Facebook news feed when visiting facebook.com.</li> 
 </ul>
-</p>
+
 <div class="extrapadding"></div>
 
 	<h2 id="pause">What options are available if there are times I don’t want to share data?</h2>
@@ -92,7 +92,7 @@ The toggles next to the social media icons allow you to share data that appears 
 		<li>Slide the toggle button to the left to pause data collection, and to the right to resume data collection.</li>
 		<li>After the extension is paused for 60 minutes, a popup window will appear reminding you to resume activity. After the first reminder, follow-up reminders will appear every four hours.</li>
 	</ol>	
-</p>	
+
 <div class="extrapadding"></div>
 
  	<h2 id="delete">Is there a way to delete data that I didn’t mean to share?
