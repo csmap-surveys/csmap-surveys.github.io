@@ -58,8 +58,6 @@
 	<h2 id="survey">¿Cómo obtengo un ID de la encuesta y un ID de usuario?</h2>
 	<p>Su<strong>ID de la encuesta</strong> se proporciona junto con su <strong>ID de usuario</strong> a través de un correo electrónico que se le envía o a través de un enlace para instalar y activar la extensión.</p>
 	<p>Su ID de la encuesta y su ID de usuario se proporcionan en la encuesta y por correo electrónico cuando acepta instalar la extensión. Si ya no tiene acceso a estos códigos, puede solicitar un código enviando un correo electrónico a <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> e indicando dónde completó la encuesta.</p>
-
-	<div class="extrapadding"></div>
 	
 
 	
@@ -137,13 +135,8 @@ Los botones de activación junto a los iconos de las redes sociales permiten com
 	
 	<p align="center">
 		<video width="560" height="420" controls>
-  			<source src="videos/uh_blacklist.mp4" type="video/mp4">
+  			<source src="videos/uh_blacklist_es.mp4" type="video/mp4">
 		</video>
-
-<!-- Unblacklist -->
-
-		<!--<video width="300" height="240" controls>
-     <source src="videos/uh_unblacklist_es.mov" type="video/mp4"></video>-->
 
 <div class="extrapadding"></div>
 
