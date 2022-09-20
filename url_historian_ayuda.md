@@ -33,7 +33,7 @@
 	
 	<div class="extrapadding"></div>
 
-h2 id="activate">How do I register and activate the extension?</h2>
+<h2 id="activate">¿Cómo registro y activo la extensión?</h2>
 	<p>Recibirá un ID de usuario y un ID de la encuesta cuando complete una encuesta de CSMap y exprese interés en instalar la extensión URL Historian. Estos ID se compartirán en la encuesta o en un correo electrónico después de completar la encuesta.</p>
 	
 <p>Después de instalar la extensión, puede acceder a la ventana de URL Historian seleccionando la extensión en el menú de extensión de Chrome al que se puede acceder junto a la barra de direcciones (icono de la pieza del rompecabezas).</p>
@@ -43,15 +43,15 @@ h2 id="activate">How do I register and activate the extension?</h2>
 <li>Después de ingresar su ID de la encuesta, la configuración estará completa. La extensión comenzará a recopilar su historial web automáticamente.</li>
 	</ol>
 <p>La extensión permite tres intentos de registro. Después de tres intentos fallidos de registro, la extensión se desinstalará automáticamente.</p>
+<p align="center"><img src="images/url_historian_userID_surveyID_es.png" style="padding:15px;"></p>
 
-	<p align ="center"><iframe width="560" height="315" src="https://youtube.com/embed/E0yvIBu4QbQ"></iframe></p>
 
 	<div class="extrapadding"></div>
 	
 	
 	<h2 id="forget">¿Por qué sigue apareciendo una ventana emergente después de instalar la extensión?</h2>
 	<p>Si instaló la extensión y ve una ventana emergente (en la foto de abajo), deberá registrar la extensión. Consulte las <a href="activate">instrucciones anteriores</a> para completar ese paso.</p>
-	<p align="center"><img src="images/alerts/inactive.jpg" style="padding:15px;"></p>
+	<p align="center"><img src="images/alerts/inactive_es.png" style="padding:15px;"></p>
 
 
 	<div class="extrapadding"></div>
