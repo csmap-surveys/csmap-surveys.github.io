@@ -51,7 +51,7 @@
 	<p>If you installed the extension and see a pop-up window (pictured below), you will need to register the extension. Refer to the <a href="activate">instructions above</a> to complete that step.</p>
 	<p align="center"><img src="images/alerts/inactive.jpg" style="padding:15px;"></p>
 
-
+<div class="extrapadding"></div>
 	
 	<h2 id="survey">How do I get a Survey ID and User ID?</h2>
 	<p>Your <strong>survey ID</strong> is provided together with your <strong>user ID</strong> through either an email sent to you or through a link to install and activate the extension.</p>
@@ -83,19 +83,24 @@ The toggles next to the social media icons allow you to share data that appears 
 	<li>The YouTube option will collect videos listed when visiting youtube.com.</li>
 	<li>The Facebook option will solely collect URLs that appear on your Facebook news feed when visiting facebook.com.</li> 
 </ul>
-			
+
+<div class="extrapadding"></div>
 
 	<h2 id="pause">What options are available if there are times I don’t want to share data?</h2>
 	<p>The toggle at the top left side of the extension window allows you to pause and resume data collection at any time. When the toggle is in “Active” state, the extension is collecting URLs for sites you visit.</p>
 	<ol>
 		<li>Slide the toggle button to the left to pause data collection, and to the right to resume data collection.</li>
 		<li>After the extension is paused for 60 minutes, a popup window will appear reminding you to resume activity. After the first reminder, follow-up reminders will appear every four hours.</li>
-	</ol>		
+	</ol>	
+	
+<div class="extrapadding"></div>
 
  	<h2 id="delete">Is there a way to delete data that I didn’t mean to share?
 </h2>
 	
 	<p>Within URL Historian, you can delete shared data for up to ten days after it was collected.</p>
+
+<div class="extrapadding"></div>
 
 	<p>The Delete Browse History feature allows you to delete data by Time or by Date.</p>
 	<ul>
@@ -131,11 +136,6 @@ Enter any URL in the format www.domain.com in Add Website to Blacklist field. Vi
 		<video width="560" height="420" controls>
   			<source src="videos/uh_blacklist.mp4" type="video/mp4">
 		</video>
-
-<!-- Unblacklist -->
-
-		<!--<video width="300" height="240" controls>
-     <source src="videos/uh_unblacklist.mp4" type="video/mp4"></video>-->
 
 <div class="extrapadding"></div>
 
