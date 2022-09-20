@@ -57,7 +57,7 @@
 	<p>Your <strong>survey ID</strong> is provided together with your <strong>user ID</strong> through either an email sent to you or through a link to install and activate the extension.</p>
 	<p>Your Survey ID and User ID are provided in the survey and through email when you agree to install the extension. If you no longer have access to these codes, you can request a code by emailing <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> and referencing where you completed the survey.</p>
 	
-
+<div class="extrapadding"></div>
 	
 	<h2 id="remove">I no longer want to participate. How do I remove the extension from my Chrome browser?</h2>
 	
