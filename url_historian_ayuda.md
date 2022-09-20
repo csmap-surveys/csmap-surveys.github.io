@@ -133,9 +133,9 @@ Los botones de activación junto a los iconos de las redes sociales permiten com
 	<p>El campo Agregar sitio web a la lista negra le permite ingresar la dirección de los dominios que no desea compartir. Ingrese cualquier URL en el formato www.domain.com en el campo Agregar sitio web a la lista negra. Las visitas a estos sitios web quedarán bloqueadas de la recopilación. Verá todos los dominios bloqueados en el campo Sitios web actualmente en la lista negra.</p>
 	
 	
-	<p align="center">
+	<p align ="center">
 		<video width="560" height="420" controls>
-  			<source src="videos/uh_blacklist_es.mov" type="video/mp4">
+	  		<source src="videos/uh_blacklist_es.mov" type="video/mp4">
 		</video>
 
 <div class="extrapadding"></div>
