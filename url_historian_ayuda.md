@@ -135,7 +135,7 @@ Los botones de activación junto a los iconos de las redes sociales permiten com
 	
 	<p align="center">
 		<video width="560" height="420" controls>
-  			<source src="uh_blacklist_es.mov" type="video/mp4">
+  			<source src="videos/uh_blacklist_es.mov" type="video/mp4">
 		</video>
 
 <div class="extrapadding"></div>
