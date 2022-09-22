@@ -49,7 +49,9 @@
 	
 	<h2 id="forget">Why does a popup window keep appearing after installing the extension?</h2>
 	<p>If you installed the extension and see a pop-up window (pictured below), you will need to register the extension. Refer to the <a href="activate">instructions above</a> to complete that step.</p>
-	<p align="center"><img src="images/alerts/inactive.png" style="padding:15px;"></p>
+	<p align="center"><img src="images/alerts/inactive.png" style="padding:15px;">
+	<a href="#top">Return to top of page</a>
+	</p>
 
 <div class="extrapadding"></div>
 	
