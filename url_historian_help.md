@@ -58,6 +58,8 @@
 	<h2 id="survey">How do I get a Survey ID and User ID?</h2>
 	<p>Your <strong>survey ID</strong> is provided together with your <strong>user ID</strong> through either an email sent to you or through a link to install and activate the extension.</p>
 	<p>Your Survey ID and User ID are provided in the survey and through email when you agree to install the extension. If you no longer have access to these codes, you can request a code by emailing <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> and referencing where you completed the survey.</p>
+	<a href="#top">Return to top of page</a>
+
 	
 <div class="extrapadding"></div>
 	
@@ -65,6 +67,7 @@
 	
 	<p>You can remove the extension two ways.</p>
 	<p>Through the Chrome browser:</p>
+	<a href="#top">Return to top of page</a>
 <ol>
 	<li>Go to the extension menu in your Chrome browser, located next to the address bar (puzzle piece icon).</li> 
 <li>From the extensions menu, you will see URL Historian listed. Select the three dots next to the extension name to reveal a submenu. The submenu provides the option “Remove from Chrome…”  to uninstall the extension.</li>
@@ -85,6 +88,7 @@ The toggles next to the social media icons allow you to share data that appears 
 	<li>The YouTube option will collect videos listed when visiting youtube.com.</li>
 	<li>The Facebook option will solely collect URLs that appear on your Facebook news feed when visiting facebook.com.</li> 
 </ul>
+<a href="#top">Return to top of page</a>
 
 <div class="extrapadding"></div>
 
@@ -94,6 +98,7 @@ The toggles next to the social media icons allow you to share data that appears 
 		<li>Slide the toggle button to the left to pause data collection, and to the right to resume data collection.</li>
 		<li>After the extension is paused for 60 minutes, a popup window will appear reminding you to resume activity. After the first reminder, follow-up reminders will appear every four hours.</li>
 	</ol>	
+<a href="#top">Return to top of page</a>
 
 <div class="extrapadding"></div>
 
@@ -124,6 +129,7 @@ The toggles next to the social media icons allow you to share data that appears 
 		<video width="560" height="420" controls>
 	  		<source src="videos/uh_delbydate.mp4" type="video/mp4">
 		</video>
+<a href="#top">Return to top of page</a>
 	
 </p>
 	<div class="extrapadding"></div>
@@ -144,7 +150,8 @@ Enter any URL in the format www.domain.com in Add Website to Blacklist field. Vi
 	<li>For questions about  using the extension, to request your data be deleted or other technical problems, please reach out to <a href="mailto:csmap-engineers@nyu.edu">csmap-engineers@nyu.edu</a>.</li>
 <li>For questions regarding the data we collect or research projects that may use your data, please contact <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.</li>
 	</ol>
+<a href="#top">Return to top of page</a>
 
-<p><a href="#top">Return to top </a></p>
+
 
 
