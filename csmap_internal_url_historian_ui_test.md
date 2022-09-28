@@ -36,6 +36,10 @@
 		</ol>
 	</div>
 	<div>
+		<h3>Uninstall</h3>
+		<p>Leave the extension to run for two days. It should uninstall with a message</p>
+	</div>
+	<div>
 		<h3> User ID test</h3>
 		<ol>
 			<li>Input userID is an email followed by surveyID</li>
@@ -64,15 +68,11 @@
 		<p>Please wait <strong>12-24</strong> hours before proceeding to the next steps.</p> 
 	</div>
 	<div>
-		<h2> Deleting</h2>
+		<h3> Deleting</h3>
 		<ol>
 			<li>delete previous day data byDate </li>
 			<li>delete the current day byTime </li>
 		</ol>
-	</div>
-	<div>
-		<h2>Uninstall</h2>
-		<p>Leave the extension to run for two days. It should uninstall with a message</p>
 	</div>
 </body>
 </html>
