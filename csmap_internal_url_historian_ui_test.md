@@ -44,8 +44,8 @@
 		<h3> User ID test</h3>
 		<ol>
 			<li>Input userID as an email</li>
-			<li>Input userID as a wrong email format <strong>name@yahoocom</strong> </li>
-			<li>Incorporate one or more email characters <strong>(@, com, .)</strong> in your userID </li>
+			<li>Input userID as a wrong email format  example <strong>name@yahoocom</strong> </li>
+			<li>Incorporate one or more email characters  example <strong>(@, com, .)</strong> in your userID </li>
 		</ol>
 		<p> The userID is automatically truncated if its more than 30 characters and will be valid. The prompt to put surveyID</p>
 	</div>
