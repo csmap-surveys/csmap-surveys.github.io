@@ -30,8 +30,9 @@
 	<div>
 		<h3> Install </h3>
 		 <ol>
-			<li> clone the extension:
-				 <strong>git clone -b authenticate git@github.com:SMAPPNYU/url_historian_chrome.git</strong></li>
+			<li> clone the extension:<br>
+				<strong>git clone -b authenticate git@github.com:SMAPPNYU/url_historian_chrome.git</strong>
+			</li>
 			<li> Load the extension to your chrome browser</li>
 		</ol>
 	</div>
@@ -42,21 +43,22 @@
 	<div>
 		<h3> User ID test</h3>
 		<ol>
-			<li>Input userID is an email followed by surveyID</li>
-			<li>Input userID as wrong email format <strong>name@yahoocom</strong> followed by surveyID </li>
+			<li>Input userID as an email</li>
+			<li>Input userID as a wrong email format <strong>name@yahoocom</strong> </li>
 			<li>Incorporate one or more email characters <strong>(@, com, .)</strong> in your userID </li>
 		</ol>
-		<p> The userID is automatically truncated if its more than 30 characters and will be valid</p>
+		<p> The userID is automatically truncated if its more than 30 characters and will be valid. The prompt to put surveyID</p>
 	</div>
 	<div>
 		<h3> Survey ID TEST </h3>
 		<ol>
-			<li>For valid userID use <strong>guest</strong> as surveyID</li>
-			<li>make wrong entry for guest eg guets, guset, ...</li>
+			<li>With valid userID use <strong>guest</strong> as surveyID</li>
+			<li>make wrong entry for surveyID <strong>guest</strong> eg (guets, guset, ...) three times</li>
+			<li>make wrong entry for surveyID <strong>guest</strong> eg guets, guset, ... once or twice then correctly </li>
 		</ol>
 	</div>
 	<div>
-		<h3>Correctly activate the app and surf the web with the extension in thes modes</h3>
+		<h3>Correctly activate the app and surf the web with the extension in these modes</h3>
 		<ol>
 			<li>Active</li>
 			<li>Paused </li>
