@@ -44,7 +44,7 @@
 		<ol>
 			<li>Input userID is an email followed by surveyID</li>
 			<li>Input userID as wrong email format <strong>name@yahoocom</strong> followed by surveyID </li>
-			<li>Incorporate one or more email characters <strong>(@, com, .)</strong> in your userID <li>
+			<li>Incorporate one or more email characters <strong>(@, com, .)</strong> in your userID </li>
 		</ol>
 		<p> The userID is automatically truncated if its more than 30 characters and will be valid</p>
 	</div>
