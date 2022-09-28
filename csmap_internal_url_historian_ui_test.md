@@ -28,7 +28,7 @@
 		This tests are not exhaustive and you are welcome to add several others that may be encountered in the field
 	</p>
 	<div>
-		<h2> Install </h2>
+		<h3> Install </h3>
 		 <ol>
 			<li> clone the extension:
 				 <strong>git clone -b authenticate git@github.com:SMAPPNYU/url_historian_chrome.git</strong></li>
@@ -36,26 +36,28 @@
 		</ol>
 	</div>
 	<div>
-		<h2> User ID test</h2>
+		<h3> User ID test</h3>
 		<ol>
 			<li>Input userID is an email followed by surveyID</li>
-			<li>Input userID as wrong email format name@yahoocom followed by surveyID </li>
-			<li>Incorporate one or more email characters(@, com, .) in your userID <li>
-		<ol>
+			<li>Input userID as wrong email format <strong>name@yahoocom</strong> followed by surveyID </li>
+			<li>Incorporate one or more email characters <strong>(@, com, .)</strong> in your userID <li>
+		</ol>
 		<p> The userID is automatically truncated if its more than 30 characters and will be valid</p>
 	</div>
 	<div>
-		<h2> Survey ID TEST </h2>
+		<h3> Survey ID TEST </h3>
+		<ol>
 			<li>For valid userID use <strong>guest</strong> as surveyID</li>
 			<li>make wrong entry for guest eg guets, guset, ...</li>
+		</ol>
 	</div>
 	<div>
-		<h2>Correctly activate the app and surf the web with the extension in thes modes</h2>
+		<h3>Correctly activate the app and surf the web with the extension in thes modes</h3>
 		<ol>
 			<li>Active</li>
 			<li>Paused </li>
 			<li>With Blackisted sites</li>
-		<ol>
+		</ol>
 	</div>
 	<div>
 		<h1 class="blink-two" ><center><strong style="font-size: 30px; color: #FF0000">STOP!</strong></center></h1> 
@@ -66,7 +68,7 @@
 		<ol>
 			<li>delete previous day data byDate </li>
 			<li>delete the current day byTime </li>
-		<ol>
+		</ol>
 	</div>
 	<div>
 		<h2>Uninstall</h2>
