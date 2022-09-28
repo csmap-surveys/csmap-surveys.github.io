@@ -29,8 +29,11 @@
 	</p>
 	<div>
 		<h2> Install </h2>
-			<li> clone the extension <br> git clone -b authenticate git@github.com:SMAPPNYU/url_historian_chrome.git</li>
+		 <ol>
+			<li> clone the extension:
+				 <strong>git clone -b authenticate git@github.com:SMAPPNYU/url_historian_chrome.git</strong></li>
 			<li> Load the extension to your chrome browser</li>
+		</ol>
 	</div>
 	<div>
 		<h2> User ID test</h2>
@@ -45,7 +48,6 @@
 		<h2> Survey ID TEST </h2>
 			<li>For valid userID use <strong>guest</strong> as surveyID</li>
 			<li>make wrong entry for guest eg guets, guset, ...</li>
-	</div>
 	</div>
 	<div>
 		<h2>Correctly activate the app and surf the web with the extension in thes modes</h2>
