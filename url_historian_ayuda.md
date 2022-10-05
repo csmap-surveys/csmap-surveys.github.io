@@ -51,6 +51,7 @@
 	<p>Su ID de la encuesta y su ID de usuario se proporcionan en la encuesta y por correo electrónico cuando acepta instalar la extensión. Si ya no tiene acceso a estos códigos, puede solicitar un código enviando un correo electrónico a <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> e indicando dónde completó la encuesta.</p>
 	<a href="#top">volver a la cima </a>
 </div>
+
 <div class="extrapadding">
 	<h2 id="remove">Ya no deseo participar. ¿Cómo elimino la extensión de mi navegador Chrome?</h2>
 	<p>Se puede quitar la extensión de dos maneras.</p>
@@ -108,8 +109,10 @@
 		<video width="560" height="420" controls>
 	  		<source src="videos/uh_delbydate_es.mov" type="video/mp4">
 		</video>
+	</p>
 	<a href="#top">volver a la cima </a>
 </div>
+
 <div class="extrapadding">
 	<h2 id="blacklist">¿Puedo evitar que la extensión grabe visitas a sitios web que deseo mantener privadas?</h2>
 	<p>El campo Agregar sitio web a la lista negra le permite ingresar la dirección de los dominios que no desea compartir. Ingrese cualquier URL en el formato www.domain.com en el campo Agregar sitio web a la lista negra. Las visitas a estos sitios web quedarán bloqueadas de la recopilación. Verá todos los dominios bloqueados en el campo Sitios web actualmente en la lista negra.</p>
@@ -117,6 +120,7 @@
 		<video width="560" height="420" controls>
 	  		<source src="videos/uh_blacklist_es.mov" type="video/mp4">
 		</video>
+	</p>
 </div>
 
 <div class="extrapadding">
@@ -125,7 +129,7 @@
 		<li>Para preguntas sobre el uso de la extensión, para solicitar que se eliminen sus datos u otros problemas técnicos, comuníquese con <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a>.</li>
 		<li>Para preguntas sobre los datos que recopilamos o proyectos de investigación que puedan usar sus datos, comuníquese con <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.</li>
 	</ol>
-	<p><a href="#top">volver a la cima </a></p>
+	<a href="#top">volver a la cima </a>
 </div>
 
 
