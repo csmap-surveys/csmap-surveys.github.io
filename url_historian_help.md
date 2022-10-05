@@ -1,6 +1,5 @@
 # Frequently Asked Questions
 
-	
 <html>
 <head>
 <style>
@@ -51,14 +50,14 @@
 </div>
 <div class="extrapadding">
 	<h2 id="survey">How do I get a Survey ID and User ID?</h2>
-	<p>Your <strong>survey ID</strong> is provided together with your <strong>user ID</strong> through either an email sent to you or through a link to install and activate the extension.</p>
+	<p>Your <strong>surveyID</strong> is provided together with your <strong>userID</strong> through either an email sent to you or through a link to install and activate the extension.</p>
 	<p>Your Survey ID and User ID are provided in the survey and through email when you agree to install the extension. If you no longer have access to these codes, you can request a code by emailing <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a> and referencing where you completed the survey.</p>
 	<a href="#top">Return to top</a>
 </div>
 	
 <div class="extrapadding">
 	<h2 id="remove">I no longer want to participate. How do I remove the extension from my Chrome browser?</h2>
-	<p>You can remove the extension two ways.</p>
+	<p>You can remove the extension in two ways.</p>
 	<p>Through the Chrome browser:</p>
 	<ol>
 		<li>Go to the extension menu in your Chrome browser, located next to the address bar (puzzle piece icon).</li> 
@@ -99,20 +98,20 @@
 		<li>By Time allows you to delete data by the hour.</li>
 		<li>By Date allows you to delete data for the days you select.</li>
 	</ul>
-<p>When you delete data within the extension, it is effective immediately and will remove selected records from our server.</p>
-<p>If more than ten days have passed since data was collected, you can contact NYU CSMaP Engineers at csmap-engineers@nyu.edu to request your data be deleted. Please include the dates or times of collection you need deleted.</p>
-	<strong>By time:</strong>
-	<p align ="center">
-		<video width="560" height="373" controls>
-	  		<source src="videos/uh_delbytime.mp4" type="video/mp4">
-		</video>
-	</p>
-	<strong>By date:</strong>
-	<p align ="center">
-		<video width="560" height="420" controls>
-	  		<source src="videos/uh_delbydate.mp4" type="video/mp4">
-		</video></p>
-<a href="#top">Return to top</a>
+	<p>When you delete data within the extension, it is effective immediately and will remove selected records from our server.</p>
+	<p>If more than ten days have passed since data was collected, you can contact NYU CSMaP Engineers at <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> to request your data be deleted. Please include the dates or times of collection you need deleted.</p>
+		<strong>By time:</strong>
+		<p align ="center">
+			<video width="560" height="373" controls>
+		  		<source src="videos/uh_delbytime.mp4" type="video/mp4">
+			</video>
+		</p>
+		<strong>By date:</strong>
+		<p align ="center">
+			<video width="560" height="420" controls>
+		  		<source src="videos/uh_delbydate.mp4" type="video/mp4">
+			</video></p>
+	<a href="#top">Return to top</a>
 </div>
 
 <div class="extrapadding">
@@ -128,10 +127,10 @@
 <div class="extrapadding">
 	<h2 id="assistance">How do I contact support?</h2>
 	<ol>
-	<li>For questions about  using the extension, to request your data be deleted or other technical problems, please reach out to <a href="mailto:csmap-engineers@nyu.edu">csmap-engineers@nyu.edu</a>.</li>
-<li>For questions regarding the data we collect or research projects that may use your data, please contact <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.</li>
+	<li>For questions about  using the extension, to request your data be deleted or other technical problems, please reach out to <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a>.</li>
+	<li>For questions regarding the data we collect or research projects that may use your data, please contact <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.</li>
 	</ol>
-<a href="#top">Return to top </a>
+	<a href="#top">Return to top </a>
 </div>
 
 
