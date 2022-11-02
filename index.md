@@ -1,3 +1,7 @@
+---
+title: Home
+layout: generic
+---
 
 <script src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.36744" type="text/javascript"></script>
 <script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.36744" type="text/javascript"></script>
