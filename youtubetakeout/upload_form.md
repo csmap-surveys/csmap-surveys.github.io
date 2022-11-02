@@ -1,5 +1,5 @@
 ---
-title: YouTube Takeout Instructions
+title: Upload form
 layout: youtube_study
 ---
 # Upload form
