@@ -15,8 +15,8 @@ header_pages_es:
 other_pages:
   - index.md
 youtube_study:
-  - /youtubetakeout/index.md
-  - /youtubetakeout/upload_form.md
+  - index.md
+  - upload_form.md
 include:
   - README.md
   - index.md
