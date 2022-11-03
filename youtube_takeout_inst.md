@@ -8,12 +8,13 @@ layout: youtube_study
 
 1. Visit this link: https://takeout.google.com/settings/takeout/custom/youtube 
 2. Configure the included data settings to be limited to: history, my-comments, my-posts, playlists, and subscriptions.
+<img src="images/yt-select_options.png" width="400">
 <img src="images/yt-what_to_select.png" width="400">
-4. Click on “Next Step”
-5. For the file format field, select “.zip”
-6. For file size, select 1 GB. 
+3. Click on “Next Step”
+4. For the file format field, select “.zip”
+5. For file size, select 1 GB. 
 *Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in the configuration settings.*
-6. For more details and screen captures of these steps.
+
 
 **Step 2: Wait for your takeout data to become available**
 After completing these steps, it may take Google anywhere from 1 hour to a few days to send you the data archive.
