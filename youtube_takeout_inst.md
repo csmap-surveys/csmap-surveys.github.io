@@ -8,8 +8,8 @@ layout: youtube_study
 
 1. Visit this link: https://takeout.google.com/settings/takeout/custom/youtube 
 2. Configure the included data settings to be limited to: history, my-comments, my-posts, playlists, and subscriptions.
-<img src="images/yt-select_options.png" width="400">
-<img src="images/yt-what_to_select.png" width="400">
+<img src="images/yt-select_options.png" width="500">
+<img src="images/yt-what_to_select.png" width="300">
 3. Click on “Next Step”
 4. For the file format field, select “.zip”
 5. For file size, select 1 GB. 
