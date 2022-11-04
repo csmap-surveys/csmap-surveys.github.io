@@ -2,6 +2,10 @@
 title: Instructions
 layout: youtube_study
 ---
+<style>
+ol li {padding-bottom:15px;}  
+  
+</style>  
 # Instructions for contributing YouTube Data
 
 ## Step 1: Request YouTube data from Google Takeout services
