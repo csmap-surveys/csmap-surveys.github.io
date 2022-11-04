@@ -6,14 +6,18 @@ layout: youtube_study
 
 **Step 1: Request YouTube data from Google Takeout services**
 
-1. Visit this link: https://takeout.google.com/settings/takeout/custom/youtube 
-2. Configure the included data settings to be limited to: history, my-comments, my-posts, playlists, and subscriptions.
-<img src="images/yt-select_options.png" width="500">
-<img src="images/yt-what_to_select.png" width="300">
-3. Click on “Next Step”
-4. For the file format field, select “.zip”
-5. For file size, select 1 GB. 
-*Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in the configuration settings.*
+1. Visit this link: <a href="https://takeout.google.com/settings/takeout/custom/youtube">https://takeout.google.com/settings/takeout/custom/youtube</a>
+2. On this page you will see the window "Select data to incude" (pictured below)
+<p style="align:center;"><img src="images/yt-select_options.png" width="500"></p>
+3. Click on the option "All YouTube data included" - this will allow you to limit the data that you share.
+4. On the pop-up window (pictured below), only check off options: history, my-comments, my-posts, playlists, and subscriptions.
+<p style="align:center;"><img src="images/yt-what_to_select.png" width="300"></p>
+5. Click on “OK.” Then on the original window, click "Next step"
+6. In the next windowyou can select file type, frequency, and destination.
+- For frequency, choose "export once"
+- For the file format field, select “.zip”
+- For file size, select 1 GB. 
+*Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in tstep 4.*
 
 
 **Step 2: Wait for your takeout data to become available**
