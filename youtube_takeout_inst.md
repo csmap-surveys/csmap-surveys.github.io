@@ -18,7 +18,7 @@ ol li {padding-bottom:15px;}
 <img src="images/yt-what_to_select.png" width="300" style="margin:auto;"><br/>
 5. Click on “OK.” Then on the original window, click "Next step".
 6. In the next windowyou can select file type, frequency, and destination.<br/>
-<img src="images/choose_file_type.png" width="400" style="margin:auto;"><br/>
+<img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
 - For frequency, choose "export once".
 - For the file format field, select “.zip”.
 - For file size, select 1 GB. 
