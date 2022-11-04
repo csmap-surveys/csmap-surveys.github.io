@@ -7,14 +7,14 @@ layout: youtube_study
 ## Step 1: Request YouTube data from Google Takeout services
 
 1. Visit this link: <a href="https://takeout.google.com/settings/takeout/custom/youtube">https://takeout.google.com/settings/takeout/custom/youtube</a>
-2. On this page you will see the window "Select data to incude" (pictured below)
+2. On this page you will see the window "Select data to incude" (pictured below)<br/>
 <img src="images/yt-select_options.png" width="500">
 3. Click on the option "All YouTube data included" - this will allow you to limit the data that you share.
-4. On the pop-up window (pictured below), only check off options: history, my-comments, my-posts, playlists, and subscriptions.
-<img src="images/yt-what_to_select.png" width="300">
+4. On the pop-up window (pictured below), only check off options: history, my-comments, my-posts, playlists, and subscriptions.<br/>
+<img src="images/yt-what_to_select.png" width="300"><br/>
 5. Click on “OK.” Then on the original window, click "Next step"
-6. In the next windowyou can select file type, frequency, and destination.
-<img src="images/choose_file_type.png" width="400">
+6. In the next windowyou can select file type, frequency, and destination.<br/>
+<img src="images/choose_file_type.png" width="400"><br/>
 - For frequency, choose "export once"
 - For the file format field, select “.zip”
 - For file size, select 1 GB. 
