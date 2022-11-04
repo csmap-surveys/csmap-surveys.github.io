@@ -32,7 +32,7 @@ After completing these steps, it may take Google anywhere from 1 hour to a few d
 When the archive is ready, you will receive an email from “Google Takeout” with the subject “Your Google Data is ready to download.”
 
 After you download your takeout data, you are ready to upload your data to the study <a href="https://www.csmapsurveys.org/youtube_takeout.html" style="font-weight:bold;">upload form</a>.
-<button><h2>Upload data here</h2></button>
+<button><a href="https://www.csmapsurveys.org/youtube_takeout.html" style="font-weight:bold;"><h2>Upload data here</h2></a></button>
 You will also need your User ID and Survey ID.
 
 Please email csmapsupport@nyu.edu with the subject line "YouTube takeout" if you have any issues with these steps.
