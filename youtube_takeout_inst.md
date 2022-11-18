@@ -10,10 +10,10 @@ ol li {padding-bottom:15px;}
 
 ## Step 1: Request YouTube data from Google Takeout services
 
-1. Visit this link: <a href="https://takeout.google.com/settings/takeout/custom/youtube">https://takeout.google.com/settings/takeout/custom/youtube</a>.
-2. On this page you will see the window "Select data to incude" (pictured below).<br/>
+1. Visit this link: <a href="https://takeout.google.com/settings/takeout/custom/youtube" target="new">https://takeout.google.com/settings/takeout/custom/youtube</a>.
+2. On this page you will see the window "Select data to incude" (pictured below).
+3. Click on the option "All YouTube data included" - this will allow you to limit the data that you share.<br/>
 <img src="images/yt-select_options.png" width="500" style="margin:auto;">
-3. Click on the option "All YouTube data included" - this will allow you to limit the data that you share.
 4. On the pop-up window (pictured below), only check off options: history, my-comments, my-live-chat-messages, and subscriptions.<br/>
 <img src="images/yt-what_to_select.png" width="300" style="margin:auto;"><br/>
 5. Click on “OK.” Then on the original window, click "Next step".
@@ -25,7 +25,7 @@ ol li {padding-bottom:15px;}
 *Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in step 4.*
 
 ## Step 2: Wait for your takeout data to become available
-After completing these steps, it may take Google anywhere from 1 hour to a few days to send you the data archive.
+After completing the Goolge takeout request, it may take Google anywhere from 1 hour to a few days to send you the data archive.
 
 
 ## Step 3: Submit your takeout data to receive points
