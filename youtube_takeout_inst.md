@@ -17,23 +17,23 @@ ol li {padding-bottom:15px;}
 4. On the pop-up window (pictured below), only check off options: history, my-comments, my-live-chat-messages, and subscriptions.<br/>
 <img src="images/yt-what_to_select.png" width="300" style="margin:auto;"><br/>
 5. Click on “OK.” Then on the original window, click "Next step".
-6. In the next windowyou can select file type, frequency, and destination.<br/>
+6. In the next window, you can select file type, frequency, and destination.<br/>
 <img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
-- For frequency, choose "export once".
-- For the file format field, select “.zip”.
-- For file size, select 1 GB. 
+- For Transfer to:, keep "Send download link via email" selected.
+- For Frequency, choose "export once".
+- For the File type field, select “.zip”.
+- For File size field, select 1 GB. 
+- The click on the blue "Create export" button.
 *Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in step 4.*
 
 ## Step 2: Wait for your takeout data to become available
-After completing the Goolge takeout request, it may take Google anywhere from 1 hour to a few days to send you the data archive.
-
+After completing the Goolge takeout request, it should only be a few minutes before you receive the archive from Google in your inbox. On some rare occasions it can take a few days.
 
 ## Step 3: Submit your takeout data to receive points
 When the archive is ready, you will receive an email from “Google Takeout” with the subject “Your Google Data is ready to download.”
 
-After you download your takeout data, you are ready to upload your data to the study <a href="https://www.csmapsurveys.org/youtube_takeout.html" style="font-weight:bold;">upload form</a>.
-<a href="https://www.csmapsurveys.org/youtube_takeout.html" style="font-size:24px; display:block; width:200px; margin:auto; padding:10px; border:1px solid #000; font-weight:bold;">Upload data here</a>
-You will also need your User ID and Survey ID.
+After you download your takeout data, you are ready to upload your data to the study. You can upload the file that ends in ".zip" to the personalized link provided to you in the email after you completed your survey.
+
 
 Please email csmapsupport@nyu.edu with the subject line "YouTube takeout" if you have any issues with these steps.
 
