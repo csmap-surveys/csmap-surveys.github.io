@@ -17,7 +17,7 @@ ol li {padding-bottom:15px;}
 <img src="images/yt-select_options.png" width="500" style="margin:auto;">
 4. On the pop-up window (pictured below), only check off options: history, my-comments, my-live-chat-messages, and subscriptions.<br/>
 <img src="images/yt-what_to_select.png" width="300" style="margin:auto;"><br/>
-<div style="padding-top:30px;"></div>
+&nbsp;<br/>&nbsp;<br>
 5. Click on “OK.” Then on the original window, click "Next step".
 6. In the next window, you can select file type, frequency, and destination.<br/>
 <img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
