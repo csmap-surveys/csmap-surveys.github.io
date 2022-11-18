@@ -25,6 +25,7 @@ ol li {padding-bottom:15px;}
 - For the File type field, select “.zip”.
 - For File size field, select 1 GB. 
 - The click on the blue "Create export" button.
+<br/> 
 *Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in step 4.*
 
 ## Step 2: Wait for your takeout data to become available
