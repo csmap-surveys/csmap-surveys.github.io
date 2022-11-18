@@ -17,6 +17,7 @@ ol li {padding-bottom:15px;}
 <img src="images/yt-select_options.png" width="500" style="margin:auto;">
 4. On the pop-up window (pictured below), only check off options: history, my-comments, my-live-chat-messages, and subscriptions.<br/>
 <img src="images/yt-what_to_select.png" width="300" style="margin:auto;"><br/>
+<div style="padding-top:30px;"></div>
 5. Click on “OK.” Then on the original window, click "Next step".
 6. In the next window, you can select file type, frequency, and destination.<br/>
 <img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
@@ -27,10 +28,10 @@ ol li {padding-bottom:15px;}
 - The click on the blue "Create export" button.
 <br/> 
 *Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in step 4.*
-
+<div style="padding-top:30px;"></div>
 ## Step 2: Wait for your takeout data to become available
 After completing the Goolge takeout request, it should only be a few minutes before you receive the archive from Google in your inbox. On some rare occasions it can take a few days.
-
+<div style="padding-top:30px;"></div>
 ## Step 3: Submit your takeout data to receive points
 When the archive is ready, you will receive an email from “Google Takeout” with the subject “Your Google data is ready to download.”
 
