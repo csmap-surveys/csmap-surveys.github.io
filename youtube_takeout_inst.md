@@ -13,7 +13,7 @@ ol li {padding-bottom:15px;}
 1. Visit this link: <a href="https://takeout.google.com/settings/takeout/custom/youtube" target="new">https://takeout.google.com/settings/takeout/custom/youtube</a>.
 2. Scroll down to the section that says "Create a new export."
 3. You will see the window "Select data to incude" with Products listed as "Youtube and YouTube Music" (pictured below).
-4. Click on the option "All YouTube data included" - this is an important steps that will allow you to limit the data that you share.<br/>
+4. **Click on the option "All YouTube data included" - this is an important steps that will allow you to limit the data that you share.**<br/>
 <img src="images/yt-select_options.png" width="500" style="margin:auto;">
 4. On the pop-up window (pictured below), only check off options: history, my-comments, my-live-chat-messages, and subscriptions.<br/>
 <img src="images/yt-what_to_select.png" width="300" style="margin:auto;"><br/>
