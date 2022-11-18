@@ -6,8 +6,8 @@ layout: youtube_study
 ol li {padding-bottom:15px;}  
   
 </style>  
-# Instructions for contributing YouTube Data
-
+# Instructions
+<div style="padding-top:20px;"></div>
 ## Step 1: Request YouTube data from Google Takeout services
 
 1. Visit this link: <a href="https://takeout.google.com/settings/takeout/custom/youtube" target="new">https://takeout.google.com/settings/takeout/custom/youtube</a>.
