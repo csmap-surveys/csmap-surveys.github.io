@@ -32,10 +32,12 @@ ol li {padding-bottom:15px;}
 ## Step 2: Wait for your takeout data to become available
 After completing the Google takeout request, it should only be a few minutes before you receive the archive from Google in your inbox. On some rare occasions it can take a few days.
 <div style="padding-top:30px;"></div>
-## Step 3: Submit your takeout data to receive points
+## Step 3: Download your YouTube takeout data
 Check for an email from “Google Takeout” with the subject “Your Google data is ready to download.” This may take a while.
-
-Downlaod the zip file attachment from Google to your computer. **You will receive a link from your survey provider with a link to a form. You can upload the zip file using this form.**
+Downlaod the zip file attachment from Google to your computer. 
+<div style="padding-top:30px;"></div>
+## Step 4: Submit your takeout data to receive points
+**You will receive a link from your survey provider with a link to a form. Upload the takeout data zip file using this form.**
 <div style="padding-top:80px;"></div>
 
 If you have trouble with these steps, you can <a href="mailto:csmapsupport@nyu.edu">email support</a>. 
