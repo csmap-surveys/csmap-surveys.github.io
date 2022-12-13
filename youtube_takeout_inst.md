@@ -33,12 +33,12 @@ ol li {padding-bottom:15px;}
 After completing the Google takeout request, it should only be a few minutes before you receive the archive from Google in your inbox. On some rare occasions it can take a few days.
 <div style="padding-top:30px;"></div>
 ## Step 3: Submit your takeout data to receive points
-When the archive is ready, you will receive an email from “Google Takeout” with the subject “Your Google data is ready to download.”
+Check for an email from “Google Takeout” with the subject “Your Google data is ready to download.” This may take a while.
 
-After you download the takeout data to your computer, you are ready to upload it to the study. **You can upload the file that ends in ".zip" to the personalized link provided to you in the email after you completed your survey.**
+Downlaod the zip file attachment from Google to your computer. **You will receive a link from your survey provider with a link to a form. You can upload the zip file using this form.**
+<div style="padding-top:80px;"></div>
 
-
-Please email csmapsupport@nyu.edu with the subject line "YouTube takeout" if you have any issues with these steps.
+If you have trouble with these steps, you can <a href="mailto:csmapsupport@nyu.edu">email support</a>. 
 
 
 
