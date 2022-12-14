@@ -17,6 +17,8 @@ other_pages:
 youtube_study:
   - youtube_takeout_inst.md
   - youtube_takeout_inst_es.md
+facebook_study:
+  - thankyou_fb.md
 include:
   - README.md
   - index.md
