@@ -15,7 +15,7 @@ ol li {padding-bottom:15px;}
 3. You will see the window "Select data to include" with Products listed as "Youtube and YouTube Music" (pictured below).
 4. **Click on the option "All YouTube data included" - this is an important step that will allow you to limit the data that you share.**<br/>
 <img src="images/yt-select_options.png" width="500" style="margin:auto;">
-4. On the pop-up window (pictured below), only check off options: history, my-comments, my-live-chat-messages, and subscriptions.<br/>
+4. On the pop-up window (pictured below), you only need to select the following options: history, my-comments, my-live-chat-messages, and subscriptions.<br/>
 <img src="images/yt-what_to_select.png" width="300" style="margin:auto;"><br/>
 &nbsp;<br/>&nbsp;<br>
 5. Click on “OK.” Then on the original window, click "Next step".
