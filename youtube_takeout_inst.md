@@ -34,7 +34,7 @@ After completing the Google takeout request, it should only be a few minutes bef
 <div style="padding-top:30px;"></div>
 ## Step 3: Download your YouTube takeout data
 Check for an email from “Google Takeout” with the subject “Your Google data is ready to download.” This may take a while.
-Downlaod the zip file attachment from Google to your computer. 
+Download the zip file attachment from Google to your computer. 
 <div style="padding-top:30px;"></div>
 ## Step 4: Submit your takeout data to receive points
 **You will receive a link from your survey provider with a link to a form. Upload the takeout data zip file using this form.**
