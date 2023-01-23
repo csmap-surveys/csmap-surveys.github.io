@@ -8,34 +8,35 @@ ol li {padding-bottom:15px;}
 </style>  
 # Instrucciones
 <div style="padding-top:20px;"></div>
-## Step 1: Request YouTube data from Google Takeout services
+## Paso 1: Solicite sus datos de YouTube con los servicios de Google Takeout
 
-1. Visit this link: <a href="https://takeout.google.com/settings/takeout/custom/youtube" target="new">https://takeout.google.com/settings/takeout/custom/youtube</a>.
-2. Scroll down to the section that says "Create a new export."
-3. You will see the window "Select data to include" with Products listed as "Youtube and YouTube Music" (pictured below).
-4. **Click on the option "All YouTube data included" - this is an important step that will allow you to limit the data that you share.**<br/>
+1. Visite este enlace: <a href="https://takeout.google.com/settings/takeout/custom/youtube" target="new">https://takeout.google.com/settings/takeout/custom/youtube</a>.
+2. Desplácese hacia abajo hasta la sección que dice "Crear una nueva exportación"
+3. Verá la ventana "Seleccionar datos a incluir" que enumera los diferentes productos como "YouTube y YouTube Music" (en la siguiente imagen).
+4. **Haga clic en la opción "Todos los datos de YouTube incluidos": este es un paso importante que le permitirá limitar los datos que comparte.**<br/>
 <img src="images/yt-select_options.png" width="500" style="margin:auto;">
-4. On the pop-up window (pictured below), only check off options: history, my-comments, my-live-chat-messages, and subscriptions.<br/>
+5.En la ventana emergente (que se muestra a continuación), solo marque las opciones: historial, mis comentarios, mis mensajes de chat en vivo y suscripciones. <br/>
 <img src="images/yt-what_to_select.png" width="300" style="margin:auto;"><br/>
 &nbsp;<br/>&nbsp;<br>
-5. Click on “OK.” Then on the original window, click "Next step".
-6. In the next window, you can select file type, frequency, and destination.<br/>
+6. Haga clic en "Aceptar". Luego, en la ventana original, haga clic en "Siguiente paso."
+7. En la siguiente ventana, puede seleccionar el tipo de archivo, la frecuencia y el destino.<br/>
 <img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
-- For Transfer to:, keep "Send download link via email" selected.
-- For Frequency, choose "export once".
-- For the File type field, select “.zip”.
-- For File size field, select 1 GB. 
-- Then click on the blue "Create export" button.
+- En Transferir a, mantenga seleccionado "Enviar enlace de descarga por correo electrónico."
+- En Frecuencia, elija "exportar una vez."
+- En el campo Tipo de archivo, seleccione ".zip."
+- En el campo Tamaño de archivo, seleccione 1 GB.
+- Luego haga clic en el botón azul "Crear exportación". 
 <br/> 
-*Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in step 4.*
+*Nota: si el tamaño del archivo es superior a 1 GB, lo más probable es que haya seleccionado más datos de los solicitados. Asegúrese de quitar la selección de "videos" en el paso 4*
 <div style="padding-top:30px;"></div>
-## Step 2: Wait for your takeout data to become available
-After completing the Google takeout request, it should only be a few minutes before you receive the archive from Google in your inbox. On some rare occasions it can take a few days.
+## Paso 2: Espere a que sus datos para llevar estén disponibles
+Después de completar la solicitud de Google Takeout, solo deben pasar unos minutos antes de que reciba el archivo de Google en su bandeja de entrada. En algunas raras ocasiones puede tardar unos días.
 <div style="padding-top:30px;"></div>
-## Step 3: Submit your takeout data to receive points
-When the archive is ready, you will receive an email from “Google Takeout” with the subject “Your Google data is ready to download.”
-
-After you download the takeout data to your computer, you are ready to upload it to the study. **You can upload the file that ends in ".zip" to the personalized link provided to you in the email after you completed your survey.**
+## Paso 3: Descargue sus datos de YouTube Takeout
+Busque un correo electrónico de "Google Takeout" con el asunto "Sus datos de Google están listos para descargar". Esto puede tardar un rato. Descargue el archivo adjunto zip de Google a su computadora.
+## Paso 4: Envíe los datos que recibió de Takeout para recibir puntos
+ 
+ **Recibirá un enlace de su proveedor de encuestas con un enlace a un formulario. Cargue el archivo Takout zip de datos utilizando este formulario.**
 
 
 Please email csmapsupport@nyu.edu with the subject line "YouTube takeout" if you have any issues with these steps.
