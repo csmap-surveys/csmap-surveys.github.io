@@ -14,13 +14,13 @@ ol li {padding-bottom:15px;}
 2. Desplácese hacia abajo hasta la sección que dice "Crear una nueva exportación"
 3. Verá la ventana "Seleccionar datos a incluir" que enumera los diferentes productos como "YouTube y YouTube Music" (en la siguiente imagen).
 4. **Haga clic en la opción "Todos los datos de YouTube incluidos": este es un paso importante que le permitirá limitar los datos que comparte.**<br/>
-<img src="images/yt-select_options.png" width="500" style="margin:auto;">
+<img src="images/yt-select_options_es.png" width="500" style="margin:auto;">
 5.En la ventana emergente (que se muestra a continuación), solo marque las opciones: historial, mis comentarios, mis mensajes de chat en vivo y suscripciones. <br/>
-<img src="images/yt-what_to_select.png" width="300" style="margin:auto;"><br/>
+<img src="images/yt-what_to_select_es.png" width="300" style="margin:auto;"><br/>
 &nbsp;<br/>&nbsp;<br>
 6. Haga clic en "Aceptar". Luego, en la ventana original, haga clic en "Siguiente paso."
 7. En la siguiente ventana, puede seleccionar el tipo de archivo, la frecuencia y el destino.<br/>
-<img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
+<img src="images/yt-choose_file_type_es.png" width="600" style="margin:auto;"><br/>
 - En Transferir a, mantenga seleccionado "Enviar enlace de descarga por correo electrónico."
 - En Frecuencia, elija "exportar una vez."
 - En el campo Tipo de archivo, seleccione ".zip."
