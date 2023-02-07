@@ -15,7 +15,7 @@ ol li {padding-bottom:15px;}
 3. Verá la ventana "Seleccionar datos a incluir" que enumera los diferentes productos como "YouTube y YouTube Music" (en la siguiente imagen).
 4. **Haga clic en la opción "Todos los datos de YouTube incluidos": este es un paso importante que le permitirá limitar los datos que comparte.**<br/>
 <img src="images/yt_select_options_es.jpg" width="500" style="margin:auto;">
-5.En la ventana emergente (que se muestra a continuación), solo marque las opciones: historial, mis comentarios, mis mensajes de chat en vivo y suscripciones. <br/>
+5.  En la ventana emergente (que se muestra a continuación), solo marque las opciones: historial, mis comentarios, mis mensajes de chat en vivo y suscripciones. <br/>
 <img src="images/yt-What_to_select_es.png" width="300" style="margin:auto;"><br/>
 &nbsp;<br/>&nbsp;<br>
 6. Haga clic en "Aceptar". Luego, en la ventana original, haga clic en "Siguiente paso."
