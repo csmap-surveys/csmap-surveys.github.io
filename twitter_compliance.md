@@ -30,9 +30,9 @@ Over the course of the study, you can submit up to 10 screenshots for the maximu
 
 2. Each day, you will receive a link to a survey asking you to submit a link or a screenshot of a Tweet that you found interesting on the fact-checking timeline. (For instructions on how to create a screenshot on your current device, visit <a href="https://www.take-a-screenshot.org/">https://www.take-a-screenshot.org/</a>.) 
 
-<p align="center"><img src="images/twitter_screenshot_example.png" alt="screenshot of a Tweet where the author, tweet and likes and retweets options are included"></p>
+<p align="center"><img src="images/twitter_screenshot_example.png" alt="screenshot of a Tweet where the author, tweet and likes and retweets options are included" width="600"></p>
 
-<p style="color:#ccc; font-size:12px;">Example of a Tweet screenshot, this is all the info that needs to be included in the screenshot (To respect your privacy, we ask you not screen capture your entire desktop or Twitter interface.)</p>
+<p style="font-size:0.8em;">Example of a Tweet screenshot, this is all the info that needs to be included in the screenshot (To respect your privacy, we ask you not screen capture your entire desktop or Twitter interface.)</p>
 
 
 
