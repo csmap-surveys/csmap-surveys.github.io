@@ -17,7 +17,7 @@ By being part of this study, you will see a timeline of fact-checking organizati
 When you signed up for this study and took our survey, you authenticated your Twitter account. Doing so allowed us to programmatically add a list of fact-checking organizations to your account. This is the only intervention we will make for this experiment. You can access this fact-checking in the top header of your Twitter feed.
 
 
- 
+ <p align="center"><img src="images/twitter_list.png" style="padding:15px;" alt="Twitter interface with Factchecking list highlighted"></p>
 
 
 We also request that you visit your new fact-checking Twitter timeline regularly for a month.
