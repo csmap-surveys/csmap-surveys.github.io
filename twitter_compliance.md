@@ -4,14 +4,18 @@ layout: layout_twitter_lists
 ---
 <style>
 ol li {padding-bottom:15px;}  
+h3 {font-weight:bold; border-bottom:2px solid #000;}
+h4 {font-weight:bold;}
   
 </style>  
 
 
 
-## Thank you for enrolling in a study by researchers at the Center for Social Media and Politics at New York University. Your participation is helping us to learn more about how people use Twitter in the United States. You can learn more about our research here: <a href="https://csmapnyu.org">csmapnyu.org</a>.
+## Thank you for enrolling in a study by researchers at the Center for Social Media and Politics at New York University. 
 
-By being part of this study, you will see a timeline of fact-checking organizations have been added to your Twitter account.
+Your participation is helping us to learn more about how people use Twitter in the United States. You can learn more about our research here: <a href="https://csmapnyu.org">csmapnyu.org</a>.
+
+**By being part of this study, you will see a timeline of fact-checking organizations have been added to your Twitter account.
 
 ### How we added a new list to your feed
 When you signed up for this study and took our survey, you authenticated your Twitter account. Doing so allowed us to programmatically add a list of fact-checking organizations to your account. This is the only intervention we will make for this experiment. 
