@@ -5,7 +5,7 @@ layout: layout_twitter_lists
 <style>
 ol li {padding-bottom:15px;}  
 h3 {font-weight:bold; border-bottom:2px solid #000;padding-top:30px;}
-h4 {font-weight:bold;}
+h4 {font-weight:bold; style="padding-top:20px;"}
   
 </style>  
 
