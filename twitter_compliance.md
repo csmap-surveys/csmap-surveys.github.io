@@ -71,5 +71,5 @@ As an active participant, you can earn up to $25 (by completing both surveys and
 ### When will I see my rewards?
 This study continues through TK. We will screen submissions for completeness and distribute rewards by TK.
 
-If you have any questions or need support, please email nyutwittersurveys@gmail.com.
+If you have any questions or need support, please email <a href="mailto:nyutwittersurveys@gmail.com">nyutwittersurveys@gmail.com</a>.
 
