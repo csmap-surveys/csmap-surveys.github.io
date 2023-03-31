@@ -32,7 +32,7 @@ Over the course of the study, you can submit up to 10 screenshots for the maximu
 3. You will also be asked to type a 1-2 sentence response about why you found the Tweet interesting.
 
 
-####Examples of submitting Tweets
+#### Examples of submitting Tweets
 
 <p align="center"><img src="images/twitter_screenshot_example.png" alt="screenshot of a Tweet where the author, tweet and likes and retweets options are included" width="400"></p>
 
@@ -50,11 +50,18 @@ Over the course of the study, you can submit up to 10 screenshots for the maximu
 
 
 
-## Rewards can be earned as follows:
+### Rewards can be earned as follows:
+At the end of the four weeks, we will invite you to complete a 10-minute questionnaire. If you follow the study rules: submit Twitter screenshots or links through survey links you receive via email, and answer the final questionnaire, you will receive a gift card. 
 
+The amount of the gift card depends on how many of the following tasks you are able to complete: 
+- Initial survey: $2
+- Screenshots/links:
+- At least 10 screenshots/links: $18
+- Between 5 and 10 screenshots/links: $13
+- Less than 5 screenshots: no additional compensation
+- Final survey: $5
 
-ADD BREAKDOWN HERE
-
+As an active participant, you can earn up to $25 (by completing both surveys and submitting at least 10 Twitter screenshots or links). You will only be compensated for the amount of tasks you complete successfully.
 
 
 # When will I see my rewards?
