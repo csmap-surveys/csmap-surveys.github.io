@@ -68,7 +68,7 @@ The amount of the gift card depends on how many of the following tasks you are a
 As an active participant, you can earn up to $25 (by completing both surveys and submitting at least 10 Twitter screenshots or links). You will only be compensated for the amount of tasks you complete successfully.
 
 
-# When will I see my rewards?
+### When will I see my rewards?
 This study continues through TK. We will screen submissions for completeness and distribute rewards by TK.
 
 If you have any questions or need support, please email TK.
