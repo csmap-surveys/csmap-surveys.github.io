@@ -1,5 +1,5 @@
 ---
-title: Twitter Experiment - Compliance Instructions
+title: CSMaP Twitter Experiment - Compliance Instructions
 layout: layout_twitter_lists
 ---
 <style>
