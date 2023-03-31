@@ -15,16 +15,16 @@ h4 {font-weight:bold; style="padding-top:20px;"}
 
 Your participation is helping us to learn more about how people use Twitter in the United States. You can learn more about our research here: <a href="https://csmapnyu.org">csmapnyu.org</a>.
 
-**By being part of this study, you will tell us abou tposts you see on your Twitter timeline.**
+**By being part of this study, you will tell us about posts you see on your Twitter timeline.**
 
 
 ### You need to send Tweets from your timeline regularly for a month.
 
 Over the course of the study, you can submit up to 10 screenshots for the maximum rewards.
 
-1. Scroll through the Tweets on the Fact-checking feed and see if you find anything interesting.
+1. Scroll through the Tweets on yoru timeline and see if you find anything interesting.
 
-2. Each day, you will receive a link to a survey asking you to submit a link or a screenshot of a Tweet that you found interesting on the fact-checking timeline. (For instructions on how to create a screenshot on your current device, visit <a href="https://www.take-a-screenshot.org/">https://www.take-a-screenshot.org/</a>.) 
+2. Each day, you will receive a link to a survey asking you to submit a link or a screenshot of a Tweet that you found interesting on your timeline. (For instructions on how to create a screenshot on your current device, visit <a href="https://www.take-a-screenshot.org/">https://www.take-a-screenshot.org/</a>.) 
 3. You will also be asked to type a 1-2 sentence response about why you found the Tweet interesting.
 
 
@@ -47,7 +47,6 @@ Over the course of the study, you can submit up to 10 screenshots for the maximu
 
 
 ### Rewards can be earned as follows:
-Reminder 2: Our commitment to you:
 
 At the end of the four weeks, we will invite you to complete a 10-minute questionnaire. 
 If you follow the study rules: submit Twitter screenshots or links through survey links you receive via email, and answer the final questionnaire, you will receive a gift card. The amount of the gift card depends on how many of the following tasks you are able to complete: 
