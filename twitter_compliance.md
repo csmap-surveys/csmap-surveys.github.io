@@ -60,9 +60,9 @@ At the end of the four weeks, we will invite you to complete a 10-minute questio
 The amount of the gift card depends on how many of the following tasks you are able to complete: 
 - Initial survey: $2
 - Screenshots/links:
-- At least 10 screenshots/links: $18
-- Between 5 and 10 screenshots/links: $13
-- Less than 5 screenshots: no additional compensation
+-- At least 10 screenshots/links: $18 or
+-- Between 5 and 10 screenshots/links: $13 or
+-- Less than 5 screenshots: no additional compensation
 - Final survey: $5
 
 As an active participant, you can earn up to $25 (by completing both surveys and submitting at least 10 Twitter screenshots or links). You will only be compensated for the amount of tasks you complete successfully.
@@ -71,5 +71,5 @@ As an active participant, you can earn up to $25 (by completing both surveys and
 ### When will I see my rewards?
 This study continues through TK. We will screen submissions for completeness and distribute rewards by TK.
 
-If you have any questions or need support, please email TK.
+If you have any questions or need support, please email nyutwittersurveys@gmail.com.
 
