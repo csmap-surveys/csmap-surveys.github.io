@@ -4,7 +4,7 @@ layout: layout_twitter_lists
 ---
 <style>
 ol li {padding-bottom:15px;}  
-h3 {font-weight:bold; border-bottom:2px solid #000;}
+h3 {font-weight:bold; border-bottom:2px solid #000;padding-top:30px;}
 h4 {font-weight:bold;}
   
 </style>  
@@ -15,7 +15,7 @@ h4 {font-weight:bold;}
 
 Your participation is helping us to learn more about how people use Twitter in the United States. You can learn more about our research here: <a href="https://csmapnyu.org">csmapnyu.org</a>.
 
-**By being part of this study, you will see a timeline of fact-checking organizations have been added to your Twitter account.
+**By being part of this study, you will see a timeline of fact-checking organizations have been added to your Twitter account.**
 
 ### How we added a new list to your feed
 When you signed up for this study and took our survey, you authenticated your Twitter account. Doing so allowed us to programmatically add a list of fact-checking organizations to your account. This is the only intervention we will make for this experiment. 
@@ -36,13 +36,13 @@ Over the course of the study, you can submit up to 10 screenshots for the maximu
 3. You will also be asked to type a 1-2 sentence response about why you found the Tweet interesting.
 
 
-#### Examples of submitting Tweets
+#### Example 1: Screen capture of Tweet
 
 <p align="center"><img src="images/twitter_screenshot_example.png" alt="screenshot of a Tweet where the author, tweet and likes and retweets options are included" width="400"></p>
 
 <p style="font-size:0.8em;">Example of a Tweet screenshot, this is all the info that needs to be included in the screenshot (To respect your privacy, we ask you not screen capture your entire desktop or Twitter interface.)</p>
 
-
+#### Example 2: Copying link to Tweet
 <p align="center"><img src="images/share_link.png" alt="screenshot showing how to copy a link to a tweet from the Twitter interface" width="400"></p>
 
 <p style="font-size:0.8em;">Example of copying a link to a Tweet, an alternative to sharing a screenshot.</p>
