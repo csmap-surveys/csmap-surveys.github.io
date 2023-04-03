@@ -15,7 +15,7 @@ h4 {font-weight:bold; style="padding-top:20px;"}
 
 Your participation is helping us to learn more about how people use Twitter in the United States.
 
-**You were assigned to Fact-Checking Timeline option. In this group, as part of this study, you will see a new timeline of fact-checking organizations added to your Twitter feed.**
+**You were assigned to Fact-Checking Timeline option. As a member of this group in the study, you will see a new timeline of fact-checking organizations added to your Twitter feed.**
 
 This timeline is formed by  Twitter accounts from reputable fact-checking organizations in the United States. These organizations verify the factual accuracy of questioned reporting and statements made by politicians, journalists, government, among others.  
 
