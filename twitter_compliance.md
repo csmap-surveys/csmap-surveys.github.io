@@ -30,7 +30,7 @@ You can access this fact-checking in the top header of your Twitter feed (see be
 
  <p align="center"><img src="images/twitter_list.png" style="padding:15px;" alt="Twitter interface with Factchecking list highlighted" style="max-width:600px;border:1px solid #ccc; margin-top:50px;"></p>
 
-In addition, the accounts added to the Fact-Checking Timeline will also appear on your For you and Following feeds. 
+In addition, the accounts added to the Fact-Checking Timeline will also appear on your "For you" and "Following" feeds. 
 
 
 ### You need to visit the fact-checking Twitter timeline regularly for a month.
