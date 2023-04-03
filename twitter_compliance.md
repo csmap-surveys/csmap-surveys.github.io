@@ -35,7 +35,7 @@ In addition, the accounts added to the Fact-Checking Timeline will also appear o
 
 ### You need to visit the fact-checking Twitter timeline regularly for a month.
 
-To be sure you are paying attention to this new timeline we added to your Twitter feed, we ask you to send us examples of the tweets that appear in the timeline.
+To be sure you are paying attention to this new timeline we added to your Twitter feed, we will ask you to send us examples of the tweets that appear in the timeline.
 
 Over the course of the study, you can submit up to 15 screenshots for maximum rewards of our study.
 
