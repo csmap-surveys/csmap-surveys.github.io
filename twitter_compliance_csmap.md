@@ -15,7 +15,7 @@ h4 {font-weight:bold; style="padding-top:20px;"}
 
 Your participation is helping us to learn more about how people use Twitter in the United States. 
 
-You were assigned to the Twitter Timeline group.  As part of this group in the study, **you will tell us about posts you see on your Twitter timeline.** 
+You were assigned to the Twitter Timeline group. As part of this group in the study, **you will tell us about posts you see on your Twitter timeline.** 
 
 **We expect you to use your Twitter as usual!**
 
