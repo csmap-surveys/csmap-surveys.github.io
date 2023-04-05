@@ -26,7 +26,7 @@ You were assigned to the Twitter Timeline group. As part of this group in the st
 
 Over the course of the study, you can submit up to 10 screenshots for the maximum rewards.
 
-1. Scroll through the Tweets on yoru timeline and see if you find anything interesting.
+1. Scroll through the Tweets on your timeline and see if you find anything interesting.
 
 2. Each day, you will receive a link to a survey asking you to submit a link or a screenshot of a Tweet that you found interesting on your timeline. (For instructions on creating a screenshot on your current device, visit <a href="https://www.take-a-screenshot.org/">https://www.take-a-screenshot.org/</a>.) 
 3. You will also be asked to type a 1-2 sentence response about why you found the Tweet interesting.
