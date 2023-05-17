@@ -80,7 +80,7 @@ As an active participant, you can earn up to $25 (by completing both surveys and
 
 
 ### When will I see my rewards?
-This study continues through TK. We will screen submissions for completeness and distribute rewards by TK.
+This study continues through June 22nd. We will screen submissions for completeness and distribute rewards within one week after that.
 
 If you have any questions or need support, please email <a href="mailto:nyutwittersurveys@gmail.com">nyutwittersurveys@gmail.com</a>.
 
