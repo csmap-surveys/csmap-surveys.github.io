@@ -64,7 +64,7 @@ At the end of the four weeks, we will invite you to complete a 10-minute questio
 You can thus in total earn up to $15 (if you complete both surveys and send in at least 10 screenshots/links). If you choose only to complete part of the study, you will only be compensated for the tasks you completed.
 
 ### When will I see my rewards?
-This study continues through TK. We will screen submissions for completeness and distribute rewards by TK.
+This study continues through June 22nd. We will screen submissions for completeness and distribute rewards within a week after that.
 
 If you have any questions or need support, please email <a href="mailto:nyutwittersurveys@gmail.com">nyutwittersurveys@gmail.com</a>.
 
