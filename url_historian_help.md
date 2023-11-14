@@ -19,7 +19,7 @@
 		<li><a href="#forget">Why does a popup window keep appearing after installing the extension?</a></li>
 		<li><a href="#survey">How do I get a Survey ID and User ID?</a></li>
 		<li><a href="#remove">I no longer wish to participate. How do I remove the extension from my Chrome browser?</a></li>
-		<li><a href="#html">What do the toggles next to the Twitter, Facebook and YouTube icons do?</a></li>
+		<li><a href="#html">What does the toggle next to "Share YouTube Page Content" do?</a></li>
 		<li><a href="#pause">What options are available if there are times I don’t want to share data?</a></li>
 		<li><a href="#delete">Is there a way to delete data that I didn’t mean to share?</a></li>
 		<li><a href="#blacklist">Can I prevent the extension collecting visits to websites I want to keep private?</a></li>
@@ -71,18 +71,13 @@
 </div>
 
 <div class="extrapadding">
-	<h2 id="html">What do the toggles next to the Twitter, Facebook and YouTube icons do?</h2>
-	The toggles next to the social media icons allow you to share data that appears on these websites. Sharing this data is optional and not required. Each social media site is activated separately. 
-	<ul>
-		<li>The Twitter option will collect tweet data when you visit twitter.com.</li>
-		<li>The YouTube option will collect videos listed when visiting youtube.com.</li>
-		<li>The Facebook option will solely collect URLs that appear on your Facebook news feed when visiting facebook.com.</li> 
-	</ul>
-	<a href="#top">Return to top </a>
+	<h2 id="html">What does the toggle next to "Share YouTube Page Content" do?</h2>
+	The toggle next to "Share YouTube Page Content" allows URL Historian to collect videos listed when visiting youtube.com. Sharing this data is optional and not required.
 </div>
+
 <div class="extrapadding">
 	<h2 id="pause">What options are available if there are times I don’t want to share data?</h2>
-	<p>The toggle at the top left side of the extension window allows you to pause and resume data collection at any time. When the toggle is in “Active” state, the extension is collecting URLs for sites you visit.</p>
+	<p>The toggle next to "Pause" on the left side of the extension window allows you to pause and resume data collection at any time. When the toggle is in “Active” state, the extension is collecting URLs for sites you visit.</p>
 	<ol>
 		<li>Slide the toggle button to the left to pause data collection, and to the right to resume data collection.</li>
 		<li>After the extension is paused for 60 minutes, a popup window will appear reminding you to resume activity. After the first reminder, follow-up reminders will appear every four hours.</li>
@@ -92,7 +87,7 @@
 
 <div class="extrapadding">
  	<h2 id="delete">Is there a way to delete data that I didn’t mean to share?</h2>
-	<p>Within URL Historian, you can delete shared data for up to ten days after it was collected.</p>
+	<p>Within URL Historian, you can delete shared data for up to ten days after it was collected. You can access this feature by clicking on the "Optional Settings" header at the top of the app. </p>
 	<p>The Delete Browse History feature allows you to delete data by Time or by Date.</p>
 	<ul>
 		<li>By Time allows you to delete data by the hour.</li>
@@ -116,7 +111,7 @@
 
 <div class="extrapadding">
 	<h2 id="blacklist">Can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
-	<p>The Add Website to Blacklist field allows you to enter the address of domains you don’t want to share.Enter any URL in the format www.domain.com in Add Website to Blacklist field. Visits to these websites will be blocked from collection. You will see all blocked domains Websites Currently Blacklisted field.</p>
+	<p>The Add Website to Blacklist field allows you to enter the address of domains you don’t want to share. You can access this feature by clicking on the "Optional Settings" header at the top of the app. Enter any URL in the format www.domain.com in Add Website to Blacklist field. Visits to these websites will be blocked from collection. You will see all blocked domains Websites Currently Blacklisted field.</p>
 	<p align="center">
 		<video width="560" height="420" controls>
   			<source src="videos/uh_blacklist.mp4" type="video/mp4">
