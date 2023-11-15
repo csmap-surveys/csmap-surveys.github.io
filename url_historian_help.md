@@ -111,7 +111,7 @@
 
 <div class="extrapadding">
 	<h2 id="blacklist">Can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
-	<p>The Add Website to Blacklist field allows you to enter the address of domains you don’t want to share. You can access this feature by clicking on the "Optional Settings" header at the top of the app. Enter any URL in the format www.domain.com in Add Website to Blacklist field. Visits to these websites will be blocked from collection. You will see all blocked domains Websites Currently Blacklisted field.</p>
+	<p>The "Add Website to Blacklist" field allows you to enter the address of domains you don’t want to share. You can access this feature by clicking on the "Optional Settings" header at the top of the app. Enter any URL in the format www.domain.com in Add Website to Blacklist field. Visits to these websites will be blocked from collection. You will see all blocked domains Websites Currently Blacklisted field.</p>
 	<p align="center">
 		<video width="560" height="420" controls>
   			<source src="videos/uh_blacklist.mp4" type="video/mp4">
