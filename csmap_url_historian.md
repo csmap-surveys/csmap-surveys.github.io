@@ -14,12 +14,12 @@
 When the URL Historian plug-in is activated and registered, it automatically begins collecting URLs visited. Data collected through URL Historian is anonymized and used for academic purposes only. All collected data is securely stored on Amazon Web Services (AWS) and only accessible by CSMaP researchers. 
 1. You can set the default language of the extension to Spanish using the **"Español"** option.
 2. Click the **"Help"** button to go to Frequently Asked Questions (FAQ) on your browser.
-3. Use the **User ID** field to enter your unique User ID after completing a survey
-4. You can pause data collection using the toggle labeled **"Active"**. When you register the extension, this toggle's default setting is "Active."
-5. The **Share Page Content** toggles allow you to share data from social media feeds. This step is optional, see our <a href="https://www.csmapsurveys.org/csmap_privacy_policy.html">privacy policy</a> for more information on what social media data is collected.
-6. **Delete Browse History** allows you to revoke data you shared by time or date.
-7. The field **Add Website to Blacklist** allows you to list domains you do not want collected. 
-8. The area labeled **Websites Currently Blacklisted** will display any domains you have blocked from collection.
+3. Use the **User ID** field to enter your unique User ID after completing a survey.
+4. You can pause data collection using the toggle labeled **"Paused"**. When you register the extension, this toggle's default setting is Active.
+5. The **Share YouTube Page Content** toggle "Share YouTube Page Content" allows URL Historian to collect videos listed when visiting youtube.com. This step is optional, see our <a href="https://www.csmapsurveys.org/csmap_privacy_policy.html">privacy policy</a> for more information on what social media data is collected.
+6. **Delete Data Collected** under "Optional Settings" allows you to revoke data you shared by time or date.
+7. **Add URLs to Blacklist** under "Optional Settings" allows you to list domains you do not want collected. 
+8. **Websites Currently Blacklisted** under "Optional Settings" will display any domains you have blocked from collection.
 
 For more information about URL Historian's data collection and privacy protection measures, see our <a href="https://www.csmapsurveys.org/csmap_privacy_policy.html">Privacy Policy</a>. If you have any questions on using the extension, would like to revoke your data, or encounter other technical problems, please reach out to <a href="mailto:csmap@nyu.edu">csmap-surveys@nyu.edu</a>.
 
