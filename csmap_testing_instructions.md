@@ -85,7 +85,7 @@
 	<ol>
 		<li>Pause and reactivate the activity of the plugin by toggling the purple switch as shown below</li>
 		<video width="320" height="240" controls>
-	  		<source src="videos/uh_pause.mp4" type="video/mp4">
+	  		<source src="videos/uh_new/pause_activate.mp4" type="video/mp4">
 	  	</video>
 	  	<li>Pause the extension</li>
 	</ol>
@@ -121,7 +121,6 @@
 		<li>Please use <strong>by Date</strong> and delete data collected yesterday from all social media and non-social media sources.</li>
 	</ol>
 </div>
-
 <div>
 	<h2>Add Website to Blacklist</h2>
 	<p> <strong><em>Blacklisting</em></strong> creates a list of web domains which prevents those websites in the blacklist from been sent to our database.</p>
@@ -135,6 +134,6 @@
 	</ol>
 </div>
 <p>After this, you can remove the extension from the browser by right-clicking the icon and clicking “Remove from Chrome”.</p>
-<p>We appreciate your help with the testing! Please email <a href="nyu-smapp-engineers@nyu.edu">nyu-smapp-engineers@nyu.edu</a> if you run into any problems with the plug in.</p>
+<p>We appreciate your help with the testing! Please email <a href="csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> if you run into any problems with the extension.</p>
 </body>
 </html>
