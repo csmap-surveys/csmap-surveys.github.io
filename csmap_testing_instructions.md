@@ -31,13 +31,11 @@
 	<h2> Overview of the tasks you will perform </h2>
 		<ol>
 			<li> Installing from Chrome Web Store and Activating the extension</li>
-			<li> Sharing Page Content</li>
+			<li> Sharing YouTube Page Content</li>
 			<li> Navigate to specific set of URLs</li>
 			<li> Navigate YouTube</li>
-			<li> Navigate Facebook</li>
 			<li> Pausing and Reactivating Data Collection</li>
             <li> Unpause the extension</li>
-			<li> Navigate Twitter </li>
 			<li> Deleting collected data</li>
 			<li> Add Website to Blacklist</li>
 		</ol>
@@ -53,12 +51,11 @@
 	 </ol>
 </div> 
 <div>
-	<h2>Sharing Page Content</h2>
+	<h2>Sharing YouTube Page Content</h2>
 	<ol>
-		<li>Follow instructions below on how to allow sharing page content</li>
+		<li>Follow instructions below on how to allow sharing YouTube page content</li>
 			<video width="320" height="240" controls>
 	  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
-	  	<li> Please Share Page content for Twitter, Facebook, and YouTube</li>
 	 </ol>
 </div> 
 <div>
@@ -82,18 +79,6 @@
 		<li>After 10 minutes, close both tabs running YouTube</li>
 	</ol>
 </div>
-<div>
-	<h2> Navigate Facebook</h2>
-	<p> If you have Facebook account</p>
-	<ol>
-		<li>Login to <a href="https://www.facebook.com/login/" target="_blank" rel="noopener noreferrer">your account</a></li>
-		<li>Click on <a href="https://www.facebook.com/friends" target="_blank" rel="noopener noreferrer">Friends tab</a> then to one of your friends page</li>
-		<li>Click on <a href="https://www.facebook.com/groups/feed/" target="_blank" rel="noopener noreferrer">Groups tab</a> then to any group you are a member</li>
-		<li>Click on <a href="https://www.facebook.com/search/posts/?q=stories"> Posts tab </a> and view any post of your choice</li>
-		<li>Click on <a href="https://www.facebook.com/watch/?ref=tab" target="_blank" rel="noopener noreferrer">Watch tab</a> and then on any video of your choice</li>
-		<li>Click on <a href="https://www.facebook.com/news"> News tab</a> and then to any news item </li>
-	</ol>
-</div>
 
 <div>
 	<h2>Pausing and Reactivating Data Collection</h2>
@@ -105,8 +90,7 @@
 	  	<li>Pause the extension</li>
 	</ol>
 	<p style="font-size: 0.6rem; color: #686868" >After the plugin has been paused for 60 minutes, it will sends a reminder for you to reactivate it. Then every 4 hours until its reactivated</p>
-	<p style="font-size: 0.6rem; color: #686868">While the extension is paused, it will not be sending your browsing data to our databases.</p>
-
+	<p style="font-size: 0.6rem; color: #686868">While the extension is paused, it will not be sending your browsing data to our database.</p>
 </div>
 
 <div>
@@ -122,16 +106,6 @@
 		<li>Click <a href="https://www.washingtonpost.com/entertainment/music/qanda-with-yo-yo-ma-how-music-can-be-like-touch-during-these-socially-distant-times/2020/08/13/9725a22c-db07-11ea-8051-d5f887d73381_story.html" target="_blank" rel="noopener noreferrer">www.washingtonpost.com</a></li>
 		<li>Click <a href="https://csmapnyu.org/" target="_blank" rel="noopener noreferrer">csmapnyu.org</a></li>
 		<li>Click <a href="https://www.youtube.com/watch?v=-N5fEeD4Mnk" target="_blank" rel="noopener noreferrer">www.youtube.com</a></li>
-	</ol>
-</div>
-<div>
-	<h2> Navigate to Twitter</h2>
-	<p> If you have Twitter Account, login to your account </p>
-	<ol>
-		<li>Login to <a href="https://twitter.com/i/flow/login" target="_blank" rel="noopener noreferrer">your account</a></li>
-		<li>Click on <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer">Home page</a> then any twitter handle of your choice </a></li>
-		<li>Click on <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer">Explore page</a> then any twitter handle of your choice</li>
-		<li>Click on Profile tab</li>
 	</ol>
 </div>
 <div>
