@@ -45,9 +45,9 @@
 	<ol>
 		<li>Follow instructions below on how to install and activate the extension</li>
 			<video width="320" height="240" controls>
-	  		<source src="videos/uh_activate.mp4" type="video/mp4"></video>
-		<li><a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">install</a> URL Historian extension </li>
-	  	<li> Activate the extension using the user ID provided with your email</li>
+	  		<source src="videos/uh_new/uh_install_activate.mp4" type="video/mp4"></video>
+	  <li><a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">Install</a> URL Historian extension </li>
+	  <li> Activate the extension using the user ID provided</li>
 	 </ol>
 </div> 
 <div>
@@ -55,7 +55,8 @@
 	<ol>
 		<li>Follow instructions below on how to allow sharing YouTube page content</li>
 			<video width="320" height="240" controls>
-	  		<source src="videos/uh_page_content.mp4" type="video/mp4"></video>
+	  		<source src="videos/uh_new/uh_yt_share.mp4" type="video/mp4"></video>
+	  <li> Slide the button next to <b>Share YouTube Page Content</b> to the right to allow sharing YouTube Page Content
 	 </ol>
 </div> 
 <div>
@@ -73,13 +74,12 @@
 	<p> Click the link below to visit YouTube</p>
 	<ol>
 		<li>Click <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com</a></li>
-		<li>Click on any YouTube video of your choice on your home page</li>
+		<li>Click on any YouTube video of your choice </li>
 		<li>Click on 2 more YouTube video of your interest sequentially without watching the content</li>
 		<li>Click <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">www.youtube.com</a></li>
 		<li>After 10 minutes, close both tabs running YouTube</li>
 	</ol>
 </div>
-
 <div>
 	<h2>Pausing and Reactivating Data Collection</h2>
 	<ol>
@@ -105,7 +105,9 @@
 	<ol>
 		<li>Click <a href="https://www.washingtonpost.com/entertainment/music/qanda-with-yo-yo-ma-how-music-can-be-like-touch-during-these-socially-distant-times/2020/08/13/9725a22c-db07-11ea-8051-d5f887d73381_story.html" target="_blank" rel="noopener noreferrer">www.washingtonpost.com</a></li>
 		<li>Click <a href="https://csmapnyu.org/" target="_blank" rel="noopener noreferrer">csmapnyu.org</a></li>
-		<li>Click <a href="https://www.youtube.com/watch?v=-N5fEeD4Mnk" target="_blank" rel="noopener noreferrer">www.youtube.com</a></li>
+		<li>Click <a href="https://www.youtube.com/watch?v=gvpuOBezW0w" target="_blank" rel="noopener noreferrer">Brain waves</a></li>
+		<li>Click <a href="https://www.youtube.com/watch?v=FVGhzxzx88M" target="_blank" rel="noopener noreferrer">Bengal cats</a></li>
+		<li>After 10 minutes, close both tabs running YouTube</li>
 	</ol>
 </div>
 <div>
@@ -114,8 +116,6 @@
 	<p><strong>by Time</strong>--deletes data collected for the selected hour range or single hour.</p>
 	<p><strong>by Date</strong>--deletes all the data collected for the selected day. This is restricted to the past 7 days.</p>
 	<ol>
-		<!-- <li>Follow the instructions below on how to delete collected data <strong>by Time</strong></li>
-		<video width="320" height="240" controls><source src="videos/uh_delbytime.mp4" type="video/mp4"></video> -->
 		<li>Follow the instructions below on how to delete collected data <strong>by Date</strong></li>
 		<video width="320" height="240" controls><source src="videos/uh_delbydate.mp4" type="video/mp4"></video>
 		<li>Please use <strong>by Date</strong> and delete data collected yesterday from all social media and non-social media sources.</li>
