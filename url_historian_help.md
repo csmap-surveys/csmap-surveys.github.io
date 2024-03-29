@@ -103,13 +103,10 @@
 	<p>The "Add Website to Blacklist" field allows you to enter the address of domains you don’t want to share. You can access this feature by clicking on the "Optional Settings" header at the top of the app. Enter any URL in the format www.domain.com in the highlighted "Add Website to Blacklist" field. Visits to these websites will be blocked from collection. You will see all blocked domains Websites Currently Blacklisted field.</p>
 
 <p align="center"><img src="images/blacklist_website_example.png" style="padding:15px;">
- 
-</div>
 
 <div class="extrapadding">
 	<h2 id="assistance">How do I contact support?</h2>
-	<p>For questions about using the extension, the data we collect, the research projects themselves, to request your data be deleted or other technical problems, please reach out to <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a>. Thank you for supporting our research! </li>
-	</ol>
+	<p>For questions about using the extension, the data we collect, the research projects themselves, to request your data be deleted or other technical problems, please reach out to <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a>. Thank you for supporting our research!
 	<a href="#top">Return to top </a>
 
 
