@@ -97,7 +97,6 @@
  	<strong> For example, if you select "Delete by time" the following pop up to select a time peroid appears: </strong>
   	<p align="center"><img src="images/data_deletion_example.png" style="padding:15px;">
 
-</div>
 
 <div class="extrapadding">
 	<h2 id="blacklist">Can I prevent the extension from recording visits to websites that I wish to keep private?</h2>
@@ -109,10 +108,8 @@
 
 <div class="extrapadding">
 	<h2 id="assistance">How do I contact support?</h2>
-	<ol>
 	<p>For questions about using the extension, the data we collect, the research projects themselves, to request your data be deleted or other technical problems, please reach out to <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a>. Thank you for supporting our research! </li>
 	</ol>
 	<a href="#top">Return to top </a>
-</div>
 
 
