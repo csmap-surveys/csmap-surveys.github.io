@@ -2,8 +2,8 @@
 <html>
 	<head>
 	 	<style> 
-		 	h1, h2, h3, h4, p, li { 
-				line-height: 0.8;
+		 	h1, h2, h3, h4, p { 
+				line-height: 2.0;
 				font-size:	20px;
 				margin-top: 0.5em;
 			}
