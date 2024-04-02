@@ -3,11 +3,11 @@
 	<head>
 	 	<style> 
 		 	h1, h2, h3, h4, p, li { 
-				line-height: 1.25;
+				line-height: 1.20;
 				font-size:	20px;
 				margin-top: 0.5em;
 			}
-			p,ol,li {
+			p,ol,li,video {
 				margin-top: 0.5em;
 				font-size: 14px ;
 			}
@@ -45,8 +45,8 @@
 				<li>Follow instructions below on how to install and activate the extension</li>
 					<video width="320" height="240" controls>
 			  		<source src="videos/uh_new/uh_install_activate.mp4" type="video/mp4"></video>
-			  <li><a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">Install</a> URL Historian extension </li>
-			  <li> Activate the extension using the user ID provided</li>
+			  	<li><a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">Install</a> URL Historian extension </li>
+			  	<li> Activate the extension using the user ID provided</li>
 			 </ol>
 		</div> 
 		<div>
@@ -55,7 +55,7 @@
 				<li>Follow instructions below on how to allow sharing YouTube page content</li>
 					<video width="320" height="240" controls>
 			  		<source src="videos/uh_new/uh_yt_share.mp4" type="video/mp4"></video>
-			  <li> Slide the button next to <b>Share YouTube Page Content</b> to the right to allow sharing YouTube Page Content
+			  <li> Slide the button next to <b>Share YouTube Page Content</b> to the right to allow sharing YouTube Page Content</li>
 			 </ol>
 		</div> 
 		<div>
