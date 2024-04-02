@@ -1,12 +1,12 @@
-# About
+[About](#about)<br>
 [Overview](#overview)<br>
 [How to install](#install)<br>
 [Privacy Disclosure](#privacy)<br>
 
 
+## About {#about}
 
-
-#### URL Historian is a Chrome extension developed by New York University’s <a href="https://csmapnyu.org/">Center for Social Media and Politics (CSMaP)</a> This extension allows participants to share data that contributes to better understanding of how our ever-shifting online environment impacts politics and democracy.
+**URL Historian** is a Chrome extension developed by New York University’s <a href="https://csmapnyu.org/">Center for Social Media and Politics </a> CSMaP This extension allows participants to share data that contributes to better understanding of how our ever-shifting online environment impacts politics and democracy.
 
 ![Annotated screencapture](images/URL_Historian_Labeled_Home.png) 
 ![Annotated screencapture](images/URL_Historian_Labeled_Settings.png)
@@ -18,9 +18,9 @@ When the URL Historian plug-in is activated and registered, it automatically beg
 2. Click the **"Help"** button to go to Frequently Asked Questions (FAQ) on your browser.
 3. Use the **User ID** field to enter your unique User ID after completing a survey.
 4. You can pause data collection using the toggle labeled **"Paused"**. When you register the extension, this toggle's default setting is Active.
-5. The **Share YouTube Page Content** toggle "Share YouTube Page Content" allows URL Historian to collect videos listed when visiting youtube.com. This step is optional, see our <a href="https://www.csmapsurveys.org/csmap_privacy_policy.html">privacy policy</a> for more information on what social media data is collected.
-6. **Delete Data Collected** under "Optional Settings" allows you to revoke data you shared by time or date.
-7. **Add URLs to Blacklist** under "Optional Settings" allows you to list domains you do not want collected. 
+5. The **Share YouTube Page Content** toggle "Share YouTube Page Content" allows URL Historian to take a snapshot of the content you are viewing when visiting youtube.com/watch. This step is required, see our <a href="https://www.csmapsurveys.org/csmap_privacy_policy.html">privacy policy</a> for more information on what social media data is collected.
+6. **Delete Data Collected** under "Optional Settings" allows you to delete data you have already shard  **by time** or **by date**.
+7. **Add URLs to Blacklist** under "Optional Settings" allows you to list domains you do not want data to be collected from. 
 8. **Websites Currently Blacklisted** under "Optional Settings" will display any domains you have blocked from collection.
 
 For more information about URL Historian's data collection and privacy protection measures, see our <a href="https://www.csmapsurveys.org/csmap_privacy_policy.html">Privacy Policy</a>. If you have any questions on using the extension, would like to revoke your data, or encounter other technical problems, please reach out to <a href="mailto:csmap@nyu.edu">csmap-surveys@nyu.edu</a>.
@@ -40,7 +40,7 @@ For more information about URL Historian's data collection and privacy protectio
 5. Access the extension by clicking on the extensions (puzzle piece) icon to the right of the address bar on the Chrome browser. 
 6. Select URL Historian from the dropdown menu.
 7. When the extension window appears, enter your User ID provided through the survey in the field at the top right. 
-8. When you hit “Submit,” a pop-up window will appear prompting you to enter your Survey ID provided by the survey.
+8. When you hit “Register",a pop-up window will appear informing you that your account has been successfully registered.
 
 ## Privacy Disclosure {#privacy}
 **Please be aware that URL Historian collects the web browsing data of anyone using Google Chrome on the computer that URL Historian is installed on. If you share your computer with anyone, you should inform them that URL Historian is installed and collecting web browsing data. You can show them how to pause the app and/or delete their browsing history when they use your computer with URL Historian installed.**
