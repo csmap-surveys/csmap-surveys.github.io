@@ -79,12 +79,12 @@
 
 <div class="extrapadding">
  	<h2 id="delete">Is there a way to delete data that I didn’t mean to share?</h2>
-	<p>You can immediately delete your individual data collected in the past 10 days from our server by clicking either the <strong>by Date</strong> or <strong>by Time</strong> buttons which are located in the <strong>Optional Settings</strong></p>
-	<p><strong>by Time</strong>--Deletes data collected for the selected hour range or single hour.</p>
-	<p><strong>by Date</strong>--Deletes all the data collected for the selected day.</p>
-	<p>To delete data, follow the steps below</p>
+	<p>You can immediately delete your individual data collected in the past 10 days from our server by clicking either the <strong>by Date</strong> or <strong>by Time</strong> buttons which are located in the <strong>Optional Settings</strong><br>
+	<strong>by Time</strong>--Deletes data collected for the selected hour range or single hour<br>
+	<strong>by Date</strong>--Deletes all the data collected for the selected day<br>
+	To delete data, follow the steps below</p>
 	<ol>
-		<li>Select a data sources: <italic>YouTube<italic> or <italic>All other browsing data</italic>.Selecting a single data source deletes data from that source only and selecting both data sources deletes data from both</li>
+		<li>Select a data sources: <italic>YouTube</italic> or <italic>All other browsing data</italic>.Selecting a single data source deletes data from that source only and selecting both data sources deletes data from both</li>
 		<li>Select Your Timezone e.g. Eastern timezone </li>
 		<li>Select a Date. The date you want the data to be deleted</li>
 		<li>Select Time. For <strong>by Time</strong> deletion only. Select an hour range or single hour. </li>	
