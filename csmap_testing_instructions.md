@@ -1,9 +1,9 @@
-## Testing Instructions
+# Testing Instructions
 <html>
 	<head>
 	 	<style> 
-		 	h1, h2, h3, h4, p { 
-				line-height: 2.0;
+		 	h1, h2, h3, h4, p, li { 
+				line-height: 1.25;
 				font-size:	20px;
 				margin-top: 0.5em;
 			}
@@ -45,8 +45,8 @@
 				<li>Follow instructions below on how to install and activate the extension</li>
 					<video width="320" height="240" controls>
 			  		<source src="videos/uh_new/uh_install_activate.mp4" type="video/mp4"></video>
-			  	<li><a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">Install</a> URL Historian extension </li>
-			  	<li> Activate the extension using the user ID provided</li>
+			  <li><a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en" target="_blank" rel="noopener noreferrer">Install</a> URL Historian extension </li>
+			  <li> Activate the extension using the user ID provided</li>
 			 </ol>
 		</div> 
 		<div>
