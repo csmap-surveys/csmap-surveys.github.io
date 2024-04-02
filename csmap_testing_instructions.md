@@ -1,9 +1,9 @@
-# Testing Instructions
+## Testing Instructions
 <html>
 	<head>
 	 	<style> 
 		 	h1, h2, h3, h4, p, li { 
-				line-height: 1.20;
+				line-height: 0.8;
 				font-size:	20px;
 				margin-top: 0.5em;
 			}
