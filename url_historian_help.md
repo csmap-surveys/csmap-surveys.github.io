@@ -3,7 +3,7 @@
 <html>
 <head>
 <style>
-	h2{line-height:100%;}
+	h2{line-height:80%;}
 	ol li {padding-bottom:10px;}
 	.extrapadding{padding:20px;}
 	</style>	
@@ -59,7 +59,7 @@
 </div>
 
 <div class="extrapadding">
-	<h2 id="html">What does the toggle button next to "Share YouTube Page Content" do?</h2>
+	<h2 id="html">What does the toggle button next to <strong>Share YouTube Page Content</strong>do?</h2>
 	<p>The toggle button next to <strong>Share YouTube Page Content</strong> allows URL Historian to capture page content from YouTube videos you click to watch. Page content capture only occurs if the <strong>Share YouTube Page Content</strong> button is slid to the right</p>
 </div>
 
@@ -69,11 +69,12 @@
 	<ul>
 		<li>When the toggle is in <strong>Paused</strong> state, the extension does not collect URLs or Youtube page content
 		</li>
-		<li>When the toggle is in <strong>Active</strong> state, the extension is collecting URLs and or <a href="html">Share YouTube Page Content</a> </li>
+		<li>When the toggle is in <strong>Active</strong> state, the extension is collecting URLs and <a href="#html">Share YouTube Page Content</a> </li>
 	</ul>
 	<p>Slide the toggle button to the left to pause data collection, and to the right to resume data collection.</p>
 	<strong>Note</strong><br>
-	After the extension is paused for 60 minutes, a popup window will appear reminding you to resume activity. After the first reminder, follow-up reminders will appear every four hours<br>
+	<p style="font-size: 0.8rem; color: #686868">After the extension is paused for 60 minutes, a purple popup window will appear next to the extension (picture below) to remind you to activate the extension</p>
+	<p align="center"><img src="images/uh_paused_notification.png" style="padding:10px;"></p>
 	<a href="#top">Return to top</a>
 </div>
 
