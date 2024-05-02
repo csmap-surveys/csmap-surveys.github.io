@@ -3,7 +3,7 @@
 <html>
 <head>
 <style>
-	h2 {font-size: 25px}
+	h2 {font-size: 20px}
 	ol li {padding-bottom:8px;}
 	.extrapadding{padding:10px;}
 	</style>	
@@ -11,7 +11,7 @@
 <body>
 
 <p>Thank you for downloading CSMaP's URL Historian. This page provides guidance to issues that might come up when using the extension. </p>
-	<strong>Table of contents</strong>
+	<strong style="font-size: 20px;">Table of contents</strong>
 	<ul>
 		<li><a href="#survey">How do I get a User ID?</a></li>
 		<li><a href="#activate">How do I register and activate the extension?</a></li>
