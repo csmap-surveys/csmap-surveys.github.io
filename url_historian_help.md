@@ -1,9 +1,9 @@
-## Frequently Asked Questions
+### Frequently Asked Questions
 <a id="top"></a>
 <html>
 <head>
 <style>
-	h2{line-height:80%;}
+	h2{line-height:50%;}
 	ol li {padding-bottom:10px;}
 	.extrapadding{padding:20px;}
 	</style>	
@@ -59,7 +59,7 @@
 </div>
 
 <div class="extrapadding">
-	<h2 id="html">What does the toggle button next to <strong>Share YouTube Page Content</strong>do?</h2>
+	<h2 id="html">What does the toggle button next to <strong>Share YouTube Page Content</strong> do?</h2>
 	<p>The toggle button next to <strong>Share YouTube Page Content</strong> allows URL Historian to capture page content from YouTube videos you click to watch. Page content capture only occurs if the <strong>Share YouTube Page Content</strong> button is slid to the right</p>
 </div>
 
