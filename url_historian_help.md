@@ -3,14 +3,14 @@
 <html>
 <head>
 <style>
-	h2{line-height:70%;}
+	h2 {font-size: 25px}
 	ol li {padding-bottom:8px;}
 	.extrapadding{padding:10px;}
 	</style>	
 </head>
 <body>
 
-<h4>Thank you for downloading CSMaP's URL Historian. This page provides guidance to issues that might come up when using the extension. </h4>
+<p>Thank you for downloading CSMaP's URL Historian. This page provides guidance to issues that might come up when using the extension. </p>
 	<strong>Table of contents</strong>
 	<ul>
 		<li><a href="#survey">How do I get a User ID?</a></li>
