@@ -4,8 +4,8 @@
 <head>
 <style>
 	h2 {font-size: 20px}
-	ol li {padding-bottom:8px;}
-	.extrapadding{padding:10px;}
+	ol li {padding-bottom:5px;}
+	.extrapadding{padding:5px;}
 	</style>	
 </head>
 <body>
