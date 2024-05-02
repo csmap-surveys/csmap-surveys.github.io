@@ -3,9 +3,9 @@
 <html>
 <head>
 <style>
-	h2{line-height:50%;}
-	ol li {padding-bottom:10px;}
-	.extrapadding{padding:20px;}
+	h2{line-height:70%;}
+	ol li {padding-bottom:8px;}
+	.extrapadding{padding:10px;}
 	</style>	
 </head>
 <body>
@@ -91,8 +91,8 @@
 		<li>Select Time. For <strong>by Time</strong> deletion only. Select an hour range or single hour. </li>	
 	</ol>
 	<p>Below is an example of delete <strong>by Date</strong></p>
-	<video width="320" height="240" controls><source src="videos/uh_new/uh_delbydate.mp4" type="video/mp4"></video>
-	<p>If you wish to delete data collected beyond the 10 days <a href="#assistance"> contact our engineers </a>. Please include the dates or times of collection you need deleted.</p>
+	<video align="center" width="320" height="240" controls><source src="videos/uh_new/uh_delbydate.mp4" type="video/mp4"></video>
+	<p>If you wish to delete data collected beyond 10 days <a href="#assistance"> contact our engineers </a>. Please include your user ID and date(s) of collection you need deleted. If deleting by Time include the date and the hour or our range you wish to be deleted</p>
 </div>
 
 <div class="extrapadding">
@@ -100,7 +100,7 @@
 	<p>The <strong>Add URLs to Blacklist</strong> allows you to enter the address of domains you do not wish to share. You can access this feature by clicking on the <strong>Optional Settings</strong></p>
 	<p>Visits to the websites added to the blacklist will be blocked from collection. You will see all blocked domains Websites Currently Blacklisted field.</p>
 	<p>Below is an example of how to <strong>Add URLs to Blacklist</strong> below </p>
-	<video width="320" height="240" controls><source src="videos/uh_new/uh_blacklist.mp4" type="video/mp4"></video>
+	<video align="center" width="320" height="240" controls><source src="videos/uh_new/uh_blacklist.mp4" type="video/mp4"></video>
 </div>
 <div class="extrapadding">
 	<h2 id="assistance">How do I contact support?</h2>
