@@ -16,7 +16,7 @@ ol li {padding-bottom:15px;}
 4. **Click on the option "All YouTube data included" - this is an important step that will allow you to limit the data that you share.**<br/>
 <img src="images/yt-select_options.png" width="500" style="margin:auto;">
 4. On the pop-up window (pictured below), you only need to select the following options: history and subscriptions.<br/>
-<img src="images/yt-what_to_select.png" width="300" style="margin:auto;"><br/>
+<img src="images/yt-what_to_select_2.png" width="300" style="margin:auto;"><br/>
 &nbsp;<br/>&nbsp;<br>
 5. Click on “OK.” Then on the original window, click "Next step".
 6. In the next window, you can select file type, frequency, and destination.<br/>
