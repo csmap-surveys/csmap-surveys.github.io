@@ -17,6 +17,9 @@ other_pages:
 youtube_study:
   - youtube_takeout_inst.md
   - youtube_takeout_inst_es.md
+tiktok_study:
+  - tiktok_takeout_inst.md
+  - tiktok_takeout_inst_es.md
 facebook_study:
   - thankyou_fb.md
 include:
