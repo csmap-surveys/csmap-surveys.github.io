@@ -6,8 +6,10 @@ relative_links:
   collections: true
 header_pages:
   - csmap_url_historian.md
+  - csmap_url_historian_chatbots.md
   - csmap_privacy_policy.md
   - url_historian_help.md
+  - url_historian_chatbots_help.md
 header_pages_es:
   - csmap_url_historian_es.md
   - csmap_privacy_policy_es.md
@@ -26,6 +28,7 @@ include:
   - README.md
   - index.md
   - csmap_url_historian.md
+  - csmap_url_historian_chatbots.md
   - csmap_testing_instructions.md
   - csmap_url_historian_es.md
   - csmap_privacy_policy.md
