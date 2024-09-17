@@ -26,7 +26,7 @@ twitter_timeline:
 masa:
   - about_masa.md
   - privacy_policy_masa.md
-facebook_study:
+facebook:
   - thankyou_fb.md
 include:
   - README.md

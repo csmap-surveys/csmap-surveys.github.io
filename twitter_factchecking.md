@@ -1,5 +1,5 @@
 ---
-title: CSMaP Twitter Experiment - Compliance Instructions
+title: Twitter Factchecking
 layout: twitter_factchecking
 ---
 <style>

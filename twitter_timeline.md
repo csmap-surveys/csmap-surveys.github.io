@@ -1,5 +1,5 @@
 ---
-title: CSMaP Twitter Experiment - Compliance Instructions
+title: Twitter Timeline 
 layout: twitter_timeline
 ---
 <style>

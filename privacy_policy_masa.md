@@ -1,4 +1,7 @@
-# Privacy Policy
+---
+title: Privacy Policy
+layout: masa
+---
 
 This Privacy Policy (“Policy”) pertains to the CSMaP MASA app ("Masa app”) provided by New York University’s Center for Social Media and Politics (“CSMaP”, “Company,” “we,” “us,” or “our”). We are committed to protecting your personal information and research participants (“you,”your”) right to privacy.
 

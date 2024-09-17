@@ -1,4 +1,7 @@
-### Frequently Asked Questions
+---
+title: Frequently Asked Questions
+layout: url_historian
+---
 <a id="top"></a>
 <html>
 <head>

@@ -1,4 +1,7 @@
-# Preguntas Frecuentes
+---
+title: Preguntas Frecuentes
+layout: url_historian
+---
 
 	
 <html>

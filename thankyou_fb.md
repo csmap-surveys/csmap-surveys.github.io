@@ -1,6 +1,6 @@
 ---
 title: Thank you
-layout: general_layout
+layout: facebook
 ---
 <div><a class="site-title" rel="author"><img src="images/csmap_logo_sq.png" style="max-width:50%; padding-top:10px;"></a></div>
 <div>

@@ -1,4 +1,7 @@
-## About
+---
+title: About
+layout: url_historian
+---
 
 [Overview](#overview)<br>
 [How to install](#install)<br>
