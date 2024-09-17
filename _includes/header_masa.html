@@ -7,17 +7,27 @@
 </style> 
 
 <header class="site-header">
+    <!-- {%- assign page_paths_es = site.masa_other | default: default_paths -%} -->
+    <!-- {% if page.collection == 'other_pages' %}
+      home
+    {% endif %} -->
+    <!--   <tr>
+          {%- for path in page_paths_es -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            <td><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></td>
+            {%- endif -%}
+          {%- endfor -%}
+            </tr> -->
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.masa | default: default_paths -%}
-    <!-- {%- assign page_paths_es = site.masa_other | default: default_paths -%} -->
+  
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author"><img src="images/CSMaP_URL_hist.png" style="max-width:50%; padding-top:10px;"></a>
 
-    <!-- {% if page.collection == 'other_pages' %}
-      home
-    {% endif %} -->
+    
     {%- if titles_size > 0 -%}
     <div style="clear:both;"></div>
       <nav class="site-nav">
@@ -40,14 +50,6 @@
             {%- endif -%}
           {%- endfor -%}
             </tr>
-          <!--   <tr>
-          {%- for path in page_paths_es -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <td><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></td>
-            {%- endif -%}
-          {%- endfor -%}
-            </tr> -->
           </table>
         </div>
       </nav>
