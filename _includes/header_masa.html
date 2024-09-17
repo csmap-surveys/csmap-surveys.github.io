@@ -14,12 +14,12 @@
     <!-- {%- assign page_paths_es = site.masa_other | default: default_paths -%} -->
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author"><img src="images/CSMaP_URL_hist.png" style="max-width:50%; padding-top:10px;"></a>
-    
-    
-    {% if page.collection == 'other_pages' %}
+
+    <!-- {% if page.collection == 'other_pages' %}
       home
-    {% endif %}
+    {% endif %} -->
     {%- if titles_size > 0 -%}
+    <div style="clear:both;"></div>
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
