@@ -4,19 +4,28 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-header_pages:
-  - csmap_url_historian.md
-  - csmap_privacy_policy.md
+url_historian_pages:
+  - url_historian_about.md
+  - privacy_policy_url_historian.md
   - url_historian_help.md
-header_pages_es:
-  - csmap_url_historian_es.md
-  - csmap_privacy_policy_es.md
+url_historian_pages_es:
+  - url_historian_sobre.md
+  - privacidad_url_historian.md
   - url_historian_ayuda.md
+url_historian_testing:
+  - url_historian_testing
 other_pages:
   - index.md
-youtube_study:
+youtube_takeout:
   - youtube_takeout_inst.md
   - youtube_takeout_inst_es.md
+twitter_factchecking:
+  - twitter_factchecking.md 
+twitter_timeline:
+  - twitter_timeline.md
+masa:
+  - about_masa.md
+  - privacy_policy_masa.md
 facebook_study:
   - thankyou_fb.md
 include:

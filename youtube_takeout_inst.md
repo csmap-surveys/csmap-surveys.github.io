@@ -1,6 +1,6 @@
 ---
 title: Instructions
-layout: youtube_study
+layout: youtube_takeout
 ---
 <style>
 ol li {padding-bottom:15px;}  

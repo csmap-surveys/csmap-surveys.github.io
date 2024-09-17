@@ -2,11 +2,11 @@
 <a id="top"></a>
 <html>
 <head>
-<style>
-	h2 {font-size: 20px}
-	ol li {padding-bottom:5px;}
-	.extrapadding{padding:5px;}
-	</style>	
+	<style>
+		h2 {font-size: 18px}
+		ol li {padding-bottom:5px;}
+		.extrapadding{padding:3px;}
+		</style>	
 </head>
 <body>
 
