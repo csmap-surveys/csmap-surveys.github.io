@@ -5,6 +5,9 @@
 <header class="site-header">
 
   <div class="wrapper">
+    <div style="padding:10px;">
+      <a class="site-title" rel="author"><img src="images/csmap_logo_sq.png" style="max-width:25%; padding-top:10px;" alt="{{ site.title | escape }}"></a>
+    </div>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.twitter_factchecking | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
@@ -14,8 +17,7 @@
     
 
       <div style="float:left;">
-    <p style="color:#000; font-weight:bold; margin-bottom:0; padding-top:20px;">Survey task:</p>
-    <h1 style="color:#666; padding-top:0; margin-top:0; font-weight:bold;">Twitter Experiment Compliance Instructions</h1>
+    <h1 style="color:#666; padding-top:0; margin-top:0; font-weight:bold;">Twitter Experiment Fact Checking Instructions</h1>
       </div>
     <div style="clear:both;"></div>
      
