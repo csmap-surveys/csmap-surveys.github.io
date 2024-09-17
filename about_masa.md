@@ -1,4 +1,7 @@
-## About
+---
+title: About
+layout: masa
+---
 
 [Overview](#overview)<br>
 [How to install](#install)<br>

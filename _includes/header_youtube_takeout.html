@@ -1,22 +1,21 @@
-    <div style="padding:10px;">
-      <a class="site-title" rel="author"><img src="images/csmap_logo_sq.png" style="max-width:25%; padding-top:10px;" alt="{{ site.title | escape }}"></a>
-    </div>
+    
 
 <header class="site-header">
 
   <div class="wrapper">
+    <div style="padding:10px;">
+      <a class="site-title" rel="author"><img src="images/csmap_logo_sq.png" style="max-width:25%; padding-top:10px;" alt="{{ site.title | escape }}"></a>
+    </div>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.youtube_takeout | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     
-
     {%- if titles_size > 0 -%}
     
-
-      <div style="float:left;">
+    <div style="float:left;">
         
-    <h1 style="color:#666; padding-top:0; margin-top:0; font-weight:bold;">YouTube Takeout</h1>
-      </div>
+      <h1 style="color:#666; padding-top:0; margin-top:0; font-weight:bold;">YouTube Takeout</h1>
+    </div>
     <div style="clear:both;"></div>
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
