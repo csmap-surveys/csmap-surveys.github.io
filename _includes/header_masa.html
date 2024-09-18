@@ -1,8 +1,10 @@
 <style>
-  .wrap {max-width: calc(1200px - (30px * 2));
-    padding-right: 1px;
-    padding-left: 20px;
+  .wrapper {max-width: calc(1200px - (30px * 2));
+    padding-right: 10px;
+    padding-left: 0;
+    margin-left:0;
   }
+
   .site-title {
     float:none;
     padding-left:1px;
@@ -61,7 +63,7 @@
           {%- endfor -%}
             </tr> -->
 
-  <div class="wrap">
+  <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.masa | default: default_paths -%}
   
