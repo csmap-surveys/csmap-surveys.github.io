@@ -13,11 +13,9 @@ layout: masa
     }
   </style>
 # About
-<div>
-	[Overview](#overview)<br>
-	[How to install](#install)<br>
-	[How to onboard](#onboard)<br>
-</div>
+[Overview](#overview)<br>
+[How to install](#install)<br>
+[How to onboard](#onboard)<br>
 
 **MASA** is an Android application developed by research engineers at the  New York University's <a href="https://csmapnyu.org/"> Center of Social Media and Politics</a> (CSMaP) in collaboration with <a href="https://audacious-software.com">Audacious Software</a>. The application collects information from registered and consenting research participants about the time they spend on specific apps they grant us access to.
 
@@ -53,13 +51,15 @@ A successfully registered MASA app looks like below
 
 # How to onboard and register {#onboard}
 <div>
-	<li>Follow the onboarding instructions by pressing the purple highlighted buttons</li>
-	<li>On the User ID screen please enter the user ID provided for the study
-		<div>
-			<img src="images/masa/user_id.png" width="250" style="padding-left: 10px">
-		</div>
-	</li>
-	<li>Continue with the onboarding steps 2 through 5</li>
+	<ol>
+		<li>Follow the onboarding instructions by pressing the purple highlighted buttons</li>
+		<li>On the User ID screen please enter the user ID provided for the study
+			<div>
+				<img src="images/masa/user_id.png" width="250" style="padding-left: 10px">
+			</div>
+		</li>
+		<li>Continue with the onboarding steps 2 through 5</li>
+	</ol>
 </div>
 
 <div>
