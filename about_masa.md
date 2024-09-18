@@ -12,7 +12,7 @@ layout: masa
 <div></div>
 The app collects real time app usage data–like how many minutes you used Facebook and X on your phone. You can only participate if you are recruited into a study and have been provided with a user ID at the start of the survey. The provided user ID is used throughout the study, including when registering and using the MASA app.
 
-## Overview {#overview}
+# Overview {#overview}
 A successfully registered CSMaP MASA app looks like below 
 
 ![Annotated screencapture](images/masa/registered_app.png)
@@ -24,15 +24,15 @@ Provides information on how to request for assistance for technical and other is
 #### SETTINGS
 Provides information about the user, app and, data transmission settings. Information about the app technology information is also provided. Within this tab a user can update apps to be monitored and update data transmission settings they authorized during the onboarding process 
 
-## How to install {#install}
+# How to install {#install}
 1. On your Android device search for **Google Play Store** App 
 2. On the **Google Play Store** app search for **CSMAP Masa** the click on the App as shown below
 ![Annotated screencapture](images/masa/masa_install.jpg) 
 3. Press **Install** button
-4. After installation completes press the **Open** button  
 ![open](images/masa/masa_install_open.jpg)
+4. After installation completes press the **Open** button
 
-### How to onboard and register {#onboard}
+# How to onboard and register {#onboard}
 1. Follow the onboarding instructions by pressing the purple highlighted buttons
 2. On the User ID screen please enter the user ID provided for the study 
 ![Annotated screencapture](images/masa/user_id.png)
