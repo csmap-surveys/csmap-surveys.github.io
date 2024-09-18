@@ -39,7 +39,9 @@ A successfully registered MASA app looks like below
 		<li>On your Android device search for <strong>Google Play Store</strong> App </li>
 		<li> 
 			On the <strong>Google Play Store</strong> app search for <strong>CSMAP Masa</strong> and the click on the App as shown below 
-			<img src="images/masa/masa_install.jpg" width="300" style="padding-left: 10px;" >
+			<div>
+				<img src="images/masa/masa_install.jpg" width="300" style="padding-left: 10px;" >
+			</div>
 		</li>
 		<li>Press the <strong>Install</strong> button 
 			<div><img src="images/masa/masa_install_open.jpg" width="400" style="padding-left: 42px;"></div>
