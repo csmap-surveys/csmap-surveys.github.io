@@ -2,14 +2,15 @@
 title: About
 layout: masa
 ---
+# About
 
 [Overview](#overview)<br>
 [How to install](#install)<br>
 [How to onboard](#onboard)<br>
 
-**MASA** is an Android application developed by research engineers at the  New York University's <a href="https://csmapnyu.org/"> Center of Social Media and Politics</a>(CSMaP) in collaboration with <a href="https://audacious-software.com">Audacious Software</a>.</br> The application collects information from registered and consenting research participants about the time they spend on specific apps they grant us access to </br>
+**MASA** is an Android application developed by research engineers at the  New York University's <a href="https://csmapnyu.org/"> Center of Social Media and Politics</a>(CSMaP) in collaboration with <a href="https://audacious-software.com">Audacious Software</a>.The application collects information from registered and consenting research participants about the time they spend on specific apps they grant us access to
 <div></div>
-The app collects real time app usage data–like how many minutes you used Facebook and Twitter on your phone.You can only participate if you are recruited into a study and have been provided with a user ID will at the start of the survey. The provided user ID is used throughout the study, including when registering and using the MASA app.
+The app collects real time app usage data–like how many minutes you used Facebook and X on your phone. You can only participate if you are recruited into a study and have been provided with a user ID at the start of the survey. The provided user ID is used throughout the study, including when registering and using the MASA app.
 
 ## Overview {#overview}
 A successfully registered CSMaP MASA app looks like below 
