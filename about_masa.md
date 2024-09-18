@@ -14,7 +14,7 @@ The app collects real time app usage data–like how many minutes you used Faceb
 
 ## Overview {#overview}
 A successfully registered CSMaP MASA app looks like below 
-&nbsp;<br/>&nbsp;<br>
+
 ![Annotated screencapture](images/masa/registered_app.png)
 
 #### USAGE
@@ -26,7 +26,7 @@ Provides information about the user, app and, data transmission settings. Inform
 
 ## How to install {#install}
 1. On your Android device search for **Google Play Store** App 
-2. On the ** Google Play Store** app search for *CSMAP Masa* the click on the App as shown below
+2. On the **Google Play Store** app search for **CSMAP Masa** the click on the App as shown below
 ![Annotated screencapture](images/masa/masa_install.jpg) 
 3. Press **Install** button
 4. After installation completes press the **Open** button  
