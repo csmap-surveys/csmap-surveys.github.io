@@ -36,7 +36,8 @@ Provides information about the user, app and, data transmission settings. Inform
 1. Follow the onboarding instructions by pressing the purple highlighted buttons
 2. On the User ID screen please enter the user ID provided for the study 
 ![Annotated screencapture](images/masa/user_id.png)
-3. Follow the onboarding steps 2 through 5 
+
+3. Continue with the onboarding steps 2 through 5 
 
 Please see our <a href="https://www.csmapsurveys.org/privacy_policy_masa.html">Privacy Policy</a> for more information on what MASA app collects and handles the information collected.<br/>
 If there is anything about the study or your participation that is unclear or technical issue while using the app that you need resolved, please contact our <a href="mailto:sr6276@nyu.edu">research team</a>.
