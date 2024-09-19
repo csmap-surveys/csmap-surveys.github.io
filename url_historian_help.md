@@ -47,7 +47,6 @@ layout: url_historian
 	</ul>
 
  </div>
-
  <!-- install: https://youtu.be/kx0iVRzRFwQ -->
 
 <div>
