@@ -64,7 +64,7 @@ A successfully registered MASA app looks like below
 
 <div>
 <p>Please see our <a href="https://www.csmapsurveys.org/privacy_policy_masa.html">Privacy Policy</a> for more information on what MASA app collects and handles the information collected.<br/>
-If there is anything about the study or your participation that is unclear or technical issue while using the app that you need resolved, please contact our <a href="mailto:sr6276@nyu.edu">research team</a>.</p>
+If there is anything about the study or your participation that is unclear or technical issue while using the app that you need resolved, please <a href="mailto:globalsocialmediastudy@gmail.com ">Email</a> our research team</a>.</p>
 </div>
 	
 	
