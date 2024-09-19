@@ -16,6 +16,7 @@ layout: url_historian
 <p>Thank you for downloading CSMaP's URL Historian. This page provides guidance to issues that might come up when using the extension. </p>
 	<strong style="font-size: 20px;">Table of contents</strong>
 	<ul>
+<<<<<<< Updated upstream
 		<li><a href="#survey">How do I get a User ID?</a></li>
 		<li><a href="#activate">How do I register and activate the extension?</a></li>
 		<li><a href="#forget">Why does a popup window keep appearing after installing the extension?</a></li>
@@ -31,6 +32,35 @@ layout: url_historian
 	<h2 id="survey">How do I get a User ID?</h2>
 	<p>Your <strong>User ID</strong> is provided either through an email sent to you or with a link to install and activate the extension when you consent to share your web history using URL Historian in a survey. If you no longer have access to your User ID, you can request one by emailing <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> and referencing where you completed the survey.</p>
 	<a href="#top">Return to top</a>
+=======
+		<li><a href="#activate">How do I activate the extension after I install it?</a></li>
+		<li><a href="#forget">What happens if I install the extension and forget to activate?</a></li>
+		<li><a href="#survey">What should I do if i forget my Survey ID?</a></li>
+		<li><a href="#uninstall">What do I do if the extension uninstalls itself and not because of failed activation attempt?</a></li>
+		<li><a href="remove">How do I remove the extension from my Chrome browser</a></li>
+		<li><a href="#html">How do I opt to share page content from Twitter, Facebook or YouTube?</a></li>
+		<li><a href="#pause">Can I pause and resume data collection?</a></li>
+		<li><a href="#delete">Can i delete data already collected from me?</a></li>
+			<ol><a href="#byTime">How to delete by date and time</a></ol>
+			<ol><a href="#byDate">How to delete by date</a></ol>
+		<li><a href="#blacklist">Can I prevent the extension from recording visits to websites that I wish to keep private?</a></li>
+		<li><a href="#unblacklist">Can I resume recording visits to websites that I no longer wish to keep private?</a></li>
+		<li><a href="#assistance">Who should I contact for assistance and for further information?</a></li>
+
+	</ul>
+
+ </div>
+
+ <!-- install: https://youtu.be/kx0iVRzRFwQ -->
+
+<div>
+	<h2 id="activate">How do I activate the extension after I install it?</h2>
+	<p> To activate the extension follow the video instructions below</p>
+	<p align ="center">
+			<iframe width="560" height="315" src="https://youtube.com/embed/E0yvIBu4QbQ"></iframe>
+	</p>
+	<br><a align="left" href="#top">Return to top</a>
+>>>>>>> Stashed changes
 </div>
 <div class="extrapadding">
 	<h2 id="activate">How do I register and activate the extension?</h2>
