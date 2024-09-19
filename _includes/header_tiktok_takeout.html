@@ -6,7 +6,7 @@
       <a class="site-title" rel="author"><img src="images/csmap_logo_sq.png" style="max-width:25%; padding-top:10px;" alt="{{ site.title | escape }}"></a>
     </div>
     {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.tiktok_takeout | default: default_paths -%}
+    {%- assign page_paths = site.tiktok | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     
     {%- if titles_size > 0 -%}
