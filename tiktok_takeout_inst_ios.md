@@ -8,50 +8,47 @@ ol li {padding-bottom:15px;}
 </style>  
 # iOS Instructions
 <div style="padding-top:20px;"></div>
-## Step 1: Request YouTube data from Google Takeout services
+## Step 1: Request Your Data
 <img src="images/iOS/iphone_1.png" width="500" style="margin:auto;">
 <img src="images/iOS/iphone_2.png" width="500" style="margin:auto;">
 <img src="images/iOS/iphone_2.png" width="500" style="margin:auto;">
 <img src="images/iOS/iphone_4.png" width="500" style="margin:auto;">
 <img src="images/iOS/iphone_5.png" width="500" style="margin:auto;">
-1. Visit this link: <a href="https://takeout.google.com/settings/takeout/custom/youtube" target="new">https://takeout.google.com/settings/takeout/custom/youtube</a>.
-2. Scroll down to the section that says "Create a new export."
-3. You will see the window "Select data to include" with Products listed as "Youtube and YouTube Music" (pictured below).
-4. **Click on the option "All YouTube data included" - this is an important step that will allow you to limit the data that you share.**<br/>
-<img src="images/yt-select_options.png" width="500" style="margin:auto;">
-4. On the pop-up window (pictured below), you only need to select the following options: history and subscriptions.<br/>
-<img src="images/yt-what_to_select_2.png" width="300" style="margin:auto;"><br/>
-&nbsp;<br/>&nbsp;<br>
-5. Click on “OK.” Then on the original window, click "Next step".
-6. In the next window, you can select file type, frequency, and destination.<br/>
-<img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
-- For Transfer to:, keep "Send download link via email" selected.
-- For Frequency, choose "export once".
-- For the File type field, select “.zip”.
-- For File size field, select 1 GB. 
-- Then click on the blue "Create export" button.
+1. In your Tik Tok app, tap the ☰ in the upper right corner. Then tap "Settings and privacy".
+2. Tap "Account".
+3. Tap "Download your data".
+4. Select "select file format" and then tap "JSON" file format and tap "Done". 
+5. Tap "Request data".
+6. ADD WAIT STEP.
 <br/> 
 *Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in step 4.*
 <div style="padding-top:30px;"></div>
 
-## Step 2: Wait for your takeout data to become available
+## Step 2: Download Your Data
 
 <img src="images/iOS/iphone_6.png" width="500" style="margin:auto;">
+6. Return to your "Download Tik Tok data" page ((Menu > Settings and privacy > Account > Download Your Data)
 <img src="images/iOS/iphone_7.png" width="500" style="margin:auto;">
+7. At the top, there are two tabs. Tap the second, "Download data". Then select "Download".
 <img src="images/iOS/iphone_8.png" width="500" style="margin:auto;">
+8. You will be taken to your phone’s internet browser and a pop-up to download will appear. Tap "Download".
 <img src="images/iOS/iphone_9.png" width="500" style="margin:auto;">
+9. It might take a moment. Tap the blue download icon at the bottom left of the screen.
 <img src="images/iOS/iphone_10.png" width="500" style="margin:auto;">
-After completing the Google takeout request, it should only be a few minutes before you receive the archive from Google in your inbox. On some rare occasions it can take a few days.
+10. Tap "Downloads"
 <div style="padding-top:30px;"></div>
 
-## Step 3: Download your YouTube takeout data
+## Step 3: Share Your Data with Researchers
 
 <img src="images/iOS/iphone_11.png" width="500" style="margin:auto;">
+11. Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> Tap "Select Files". Then tap "Choose Files".
 <img src="images/iOS/iphone_12.png" width="500" style="margin:auto;">
+12. This will take you to your phone’s downloads file. Select the Tik Tok file and tap "Open".
 <img src="images/iOS/iphone_13.png" width="500" style="margin:auto;">
+3. Once the file uploads, your screen will look like this. Then tap "Submit".
 <img src="images/iOS/iphone_14.png" width="500" style="margin:auto;">
-Check for an email from “Google Takeout” with the subject “Your Google data is ready to download.” This may take a while.
-Download the zip file attachment from Google to your computer. 
+14. You will know your file is upload once you see this screen. You can then exit your browser.
+
 <div style="padding-top:30px;"></div>
 
 ## Step 4: Submit your takeout data to receive points
