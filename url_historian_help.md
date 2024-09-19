@@ -12,11 +12,9 @@ layout: url_historian
 		</style>	
 </head>
 <body>
-
 <p>Thank you for downloading CSMaP's URL Historian. This page provides guidance to issues that might come up when using the extension. </p>
 	<strong style="font-size: 20px;">Table of contents</strong>
 	<ul>
-<<<<<<< Updated upstream
 		<li><a href="#survey">How do I get a User ID?</a></li>
 		<li><a href="#activate">How do I register and activate the extension?</a></li>
 		<li><a href="#forget">Why does a popup window keep appearing after installing the extension?</a></li>
@@ -32,7 +30,6 @@ layout: url_historian
 	<h2 id="survey">How do I get a User ID?</h2>
 	<p>Your <strong>User ID</strong> is provided either through an email sent to you or with a link to install and activate the extension when you consent to share your web history using URL Historian in a survey. If you no longer have access to your User ID, you can request one by emailing <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> and referencing where you completed the survey.</p>
 	<a href="#top">Return to top</a>
-=======
 		<li><a href="#activate">How do I activate the extension after I install it?</a></li>
 		<li><a href="#forget">What happens if I install the extension and forget to activate?</a></li>
 		<li><a href="#survey">What should I do if i forget my Survey ID?</a></li>
@@ -60,7 +57,6 @@ layout: url_historian
 			<iframe width="560" height="315" src="https://youtube.com/embed/E0yvIBu4QbQ"></iframe>
 	</p>
 	<br><a align="left" href="#top">Return to top</a>
->>>>>>> Stashed changes
 </div>
 <div class="extrapadding">
 	<h2 id="activate">How do I register and activate the extension?</h2>
