@@ -11,10 +11,7 @@ layout: masa
     	width: 800px;
     	padding-left: 5px;
     }
-  </style>
-
-[How to install](#install)<br>
-[How to onboard](#onboard)<br>
+ </style>
 
 **MASA** is an Android application developed by research engineers at the  New York University's <a href="https://csmapnyu.org/"> Center of Social Media and Politics</a> (CSMaP) in collaboration with <a href="https://audacious-software.com">Audacious Software</a>. The application collects information from registered and consenting research participants about the time they spend on specific apps they grant us access to.
 
@@ -30,39 +27,9 @@ A successfully registered MASA app looks like below
   </div>
 </div>
 
-# How to install {#install}
 <div>
-	<ol>
-		<li>On your Android device search for <strong>Google Play Store</strong> App </li>
-		<li> 
-			On the <strong>Google Play Store</strong> app search for <strong>CSMAP Masa</strong> and then click on the app as shown below 
-			<div>
-				<img src="images/masa/masa_install.jpg" width="300" style="padding-left: 10px;">
-			</div>
-		</li>
-		<li>Press the <strong>Install</strong> button 
-			<div><img src="images/masa/masa_install_open.jpg" width="400" style="padding-left: 10px;"></div>
-		</li>
-		<li>After installation completes press the <strong>Open</strong>  button </li>
-	</ol>
-</div>
-
-# How to onboard {#onboard}
-<div>
-	<ol>
-		<li>Follow the onboarding instructions by pressing the purple highlighted buttons</li>
-		<li>On the User ID screen please enter the user ID provided for the study
-			<div>
-				<img src="images/masa/user_id.png" width="250" style="padding-left: 10px">
-			</div>
-		</li>
-		<li>Continue with the onboarding steps 2 through 5</li>
-	</ol>
-</div>
-
-<div>
-<p>Please see our <a href="https://www.csmapsurveys.org/privacy_policy_masa.html">Privacy Policy</a> for more information on what MASA app collects and handles the information collected.<br/>
-If there is anything about the study or your participation that is unclear or technical issue while using the app that you need resolved, please <a href="mailto:globalsocialmediastudy@gmail.com ">Email</a> our research team</a>.</p>
+	<p>Please see our <a href="https://www.csmapsurveys.org/privacy_policy_masa.html">Privacy Policy</a> for more information on what MASA app collects and handles the information collected.<br/>
+If there is anything about the study or your participation that is unclear or technical issue while using the app that you need resolved, please <a href="mailto:globalsocialmediastudy@gmail.com ">Email</a> our research team.</p>
 </div>
 	
 	

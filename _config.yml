@@ -32,6 +32,8 @@ twitter_timeline:
 masa:
   - about_masa.md
   - privacy_policy_masa.md
+  - how_to_install.md
+  - how_to_onboard.md
 facebook:
   - thankyou_fb.md
 include:
