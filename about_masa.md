@@ -12,8 +12,7 @@ layout: masa
     	padding-left: 5px;
     }
   </style>
-# About
-[Overview](#overview)<br>
+
 [How to install](#install)<br>
 [How to onboard](#onboard)<br>
 
@@ -21,7 +20,6 @@ layout: masa
 
 The app collects real time app usage data–like how many minutes you used Facebook and X on your phone. You can only participate if you are recruited into a study and have been provided with a user ID at the start of the survey. The provided user ID is used throughout the study, including when registering and using the MASA app.
 
-# Overview {#overview}
 A successfully registered MASA app looks like below 
 <div style="display: flex;align-items: flex-start;">
   <div><img class="reg_img" src="images/masa/registered_app.png" style="max-width: 100%;max-height:50%;padding-left: 10px;"></div>
@@ -49,7 +47,7 @@ A successfully registered MASA app looks like below
 	</ol>
 </div>
 
-# How to onboard and register {#onboard}
+# How to onboard {#onboard}
 <div>
 	<ol>
 		<li>Follow the onboarding instructions by pressing the purple highlighted buttons</li>
