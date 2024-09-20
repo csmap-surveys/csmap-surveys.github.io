@@ -6,7 +6,7 @@ layout: masa
 This Privacy Policy (“Policy”) pertains to the CSMaP MASA app ("Masa app”) provided by New York University’s Center for Social Media and Politics (“CSMaP”, “Company,” “we,” “us,” or “our”). We are committed to protecting your personal information and research participants (“you,”your”) right to privacy.
 
 ## What the MASA App collects
-The following data is securely collected and transmitted to the postgres storage server in Amazon Web Services(AWS) from the participant mobile device using [Passive data kit](https://passivedatakit.org). The data collected include: 
+The following data is securely collected and transmitted to the postgres storage server in Amazon Web Services(AWS) from the participant mobile device using [Passive Data Kit](https://passivedatakit.org). The data collected include: 
 
 ### App usage information
 The application collects information from registered, consenting research participants regarding the time they spend on specific apps they have granted access to. Only apps that the participant has explicitly allowed access to are identifiable. For instance, if a participant has granted access to the Facebook app and uses both Facebook and Chrome on the same day, only the daily usage of the Facebook app will be identifiable, while the usage of Chrome will remain hidden from both the participant and researchers. The time spent on apps that the participant has granted access to for the study is displayed in the **USAGE** tab of the MASA app.
