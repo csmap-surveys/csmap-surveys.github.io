@@ -1,12 +1,12 @@
 ---
-title: Windows Instructions
+title: Browser Instructions
 layout: tiktok
 ---
 <style>
 ol li {padding-bottom:15px;}  
   
 </style>  
-# Windows Instructions
+# Brower Instructions
 <div style="padding-top:20px;"></div>
 ## Step 1: Request Your Data
 
