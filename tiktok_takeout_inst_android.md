@@ -43,7 +43,7 @@ ol li {padding-bottom:15px;}
 <br/> 
 *Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in step 4.*
 </div>
-
+<div style="padding-top:30px;"></div>
 ## Step 2: Download Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
