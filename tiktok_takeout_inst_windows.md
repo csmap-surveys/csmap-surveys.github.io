@@ -40,7 +40,7 @@ ol li {padding-bottom:15px;}
 
 <img src="images/Windows/windows_6.png" width="250" style="padding-left: 10px">
 1. Navigate to the data upload page located at <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f </a> and click "Select Files".
-<img src="images/Windows/windows_7.png" width="250" style="padding-left: 10px">
+<img src="images/Windows/windows_7_1.png" width="250" style="padding-left: 10px">
 2. A file explorer window will pop up, click "Downloads", then double click the TikTok data file you have just downloaded (the file name should start "TikTok_Data_"). Alternatively, you can click the data file once and then click "Open".
 <img src="images/Windows/windows_8.png" width="250" style="padding-left: 10px">
 3. You should now see your data file in the "Upload files" section. (If you do not, return to the previous step and repeat the file selection process.) Click "Submit" in the bottom right corner. You will then see the file upload success page to confirm the data upload is complete.
