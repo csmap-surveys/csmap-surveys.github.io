@@ -29,7 +29,7 @@ ol li {padding-bottom:15px;}
 <img src="images/iOS/iphone_5.png" width="250" style="margin:auto;">
 5. Tap "Request data".
 <h1 class="blink-two" ><center><strong style="font-size: 30px; color: #FF0000">STOP!</strong></center></h1> 
-			<p>Please wait <strong>1-4</strong> days for your data to prepare before proceeding to the next steps.</p>
+			<p>Please allow up to <strong>1-4</strong> days for your data to be prepared before proceeding to the next steps.</p>
 <br/> 
 *Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in step 4.*
 <div style="padding-top:30px;"></div>
