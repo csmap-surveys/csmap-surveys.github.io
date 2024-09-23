@@ -23,6 +23,8 @@ ol li {padding-bottom:15px;}
 2. Click "Download your data".
 <img src="images/Windows/windows_3.png" width="250" style="padding-left: 10px">
 3. Select "JSON", then click "Request data"
+<h1 class="blink-two" ><left><strong style="font-size: 30px; color: #FF0000">STOP!</strong></left></h1> 
+			Please allow up to <strong>1-4</strong> days for your data to be prepared before proceeding to the next steps.
 <br/> 
 <div style="padding-top:30px;"></div>
 
