@@ -6,7 +6,7 @@ layout: tiktok
 ol li {padding-bottom:15px;}  
   
 </style>  
-# Brower Instructions
+# Browser Instructions
 <div style="padding-top:20px;"></div>
 ## Step 1: Request Your Data
 
