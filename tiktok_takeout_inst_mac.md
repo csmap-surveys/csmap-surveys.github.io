@@ -1,12 +1,12 @@
 ---
-title: Mac, Safari and Chrome Instructions
+title: Browser Instructions
 layout: tiktok
 ---
 <style>
 ol li {padding-bottom:15px;}  
   
 </style>  
-# Mac, Safari and Chrome Instructions
+# Browser Instructions
 <div style="padding-top:20px;"></div>
 ## Step 1: Request YouTube data from Google Takeout services
 
