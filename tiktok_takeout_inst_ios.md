@@ -18,21 +18,33 @@ ol li {padding-bottom:15px;}
 <div style="padding-top:20px;"></div>
 
 ## Step 1: Request Your Data
-<img src="images/iOS/iphone_1.png" width="250" style="padding-left: 10px">
-1. In your Tik Tok app, tap the ☰ in the upper right corner. Then tap "Settings and privacy".
-<img src="images/iOS/iphone_2.png" width="250" style="padding-left: 10px">
-2. Tap "Account".
-<img src="images/iOS/iphone_2.png" width="250" style="padding-left: 10px">
-3. Tap "Download your data".
-<img src="images/iOS/iphone_4.png" width="250" style="padding-left: 10px">
-4. Select "select file format" and then tap "JSON" file format and tap "Done". 
-<img src="images/iOS/iphone_5.png" width="250" style="padding-left: 10px">
-5. Tap "Request data".
-<h1 class="blink-two" ><left><strong style="font-size: 30px; color: #FF0000">STOP!</strong></left></h1> 
-			Please allow up to <strong>1-4</strong> days for your data to be prepared before proceeding to the next steps.
+<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
+<div style="text-align: left;">
+<img src="images/iOS/iphone_1.png" width="250" style="margin-bottom: 5px;">
+<p>1. In your Tik Tok app, tap the ☰ in the upper right corner. Then tap "Settings and privacy".</p>
+</div>
+<div style="text-align: left;">
+<img src="images/iOS/iphone_2.png" width="250" style="margin-bottom: 5px;">
+<p>2. Tap "Account".</p>
+</div>
+<div style="text-align: left;">
+<img src="images/iOS/iphone_2.png" width="250" style="margin-bottom: 5px;">
+<p>3. Tap "Download your data".</p>
+</div>
+<div style="text-align: left;">
+<img src="images/iOS/iphone_4.png" width="250" style="margin-bottom: 5px;">
+<p>4. Select "select file format" and then tap "JSON" file format and tap "Done".</p>
+</div>
+<div style="text-align: left;">
+<img src="images/iOS/iphone_5.png" width="250" style="margin-bottom: 5px;">
+<p>5. Tap "Request data".</p>
+</div>
+<h1 style="text-align: left;"><strong style="font-size: 30px; color: #FF0000">STOP!</strong></h1> 
+<p>Please allow up to <strong>1-4</strong> days for your data to be prepared before proceeding to the next steps.</p>
 <br/> 
 *Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in step 4.*
 <div style="padding-top:30px;"></div>
+</div>
 
 ## Step 2: Download Your Data
 
