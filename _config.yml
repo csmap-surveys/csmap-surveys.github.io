@@ -22,8 +22,8 @@ youtube_takeout:
 tiktok:
   - tiktok_takeout_inst_ios.md
   - tiktok_takeout_inst_android.md
-  - tiktok_takeout_inst_mac.md
   - tiktok_takeout_inst_windows.md
+  - tiktok_takeout_inst_mac.md
   - tiktok_takeout_inst_faq.md
 twitter_factchecking:
   - twitter_factchecking.md 
