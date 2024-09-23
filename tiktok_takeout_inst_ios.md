@@ -47,30 +47,48 @@ ol li {padding-bottom:15px;}
 </div>
 
 ## Step 2: Download Your Data
-
-<img src="images/iOS/iphone_6.png" width="250" style="padding-left: 10px">
-6. Return to your "Download Tik Tok data" page ((Menu > Settings and privacy > Account > Download Your Data)
-<img src="images/iOS/iphone_7.png" width="250" style="padding-left: 10px">
-7. At the top, there are two tabs. Tap the second, "Download data". Then select "Download".
-<img src="images/iOS/iphone_8.png" width="250" style="padding-left: 10px">
-8. You will be taken to your phone’s internet browser and a pop-up to download will appear. Tap "Download".
-<img src="images/iOS/iphone_9.png" width="250" style="padding-left: 10px">
-9. It might take a moment. Tap the blue download icon at the bottom left of the screen.
-<img src="images/iOS/iphone_10.png" width="250" style="padding-left: 10px">
-10. Tap "Downloads"
+<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
+<div style="text-align: left;">
+<img src="images/iOS/iphone_6.png" width="250" style="margin-bottom: 5px;x">
+<p>6. Return to your "Download Tik Tok data" page ((Menu > Settings and privacy > Account > Download Your Data)</p>
+</div>
+<div style="text-align: left;">
+<img src="images/iOS/iphone_7.png" width="250" style="margin-bottom: 5px;">
+<p>7. At the top, there are two tabs. Tap the second, "Download data". Then select "Download".</p>
+</div>
+<div style="text-align: left;">
+<img src="images/iOS/iphone_8.png" width="250" style="margin-bottom: 5px;">
+<p>8. You will be taken to your phone’s internet browser and a pop-up to download will appear. Tap "Download".</p>
+</div>
+<div style="text-align: left;">
+<img src="images/iOS/iphone_9.png" width="250" style="margin-bottom: 5px;">
+<p>9. It might take a moment. Tap the blue download icon at the bottom left of the screen.</p>
+<div style="text-align: left;">
+<img src="images/iOS/iphone_10.png" width="250" style="margin-bottom: 5px;">
+<p>10. Tap "Downloads"</p>
+</div>
+</div>
 <div style="padding-top:30px;"></div>
-
+</div>
 ## Step 3: Share Your Data with Researchers
-
+<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
+<div style="text-align: left;">
 <img src="images/iOS/iphone_11.png" width="250" style="padding-left: 10px">
-11. Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> Tap "Select Files". Then tap "Choose Files".
+<p>11. Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> Tap "Select Files". Then tap "Choose Files".</p>
+</div>
+<div style="text-align: left;">
 <img src="images/iOS/iphone_12.png" width="250" style="padding-left: 10px">
-12. This will take you to your phone’s downloads file. Select the Tik Tok file and tap "Open".
+<p>12. This will take you to your phone’s downloads file. Select the Tik Tok file and tap "Open".</p>
+</div>
+<div style="text-align: left;">
 <img src="images/iOS/iphone_13.png" width="250" style="padding-left: 10px">
-3. Once the file uploads, your screen will look like this. Then tap "Submit".
+<p>3. Once the file uploads, your screen will look like this. Then tap "Submit".</p>
+</div>
+<div style="text-align: left;">
 <img src="images/iOS/iphone_14.png" width="250" style="padding-left: 10px">
-14. You will know your file is upload once you see this screen. You can then exit your browser.
-
+<p>14. You will know your file is upload once you see this screen. You can then exit your browser.</p>
+</div>
+</div>
 <div style="padding-top:30px;"></div>
 <div style="padding-top:80px;"></div>
 
