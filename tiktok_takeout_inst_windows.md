@@ -35,39 +35,39 @@ ol li {padding-bottom:15px;}
 </div>
 <div style="padding-top:30px;"></div>
 
-## Step 2: Wait for your takeout data to become available
+## Step 2: Download Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/Windows/windows_4.png" width="250" style="margin-bottom: 5px;">
-<p>1. In a Microsoft Edge browser, return to your "Download Tik Tok data" page (User icon > Settings > Download Your Data) or navigate to <a href="https://tiktok.com/setting/download-your-data">https://tiktok.com/setting/download-your-data</a>. </p>
+<p>4. In a Microsoft Edge browser, return to your "Download Tik Tok data" page (User icon > Settings > Download Your Data) or navigate to <a href="https://tiktok.com/setting/download-your-data">https://tiktok.com/setting/download-your-data</a>. </p>
 </div>
 <div style="text-align: left;">
 <img src="images/Windows/windows_5.png" width="250" style="margin-bottom: 5px;">
-<p>2. Click the "Download data" tab at the top if you are currently on the "Request data" tab. Then click "Download" next to the most recent request and enter your password if prompted.</p>
+<p>5. Click the "Download data" tab at the top if you are currently on the "Request data" tab. Then click "Download" next to the most recent request and enter your password if prompted.</p>
 </div>
 </div>
 <div style="padding-top:30px;"></div>
 
-## Step 3: Download your YouTube takeout data
+## Step 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/Windows/windows_6.png" width="250" style="margin-bottom: 5px;">
-<p>1. Navigate to the data upload page located at <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f </a> and click "Select Files".</p>
+<p>6. Navigate to the data upload page located at <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f </a> and click "Select Files".</p>
 </div>
 <div style="text-align: left;">
 <img src="images/Windows/windows_7_1.png" width="250" style="margin-bottom: 5px;">
-<p>2. A file explorer window will pop up, click "Downloads", then double click the TikTok data file you have just downloaded (the file name should start "TikTok_Data_"). Alternatively, you can click the data file once and then click "Open".</p>
+<p>7. A file explorer window will pop up, click "Downloads", then double click the TikTok data file you have just downloaded (the file name should start "TikTok_Data_"). Alternatively, you can click the data file once and then click "Open".</p>
 </div>
 <div style="text-align: left;">
 <img src="images/Windows/windows_8.png" width="250" style="margin-bottom: 5px;">
-<p>3. You should now see your data file in the "Upload files" section. (If you do not, return to the previous step and repeat the file selection process.) Click "Submit" in the bottom right corner. You will then see the file upload success page to confirm the data upload is complete.</p>
+<p>8. You should now see your data file in the "Upload files" section. (If you do not, return to the previous step and repeat the file selection process.) Click "Submit" in the bottom right corner. You will then see the file upload success page to confirm the data upload is complete.</p>
 </div>
 <div style="text-align: left;">
 <img src="images/Windows/windows_9.png" width="250" style="margin-bottom: 5px;">
-<p>4.Check for an email from “Google Takeout” with the subject “Your Google data is ready to download.” This may take a while.</p>
-<p>5.Download the zip file attachment from Google to your computer.</p>
+<p>9.Check for an email from “Google Takeout” with the subject “Your Google data is ready to download.” This may take a while.</p>
+<p>10.Download the zip file attachment from Google to your computer.</p>
 </div>
 </div>
 <div style="padding-top:80px;"></div>
 
-If you have trouble with these steps, you can <a href="mailto:csmapsupport@nyu.edu">email support</a>. 
+If you have trouble with these steps, please reach out to <a href="mailto:csmapsupport@nyu.edu">email support</a>. Our team will be in touch to help you troubleshoot. 
