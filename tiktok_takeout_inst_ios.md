@@ -87,4 +87,4 @@ ol li {padding-bottom:15px;}
 <div style="padding-top:30px;"></div>
 <div style="padding-top:80px;"></div>
 
-If you have trouble with these steps, you can <a href="mailto:csmapsupport@nyu.edu">email support</a>. 
+If you have trouble with these steps, please reach out to <a href="mailto:csmapsupport@nyu.edu">email support</a>. Our team will be in touch to help you troubleshoot. 
