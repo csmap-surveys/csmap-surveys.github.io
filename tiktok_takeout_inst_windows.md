@@ -30,7 +30,7 @@ ol li {padding-bottom:15px;}
 <p>3. Select "JSON", then click "Request data".</p>
 </div>
 <h1 style="text-align: left;"><strong style="font-size: 30px; color: #FF0000">STOP!</strong></h1> 
-<p>Please allow up to <strong>1-4</strong> days for your data to be prepared before proceeding to the next steps.</p>
+<p>Your data file won’t be ready immediately. For some users it might take a few minutes and for others it might take up to  <strong>4</strong> days. Remember to check back daily on this screen to see when your data file is ready. We will also be sending out email reminders to check back for it.</p>
 <br/>  
 </div>
 <div style="padding-top:30px;"></div>
