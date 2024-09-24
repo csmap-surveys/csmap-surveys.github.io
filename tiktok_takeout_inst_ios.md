@@ -28,7 +28,7 @@ ol li {padding-bottom:15px;}
 <p>2. Tap "Account".</p>
 </div>
 <div style="text-align: left;">
-<img src="images/iOS/iphone_2.png" width="250" style="margin-bottom: 5px;">
+<img src="images/iOS/iphone_3.png" width="250" style="margin-bottom: 5px;">
 <p>3. Tap "Download your data".</p>
 </div>
 <div style="text-align: left;">
