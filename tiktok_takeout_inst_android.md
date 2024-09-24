@@ -34,7 +34,7 @@ ol li {padding-bottom:15px;}
 <p>4. Select a "JSON" file format and tap "Done".</p>
 </div>
 <div style="text-align: left;">
-<img src="images/Android/android_5.png" width="250" style="margin-bottom: 5px;">
+<img src="images/Android/android 5.png" width="250" style="margin-bottom: 5px;">
 <p>5. Tap "Request data".</p>
 </div>
 <div style="padding-top:30px;"></div>
