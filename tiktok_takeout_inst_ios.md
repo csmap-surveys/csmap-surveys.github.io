@@ -17,11 +17,11 @@ ol li {padding-bottom:15px;}
 # iOS Instructions
 <div style="padding-top:20px;"></div>
 
-## Step 1: Request Your Data
+## Part 1: Request Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/iOS/iphone_1.png" width="250" style="margin-bottom: 5px;">
-<p>1. In your Tik Tok app, tap the ☰ in the upper right corner. Then tap "Settings and privacy".</p>
+<p>1. In your Tik Tok app, go to your profile and tap the ☰ in the upper right corner. Then tap "Settings and privacy".</p>
 </div>
 <div style="text-align: left;">
 <img src="images/iOS/iphone_2.png" width="250" style="margin-bottom: 5px;">
@@ -40,13 +40,12 @@ ol li {padding-bottom:15px;}
 <p>5. Tap "Request data".</p>
 </div>
 <h1 style="text-align: left;"><strong style="font-size: 30px; color: #FF0000">STOP!</strong></h1> 
-<p>Please allow up to <strong>1-4</strong> days for your data to be prepared before proceeding to the next steps.</p>
+<p>Your data file won’t be ready immediately. For some users it might take a few minutes and for others it might take up to <strong>4</strong>4> days. Remember to check back daily on this screen to see when your data file is ready. We will also be sending out email reminders to check back for it.</p>
 <br/> 
-*Note: if your file size is larger than 1 GB, you most likely selected more data than requested. Please make sure you unselect “videos” in step 4.*
 <div style="padding-top:30px;"></div>
 </div>
 
-## Step 2: Download Your Data
+## Part 2: Download Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/iOS/iphone_6.png" width="250" style="margin-bottom: 5px;x">
@@ -70,7 +69,7 @@ ol li {padding-bottom:15px;}
 </div>
 <div style="padding-top:30px;"></div>
 </div>
-## Step 3: Share Your Data with Researchers
+## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/iOS/iphone_11.png" width="250" style="margin-bottom: 5px;">
@@ -82,11 +81,7 @@ ol li {padding-bottom:15px;}
 </div>
 <div style="text-align: left;">
 <img src="images/iOS/iphone_13.png" width="250" style="margin-bottom: 5px;">
-<p>3. Once the file uploads, your screen will look like this. Then tap "Submit".</p>
-</div>
-<div style="text-align: left;">
-<img src="images/iOS/iphone_14.png" width="250" style="margin-bottom: 5px;">
-<p>14. You will know your file is upload once you see this screen. You can then exit your browser.</p>
+<p>13. Once the file uploads, your screen will look like this. Then tap "Submit". You will know your file is upload once you see this screen. You can then exit your browser.</p>
 </div>
 </div>
 <div style="padding-top:30px;"></div>
