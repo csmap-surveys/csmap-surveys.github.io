@@ -1,11 +1,13 @@
 ---
-title: Video Instructions
+title: Privacy Policy and Video Instructions
 layout: tiktok
 ---
 <style>
 ol li {padding-bottom:15px;}  
   
 </style>  
+# Privacy Policy
+
 # Video Instructions
 <div style="padding-top:20px;"></div>
 
