@@ -16,7 +16,7 @@ You have been invited to take part in a research study to help researchers at CS
 
 We are interested in only certain categories of data. We will only retain the data relevant to the study. We will delete the following categories of your data from the TikTok download: the Ads and Data, App Settings, Direct Messages, Income+ Wallet Transactions, Posts, Profile Info, TikTok Live, TikTok Shopping folders, as well as the Favorite Effects, Favorite HashTags, Favorite Sounds, Hashtag, Location Reviews, Login History, Purchases, Searches, Share History, and Status files from the Activity folder.
 
-Here’s what we’ll analyze from your "Activity" folder of your TikTok download: Browsing History (including which videos you watch), Following (which includes users you are following), Like List, Favorite Videos, Followers, Favorite HashTags, and the timestamps of your Comments (this file includes comment content, but we will delete that).  In addition, you are requested to submit the following on your form: where you live, age, gender, email, political views.
+Here's what we'll retain from your download: Browsing History (including which videos you watch), Following (which includes users you are following), Like List, Favorite Videos, Followers, Favorite HashTags, and the timestamps of your Comments (this file includes comment content, but we will delete that).
 
 
 ## Removing data
