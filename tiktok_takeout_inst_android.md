@@ -68,7 +68,7 @@ ol li {padding-bottom:15px;}
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/Android/android_10.png" width="250" style="margin-bottom: 5px;">
-<p>10. Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> and click "Select Files".</p>
+<p>10. Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> and click "Select Files".</p>
 </div>
 <div style="text-align: left;">
 <img src="images/Android/android_11.png" width="250" style="margin-bottom: 5px;">
