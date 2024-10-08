@@ -1,0 +1,21 @@
+<style>
+  /*.wrapper {max-width: calc(1000px - (30px * 2));}
+  table th, table td {padding: 2px 15px; font-weight:600;}
+  
+  h1.post-title{display:none;}
+  .post-content h1{font-size: 42px;letter-spacing: -1px; line-height: 1; padding-bottom:20px;}*/
+</style> 
+
+<header class="site-header">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.tiktok_upload | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    
+    {% if page.collection == 'other_pages' %}
+      home
+    {% endif %}
+    
+  </div>
+</header>
