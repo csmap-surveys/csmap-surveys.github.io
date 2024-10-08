@@ -1,5 +1,5 @@
 ---
-title: Browser Instructions
+title: Browser 
 layout: tiktok
 ---
 <style>
@@ -13,7 +13,6 @@ ol li {padding-bottom:15px;}
 		        }
 		      }
 </style>  
-# Browser Instructions
 <div style="padding-top:20px;"></div>
 ## Step 1: Request Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">

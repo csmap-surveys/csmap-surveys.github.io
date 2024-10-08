@@ -1,5 +1,5 @@
 ---
-title: iOS Instructions
+title: iOS 
 layout: tiktok
 ---
 <style>
@@ -14,7 +14,6 @@ ol li {padding-bottom:15px;}
 		      }
 </style>  
 
-# iOS Instructions
 <div style="padding-top:20px;"></div>
 
 ## Part 1: Request Your Data

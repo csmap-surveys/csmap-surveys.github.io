@@ -1,17 +1,21 @@
 <style>
-  /*.wrapper {max-width: calc(1000px - (30px * 2));}
-  table th, table td {padding: 2px 15px; font-weight:600;}
-  
-  h1.post-title{display:none;}
-  .post-content h1{font-size: 42px;letter-spacing: -1px; line-height: 1; padding-bottom:20px;}*/
+  .wrapper {;
+    max-width:fit-content;
+    padding-right: 15px;
+    padding-left: 0;
+    margin-left:0;
+  }
+
 </style> 
 
 <header class="site-header">
 
   <div class="wrapper">
+     <div style="padding:10px;">
+      <a class="site-title" rel="author"><img src="images/csmap_logo_sq.png" style="max-width:25%; padding-top:10px;" alt="{{ site.title | escape }}"></a>
+    </div>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.tiktok_upload | default: default_paths -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%} 
   </div>
 </header>

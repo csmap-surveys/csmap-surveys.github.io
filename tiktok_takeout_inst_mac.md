@@ -6,7 +6,6 @@ layout: tiktok
 ol li {padding-bottom:15px;}  
   
 </style>  
-# Privacy Policy
 
 This Privacy Policy (“Policy”) pertains to the TikTok data collection provided by New York University’’s Center for Social Media and Politics (“CSMaP”, “we,” “us,” or “our”). We are committed to protecting your personal information and research participants (“you,”your”) right to privacy.
 You have been invited to take part in a research study to help researchers at CSMaP understand how our ever-shifting online environment impacts politics, policy, and democracy. To be part of a CSMaP study, a participant first completes a survey and opts-in to sharing TikTok data by completing the steps provided by the researchers. Data collected through URL Historian is anonymized and used for academic purposes only..
