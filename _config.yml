@@ -26,7 +26,7 @@ tiktok:
   - tiktok_takeout_inst_mac.md
   - tiktok_takeout_inst_faq.md
 tiktok_upload:
-  -upload_data.md
+  - upload_data.md
 twitter_factchecking:
   - twitter_factchecking.md 
 twitter_timeline:

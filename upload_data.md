@@ -2,8 +2,16 @@
 title: Upload Data
 layout: tiktok
 ---
+<style>
+	.qr_code {
+		margin: 5px;
+		width:250;
+	}
+</style>
 
 <div>
-	Please scan the QR code below to share Your Data with Researchers 
-	<img src="images/qr_code/dropbox_url.png" width="250" style="margin-bottom: 5px;">
-<div>
+	<h1>Please scan the <strong>QR code</strong> below to share your data with researchers</h1>
+	<div>
+		<img class="qr_code" src="images/qr_code/dropbox_url.png">
+	</div>
+</div>

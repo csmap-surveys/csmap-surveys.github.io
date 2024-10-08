@@ -13,9 +13,5 @@
     {%- assign page_paths = site.tiktok_upload | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     
-    {% if page.collection == 'other_pages' %}
-      home
-    {% endif %}
-    
   </div>
 </header>
