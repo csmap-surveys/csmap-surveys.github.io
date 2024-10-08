@@ -1,5 +1,5 @@
 ---
-title: Android Instructions
+title: Android
 layout: tiktok
 ---
 <style>
