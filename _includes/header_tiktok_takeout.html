@@ -6,7 +6,7 @@
     padding-left: 30px;
     margin-left:0;
   }
-  .site_title{
+  .site-title {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -14,8 +14,12 @@
   img{
     width: 250px;
   }
-  .site_nav {
-
+  .site-nav {
+    display: inline-flex;
+    line-height: 0;
+    margin-right:30px;
+    color:#458;
+    font-weight: bold;
   }
 </style> 
 
@@ -32,11 +36,11 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     {%- if titles_size > 0 -%}  
     <nav class="site-nav">
-      <div class="trigger">
+      <div>
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
-          <a class="page-link" style="font-weight:bold;" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {%- endif -%}
         {%- endfor -%}
       </div>
