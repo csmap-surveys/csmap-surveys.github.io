@@ -8,8 +8,7 @@ layout: upload_tiktok
 	}
 </style>
 
-## Share Tiktok Data with Researchers
 <div>
-	<img class="qr_code" src="images/qr_code/dropbox_url.png">
 	<p>Scan the <strong>QR code</strong> to share your data with researchers</p>
+	<img class="qr_code" src="images/qr_code/dropbox_url.png">
 </div>
