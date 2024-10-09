@@ -1,5 +1,5 @@
 ---
-title: Android Device
+title: Android Devices
 layout: tiktok
 ---
 <style>

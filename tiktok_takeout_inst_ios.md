@@ -1,5 +1,5 @@
 ---
-title: iOS device 
+title: iOS Devices 
 layout: tiktok
 ---
 <style>
