@@ -1,16 +1,33 @@
 
+<style>
+  .wrapper {;
+    max-width:fit-content;
+    padding-right: 15px;
+    padding-left: 30px;
+    margin-left:0;
+  }
+  .site_title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img{
+    width: 300px;
+  }
+</style> 
+
 <header class="site-header">
 
   <div class="wrapper">
-    <div>
-      <a class="site-title" rel="author"><img src="images/csmap_logo_sq.png" style="max-width:25%; padding-top:10px;" alt="{{ site.title | escape }}">Instructions TikTok Takeout</a>
-      <!-- <h1 style="color:#666; padding-top:0; margin-top:0; font-weight:bold;"></h1> -->
+    <div class="site-title">
+      <div>
+      <a  rel="author"><img src="images/csmap_logo_sq.png" alt="{{ site.title | escape }}"></a></div>
+      <div><h1 style="color:#666; padding-top:0; margin-top:0; font-weight:bold;">TikTok Takeout Instructions</h1></div>
     </div>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.tiktok | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    {%- if titles_size > 0 -%}
-        
+    {%- if titles_size > 0 -%}  
     <nav class="site-nav">
       <div class="trigger">
         {%- for path in page_paths -%}
