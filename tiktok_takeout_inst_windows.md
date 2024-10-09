@@ -1,9 +1,9 @@
 ---
-title: Browser 
+title: Browsers
 layout: tiktok
 ---
 <style>
-ol li {padding-bottom:15px;}  
+ol li {padding-bottom:10px;}  
   .blink-two {
 		        animation: blinker-two 1.5s linear infinite;
 		      }

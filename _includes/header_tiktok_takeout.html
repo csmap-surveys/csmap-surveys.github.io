@@ -2,24 +2,28 @@
 <style>
   .wrapper {;
     max-width:fit-content;
-    padding-right: 15px;
+    padding-right: 0;
     padding-left: 30px;
     margin-left:0;
   }
   .site-title {
-    display:flex;
+    display:inline-flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: 0;
   }
   img{
     width: 250px;
   }
   .site-nav {
-    display: inline-flex;
+    float: inline-start;
     line-height: 0;
-    margin-right:30px;
+    margin:0 30px 5px 20px;
     color:#458;
     font-weight: bold;
+  }
+  .page-content{
+    padding: 0 10px 0 10px;
   }
 </style> 
 
@@ -29,7 +33,7 @@
     <div class="site-title">
       <div>
       <a  rel="author"><img src="images/csmap_logo_sq.png" alt="{{ site.title | escape }}"></a></div>
-      <div><h1 style="color:#666; padding-top:0; margin-top:0; font-weight:bold;">TikTok Takeout Instructions</h1></div>
+      <div><h1 style="color:#000;padding-top:0;margin-left:10px;font-size:35px;font-weight: 600;">TikTok Takeout Instructions</h1></div>
     </div>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.tiktok | default: default_paths -%}
