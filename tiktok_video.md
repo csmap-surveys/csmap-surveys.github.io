@@ -3,7 +3,7 @@ title:  Video
 layout: tiktok
 ---
 <div>
-	<p>Follow the video instructions below to download and upload your Tiktok data and upload it to share it with Researchers. </p>
+	<p>Follow the video instructions below to download and upload your Tiktok data and share it with Researchers. </p>
 	<video align="center" width="320" height="240" controls><source src="videos/tiktok_android_upload.mp4" type="mp4"></video>
 <div> 
 <div> 
