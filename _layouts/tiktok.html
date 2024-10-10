@@ -2,13 +2,16 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
    {%- include head.html -%}
-  
+   <style>
+    .site-footer {
+      border-top: 1px solid #e8e8e8;
+      padding: 15px;
+    }
+  </style>
    
   <body>
      
   {%- include header_tiktok_takeout.html -%}
-
- 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
