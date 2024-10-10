@@ -20,13 +20,12 @@ youtube_takeout:
   - youtube_takeout_inst.md
   - youtube_takeout_inst_es.md
 tiktok:
-  - tiktok_takeout_inst_ios.md
-  - tiktok_takeout_inst_android.md
-  - tiktok_takeout_inst_windows.md
-  - tiktok_takeout_inst_mac.md
-  - tiktok_takeout_inst_faq.md
+  - tiktok_ios.md
+  - tiktok_android.md
+  - tiktok_browsers.md
+  - tiktok_policy.md
 tiktok_upload:
-  - upload_data.md
+  - tiktok_upload.md
 twitter_factchecking:
   - twitter_factchecking.md 
 twitter_timeline:
