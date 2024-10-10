@@ -14,7 +14,7 @@ ol li {padding-bottom:10px;}
 		      }
 </style>  
 <div style="padding-top:20px;"></div>
-# Step 1: Request Your Data
+## Part 1: Request Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/Windows/windows_1.png" width="250" style="margin-bottom: 5px;">
@@ -34,7 +34,7 @@ ol li {padding-bottom:10px;}
 </div>
 <div style="padding-top:30px;"></div>
 
-## Step 2: Download Your Data
+## Part 2: Download Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/Windows/windows_4.png" width="250" style="margin-bottom: 5px;">
@@ -47,7 +47,7 @@ ol li {padding-bottom:10px;}
 </div>
 <div style="padding-top:30px;"></div>
 
-## Step 3: Share Your Data with Researchers
+## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/Windows/windows_6.png" width="250" style="margin-bottom: 5px;">
