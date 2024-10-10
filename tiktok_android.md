@@ -15,7 +15,7 @@ ol li {padding-bottom:15px;}
 </style>  
 
 <div style="padding-top:20px;"></div>
-## Part 1: Access Your Account and Request Your Data
+## Part 1: Request Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/Android/android_1.png" width="250" style="margin-bottom: 5px;">
