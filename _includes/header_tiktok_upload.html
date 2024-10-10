@@ -28,7 +28,6 @@
     </div>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.tiktok_upload | default: default_paths -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    {%- if titles_size > 0 -%}  
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}  
   </div>
 </header>
