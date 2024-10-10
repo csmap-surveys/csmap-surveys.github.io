@@ -19,30 +19,6 @@ You have been invited to take part in a research study to help researchers at CS
 To be part of a CSMaP study, a participant first completes a survey and opts-in to sharing TikTok data by completing the steps provided by the researchers. Your Tiktok data we collect is anonymized and used for academic purposes only.
 </p>
 
-## What we are collecting
-We are interested in only certain categories of data. We will retain data relevant to the study from your download including: 
-* Browsing History (including which videos you watch)
-* Following and Followers
-* Your Like List
-* Favorite Videos
-* Favorite HashTags
-* The time you posted comments but we will delete the comments content
-
-We will delete the following from your download data: 
-* Ads, 
-* Tiktop app settings
-* Direct Messages
-* Income and Wallet Transactions
-* Posts and Profile Information
-* TikTok Live and Shopping folders
-* Favorite effects, hashTags, sounds, 
-* Location Reviews 
-* Login History 
-* Purchases
-* Searches
-* Share History
-* Status files from the Activity folder
-
 ## Data storage and access
 Data files we collect will be held in encrypted stored managed by CSMaP. Only approved researchers will have access to the data. CSMaP will not share or sell your data to commercial third-parties. All data collected will be anonymized and used for research purposes only. Information that is anonymized and does not contain personal identifying information may be used in more than one research study, shared with other academic researchers, or placed in a data repository without your additional consent.
 
