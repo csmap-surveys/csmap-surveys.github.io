@@ -11,10 +11,14 @@
     justify-content: center;
     letter-spacing: 0;
   }
+  .site-header {
+    border-top: 0;
+  }
 
   img{
     width: 250px;
   }
+  
 
 </style> 
 
@@ -24,7 +28,7 @@
     <div class="site-title">
       <div>
       <a  rel="author"><img src="images/csmap_logo_sq.png" alt="{{ site.title | escape }}"></a></div>
-      <div><h1 style="color:#000;padding-top:0;margin-left:10px;font-size:20px;font-weight: 800; margin-bottom:0">TikTok Data Upload</h1></div>
+      <div><h1 style="color:#828282;padding-top:0;margin-left:10px;font-size:20px;font-weight: 800; margin-bottom:0">TikTok Data Upload</h1></div>
     </div>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.tiktok_upload | default: default_paths -%}
