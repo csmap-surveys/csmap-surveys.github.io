@@ -23,11 +23,11 @@ To be part of a CSMaP study, a participant first completes a survey and opts-in 
 Data files we collect will be held in encrypted stored managed by CSMaP. Only approved researchers will have access to the data. CSMaP will not share or sell your data to commercial third-parties. All data collected will be anonymized and used for research purposes only. Information that is anonymized and does not contain personal identifying information may be used in more than one research study, shared with other academic researchers, or placed in a data repository without your additional consent.
 
 ## Contact
-Please <a href="mailto:csmapsupport@nyu.edu">Email</a> our support team if you wish
+Please Email <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> our support team if you wish
 * To revoke part or all of your shared data at any time.
 * To know more about the study or your participation that is unclear or that you do not understand.
 * To report a technical or research-related problem.
 
-For questions about your rights as a research participant, you may contact the University Committee on Activities Involving Human Subjects (UCAIHS), New York University, 665 Broadway, Suite 804, New York, New York, 10012, through <a href="mailto:ask.humansubjects@nyu.edu">Email</a> or by calling (212) 998-4808.
+For questions about your rights as a research participant, you may contact the University Committee on Activities Involving Human Subjects (UCAIHS), New York University, 665 Broadway, Suite 804, New York, New York, 10012, through Email <a href="mailto:ask.humansubjects@nyu.edu">ask.humansubjects@nyu.edu</a> or by calling (212) 998-4808.
 
 
