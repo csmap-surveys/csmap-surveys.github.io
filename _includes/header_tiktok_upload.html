@@ -5,18 +5,30 @@
     padding-left: 30px;
     margin-left:0;
   }
-  
+  .site-title {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0;
+  }
+
+  img{
+    width: 250px;
+  }
 
 </style> 
 
 <header class="site-header">
 
   <div class="wrapper">
-     <div style="padding:10px;">
-      <a class="site-title" rel="author"><img src="images/csmap_logo_sq.png" style="max-width:25%; padding-top:10px;" alt="{{ site.title | escape }}"></a>
+    <div class="site-title">
+      <div>
+      <a  rel="author"><img src="images/csmap_logo_sq.png" alt="{{ site.title | escape }}"></a></div>
+      <div><h1 style="color:#000;padding-top:0;margin-left:10px;font-size:20px;font-weight: 800; margin-bottom:0">TikTok Data Upload</h1></div>
     </div>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.tiktok_upload | default: default_paths -%}
-    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%} 
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    {%- if titles_size > 0 -%}  
   </div>
 </header>
