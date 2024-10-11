@@ -70,24 +70,23 @@ ol li {padding-bottom:15px;}
 </div>
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
-<div style="text-align: left;">
-<img src="images/iOS/iphone_10.png" width="250" style="margin-bottom: 5px;">
-<p>11. Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> Tap "Select Files". Then tap "Choose Files".</p>
+	<div style="text-align: left;">
+		<p>11. Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> Tap "Select Files". Then tap "Choose Files".</p>
+		<img src="images/iOS/iphone_10.png" width="250" style="margin-bottom: 5px;">
+	</div>
+	<div id="iphone" style="text-align: left;">
+		<p>12.Select the TikTok file and tap "Open".</p>
+		<img src="images/iOS/iphone_11.png" width="250" style="margin-bottom: 5px;">
+	</div>
+	<div style="text-align: left;">
+		<p>13. Once the file uploads, tap "Submit button".</p>
+		<img src="images/iOS/iphone_12.png" width="250" style="margin-bottom: 5px;">
+	</div>
+	<div style="text-align: left;">
+		<img src="images/iOS/iphone_13.png" width="250" style="margin-bottom: 5px;">
+		<p>Your file is successfully uploaded and you can then exit your browser.</p>
+	</div>
 </div>
-<div style="text-align: left;">
-<img src="images/iOS/iphone_11.png" width="250" style="margin-bottom: 5px;">
-<p>12. This will take you to your phone’s downloads file. Select the Tik Tok file and tap "Open".</p>
-</div>
-<div style="text-align: left;">
-<img src="images/iOS/iphone_12.png" width="250" style="margin-bottom: 5px;">
-<p>13. Once the file uploads, your screen will look like this. Then tap "Submit". You will know your file is upload once you see this screen. You can then exit your browser.</p>
-</div>
-<div style="text-align: left;">
-<img src="images/iOS/iphone_13.png" width="250" style="margin-bottom: 5px;">
-<p>You will know your file is upload once you see this screen. You can then exit your browser.</p>
-</div>
-</div>
-<div style="padding-top:30px;"></div>
-<div style="padding-top:80px;"></div>
-
-If you have trouble with these steps, please reach out to <a href="mailto:csmapsupport@nyu.edu">email support</a>. Our team will be in touch to help you troubleshoot. 
+<div>
+	If you have trouble with these steps, please reach out to <a href="mailto:csmapsupport@nyu.edu">email support</a>. Our team will be in touch to help you troubleshoot.
+</div> 
