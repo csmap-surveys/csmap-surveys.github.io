@@ -5,13 +5,17 @@ layout: tiktok
 <style>
 ol li {padding-bottom:15px;}  
 .blink-two {
-		        animation: blinker-two 1.5s linear infinite;
-		      }
-		    @keyframes blinker-two {
-		        100% {
-		          opacity: 0;
-		        }
-		      }
+	animation: blinker-two 1.5s linear infinite;
+	}
+	@keyframes blinker-two {
+		100% {
+		  opacity: 0;
+		}
+	}
+	button {
+		border-radius: 3px
+	}
+
 </style>  
 
 <div style="padding-top:20px;"></div>
@@ -63,7 +67,7 @@ ol li {padding-bottom:15px;}
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div style="text-align: left;">
-		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> then Tap <button style="background-color: #e7e7e7; color:black;"> Select Files</button> then tap <button style="background-color: #6A6767;color: white;"> Choose Files</button>.</p>
+		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> then Tap <button style="background-color: #e7e7e7; color:black;"> Select Files</button> then tap <button style="background-color: #6A6767;color: white;"> Choose Files</button></p>
 		<img src="images/iOS/iphone_10.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
@@ -71,7 +75,7 @@ ol li {padding-bottom:15px;}
 		<img src="images/iOS/iphone_11.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
-		<p>Once the file uploads, tap <button style="background-color:: #57068c; color:white;">Submit</button> button.</p>
+		<p>Once the file uploads, tap <button style="background-color: #57068c; color:white;">Submit</button> button.</p>
 		<img src="images/iOS/iphone_12.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
