@@ -51,11 +51,11 @@ ol li {padding-bottom:15px;}
 		<img src="images/iOS/iphone_supp.png" width="250" style="margin-bottom: 5px;x">
 	</div>
 	<div id="iphone" style="text-align: left;">
-		<p>7. Tap the <strong>Download data</strong> tab then select <strong style="color: red">Download</strong> button.</p>
+		<p>7. Tap the <strong>Download data</strong> tab then select <button style="background-color: red; color: white;">Download</button> button.</p>
 		<img src="images/iOS/iphone_6.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
-		<p>8. On the pop-up window that appears, tap the <strong style="color:blue">Download</strong>.</p>
+		<p>8. On the pop-up window that appears, tap the <strong style="color: #6495ED;">Download</strong>.</p>
 		<img src="images/iOS/iphone_7.png" width="250" style="margin-bottom: 5px;">
 	</div>
 </div>
@@ -63,15 +63,15 @@ ol li {padding-bottom:15px;}
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div style="text-align: left;">
-		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> Tap<button> Select Files</button> then tap <strong style="color: #6A6767"> Choose Files</strong>.</p>
+		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> then Tap <button style="background-color: #e7e7e7; color:black;"> Select Files</button> then tap <button style="background-color: #6A6767;color: white;"> Choose Files</button>.</p>
 		<img src="images/iOS/iphone_10.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
-		<p>Select the <strong>TikTok_Data</strong> file and tap <strong style="color:blue">Open</strong>.</p>
+		<p>Select the <strong>TikTok_Data</strong> file and tap <strong style="color:#6495ED;">Open</strong>.</p>
 		<img src="images/iOS/iphone_11.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
-		<p>Once the file uploads, tap <strong style="color: #57068c">Submit</strong> button.</p>
+		<p>Once the file uploads, tap <button style="background-color:: #57068c; color:white;">Submit</button> button.</p>
 		<img src="images/iOS/iphone_12.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
