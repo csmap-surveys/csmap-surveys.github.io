@@ -50,16 +50,16 @@ ol li {padding-bottom:15px;}
 
 ## Part 2: Download Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
-	<div style="text-align: left;">
-		<p>6. Return to your <strong>Download Tik Tok data</strong> page ((Menu > Settings and privacy > Account > Download Your Data)</p>
+	<div id="iphone" style="text-align: left;">
+		<p>Return to your <strong>Download Tik Tok data</strong> page ((Menu > Settings and privacy > Account > Download Your Data)</p>
 		<img src="images/iOS/iphone_supp.png" width="250" style="margin-bottom: 5px;x">
 	</div>
-	<div id="iphone" style="text-align: left;">
-		<p>7. Tap the <strong>Download data</strong> tab then select <button style="background-color: #ED2939; color: white;">Download</button> button.</p>
+	<div  style="text-align: left;">
+		<p>Tap the <strong>Download data</strong> tab then select <button style="background-color: #ED2939; color: white;">Download</button> button.</p>
 		<img src="images/iOS/iphone_6.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
-		<p>8. On the pop-up window that appears, tap the <strong style="color: #6495ED;">Download</strong>.</p>
+		<p>On the pop-up window that appears, tap <strong style="color: #6495ED;">Download</strong>.</p>
 		<img src="images/iOS/iphone_7.png" width="250" style="margin-bottom: 5px;">
 	</div>
 </div>
@@ -67,7 +67,7 @@ ol li {padding-bottom:15px;}
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div style="text-align: left;">
-		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> then Tap <button style="background-color: #e7e7e7; color:black;"> Select Files</button> then tap <button style="background-color: #6A6767;color: white;"> Choose Files</button></p>
+		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> then Tap <button style="background-color: #e7e7e7; color:black;"> Select Files</button> and finally tap <button style="background-color: #6A6767;color: white;"> Choose Files</button></p>
 		<img src="images/iOS/iphone_10.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
