@@ -63,7 +63,7 @@ ol li {padding-bottom:15px;}
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div style="text-align: left;">
-		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a>Tap<button> Select Files</button> then tap <strong style="color: #6A6767"> Choose Files</strong>.</p>
+		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> Tap<button> Select Files</button> then tap <strong style="color: #6A6767"> Choose Files</strong>.</p>
 		<img src="images/iOS/iphone_10.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
