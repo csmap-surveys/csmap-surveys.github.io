@@ -11,12 +11,12 @@ layout: tiktok
 	<ul>
 		<li style="margin-top:10px">Follow the video instructions below to download and share your Tiktok data with researchers.</li>
 		<video align="center" width="320" height="240" controls><source src="videos/tiktok_android_upload.mp4" type="mp4"></video>
-		<li>Navigate to the <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">data upload page</a> to </li>
-		<li>For <strong>iOS Devices </strong>,follow the steps outlined in <a href="https://www.csmapsurveys.org/tiktok_ios#iphone">Share Your data with researchers</a> to upload your data</li>
+		<li>Navigate to the <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">data upload page</a></li>
+		<li>Follow the steps outlined in <a href="https://www.csmapsurveys.org/tiktok_ios#iphone">data upload for iOS devices</a></li>
 	</ul>
 </div> 
 <div> 
-	<h2>Please Note</h2>
+	<h2 margin-bottom: 3px;>Attention</h2>
 	<p>The availability of your data download request will vary and can be immediate-as in the video-but can take up to 4 days. Please check on your Download data tab daily for when your data file will be ready. We will also be sending out email reminders to check back for it.
 	</p>
 	<p>If you have trouble with the steps outlined in this video, please reach out to <a href="mailto:csmapsupport@nyu.edu">email support</a>. Our team will be in touch to help you troubleshoot.</p>
