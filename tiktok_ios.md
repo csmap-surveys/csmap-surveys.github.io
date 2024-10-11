@@ -51,7 +51,7 @@ ol li {padding-bottom:15px;}
 ## Part 2: Download Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div id="iphone" style="text-align: left;">
-		<p>Return to your <strong>Download Tik Tok data</strong> page ((Menu > Settings and privacy > Account > Download Your Data)</p>
+		<p>Return to your <strong>Download Tik Tok data</strong> page (Menu > Settings and privacy > Account > Download Your Data)</p>
 		<img src="images/iOS/iphone_supp.png" width="250" style="margin-bottom: 5px;x">
 	</div>
 	<div  style="text-align: left;">
