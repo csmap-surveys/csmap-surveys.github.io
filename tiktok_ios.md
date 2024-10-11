@@ -55,7 +55,7 @@ ol li {padding-bottom:15px;}
 		<img src="images/iOS/iphone_supp.png" width="250" style="margin-bottom: 5px;x">
 	</div>
 	<div id="iphone" style="text-align: left;">
-		<p>7. Tap the <strong>Download data</strong> tab then select <button style="background-color: red; color: white;">Download</button> button.</p>
+		<p>7. Tap the <strong>Download data</strong> tab then select <button style="background-color: #ED2939; color: white;">Download</button> button.</p>
 		<img src="images/iOS/iphone_6.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
@@ -75,7 +75,7 @@ ol li {padding-bottom:15px;}
 		<img src="images/iOS/iphone_11.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
-		<p>Once the file uploads, tap <button style="background-color: #57068c; color:white;">Submit</button> button.</p>
+		<p>Once the file uploads, tap <button style="background-color: #57068c; color:white;">Submit</button> button</p>
 		<img src="images/iOS/iphone_12.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
