@@ -20,7 +20,12 @@ ol li {padding-bottom:15px;}
 
 <div style="padding-top:20px;"></div>
 
+<p>The above tabs provide specific instructions based on the device type you may be using, iOS Device, Android Device, Laptop or Desktop. Please click on the tab for the corresponding instructions to your device.</p>
+
+<p>The Video Instructions tab contain a video instructions for mobile devices only.</p>
+
 ## Part 1: Request Your Data
+
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/iOS/iphone_1.png" width="250" style="margin-bottom: 5px;">

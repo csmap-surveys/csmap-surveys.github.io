@@ -1,5 +1,5 @@
 ---
-title: Browser
+title: Laptop or Desktop
 layout: tiktok
 ---
 <style>
@@ -13,12 +13,15 @@ ol li {padding-bottom:10px;}
 		        }
 		      }
 </style>  
+
 <div style="padding-top:20px;"></div>
+<p>These instructions below are for a Windows laptop with Microsoft Edge browser. However, these steps are applicable to the following browsers on both Windows and Mac laptop or desktop: Chrome, Safari, FireFox, or Brave.</p>
+
 ## Part 1: Request Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <img src="images/Windows/windows_1.png" width="250" style="margin-bottom: 5px;">
-<p>1. In a Microsoft Edge browser, navigate to <a href="https://www.tiktok.com/">TikTok.com</a>, click the round user icon in the top right, then select "Settings".</p>
+<p>1. In your favorite browser, navigate to <a href="https://www.tiktok.com/">TikTok.com</a>, click the round user icon in the top right, then select "Settings".</p>
 </div>
 <div style="text-align: left;">
 <img src="images/Windows/windows_2.png" width="250" style="margin-bottom: 5px;">
