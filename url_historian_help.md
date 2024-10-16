@@ -19,7 +19,7 @@ layout: url_historian
 		<li><a href="#survey">How do I get a User ID?</a></li>
 		<li><a href="#activate">How do I register and activate the extension?</a></li>
 		<li><a href="#forget">Why does a popup window keep appearing after installing the extension?</a></li>
-		<li><a href="#remove">I no longer wish to participate. How do I remove the extension from my Chrome browser?</a></li>
+		<li><a href="#remove">How do I remove the extension from my Chrome browser?</a></li>
 		<li><a href="#html">What does the toggle next to "Share YouTube Page Content" do?</a></li>
 		<li><a href="#pause">What options are available if there are times I don’t want to share data?</a></li>
 		<li><a href="#delete">Is there a way to delete data that I didn’t mean to share?</a></li>
@@ -77,7 +77,7 @@ layout: url_historian
 	<a href="#top">Return to top </a>
 </div>
 <div class="extrapadding">
-	<h2 id="remove">I no longer want to participate. How do I remove the extension from my Chrome browser?</h2>
+	<h2 id="remove">How do I remove the extension from my Chrome browser?</h2>
 	<p>You can remove the extension from your Chrome browser in two ways.</p>
 	<p>First, you can remove it through the Chrome browser:</p>
 	<ol>
