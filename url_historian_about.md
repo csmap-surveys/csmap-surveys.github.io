@@ -31,7 +31,7 @@ For more information about URL Historian's data collection and privacy protectio
 
 **Step 1: Download the the URL Historian extension from the Chrome Store**
 
-1. Go to the <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en">URL Historian</a> Chrome Store page from your Chrome browser using a laptop or desktop computer.
+1. Go to the <a href="https://chromewebstore.google.com/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim?authuser=0&hl=en">URL Historian</a> Chrome Store page from your Chrome browser using a laptop or desktop computer.
 2. From the URL Historian page, click on the blue “Add to Chrome” button to start installing the extension.
 3. A pop-up window will appear to inform you of the data the extension can read, click “Add Extension” to accept.
 4. The extension will install automatically. It will need to be registered before setup is complete. 
