@@ -1,4 +1,7 @@
-
+---
+title: 	Política de Privacidad
+layout: url_historian
+---
 # Política de Privacidad
 
 Esta política de privacidad ("política") pertenece a la extensión URL Historian de Chrome ("extensión") proporcionada por el Center for Social Media and Politics de la New York University ("CSMaP", "compañía", "nosotros", "nos" o "nuestro"). Nos comprometemos a proteger su información personal y el derecho a la privacidad de los participantes de la investigación ("usted").

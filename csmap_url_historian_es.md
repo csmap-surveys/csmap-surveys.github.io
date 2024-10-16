@@ -1,9 +1,11 @@
-# Sobre
+---
+title: Sobre
+layout: url_historian
+---
+
 [Descripción general](#descripciongeneral)<br>
 [Cómo instalar](#comoinstalar)<br>
-[Divulgación de privacidad](#divulgaciondeprivacidad) <br>
-
-
+[Divulgación de privacidad](#divulgaciondeprivacidad)<br>
 
 
 #### URL Historian es una extensión de Chrome desarrollada por el <a href="https://csmapnyu.org/">Center for Social Media and Politics (CSMaP) </a> de la Universidad de Nueva York. Esta extensión permite que los participantes compartan datos que contribuyen a una mejor comprensión de cómo nuestro entorno en línea en constante cambio impacta la política y la democracia.
@@ -43,8 +45,4 @@ Para obtener más información sobre la recopilación de datos de URL Historian 
 ## Divulgación de privacidad {#divulgaciondeprivacidad}
 **Tenga en cuenta que URL Historian recopila los datos de navegación web de cualquier persona que use Google Chrome en la computadora en la que se ha instalado. Si comparte cu computadora con alguien, debe informarle sobre la instalación de URL Historian y la recopilación de datos de navegación web. Puede mostrarle cómo pausar la aplicación y borrar su historial de navegación al usar una computadora en la que se haya instalado URL Historian.**
 
-**Participación**
-
-La participación en este estudio es voluntaria. Usted podrá negarse a participar o retirarse en cualquier momento sin sanción. Para revocar su consentimiento de cualquier parte de un estudio, envíe un correo electrónico a <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>, donde los equipos correspondientes se encargarán de su solicitud.
-
-Consulte nuestra <a href="https://www.csmapsurveys.org/csmap_privacy_policy_es.html">política de privacidad </a> para obtener más información sobre qué recopila URL Historian. Si tiene problemas técnicos, puede encontrar una solución con capturas de pantalla de video en <a href="https://www.csmapsurveys.org/url_historian_ayuda.html"> preguntas frecuentes</a>. Si tiene preguntas adicionales o desea informar sobre un problema relacionado con la investigación, puede comunicarse con <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.
+Consulte nuestra <a href="https://www.csmapsurveys.org/csmap_privacy_policy_es.html">política de privacidad </a> para obtener más información sobre qué recopila URL Historian.</br> Si tiene problemas técnicos, puede encontrar una solución con capturas de pantalla de video en <a href="https://www.csmapsurveys.org/url_historian_ayuda.html"> preguntas frecuentes</a>.</br> Si tiene preguntas adicionales o desea informar sobre un problema relacionado con la investigación, puede comunicarse con <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.

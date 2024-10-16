@@ -1,4 +1,7 @@
-
+---
+title: Privacy Policy
+layout: url_historian
+---
 # Privacy Policy
 
 This Privacy Policy (“Policy”) pertains to the URL Historian Chrome extension (“extension”) provided by New York University’'s Center for Social Media and Politics (“CSMaP”, "Company," "we," "us," or "our"). We are committed to protecting your personal information and research participants (“you,”your”) right to privacy. 
@@ -27,7 +30,7 @@ Data collected through URL Historian is anonymized and used for academic purpose
 
 
 **Participation**
-<p>Participation in this study is voluntary. You may refuse to participate or withdraw at any time without penalty. To revoke your consent of any portion of a study, email csmap-surveys@nyu.edu, where your request will be handled by the appropriate teams. If there is anything about the study or your participation that is unclear or that you do not understand, or if you have questions or wish to report a research-related problem, you may contact csmap-surveys@nyu.edu.</p>
+<p>Participation in this study is voluntary. You may refuse to participate or withdraw at any time without penalty. To revoke your consent of any portion of a study, email csmap-surveys@nyu.edu, where your request will be handled by the appropriate teams.
 
 ## Data storage and access
 Data collected through the URL Historian Chrome plug-in will be held on an encrypted hard drive managed by CSMaP. Only approved researchers will have access to the data. CSMaP will not share or sell your data to commercial third-parties. All data collected will be anonymized and used for research purposes only.

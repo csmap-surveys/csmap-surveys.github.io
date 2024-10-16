@@ -1,9 +1,11 @@
-## About
+---
+title: About
+layout: url_historian
+---
 
 [Overview](#overview)<br>
 [How to install](#install)<br>
 [Privacy Disclosure](#privacy)<br>
-
 
 **URL Historian** is a Chrome extension developed by New York University’s <a href="https://csmapnyu.org/">Center for Social Media and Politics </a> CSMaP This extension allows participants to share data that contributes to better understanding of how our ever-shifting online environment impacts politics and democracy.
 
@@ -29,7 +31,7 @@ For more information about URL Historian's data collection and privacy protectio
 
 **Step 1: Download the the URL Historian extension from the Chrome Store**
 
-1. Go to the <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en">URL Historian</a> Chrome Store page from your Chrome browser using a laptop or desktop computer.
+1. Go to the <a href="https://chromewebstore.google.com/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim?authuser=0&hl=en">URL Historian</a> Chrome Store page from your Chrome browser using a laptop or desktop computer.
 2. From the URL Historian page, click on the blue “Add to Chrome” button to start installing the extension.
 3. A pop-up window will appear to inform you of the data the extension can read, click “Add Extension” to accept.
 4. The extension will install automatically. It will need to be registered before setup is complete. 
@@ -43,12 +45,10 @@ For more information about URL Historian's data collection and privacy protectio
 
 ## Privacy Disclosure {#privacy}
 **Please be aware that URL Historian collects the web browsing data of anyone using Google Chrome on the computer that URL Historian is installed on. If you share your computer with anyone, you should inform them that URL Historian is installed and collecting web browsing data. You can show them how to pause the app and/or delete their browsing history when they use your computer with URL Historian installed.**
-
-**Participation**
-
-Participation in this study is voluntary. You may refuse to participate or withdraw at any time without penalty. To revoke your consent of any portion of a study, email <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>, where your request will be handled by the appropriate teams. 
-
-Please see our <a href="https://www.csmapsurveys.org/csmap_privacy_policy.html">Privacy Policy</a> for more information on what URL Historian collects. If you have technical issues, you can find a solution with video screencaptures in <a href="https://www.csmapsurveys.org/url_historian_help.html">Frequently Asked Questions</a>. If there is anything about the study or your participation that is unclear or that you do not understand, or if you have additional questions or wish to report a research-related problem, you may contact <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.
+<br></br>
+Please see our <a href="https://www.csmapsurveys.org/csmap_privacy_policy.html">Privacy Policy</a> for more information on what URL Historian collects.<br/>
+If you have technical issues, you can find a solution with video screen captures in <a href="https://www.csmapsurveys.org/url_historian_help.html">Frequently Asked Questions</a>.</br>
+If there is anything about the study or your participation that is unclear or that you do not understand, or if you have additional questions or wish to report a research-related problem, you may contact <a href="mailto:csmap-surveys@nyu.edu">csmap-surveys@nyu.edu</a>.
 	
 	
 	
