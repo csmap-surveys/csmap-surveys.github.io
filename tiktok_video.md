@@ -18,9 +18,10 @@ layout: tiktok
 <div>
 	<ul>
 		<li style="margin-top:10px">Follow the video instructions below to download and share your Tiktok data with researchers.</li>
-		<video align="center" width="320" height="240" controls><source src="videos/tiktok_android_upload.mp4" type="mp4"></video>
+		<li align ="center">
+			<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hM93RApnaRY?si=P9QPD5fuQnigtNBQ" title="tiktok_data_upload" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</li>
 		<li>Navigate to the <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">data upload page</a></li>
-		<li>Follow the steps outlined in <a href="https://www.csmapsurveys.org/tiktok_ios#iphone">data upload for iOS devices</a></li>
 	</ul>
 </div> 
 <div> 
