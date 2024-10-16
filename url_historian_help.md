@@ -6,7 +6,8 @@ layout: url_historian
 <html>
 <head>
 	<style>
-		h2 {font-size: 18px}
+		h2 {font-size: 25px;
+		    font-weight:700;}
 		ol li {padding-bottom:5px;}
 		.extrapadding{padding:3px;}
 		</style>	
@@ -83,7 +84,7 @@ layout: url_historian
 		<li>Go to the extension menu in your Chrome browser, located next to the address bar (puzzle piece icon).</li> 
 		<li>From the extensions menu, you will see URL Historian listed. Select the three dots next to the extension name to reveal a submenu. The submenu provides the option <strong>Remove from Chrome…</strong>  to uninstall the extension.</li>
 	</ol>
-	<p>Alternatively, visit the <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en">URL Historian</a> listing on the Chrome webstore. Click the <strong style="color:blue"> Remove from Chrome</strong> button in the top right corner </p>
+	<p>Alternatively, visit the <a href="https://chromewebstore.google.com/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim?authuser=0&hl=en">URL Historian</a> listing on the Chrome webstore. Click the <strong style="color:blue"> Remove from Chrome</strong> button in the top right corner </p>
 </div>
 
 <div class="extrapadding">

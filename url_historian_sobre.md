@@ -30,7 +30,7 @@ Para obtener más información sobre la recopilación de datos de URL Historian 
 
 **Paso 1: descargue la extensión URL Historian desde la tienda Chrome Store**
 
-1. Vaya a la página de <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=es">URL Historian</a> de la tienda Chrome Store en su navegador Chrome usando una computadora portátil o de escritorio.
+1. Vaya a la página de <a href="https://chromewebstore.google.com/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim?authuser=0&hl=es">URL Historian</a> de la tienda Chrome Store en su navegador Chrome usando una computadora portátil o de escritorio.
 2. Desde la página de URL Historian, haga clic en el botón azul “Añadir a Chrome” para comenzar a instalar la extensión. 
 3. Una ventana emergente le informa sobre los datos que la extensión puede leer, haga clic en “Añadir extensión” para aceptar.
 4.La extensión se instala automáticamente. Debe registrarse antes de que se complete la configuración

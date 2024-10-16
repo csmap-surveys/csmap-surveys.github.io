@@ -7,7 +7,9 @@ layout: url_historian
 <html>
 <head>
 <style>
-	h2{line-height:100%;}
+	h2{line-height:100%;
+	 font-size:25px;
+	 font-weight: 700}
 	ol li {padding-bottom:10px;}
 	.extrapadding{padding:30px;}
 	</style>	
@@ -63,7 +65,7 @@ layout: url_historian
 		<li>Vaya al menú de extensión en su navegador Chrome, ubicado junto a la barra de direcciones (icono de la pieza del rompecabezas).</li> 
 		<li>En el menú de extensiones, verá URL Historian en la lista. Seleccione los tres puntos junto al nombre de la extensión para mostrar un submenú. El submenú proporciona la opción “Eliminar de Chrome...” para desinstalar la extensión.</li>
 	</ol>
-	<p>Como alternativa, puede visitar la página <a href="https://chrome.google.com/webstore/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim/related?hl=en">URL Historian</a> en la tienda de Chrome. Haga clic en el botón azul “Eliminar de Chrome” en la esquina superior derecha. </p>
+	<p>Como alternativa, puede visitar la página <a href="https://chromewebstore.google.com/detail/url-historian/imdfbahhoamgbblienjdoeafphlngdim?authuser=0&hl=es">URL Historian</a> en la tienda de Chrome. Haga clic en el botón azul “Eliminar de Chrome” en la esquina superior derecha. </p>
 	<p align="center"><img src="images/url_historian_deintall_1.png" style="padding:15px;"></p><br>
 	<br>
 	<p align="center"><img src="images/url_historian_deintall_2.png" style="padding:15px;"></p>
