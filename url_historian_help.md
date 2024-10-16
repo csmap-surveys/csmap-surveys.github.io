@@ -7,7 +7,7 @@ layout: url_historian
 <head>
 	<style>
 		h2 {font-size: 25px;
-		    font-weight:700;}
+		    font-weight:600;}
 		ol li {padding-bottom:5px;}
 		.extrapadding{padding:3px;}
 		</style>	
@@ -31,14 +31,6 @@ layout: url_historian
 	<h2 id="survey">How do I get a User ID?</h2>
 	<p>Your <strong>User ID</strong> is provided either through an email sent to you or with a link to install and activate the extension when you consent to share your web history using URL Historian in a survey. If you no longer have access to your User ID, you can request one by emailing <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> and referencing where you completed the survey.</p>
 	<a href="#top">Return to top</a>
-</div>
-<div>
-	<h2 id="activate">How do I activate the extension after I install it?</h2>
-	<p> To activate the extension follow the video instructions below</p>
-	<p align ="center">
-			<iframe width="560" height="315" src="https://youtube.com/embed/E0yvIBu4QbQ"></iframe>
-	</p>
-	<br><a align="left" href="#top">Return to top</a>
 </div>
 <div class="extrapadding">
 	<h2 id="activate">How do I register and activate the extension?</h2>
