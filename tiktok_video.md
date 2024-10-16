@@ -17,8 +17,8 @@ layout: tiktok
 </style>
 <div>
 	<ul>
-		<li style="margin-top:10px">Follow the video instructions below to download and share your Tiktok data with researchers.</li>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hM93RApnaRY?si=P9QPD5fuQnigtNBQ" title="tiktok_data_upload" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<li style="margin-top:10px">Follow the video instructions below to download and share your TikTok data with researchers.</li>
+		<iframe style="padding:5px" width="560" height="315" src="https://www.youtube-nocookie.com/embed/hM93RApnaRY?si=P9QPD5fuQnigtNBQ" title="tiktok_data_upload" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 		<li>Navigate to the <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">Data upload page</a></li>
 	</ul>
 </div> 
