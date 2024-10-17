@@ -24,6 +24,9 @@ ol li {padding-bottom:15px;}
 
 <p>The Video Instructions tab contain a video instructions for mobile devices only.</p>
 
+<p>Below are instructions for using an iOS device such as
+an iphone or ipad</p>
+
 ## Part 1: Request Your Data
 
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
