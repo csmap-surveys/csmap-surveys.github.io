@@ -5,7 +5,6 @@ layout: news_eval
 <style>
 
 </style>  
-## About 
 **News Evaluation** is a Chrome extension developed by New York University’s <a href="https://csmapnyu.org/">Center for Social Media and Politics </a>CSMaP This extension allows participants to share data that contributes to better understanding of how our ever-shifting online environment impacts politics and democracy.
 <p><a href="https://www.perplexity.ai/search/what-is-perplexity-ai-p84I4FMKSJaLzI1KEBMevQ">Perplexity AI</a> is a generative AI chatbot which is designed to search the internet for relevant links to your questions, evaluate and summarize those claims, and create summaries and explanations.</p> 
 
