@@ -37,6 +37,10 @@ masa:
   - how_to_install_and_register.md
 facebook:
   - thankyou_fb.md
+news_evaluation:
+  - news_evaluation/news_eval.md
+  - news_evaluation/news_eval_policy.md
+  - news_evaluation/news_eval_help.md
 include:
   - README.md
   - index.md
