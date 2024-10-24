@@ -33,7 +33,7 @@ layout: news_eval
 
 ## Privacy Disclosure {#privacy}
 <p>Please see our <a href="https://www.csmapsurveys.org/news_eval_policy.html">Privacy Policy</a> for more information on what News Evaluation collects.</p>
-<p>If you have technical issues, you can find a solution with video screen captures in <a href="https://www.csmapsurveys.org/new_eval_help.html">Frequently Asked Questions</a>.</p>
+<p>If you have technical issues, you can find a solution with video screen captures in <a href="https://www.csmapsurveys.org/news_eval_help.html">Frequently Asked Questions</a>.</p>
 
 
 BELOW is for Perplexity arm 
