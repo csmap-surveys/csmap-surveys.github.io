@@ -13,8 +13,8 @@ layout: news_eval
 		</style>	
 </head>
 <body>
-<p>Thank you for downloading the **News Evaluation** Extension. This page provides guidance to issues that might come up when using the extension.</p>
-	<strong style="font-size: 20px;">Table of contents</strong>
+<p>Thank you for downloading the News Evaluation Extension. This page provides guidance to issues that might come up when using the extension.</p>
+<strong style="font-size: 20px;">Table of contents</strong>
 	<ul>
 		<li><a href="#userid">How do I get a User ID?</a></li>
 		<li><a href="#activate">How do I register and activate the extension?</a></li>
@@ -27,7 +27,6 @@ layout: news_eval
  <h2 id="userid">How do I get my User ID?</h2>
 	<p>Your user ID is the ID associated with the service through which you were recruited. There are two pl
 	If you are coming from MTurk, your ID is your MTurk Worker ID. If you are coming from CloudResearch or Connect, your ID is your Connect ID.</p>
-	<a href="#top">Return to top</a>
 </div>	
 <div class="extrapadding">
 	<h2 id="activate">How do I register and activate the extension?</h2>
@@ -45,12 +44,13 @@ layout: news_eval
 	<h2 id="invalid">The Extension will not accept my ID</h2>
 	<p>You must input the same User ID in the survey and the extension fields in order to activate the extension.</p>
 	<p>Please ensure that the ID you put in the News Evaluation Extension Plugin is exactly the same as the User ID used in the survey</p>
+	<a href="#top">Return to top </a>
 </div>
 
-<!-- <div class="extrapadding">
+<div class="extrapadding">
 	<h2 id="pause">How do I use Perplexity AI</h2>
 	<a href="#top">Return to top</a>
-</div> -->
+</div>
 
 <div class="extrapadding">
 	<h2 id="remove">How do I remove the extension from my Chrome browser?</h2>
@@ -62,8 +62,10 @@ layout: news_eval
 	</ol>
 	<p>Alternatively, visit the <a href="https://chrome.google.com/webstore/url-historian/imdfbahhoamgbblienjdoeafphlngdim?authuser=0&hl=en">News Evaluation </a> listing on the Chrome webstore. Click the <strong style="color:blue"> Remove from Chrome</strong> button in the top right corner </p>
 </div>
+<a href="#top">Return to top</a>
+
 <div class="extrapadding">
-	<h2 id="help">How do I contact support</h2>
+	<h2 id="help">How do contact support</h2>
 	<p>Please email <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> if you:</p>
 	<ul>
 		<li>To revoke your consent for the study</li>
