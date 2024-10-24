@@ -17,15 +17,15 @@ layout: news_eval
 <strong style="font-size: 20px;">Table of contents</strong>
 	<p><a href="#userid">How do I get a User ID?</a></p>
 	<p><a href="#activate">How do I register and activate the extension?</a></p>
-	<p>If<a href="#invalid">Why is the extension not accepting my ID?</a></p>
+	<p><a href="#invalid">Why is the extension not accepting my ID?</a></p>
 	<p><a href="#remove">How do I remove the extension from my Chrome browser?</a></p>
 	<p><a href="#help">How do I contact support?</a></p>
 
 <div class="extrapadding">
  	<h2 id="userid">How do I get my User ID?</h2>
 	<p>Your user ID is the ID associated with the service through which you were recruited. There are two ways to obtain your user ID</p>
-	<p>If you are coming from **MTurk**, your ID is your *MTurk Worker ID*.</p>
-	<p>If you are coming from **CloudResearch or Connect**, your ID is your *Connect ID*.</p>
+	<p>If you are coming from <strong>MTurk</strong>, your ID is your <italic>MTurk Worker ID</italic>.</p>
+	<p>If you are coming from <strong>CloudResearch or Connect</strong>, your ID is your <italic>Connect ID</italic>.</p>
 </div>	
 <div class="extrapadding">
 	<h2 id="activate">How do I register and activate the extension?</h2>
