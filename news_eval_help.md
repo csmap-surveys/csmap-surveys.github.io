@@ -15,13 +15,11 @@ layout: news_eval
 <body>
 <p>Thank you for downloading the News Evaluation Extension. This page provides guidance to issues that might come up when using the extension.</p>
 <strong style="font-size: 20px;">Table of contents</strong>
-	<ul>
-		<li><a href="#userid">How do I get a User ID?</a></li>
-		<li><a href="#activate">How do I register and activate the extension?</a></li>
-		<li><a href="#invalid">Why is the extension not accepting my ID?</a></li>
-		<li><a href="#remove">How do I remove the extension from my Chrome browser?</a></li>
-		<li><a href="#help">How do I contact support?</a></li>
-	</ul>
+<a href="#userid">How do I get a User ID?</a>
+	<a href="#activate">How do I register and activate the extension?</a>
+	<a href="#invalid">Why is the extension not accepting my ID?</a>
+	<a href="#remove">How do I remove the extension from my Chrome browser?</a>
+	<a href="#help">How do I contact support?</a>
 
 <div class="extrapadding">
  	<h2 id="userid">How do I get my User ID?</h2>
