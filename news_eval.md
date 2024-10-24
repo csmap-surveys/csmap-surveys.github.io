@@ -31,7 +31,7 @@ layout: news_eval
 6. When the extension window appears, enter your User ID either Mturk worker ID or Connect ID in the field at the top right. 
 7. Click <button style="background-color: #696969; color:black">Register</button>, a pop-up window will appear informing you that your account has been successfully registered.
 
-## Privacy Disclosure {#privacy}
+## Privacy and Support {#privacy}
 <p>Please see our <a href="https://www.csmapsurveys.org/news_eval_policy.html">Privacy Policy</a> for more information on what News Evaluation collects.</p>
 <p>If you have technical issues, you can find a solution with video screen captures in <a href="https://www.csmapsurveys.org/news_eval_help.html">Frequently Asked Questions</a>.</p>
 
