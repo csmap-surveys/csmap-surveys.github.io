@@ -24,8 +24,8 @@ layout: news_eval
 <div class="extrapadding">
  	<h2 id="userid">How do I get my User ID?</h2>
 	<p>Your user ID is the ID associated with the service through which you were recruited. There are two ways to obtain your user ID</p>
-	<p>If you are coming from <strong>MTurk</strong>, your ID is your <italic>MTurk Worker ID</italic>.</p>
-	<p>If you are coming from <strong>CloudResearch or Connect</strong>, your ID is your <italic>Connect ID</italic>.</p>
+	<p>If you are coming from <strong>MTurk</strong>, your ID is your <em>MTurk Worker ID</em>.</p>
+	<p>If you are coming from <strong>CloudResearch or Connect</strong>, your ID is your <em>Connect ID</em>.</p>
 </div>	
 <div class="extrapadding">
 	<h2 id="activate">How do I register and activate the extension?</h2>
