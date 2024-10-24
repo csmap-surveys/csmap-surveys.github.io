@@ -48,10 +48,10 @@ layout: news_eval
 	<a href="#top">Return to top </a>
 </div>
 
-<div class="extrapadding">
+<!-- <div class="extrapadding">
 	<h2 id="pause">How do I use Perplexity AI</h2>
 	<a href="#top">Return to top</a>
-</div>
+</div> -->
 
 <div class="extrapadding">
 	<h2 id="remove">How do I remove the extension from my Chrome browser?</h2>
@@ -63,14 +63,13 @@ layout: news_eval
 	</ol>
 	<p>Alternatively, visit the <a href="https://chrome.google.com/webstore/url-historian/imdfbahhoamgbblienjdoeafphlngdim?authuser=0&hl=en">News Evaluation </a> listing on the Chrome webstore. Click the <strong style="color:blue"> Remove from Chrome</strong> button in the top right corner </p>
 </div>
-<a href="#top">Return to top</a>
 
 <div class="extrapadding">
 	<h2 id="help">How do contact support</h2>
 	<p>Please email <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> if you:</p>
 	<ul>
 		<li>To revoke your consent for the study</li>
-		<li>To Request your data be deleted</li>
+		<li>To request your data be deleted</li>
 		<li>To report a technical problem</li>
 		<li>To know more about the research project or your participation that is unclear or that you do not understand</li>
 	</ul>
