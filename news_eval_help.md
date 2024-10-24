@@ -26,8 +26,8 @@ layout: news_eval
 <div class="extrapadding">
  	<h2 id="userid">How do I get my User ID?</h2>
 	<p>Your user ID is the ID associated with the service through which you were recruited. There are two ways to obtain your user ID</p>
-	<p>If you are coming from MTurk, your ID is your MTurk Worker ID.</p>
-	<p>If you are coming from CloudResearch or Connect, your ID is your Connect ID.</p>
+	<p>If you are coming from **MTurk**, your ID is your *MTurk Worker ID*.</p>
+	<p>If you are coming from **CloudResearch or Connect**, your ID is your *Connect ID*.</p>
 </div>	
 <div class="extrapadding">
 	<h2 id="activate">How do I register and activate the extension?</h2>
@@ -42,7 +42,7 @@ layout: news_eval
 	<a href="#top">Return to top </a>
 </div>
 <div class="extrapadding">
-	<h2 id="invalid">The Extension will not accept my ID</h2>
+	<h2 id="invalid">Why is the extension not accepting my ID?</h2>
 	<p>You must input the same User ID in the survey and the extension fields in order to activate the extension.</p>
 	<p>Please ensure that the ID you put in the News Evaluation Extension Plugin is exactly the same as the User ID used in the survey</p>
 	<a href="#top">Return to top </a>
@@ -65,7 +65,7 @@ layout: news_eval
 </div>
 
 <div class="extrapadding">
-	<h2 id="help">How do contact support</h2>
+	<h2 id="help">How do I contact support</h2>
 	<p>Please email <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> if you:</p>
 	<ul>
 		<li>To revoke your consent for the study</li>
