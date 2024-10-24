@@ -31,7 +31,7 @@ layout: news_eval
 </div>	
 <div class="extrapadding">
 	<h2 id="activate">How do I register and activate the extension?</h2>
-	<p>After you install the extension, use the User ID <a href="#survey"> provided </a> and do the following</p>
+	<p>After you install the extension, use the User ID <a href="#userid"> provided </a> and do the following</p>
 	<ol>	
 		<li>On the extension <strong>Home</strong> tab, enter the User ID in the field <strong>Enter your User ID</strong>. as shown below on the highlighted section.</li>
 		<p>Perhaps add image here</p>
