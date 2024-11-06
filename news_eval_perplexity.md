@@ -28,12 +28,10 @@ layout: news_eval
 <div class="extrapadding">
 	<h2 id="howmany">How many questions can I ask?</h2>
 	<p>Currently, the free version of Perplexity allows up to five separate questions before prompting you to create a membership. For your present task, you should only need to ask one question, but you are welcome to ask as many as you want.</p>
-	<a href="#top">Return to top </a>
 </div>
 <div class="extrapadding">
 	<h2 id="account">Do I need to create an account?</h2>
 	<p>You do not need to create an account with Perplexity in order to fulfill the task in this study. The free version is sufficient. If you are prompted to create an account, you are welcome to do so if you would like, but you are not required to do so.</p>
-	<a href="#top">Return to top </a>
 </div>
 <div class="extrapadding">
 	<h2 id="runout">What if I run out of queries with the free version?</h2>
