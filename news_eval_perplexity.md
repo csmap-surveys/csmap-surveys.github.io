@@ -13,7 +13,7 @@ layout: news_eval
 		</style>	
 </head>
 <body>
-<p>Perplexity is an AI-powered search engine. It uses a trained large language model, combined with live access to internet search, in order to provide responses. </p>
+<p>Perplexity is an AI-powered search engine. It uses a trained large language model, combined with live access to internet search, in order to provide extensive responses to a broad range of questions and tasks. </p>
 <strong style="font-size: 20px;">Table of contents</strong>
 	<p><a href="#howto">How do I use Perplexity?</a></p>
 	<p><a href="#howmany">How many questions can I ask?</a></p>
