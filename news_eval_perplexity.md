@@ -1,6 +1,5 @@
 ---
-title: Using Perplexity
-layout: news_eval
+layout: perplexity
 ---
 <a id="top"></a>
 <html>
