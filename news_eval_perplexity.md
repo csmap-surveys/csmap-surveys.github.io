@@ -16,7 +16,7 @@ layout: news_eval
 <p>Perplexity is an AI-powered search engine. It uses a trained large language model, combined with live access to internet search, in order to provide responses. </p>
 <strong style="font-size: 20px;">Table of contents</strong>
 	<p><a href="#howto">How do I use Perplexity?</a></p>
-	<p><a href="#howmany">How do I register and activate the extension?</a></p>
+	<p><a href="#howmany">How many questions can I ask?</a></p>
 	<p><a href="#account">Do I need to create an account?</a></p>
 	<p><a href="#runout">What if I run out of queries with the free version?</a></p>
 	<p><a href="#help">How do I contact support?</a></p>
