@@ -37,7 +37,7 @@ Check for an email from “Google Takeout” with the subject “Your Google dat
 Download the zip file attachment from Google to your computer. 
 <div style="padding-top:30px;"></div>
 ## Step 4: Submit your takeout data to receive points
-**You will receive a link from your survey provider with a link to a form. Upload the takeout data zip file using this form.**
+**If you recieve your takeout data while you are filling out your survey, please use the Google form link provided in the survey to upload the zip file in the email you recieve from Google. You will also receive an email from YouGov with a link to the same Google form in 12-24 hours. If it takes more than a few minutes for you to recieve your data from Google, please use said YouGov email to send your data when it arrives.**
 <div style="padding-top:80px;"></div>
 
 If you have trouble with these steps, you can <a href="mailto:csmapsupport@nyu.edu">email support</a>. 
