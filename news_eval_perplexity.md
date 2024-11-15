@@ -12,6 +12,7 @@ layout: perplexity
 		</style>	
 </head>
 <body>
+<h1>Perpleity AI</h1>
 <p>Perplexity is an AI-powered search engine. It uses a trained large language model, combined with live access to internet search, in order to provide extensive responses to a broad range of questions and tasks. </p>
 <strong style="font-size: 20px;">Table of contents</strong>
 	<p><a href="#howto">How do I use Perplexity?</a></p>

@@ -15,7 +15,7 @@ layout: news_eval
 <p>Data collected through News Evaluation is anonymized and used for academic purposes only. All collected data is securely stored on Amazon Web Services (AWS) and only accessible by CSMaP researchers and software engineers.</p>
 
 ## Overview {#overview}
-<p>To participate you must be recruited to the survey through *Mturk*, *Connect* or *CloudResearch and must have the News Evaluation extension installed in a Google Chrome Browser.</p>
+<p>To participate you must be recruited to the survey through <strong>Mturk</strong>, <strong>Connect</strong> or <strong>CloudResearch</strong> and must have the News Evaluation extension installed in a Google Chrome Browser.</p>
 <p> At the end of the evaluation task you can either:</p>
 <ul>
 	<li>Uninstall the extension using the <a href="https://www.csmapsurveys.org/news_eval_help.html#remove">removing an extension from Chrome browser.</a></li>
@@ -34,17 +34,5 @@ layout: news_eval
 ## Privacy and Support {#privacy}
 <p>Please see our <a href="https://www.csmapsurveys.org/news_eval_policy.html">Privacy Policy</a> for more information on what News Evaluation collects.</p>
 <p>If you have technical issues, you can find a solution with video screen captures in <a href="https://www.csmapsurveys.org/news_eval_help.html">Frequently Asked Questions</a>.</p>
-
-
-BELOW is for Perplexity arm 
-
-<p><a href="https://www.perplexity.ai/search/what-is-perplexity-ai-p84I4FMKSJaLzI1KEBMevQ">Perplexity AI</a> is a generative AI chatbot which is designed to search the internet for relevant links to your questions, evaluate and summarize those claims, and create summaries and explanations.</p> 
-## Using Perplexity AI to find evidence regarding news
-(Will only be accessible to Perplexity group, need different page and link)
-<p>To use Perplexity, you simply need to type a question into the dialogue box at the center of the screen and press enter.</p>
-<p>You are free to read the summary, click on suggested links, and ask follow-up questions to help you evaluate the central claim of the given news article.</p>
-<p>Note that the free version of Perplexity will limit you to five queries per day. You are not required to make an account, and you do not need to ask more than five queries. The free access version is sufficient for this task.</p>
-
-
 
 
