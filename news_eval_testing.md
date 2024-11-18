@@ -19,8 +19,8 @@ layout: perplexity
 	<body>
 		<p>These purpose of this test is to ensure that:
 		<ul>
-		 	<li> Survey instructions for survey participants are clear and concise.</li>
-		 	<li> The <strong> News Evaluation </strong> plugin functions as expected</li>
+		 	<li> Survey instructions are clear and concise.</li>
+		 	<li> The <strong> News Evaluation </strong> plugin functionality is as expected</li>
 		</ul>
 		<p>The test will help researchers and engineers refine study instructions and improve the quality of data captured using the plugin.</p>
 		<p>All the data collected by the survey engine and the plugin will be deleted post analysis from our storage database by CSMaP engineers. </p>
