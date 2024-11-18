@@ -12,19 +12,23 @@ layout: perplexity
 			}
 			p,ol,li,video {
 				margin-top: 0.5em;
-				font-size: 14px ;
+				font-size: 15px ;
 			}
 		</style>
 	</head>
 	<body>
-		<p>These purpose of these test is to ensure that survey instructions that will be provided to survey participants are clear and the functionality of the  <strong>News Evaluation</strong> plugin is as expected.</p>
-		<p>The test you will perform will help the researcher and the plugin developers to make any necessary modifications pertaining to clear instructions to study participants and ensure the capture of high quality data for research </p>
-		<p>The data that will be collected both in the survey and plugin portion will be completely removed from our storage database by CSMaP engineers. </p>
-		<p>Please use the <strong>Google Chrome</strong> browser for the entirety of this test. The extension does not collect web activity from other browsers</p>
+		<p>These purpose of this test is to ensure that:
+		<ul>
+		 	<li> Survey instructions for survey participants are clear and concise.</li>
+		 	<li> The <strong> News Evaluation </strong> plugin functions as expected</li>
+		</ul>
+		<p>The test will help researchers and engineers refine study instructions and improve the quality of data captured using the plugin.</p>
+		<p>All the data collected by the survey engine and the plugin will be deleted post analysis from our storage database by CSMaP engineers. </p>
+		<p>Please use the <strong>Google Chrome</strong> browser for the entirety of this test. The plugin does not collect web activity from other browsers</p>
 		<div>
 			<h2> Test overview </h2>
-			<p>You will perform a task that incorporates survey questions that included instruction on how to install a plugin and perform web activity that will be captured.</p>
-			<p> For this task you were emailed with a uniqued userID which you will use for the survey and for registering the plugin</p>
+			<p>You will perform a task that incorporates survey questions that included instructions on how to install the plugin and perform tasks that will be captured by the plugin</p>
+			<p> For this task you were emailed with a unique user ID which you will use for the survey and for registering the plugin</p>
 			<p> Follow the instructions below to perform the test</p>
 			<ol>
 				<li><button id="copyButton" style="background-color: #59B2D1; color: black;">Copy Survey link</button></li>
