@@ -32,9 +32,9 @@ layout: perplexity
 			<p> Follow the instructions below to perform the test:</p>
 			<ol>
 				<li><button id="copyButton" style="background-color: #59B2D1; color: black;">Copy Survey link</button></li>
-				<li> Paste the Copied survey link URL into a Chrome Browser</li>
+				<li> Paste the copied survey link into a Chrome Browser</li>
 				<li> Take the survey</li>
-			 </ol>
+			</ol>
 		</div>
     	<script>
         	const urlDisplay = document.getElementById('urlDisplay');
@@ -46,7 +46,7 @@ layout: perplexity
                 copyButton.textContent = 'Copied!';
                 	setTimeout(() => {
                     copyButton.textContent = 'Copy Survey link';
-                	}, 2000);
+                	}, 10000);
             	}).catch(err => {
                 	console.error('Failed to copy: ', err);
             	});
