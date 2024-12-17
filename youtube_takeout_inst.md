@@ -36,7 +36,7 @@ After completing the Google takeout request, it should only be a few minutes bef
 Check for an email from “Google Takeout” with the subject “Your Google data is ready to download.” This may take a while.
 Download the zip file attachment from Google to your computer. 
 <div style="padding-top:20px;"></div>
-*Note for Mac users: If your downloaded file was unzipped by default, please rezip the file by right clicking on it, and selecting 'compress "your_takeout_filename"' from the dropdown.*
+*Note: If your downloaded file was unzipped by default, please select all of the individual files within the folders inside the 'YouTube and YouTube Music' folder: 'channels', 'comments', 'history', 'playlists',and 'subscriptions'. These should be provided during the Google form upload in step 4.*
 <div style="padding-top:30px;"></div>
 ## Step 4: Submit your takeout data to receive points
 **If you recieve your takeout data while you are filling out your survey, please use the Google form link provided in the survey to upload the zip file in the email you recieve from Google. You will also receive an email from YouGov with a link to the same Google form in 12-24 hours. If it takes more than a few minutes for you to recieve your data from Google, please use said YouGov email to send your data when it arrives.**
