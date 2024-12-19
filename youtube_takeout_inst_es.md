@@ -34,12 +34,15 @@ Después de completar la solicitud de Google Takeout, solo deben pasar unos minu
 <div style="padding-top:30px;"></div>
 ## Paso 3: Descargue sus datos de YouTube Takeout
 Busque un correo electrónico de "Google Takeout" con el asunto "Sus datos de Google están listos para descargar". Esto puede tardar un rato. Descargue el archivo adjunto zip de Google a su computadora.
+<div style="padding-top:20px;"></div>
+*Nota: Si el archivo que descargaste se descomprimió de manera predeterminada, selecciona todos los archivos individuales dentro de las carpetas dentro de la carpeta "YouTube y YouTube Music": comments.csv, search-history.html, watch-history.html y subscriptions.html. Indícalos durante la carga del formulario de Google en el paso 4.*
+
 ## Paso 4: Envíe los datos que recibió de Takeout para recibir puntos
  
  **Recibirá un enlace de su proveedor de encuestas con un enlace a un formulario. Cargue el archivo Takout zip de datos utilizando este formulario.**
 
 
-Please email csmapsupport@nyu.edu with the subject line "YouTube takeout" if you have any issues with these steps.
+Envíe un correo electrónico a csmapsupport@nyu.edu con el asunto "YouTube takeout" si tiene algún problema con estos pasos.
 
 
 
