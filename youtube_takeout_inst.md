@@ -22,8 +22,7 @@ On the pop-up window (pictured below)
 
 On the original window, click **CONTINUE**.
 
-In the **Choose file type, frequency, & destination** window.<br/>
-<img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
+In the **Choose file type, frequency, & destination** window.
 
 Ensure the following choices are selected 
 - Transfer to: **Send download link via email**
@@ -32,6 +31,8 @@ Ensure the following choices are selected
 - File size: **1GB** 
 
 Then click **Create export** button.
+
+<img src="images/choose_file_type.png" width="600" style="margin:auto;">
 
 <div style="padding-top:10px;"></div>
 ## Step 2: Wait for your takeout data to become available
