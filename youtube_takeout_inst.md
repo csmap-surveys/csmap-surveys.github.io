@@ -18,7 +18,7 @@ layout: youtube_takeout
 
 <img src="images/yt-select_options.png" width="500" style="margin:auto;">
 
-5. On the pop-up window (pictured below)
+On the pop-up window (pictured below)
 	* Press  **Deselect all**
 	* Select **history** and **subscriptions**
 	* Click  **OK**
@@ -26,22 +26,26 @@ layout: youtube_takeout
 <img src="images/yt-what_to_select_2.png" width="300" style="margin:auto;"><br/>
 &nbsp;<br/>&nbsp;<br>
 
-6. On the original window, click **CONTINUE**.
-7. In the next window, select file type, frequency, and destination.<br/>
-<img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
-- For Transfer to:, keep "Send download link via email" selected.
-- For Frequency, choose "export once".
-- For the File type field, select “.zip”.
-- For File size field, select 1 GB. 
-- Then click **Create export** button.
+On the original window, click **CONTINUE**.
 
-<div style="padding-top:15px;"></div>
+In the **Choose file type, frequency, and destination** window.<br/>
+<img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
+
+Ensure the following choices are selected 
+- Transfer to: Send download link via email
+- Frequency: **export once**.
+- File type: **.zip**.
+- File size: **1GB** 
+
+Then click **Create export** button.
+
+<div style="padding-top:10px;"></div>
 ## Step 2: Wait for your takeout data to become available
 After completing the Google takeout request, it should only be a few minutes before you receive the archive from Google in your inbox. On some rare occasions it can take a few days.
-<div style="padding-top:15px;"></div>
+<div style="padding-top:10px;"></div>
 ## Step 3: Download your YouTube takeout data
-Check for an email from **Google Takeout** with the subject *Your Google data is ready to download.* This may take a while.
-Download the zip file attachment from Google to your computer. 
+* Check for an email from **Google Takeout** with the subject *Your Google data is ready to download*
+* Download the zip file attachment from Google to your computer. 
 **Note** 
 If your downloaded file was unzipped by default, please select all of the individual files within the folders inside the **YouTube and YouTube Music** folder which includes:
 
@@ -50,15 +54,15 @@ If your downloaded file was unzipped by default, please select all of the indivi
 * subscriptions.csv 
 * comments.csv (This may not be available for your takeout) 
 
-You will be uploading these files Google form in step 4 below
+You will be uploading these files to the Google form in step 4 below
 <div style="padding-top:15px;"></div>
 ## Step 4: Submit your takeout data in Step 3 to receive points
-If you receive your takeout data while you are filling out your survey, please use the Google form link provided in the survey to upload your takeout data.
+If you receive your takeout data while you are filling out the survey, please use the Google form link provided in the survey to upload your takeout data.
 
 If you complete the survey and your data has not arrived from Google, please upload your data using the link that will be provided to you by YouGov within 12-24 hours after survey completion 
 <div style="padding-top:80px;"></div>
 
-If you have trouble with these steps, you can <a href="mailto:csmapsupport@nyu.edu">email support</a>. 
+If you have trouble with these steps, please <a href="mailto:csmapsupport@nyu.edu">email support</a>. 
 
 
 
