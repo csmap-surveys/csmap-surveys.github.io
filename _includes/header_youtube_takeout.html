@@ -1,6 +1,39 @@
-    
+<style>
+  .wrapper {;
+    max-width:fit-content;
+    padding-right: 15px;
+    padding-left: 30px;
+    margin-left:0;
+  }
+  .site-title {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0;
+  }
+  .site-header {
+    border-top: 0;
+  }
+  img{
+    width: 250px;
+  }
+</style>
 
 <header class="site-header">
+
+  <div class="wrapper">
+    <div class="site-title">
+      <div>
+      <a  rel="author"><img src="images/csmap_logo_sq.png" alt="{{ site.title | escape }}"></a></div>
+      <div><h1 style="color:#828282;padding-top:0;margin-left:10px;font-size:20px;font-weight: 800; margin-bottom:0">YouTube Takeout Instructions</h1></div>
+    </div>
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.tiktok_upload | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}  
+  </div>
+</header>
+
+<!-- <header class="site-header">
 
   <div class="wrapper">
     <div style="padding:10px;">
@@ -39,3 +72,4 @@
     {%- endif -%}
   </div>
 </header>
+ -->

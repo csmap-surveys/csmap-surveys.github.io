@@ -1,12 +1,7 @@
 ---
-title: Instructions
 layout: youtube_takeout
 ---
-<style>
-/*ol li {padding-bottom:5px;}  */
-  
-</style>  
-# Instructions
+ 
 <div style="padding-top:20px;"></div>
 ## Step 1: Request YouTube data from Google Takeout services
 
