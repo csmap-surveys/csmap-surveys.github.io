@@ -19,9 +19,9 @@ layout: youtube_takeout
 <img src="images/yt-select_options.png" width="500" style="margin:auto;">
 
 On the pop-up window (pictured below)
-	* Press  **Deselect all**
-	* Select **history** and **subscriptions**
-	* Click  **OK**
+* Press  **Deselect all**
+* Select **history** and **subscriptions**
+* Click  **OK**
 
 <img src="images/yt-what_to_select_2.png" width="300" style="margin:auto;"><br/>
 &nbsp;<br/>&nbsp;<br>
