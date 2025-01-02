@@ -18,18 +18,17 @@ On the pop-up window (pictured below)
 * Select **history** and **subscriptions**
 * Click  **OK**
 
-<img src="images/yt-what_to_select_2.png" width="300" style="margin:auto;"><br/>
-&nbsp;<br/>&nbsp;<br>
+<img src="images/yt-what_to_select_2.png" width="300" style="margin:auto;">
 
 On the original window, click **CONTINUE**.
 
-In the **Choose file type, frequency, and destination** window.<br/>
+In the **Choose file type, frequency, & destination** window.<br/>
 <img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
 
 Ensure the following choices are selected 
-- Transfer to: Send download link via email
-- Frequency: **export once**.
-- File type: **.zip**.
+- Transfer to: **Send download link via email**
+- Frequency: **export once**
+- File type: **.zip**
 - File size: **1GB** 
 
 Then click **Create export** button.
@@ -39,9 +38,12 @@ Then click **Create export** button.
 After completing the Google takeout request, it should only be a few minutes before you receive the archive from Google in your inbox. On some rare occasions it can take a few days.
 <div style="padding-top:10px;"></div>
 ## Step 3: Download your YouTube takeout data
-* Check for an email from **Google Takeout** with the subject *Your Google data is ready to download*
-* Download the zip file attachment from Google to your computer. 
+Check for an email from **Google Takeout** with the subject *Your Google data is ready to download*
+
+Download the zip file attachment from Google to your computer. 
+
 **Note** 
+
 If your downloaded file was unzipped by default, please select all of the individual files within the folders inside the **YouTube and YouTube Music** folder which includes:
 
 * search-history.html
@@ -50,7 +52,7 @@ If your downloaded file was unzipped by default, please select all of the indivi
 * comments.csv (This may not be available for your takeout) 
 
 You will be uploading these files to the Google form in step 4 below
-<div style="padding-top:15px;"></div>
+<div style="padding-top:10px;"></div>
 ## Step 4: Submit your takeout data in Step 3 to receive points
 If you receive your takeout data while you are filling out the survey, please use the Google form link provided in the survey to upload your takeout data.
 
