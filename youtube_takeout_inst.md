@@ -10,20 +10,22 @@ ol li {padding-bottom:15px;}
 <div style="padding-top:20px;"></div>
 ## Step 1: Request YouTube data from Google Takeout services
 
-1. Visit this link: <a href="https://takeout.google.com/settings/takeout/custom/youtube" target="new">https://takeout.google.com/settings/takeout/custom/youtube</a>.
-2. Scroll down to the section that says "Create a new export."
+1. Visit the: <a href="https://takeout.google.com/settings/takeout/custom/youtube" target="new">Google Takeout link</a>. 
+  * If you are not logged on to your Google account you will be prompted to do so  
+2. Scroll down to the section that says **Create a new export**"
 3. You will see the window "Select data to include" with Products listed as "Youtube and YouTube Music" (pictured below).
-4. **Click on the option "All YouTube data included" - this is an important step that will allow you to limit the data that you share.**<br/>
+4. Wait and then Click on the option **All YouTube data included** - This is an important step that will allow you to limit the data that you share 
+
 <img src="images/yt-select_options.png" width="500" style="margin:auto;">
 
 6. On the pop-up window (pictured below)
 	* Press  **Deselect all**, 
 	* Select **history** and **subscriptions**
 	* Click  **OK**
-	
+
 <img src="images/yt-what_to_select_2.png" width="300" style="margin:auto;"><br/>
 &nbsp;<br/>&nbsp;<br>
-7. On the original window, click **Next step**.
+7. On the original window, click **CONTINUE**.
 6. In the next window, select file type, frequency, and destination.<br/>
 <img src="images/choose_file_type.png" width="600" style="margin:auto;"><br/>
 - For Transfer to:, keep "Send download link via email" selected.
