@@ -35,7 +35,7 @@ layout: chatgpt
 </div>
 <div class="extrapadding">
 	<h2 id="runout">What if I run out of queries with the free version?</h2>
-	<p>This is fine, if you were able to ask at least one question to Perplexity in order to evaluate the veracity of the central claim of the article. If chatGPT's paywall comes before you are able to productively use it to evaluate the article, please inform us using the contact information provided below to report the issue, and then proceed with the remainder of the survey to the best of your ability.</p>
+	<p>This is fine, if you were able to ask at least one question to chatGPT in order to evaluate the veracity of the central claim of the article. If chatGPT's paywall comes before you are able to productively use it to evaluate the article, please inform us using the contact information provided below to report the issue, and then proceed with the remainder of the survey to the best of your ability.</p>
 </div>
 
 <div class="extrapadding">
