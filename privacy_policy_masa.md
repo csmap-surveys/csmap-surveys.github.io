@@ -16,6 +16,10 @@ The MASA app also gathers and transmits the participant mobile device informatio
 ## Data storage and access
 Data collected through the MASA app will be held on an encrypted postgres database in Amazon Web Services(AWS). Only approved researchers and app engineers will have access to the data. CSMaP will not share or sell your data to commercial third-parties. All data collected will be anonymized and used for research purposes only. 
 
+## Child Safety policy 
+
+The MASA app is designed solely to monitor app usage on participant’s device. The app has no capability to access, modify, or interact with other apps’ content or functions, nor can it be used to exploit or manipulate device features in any way. All functionality is strictly limited to non-intrusive monitoring, ensuring it cannot be repurposed for any form of child exploitation or abuse.
+
 ## Contact 
 Please <a href="mailto:globalsocialmediastudy@gmail.com ">Email</a> our research team if you wish 
 * To revoke your consent of any portion of a study.
