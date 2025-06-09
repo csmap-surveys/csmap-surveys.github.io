@@ -13,14 +13,14 @@ The application collects information from registered, consenting research partic
 ### Device information
 The MASA app also gathers and transmits the participant mobile device information including battery level, internet connectivity, device screen and data transmission status. This information is gathered to allow the app to send data to the databases when the participant battery connectivity is at their best and also to resume data transmission when the battery or connectivity are restored to a better level.  
 
-## Data storage and access
+### Data storage and access
 Data collected through the MASA app will be held on an encrypted postgres database in Amazon Web Services(AWS). Only approved researchers and app engineers will have access to the data. CSMaP will not share or sell your data to commercial third-parties. All data collected will be anonymized and used for research purposes only. 
 
-## Child Safety policy 
+### Child Safety policy 
 
 The MASA app is designed solely to monitor app usage on participant’s device. The app has no capability to access, modify, or interact with other apps’ content or functions, nor can it be used to exploit or manipulate device features in any way. All functionality is strictly limited to non-intrusive monitoring, ensuring it cannot be repurposed for any form of child exploitation or abuse.
 
-## Contact 
+### Contact 
 Please <a href="mailto:globalsocialmediastudy@gmail.com ">Email</a> our research team if you wish 
 * To revoke your consent of any portion of a study.
 * To know more about the study or your participation that is unclear or that you do not understand. 
