@@ -53,12 +53,13 @@ layout: perplexity
       This test checks whether the News Evaluation extension works correctly during normal browsing and AI task activity.
     </p>
 
-    <h2>What Will Be Captured</h2>
+    <h2>Capabilities Being Tested</h2>
     <ul>
-      <li>Extension registration status.</li>
-      <li>Task-related browsing activity and task actions.</li>
-      <li>Task completion timing.</li>
-      <li>Technical errors encountered during testing.</li>
+      <li>Extension install, registration, and assigned ID loading.</li>
+      <li>Navigation capture (typed URL, link click, back, forward, reload).</li>
+      <li>AI task capture across Google, Gemini, ChatGPT, and Perplexity.</li>
+      <li>Stability under rapid user actions and browser close/reopen.</li>
+      <li>Extension uninstall behavior at the end of a session.</li>
     </ul>
 
     <p class="note">
@@ -73,29 +74,17 @@ layout: perplexity
     <h2>Test Steps</h2>
     <ol>
       <li>Open your assigned test link in Chrome.</li>
-      <li>Install and open the News Evaluation extension when prompted.</li>
-      <li>Confirm your assigned ID is loaded for this session.</li>
-      <li>Complete the requested browsing tasks in order:</li>
+      <li>Install and open the News Evaluation extension when prompted. Capability tested: install and launch.</li>
+      <li>Confirm your assigned ID is loaded for this session. Capability tested: assignment and registration.</li>
+      <li>Go to <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>, run one search query, and open one result. Capability tested: search and click-through navigation capture.</li>
+      <li>Go to <a href="https://gemini.google.com" target="_blank" rel="noopener noreferrer">Gemini</a> and submit one prompt. Capability tested: Gemini interaction capture.</li>
+      <li>Go to <a href="https://chatgpt.com" target="_blank" rel="noopener noreferrer">ChatGPT</a> and submit one prompt. Capability tested: ChatGPT interaction capture.</li>
+      <li>Go to <a href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer">Perplexity</a>, submit one prompt, then ask one follow-up in the same thread. Capability tested: multi-turn Perplexity capture.</li>
+      <li>Type another destination URL directly in the address bar. Capability tested: direct URL navigation capture.</li>
+      <li>Click a link on a page, then use Back, Forward, and Reload once each. Capability tested: transition tracking.</li>
+      <li>Run a short stress pass: multiple quick queries, fast tab switching, and quick window close/reopen. Capability tested: session stability under rapid actions.</li>
+      <li>Visit several additional websites to validate URL-hit tracking. Capability tested: broader URL-hit coverage.</li>
     </ol>
-    <ul>
-      <li>Type a destination URL in the address bar.</li>
-      <li>Click a link on a page.</li>
-      <li>Click the link provided in your email.</li>
-      <li>Use Back, Forward, and Reload in the task flow.</li>
-      <li>Complete one task each on Google, Gemini, ChatGPT, and Perplexity.</li>
-      <li>On Perplexity, submit at least one follow-up question in the same thread.</li>
-      <li>Run stress tasks: multiple quick queries, fast tab switching, and quick window close/reopen.</li>
-      <li>Visit several other websites to validate URL-hit tracking.</li>
-    </ul>
-
-    <h2>Required Screenshots</h2>
-    <p>Take and submit screenshots of what you see on:</p>
-    <ul>
-      <li>Google</li>
-      <li>Gemini</li>
-      <li>ChatGPT</li>
-      <li>Perplexity</li>
-    </ul>
 
     <h2>Extension Uninstall Check</h2>
     <p>
