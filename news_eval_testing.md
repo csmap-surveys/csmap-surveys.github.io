@@ -35,6 +35,16 @@ layout: perplexity
         margin-right: 8px;
       }
 
+      .btn.launching {
+        animation: pulseLaunch 600ms ease-in-out 2;
+      }
+
+      @keyframes pulseLaunch {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.06); }
+        100% { transform: scale(1); }
+      }
+
       .note {
         border-left: 4px solid #59b2d1;
         padding: 8px 12px;
@@ -50,60 +60,117 @@ layout: perplexity
     <h1>News Evaluation Test Instructions</h1>
 
     <p>
-      This test checks whether the News Evaluation extension works correctly during normal browsing and AI task activity.
+      Follow the steps below in order and complete each action.
     </p>
-
-    <h2>Capabilities Being Tested</h2>
-    <ul>
-      <li>Extension install, registration, and assigned ID loading.</li>
-      <li>Navigation capture (typed URL, link click, back, forward, reload).</li>
-      <li>AI task capture across Google, Gemini, ChatGPT, and Perplexity.</li>
-      <li>Stability under rapid user actions and browser close/reopen.</li>
-      <li>Extension uninstall behavior at the end of a session.</li>
-    </ul>
 
     <p class="note">
-      All data collected for this testing cycle will be removed by CSMaP engineers after analysis.
+      All data collected for this testing cycle will be removed by CSMAP engineers after analysis.
     </p>
 
-    <h2>Browser Requirement</h2>
+    <h2>Use Chrome Browser</h2>
     <p>
-      Complete this test in Google Chrome or another Chromium-based browser.
+      Complete this test in Google Chrome.
     </p>
 
-    <h2>Test Steps</h2>
+    <ul>
+      <li>Keep this browser window open for the full test.</li>
+      <li>If asked to install the extension, complete install before moving to the next step.</li>
+      <li>If a site asks you to sign in, sign in if possible and continue.</li>
+    </ul>
+
     <ol>
       <li>Open your assigned test link in Chrome.</li>
-      <li>Install and open the News Evaluation extension when prompted. Capability tested: install and launch.</li>
-      <li>Confirm your assigned ID is loaded for this session. Capability tested: assignment and registration.</li>
-      <li>Go to <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>, run one search query, and open one result. Capability tested: search and click-through navigation capture.</li>
-      <li>Go to <a href="https://gemini.google.com" target="_blank" rel="noopener noreferrer">Gemini</a> and submit one prompt. Capability tested: Gemini interaction capture.</li>
-      <li>Go to <a href="https://chatgpt.com" target="_blank" rel="noopener noreferrer">ChatGPT</a> and submit one prompt. Capability tested: ChatGPT interaction capture.</li>
-      <li>Go to <a href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer">Perplexity</a>, submit one prompt, then ask one follow-up in the same thread. Capability tested: multi-turn Perplexity capture.</li>
-      <li>Type another destination URL directly in the address bar. Capability tested: direct URL navigation capture.</li>
-      <li>Click a link on a page, then use Back, Forward, and Reload once each. Capability tested: transition tracking.</li>
-      <li>Run a short stress pass: multiple quick queries, fast tab switching, and quick window close/reopen. Capability tested: session stability under rapid actions.</li>
-      <li>Visit several additional websites to validate URL-hit tracking. Capability tested: broader URL-hit coverage.</li>
+      <li>Install <a href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1" target="_blank" rel="noopener" onclick="window.open(this.href, 'newsEvalExtensionWindow', 'noopener,width=1200,height=900'); return false;">News Evaluation Extension</a>.</li>
+      <li>Wait for the assigned ID to load automatically.
+        <ul>
+          <li>Autoload success: the consent information screen appears. Click <strong>I have read this information</strong>.</li>
+          <li>Autoload failure: the ID input screen appears. Enter the ID provided by the study team, then click <strong>I have read this information</strong> when the consent screen appears.</li>
+        </ul>
+      </li>
+      <li>Open <a href="https://www.google.com" target="_blank" rel="noopener">Google</a>, search for "latest climate policy update", and open one result.</li>
+      <li>Open two news sites from this list: <a href="https://www.nytimes.com" target="_blank" rel="noopener">NYTimes</a>, <a href="https://www.reuters.com" target="_blank" rel="noopener">Reuters</a>, <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a>. On each site, click at least one article link.</li>
+      <li>Open two social sites from this list: <a href="https://x.com" target="_blank" rel="noopener">X</a>, <a href="https://www.reddit.com" target="_blank" rel="noopener">Reddit</a>, <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>. Perform one normal interaction on each (open a post/thread/profile).</li>
+      <li>Type one destination URL directly in the address bar (example: <a href="https://www.bbc.com" target="_blank" rel="noopener">bbc.com</a>).</li>
+      <li>Use browser Back, Forward, and Reload once each on a page you just visited.</li>
     </ol>
 
-    <h2>Extension Uninstall Check</h2>
+    <h2>Gemini</h2>
+    <ol>
+      <li>Open <a href="https://gemini.google.com" target="_blank" rel="noopener">Gemini</a>.</li>
+      <li>Ask 2 questions and wait for each response to fully render before sending the next question.</li>
+      <li>Ask 3 more questions successively without waiting for the previous response to fully render.</li>
+    </ol>
+
+    <h2>ChatGPT</h2>
+    <ol>
+      <li>Open <a href="https://chatgpt.com" target="_blank" rel="noopener">ChatGPT</a>.</li>
+      <li>Ask 2 questions and wait for each response to fully render before sending the next question.</li>
+      <li>Ask 3 more questions successively without waiting for the previous response to fully render.</li>
+    </ol>
+
+    <h2>Perplexity</h2>
+    <ol>
+      <li>Open <a href="https://www.perplexity.ai" target="_blank" rel="noopener">Perplexity</a>.</li>
+      <li>Ask 2 questions and wait for each response to fully render before sending the next question.</li>
+      <li>Ask 3 more questions successively without waiting for the previous response to fully render.</li>
+      <li>In the same thread, ask at least one follow-up question.</li>
+    </ol>
+
+    <div class="actions">
+      <button id="openRapidTabs" class="btn">Open 4 Rapid Tabs</button>
+    </div>
+    <p>If your browser blocks pop-ups, allow pop-ups for this page and click the button again.</p>
+    <ol>
+      <li><strong>Rapid tab cycle:</strong> Click <strong>Open 4 Rapid Tabs</strong> to open <a href="https://www.reuters.com" target="_blank" rel="noopener">Reuters</a>, <a href="https://www.reddit.com" target="_blank" rel="noopener">Reddit</a>, <a href="https://www.cnn.com" target="_blank" rel="noopener">CNN</a>, and <a href="https://www.msnbc.com" target="_blank" rel="noopener">MSNBC</a>. Switch between the tabs, and close them immediately</li>
+      <li><strong>Delayed close cycle:</strong> Open <a href="https://www.nytimes.com" target="_blank" rel="noopener">NYTimes</a>, <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>, <a href="https://www.perplexity.ai" target="_blank" rel="noopener">Perplexity</a>, and <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a>. Keep them open for 1 minute or more while you browse between them. On all open tabs, scroll up and down. On any two tabs of your choice, copy a short piece of text and, in that same tab, paste it into the address bar, press Enter, and open information from the results page. On the other two tabs, do not copy text; click at least one link within the page. Then close the tabs one by one.</li>
+      <li><strong>Window reopen cycle:</strong> Close the browser window, wait at least 30 seconds, reopen Chrome, then continue browsing for 2-3 minutes on <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a> and <a href="https://x.com" target="_blank" rel="noopener">X</a>.</li>
+    </ol>
+
+    <h2>Uninstall the Extension at the End</h2>
     <p>
       At the end of the test, verify that extension uninstall works from browser extension settings.
     </p>
 
-    <h2>Important Account Note</h2>
+    <h2>Continue Even If Not Logged In</h2>
     <p>
-      If you are not logged in to one or more AI platforms, recorded AI data can be reduced. Continue the test and report which platforms were not logged in.
+      If you are not logged in to one or more AI platforms, captured AI data can be reduced. Continue the test and report which platforms were not logged in.
     </p>
 
-    <h2>Issue Reporting</h2>
-    <p>If something fails, report:</p>
+    <h2>Report Any Problems</h2>
+    <p>If something fails, please report:</p>
     <ul>
-      <li>The step that failed.</li>
-      <li>The exact error text.</li>
+      <li>Step number (for example, Step 6).</li>
+      <li>What happened and any exact error text.</li>
       <li>Your browser version from About Chrome.</li>
     </ul>
 
 
+    <script>
+      const openRapidTabsButton = document.getElementById('openRapidTabs');
+
+      if (openRapidTabsButton) {
+        openRapidTabsButton.addEventListener('click', () => {
+          const rapidSites = [
+            'https://www.reuters.com',
+            'https://www.reddit.com',
+            'https://www.cnn.com',
+            'https://www.msnbc.com'
+          ];
+
+          rapidSites.forEach((siteUrl) => {
+            window.open(siteUrl, '_blank');
+          });
+
+          const originalText = openRapidTabsButton.textContent;
+          openRapidTabsButton.classList.add('launching');
+          openRapidTabsButton.textContent = 'Tabs Opened';
+
+          setTimeout(() => {
+            openRapidTabsButton.classList.remove('launching');
+            openRapidTabsButton.textContent = originalText;
+          }, 1600);
+        });
+      }
+    </script>
   </body>
 </html>
