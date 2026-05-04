@@ -67,6 +67,10 @@ layout: perplexity
       All data collected for this testing cycle will be removed by CSMAP engineers after analysis.
     </p>
 
+    <p class="note">
+      Assigned IDs are now verified automatically by the extension. You should not need to manually confirm ID format during the test.
+    </p>
+
     <h2>Use Chrome Browser</h2>
     <p>
       Complete this test in Google Chrome.
@@ -81,10 +85,10 @@ layout: perplexity
     <ol>
       <li>Open your assigned test link in Chrome.</li>
       <li>Install <a href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1" target="_blank" rel="noopener" onclick="window.open(this.href, 'newsEvalExtensionWindow', 'noopener,width=1200,height=900'); return false;">News Evaluation Extension</a>.</li>
-      <li>Wait for the assigned ID to load automatically.
+      <li>Wait for the assigned ID to be verified automatically.
         <ul>
-          <li>Autoload success: the consent information screen appears. Click <strong>I have read this information</strong>.</li>
-          <li>Autoload failure: the ID input screen appears. Enter the ID provided by the study team, then click <strong>I have read this information</strong> when the consent screen appears.</li>
+          <li>Expected result: the consent information screen appears. Click <strong>I have read this information</strong>.</li>
+          <li>If the ID input screen appears instead, enter the ID provided by the study team and continue, then report that the automatic verification step did not complete as expected.</li>
         </ul>
       </li>
       <li>Open <a href="https://www.google.com" target="_blank" rel="noopener">Google</a>, search for "latest climate policy update", and open one result.</li>
@@ -112,14 +116,14 @@ layout: perplexity
     <ol>
       <li>Open <a href="https://www.perplexity.ai" target="_blank" rel="noopener">Perplexity</a>.</li>
       <li>Ask 2 questions and wait for each response to fully render before sending the next question.</li>
-      <li>Ask 3 more questions successively without waiting for the previous response to fully render.</li>
-      <li>In the same thread, ask at least one follow-up question.</li>
+      <li>Stop after those 2 questions unless you already have additional free usage available on your account.</li>
     </ol>
 
     <div class="actions">
       <button id="openRapidTabs" class="btn">Open 4 Rapid Tabs</button>
     </div>
     <p>If your browser blocks pop-ups, allow pop-ups for this page and click the button again.</p>
+    <p id="rapidTabsStatus" class="note" style="display:none;"></p>
     <ol>
       <li><strong>Rapid tab cycle:</strong> Click <strong>Open 4 Rapid Tabs</strong> to open <a href="https://www.reuters.com" target="_blank" rel="noopener">Reuters</a>, <a href="https://www.reddit.com" target="_blank" rel="noopener">Reddit</a>, <a href="https://www.cnn.com" target="_blank" rel="noopener">CNN</a>, and <a href="https://www.msnbc.com" target="_blank" rel="noopener">MSNBC</a>. Switch between the tabs, and close them immediately</li>
       <li><strong>Delayed close cycle:</strong> Open <a href="https://www.nytimes.com" target="_blank" rel="noopener">NYTimes</a>, <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>, <a href="https://www.perplexity.ai" target="_blank" rel="noopener">Perplexity</a>, and <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a>. Keep them open for 1 minute or more while you browse between them. On all open tabs, scroll up and down. On any two tabs of your choice, copy a short piece of text and, in that same tab, paste it into the address bar, press Enter, and open information from the results page. On the other two tabs, do not copy text; click at least one link within the page. Then close the tabs one by one.</li>
@@ -147,6 +151,7 @@ layout: perplexity
 
     <script>
       const openRapidTabsButton = document.getElementById('openRapidTabs');
+      const rapidTabsStatus = document.getElementById('rapidTabsStatus');
 
       if (openRapidTabsButton) {
         openRapidTabsButton.addEventListener('click', () => {
@@ -157,9 +162,28 @@ layout: perplexity
             'https://www.msnbc.com'
           ];
 
-          rapidSites.forEach((siteUrl) => {
-            window.open(siteUrl, '_blank');
+          const openedTabs = rapidSites.map(() => window.open('', '_blank'));
+          let blockedCount = 0;
+
+          openedTabs.forEach((tabHandle, index) => {
+            if (tabHandle) {
+              tabHandle.location.href = rapidSites[index];
+            } else {
+              blockedCount += 1;
+            }
           });
+
+          if (rapidTabsStatus) {
+            if (blockedCount === 0) {
+              rapidTabsStatus.style.display = 'none';
+              rapidTabsStatus.textContent = '';
+            } else {
+              rapidTabsStatus.style.display = 'block';
+              rapidTabsStatus.textContent = blockedCount === rapidSites.length
+                ? 'Chrome blocked all rapid tabs. Allow pop-ups for this page and click the button again.'
+                : `Chrome blocked ${blockedCount} rapid tab(s). Allow pop-ups for this page and click the button again.`;
+            }
+          }
 
           const originalText = openRapidTabsButton.textContent;
           openRapidTabsButton.classList.add('launching');
