@@ -26,13 +26,39 @@ layout: perplexity
       }
 
       .btn {
+        display: inline-block;
         border: 1px solid #2c6f8e;
         border-radius: 6px;
-        background-color: #59b2d1;
-        color: #111;
+        background-color: #2f9e44;
+        color: #fff;
         padding: 8px 12px;
         cursor: pointer;
         margin-right: 8px;
+        margin-bottom: 8px;
+        text-decoration: none;
+      }
+
+      .btn.clicked,
+      .track-link.clicked {
+        background-color: #c92a2a;
+        border-color: #a61e1e;
+        color: #fff;
+      }
+
+      .track-link {
+        display: inline-block;
+        border: 1px solid #2c6f8e;
+        border-radius: 6px;
+        background-color: #2f9e44;
+        color: #fff;
+        padding: 6px 10px;
+        margin-right: 6px;
+        margin-bottom: 6px;
+        text-decoration: none;
+      }
+
+      .rapid-buttons {
+        margin: 8px 0;
       }
 
       .btn.launching {
@@ -67,24 +93,13 @@ layout: perplexity
       All data collected for this testing cycle will be removed by CSMAP engineers after analysis.
     </p>
 
-    <p class="note">
-      Assigned IDs are now verified automatically by the extension. You should not need to manually confirm ID format during the test.
-    </p>
-
     <h2>Use Chrome Browser</h2>
     <p>
       Complete this test in Google Chrome.
     </p>
 
-    <ul>
-      <li>Keep this browser window open for the full test.</li>
-      <li>If asked to install the extension, complete install before moving to the next step.</li>
-      <li>If a site asks you to sign in, sign in if possible and continue.</li>
-    </ul>
-
     <ol>
-      <li>Open your assigned test link in Chrome.</li>
-      <li>Install <a href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1" target="_blank" rel="noopener" onclick="window.open(this.href, 'newsEvalExtensionWindow', 'noopener,width=1200,height=900'); return false;">News Evaluation Extension</a>.</li>
+      <li>Install <a href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1" target="_blank" rel="noopener">News Evaluation Extension</a>.</li>
       <li>Wait for the assigned ID to be verified automatically.
         <ul>
           <li>Expected result: the consent information screen appears. Click <strong>I have read this information</strong>.</li>
@@ -92,9 +107,13 @@ layout: perplexity
         </ul>
       </li>
       <li>Open <a href="https://www.google.com" target="_blank" rel="noopener">Google</a>, search for "latest climate policy update", and open one result.</li>
-      <li>Open two news sites from this list: <a href="https://www.nytimes.com" target="_blank" rel="noopener">NYTimes</a>, <a href="https://www.reuters.com" target="_blank" rel="noopener">Reuters</a>, <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a>. On each site, click at least one article link.</li>
-      <li>Open two social sites from this list: <a href="https://x.com" target="_blank" rel="noopener">X</a>, <a href="https://www.reddit.com" target="_blank" rel="noopener">Reddit</a>, <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>. Perform one normal interaction on each (open a post/thread/profile).</li>
-      <li>Type one destination URL directly in the address bar (example: <a href="https://www.bbc.com" target="_blank" rel="noopener">bbc.com</a>).</li>
+      <li>Open <a href="https://www.nytimes.com" target="_blank" rel="noopener">NYTimes</a> and click one article link.</li>
+      <li>Open <a href="https://www.reuters.com" target="_blank" rel="noopener">Reuters</a> and click one article link.</li>
+      <li>Open <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a> and click one article link.</li>
+      <li>Open <a href="https://x.com" target="_blank" rel="noopener">X</a> and open one post, one thread, or one profile.</li>
+      <li>Open <a href="https://www.reddit.com" target="_blank" rel="noopener">Reddit</a> and open a post/thread/profile.</li>
+      <li>Open <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a> and open a post/thread/profile.</li>
+      <li>Open a new tab and type <span class="mono">bbc.com</span> in the address bar and press <span class="mono">Enter</span>.</li>
       <li>Use browser Back, Forward, and Reload once each on a page you just visited.</li>
     </ol>
 
@@ -116,18 +135,57 @@ layout: perplexity
     <ol>
       <li>Open <a href="https://www.perplexity.ai" target="_blank" rel="noopener">Perplexity</a>.</li>
       <li>Ask 2 questions and wait for each response to fully render before sending the next question.</li>
-      <li>Stop after those 2 questions unless you already have additional free usage available on your account.</li>
+      <li>If logged in, ask 3 more questions successively without waiting for each response to finish.</li>
+      <li>If not logged in, stop after the first 2 questions.</li>
     </ol>
 
-    <div class="actions">
-      <button id="openRapidTabs" class="btn">Open 4 Rapid Tabs</button>
-    </div>
-    <p>If your browser blocks pop-ups, allow pop-ups for this page and click the button again.</p>
-    <p id="rapidTabsStatus" class="note" style="display:none;"></p>
+    <h2>Tab Navigation</h2>
     <ol>
-      <li><strong>Rapid tab cycle:</strong> Click <strong>Open 4 Rapid Tabs</strong> to open <a href="https://www.reuters.com" target="_blank" rel="noopener">Reuters</a>, <a href="https://www.reddit.com" target="_blank" rel="noopener">Reddit</a>, <a href="https://www.cnn.com" target="_blank" rel="noopener">CNN</a>, and <a href="https://www.msnbc.com" target="_blank" rel="noopener">MSNBC</a>. Switch between the tabs, and close them immediately</li>
-      <li><strong>Delayed close cycle:</strong> Open <a href="https://www.nytimes.com" target="_blank" rel="noopener">NYTimes</a>, <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>, <a href="https://www.perplexity.ai" target="_blank" rel="noopener">Perplexity</a>, and <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a>. Keep them open for 1 minute or more while you browse between them. On all open tabs, scroll up and down. On any two tabs of your choice, copy a short piece of text and, in that same tab, paste it into the address bar, press Enter, and open information from the results page. On the other two tabs, do not copy text; click at least one link within the page. Then close the tabs one by one.</li>
-      <li><strong>Window reopen cycle:</strong> Close the browser window, wait at least 30 seconds, reopen Chrome, then continue browsing for 2-3 minutes on <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a> and <a href="https://x.com" target="_blank" rel="noopener">X</a>.</li>
+      <li><strong>Rapid tab cycle:</strong>
+      Click each button below and close the opened tab immediately.
+      <div class="rapid-buttons">
+        <a class="btn track-link" href="https://www.reuters.com" target="_blank" rel="noopener">Open Reuters</a>
+        <a class="btn track-link" href="https://www.netflix.com" target="_blank" rel="noopener">Open Netflix</a>
+        <a class="btn track-link" href="https://www.cnn.com" target="_blank" rel="noopener">Open CNN</a>
+        <a class="btn track-link" href="https://www.msnbc.com" target="_blank" rel="noopener">Open MSNBC</a>
+      </div></li>
+      <li><strong>Delayed close cycle:</strong>
+        <p><strong>Copy and Paste</strong></p>
+        <ul>
+          <li>Open the two tabs below
+            <div class="rapid-buttons">
+              <a class="btn track-link" href="https://www.nytimes.com" target="_blank" rel="noopener">Open NYTimes</a>
+              <a class="btn track-link" href="https://www.aljazeera.com/" target="_blank" rel="noopener">Open Aljazeera</a>
+            </div>
+          </li>
+          <li>With each tab scroll up and down</li>
+          <li>Copy a short piece of text from each site and paste it into that tab's address bar</li>
+          <li>Press Enter</li>
+          <li>Scroll up and down the new page and then close</li>
+        </ul>
+        <p><strong>Click and Browse</strong></p>
+        <ul>
+          <li>Open the two tabs below
+            <div class="rapid-buttons">
+              <a class="btn track-link" href="https://www.perplexity.ai" target="_blank" rel="noopener">Open Perplexity</a>
+              <a class="btn track-link" href="https://apnews.com" target="_blank" rel="noopener">Open AP News</a>
+            </div>
+          </li>
+          <li>With each of the open tab ...</li>
+          <li>Scroll up and down each site</li>
+          <li>Click one link within each page</li>
+          <li>Slowly browse the new open link</li>
+          <li>Close the link and then close the tab</li>
+        </ul>
+      </li>
+    </ol>
+
+    <h2>Window Reopen Cycle</h2>
+    <ol>
+      <li>Close the browser window.</li>
+      <li>Wait at least 30 seconds.</li>
+      <li>Reopen Chrome.</li>
+      <li>Continue browsing for 2-3 minutes on <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a> and <a href="https://x.com" target="_blank" rel="noopener">X</a>.</li>
     </ol>
 
     <h2>Uninstall the Extension at the End</h2>
@@ -148,53 +206,12 @@ layout: perplexity
       <li>Your browser version from About Chrome.</li>
     </ul>
 
-
     <script>
-      const openRapidTabsButton = document.getElementById('openRapidTabs');
-      const rapidTabsStatus = document.getElementById('rapidTabsStatus');
-
-      if (openRapidTabsButton) {
-        openRapidTabsButton.addEventListener('click', () => {
-          const rapidSites = [
-            'https://www.reuters.com',
-            'https://www.reddit.com',
-            'https://www.cnn.com',
-            'https://www.msnbc.com'
-          ];
-
-          const openedTabs = rapidSites.map(() => window.open('', '_blank'));
-          let blockedCount = 0;
-
-          openedTabs.forEach((tabHandle, index) => {
-            if (tabHandle) {
-              tabHandle.location.href = rapidSites[index];
-            } else {
-              blockedCount += 1;
-            }
-          });
-
-          if (rapidTabsStatus) {
-            if (blockedCount === 0) {
-              rapidTabsStatus.style.display = 'none';
-              rapidTabsStatus.textContent = '';
-            } else {
-              rapidTabsStatus.style.display = 'block';
-              rapidTabsStatus.textContent = blockedCount === rapidSites.length
-                ? 'Chrome blocked all rapid tabs. Allow pop-ups for this page and click the button again.'
-                : `Chrome blocked ${blockedCount} rapid tab(s). Allow pop-ups for this page and click the button again.`;
-            }
-          }
-
-          const originalText = openRapidTabsButton.textContent;
-          openRapidTabsButton.classList.add('launching');
-          openRapidTabsButton.textContent = 'Tabs Opened';
-
-          setTimeout(() => {
-            openRapidTabsButton.classList.remove('launching');
-            openRapidTabsButton.textContent = originalText;
-          }, 1600);
+      document.querySelectorAll('.track-link').forEach((element) => {
+        element.addEventListener('click', () => {
+          element.classList.add('clicked');
         });
-      }
+      });
     </script>
   </body>
 </html>
