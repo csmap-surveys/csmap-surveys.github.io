@@ -77,8 +77,79 @@ layout: perplexity
         background: #f3fbfe;
       }
 
+      .countdown-banner {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 1000;
+        padding: 10px 14px;
+        border: 2px solid #57068c;
+        border-radius: 8px;
+        background: #f5effe;
+        box-shadow: 0 2px 8px rgba(87,6,140,0.18);
+        text-align: center;
+        min-width: 120px;
+      }
+
+      .countdown-label {
+        font-weight: 700;
+        margin-right: 8px;
+        color: #57068c;
+      }
+
+      .countdown-time {
+        font-family: monospace;
+        font-size: 18px;
+        font-weight: 700;
+        color: #57068c;
+      }
+
+      .countdown-banner.warning {
+        border-color: #c92a2a;
+        background: #fff5f5;
+      }
+
+      .countdown-banner.warning .countdown-time {
+        color: #c92a2a;
+      }
+
+      .countdown-banner.blink {
+        animation: countdownBlink 1s step-start infinite;
+      }
+
+      @keyframes countdownBlink {
+        50% {
+          opacity: 0.45;
+        }
+      }
+
       .mono {
         font-family: monospace;
+      }
+
+      .copy-url-btn {
+        display: inline-block;
+        border: 2px solid #57068c;
+        border-radius: 6px;
+        background: #f5effe;
+        color: #57068c;
+        padding: 8px 14px;
+        font-weight: 700;
+        cursor: pointer;
+        margin: 8px 0;
+        font-size: 14px;
+      }
+
+      .copy-url-btn:active {
+        background: #e0d0f7;
+      }
+
+      .copy-confirm {
+        display: none;
+        margin-left: 10px;
+        color: #2f9e44;
+        font-weight: 700;
+        font-size: 14px;
       }
     </style>
   </head>
@@ -93,6 +164,15 @@ layout: perplexity
       All data collected for this testing cycle will be removed by CSMAP engineers after analysis.
     </p>
 
+    <p class="note">
+      You are required to complete all sections of this test within 20 minutes. Work through each section in order without pausing.
+    </p>
+
+    <div class="countdown-banner" id="countdownBanner" role="status" aria-live="polite">
+      <span class="countdown-label">Time Remaining:</span>
+      <span class="countdown-time" id="countdownTime">20:00</span>
+    </div>
+
     <h2>Use Chrome Browser</h2>
     <p>
       Complete this test in Google Chrome.
@@ -106,15 +186,40 @@ layout: perplexity
           <li>If the ID input screen appears instead, enter the ID provided by the study team and continue, then report that the automatic verification step did not complete as expected.</li>
         </ul>
       </li>
-      <li>Open <a href="https://www.google.com" target="_blank" rel="noopener">Google</a>, search for "latest climate policy update", and open one result.</li>
-      <li>Open <a href="https://www.nytimes.com" target="_blank" rel="noopener">NYTimes</a> and click one article link.</li>
-      <li>Open <a href="https://www.reuters.com" target="_blank" rel="noopener">Reuters</a> and click one article link.</li>
-      <li>Open <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a> and click one article link.</li>
-      <li>Open <a href="https://x.com" target="_blank" rel="noopener">X</a> and open one post, one thread, or one profile.</li>
-      <li>Open <a href="https://www.reddit.com" target="_blank" rel="noopener">Reddit</a> and open a post/thread/profile.</li>
-      <li>Open <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a> and open a post/thread/profile.</li>
-      <li>Open a new tab and type <span class="mono">bbc.com</span> in the address bar and press <span class="mono">Enter</span>.</li>
-      <li>Use browser Back, Forward, and Reload once each on a page you just visited.</li>
+    </ol>
+
+    <h2>Single-Tab Browsing Cycles</h2>
+    <p>Complete each task below, then close the tab to return here.</p>
+    <ol>
+      <li>Open <a href="https://www.google.com" target="_blank" rel="noopener">Google</a>
+        <ul>
+          <li>Search for "latest climate policy update"</li>
+          <li>Open one result and scroll the page</li>
+          <li>Copy a sentence from that page and paste it into the Google search bar</li>
+          <li>Search it</li>
+        </ul>
+      </li>
+      <li>Open <a href="https://www.nytimes.com" target="_blank" rel="noopener">NYTimes</a>
+        <ul>
+          <li>Click one article link</li>
+          <li>Scroll the opened page</li>
+          <li>Use browser <span class="mono">Back</span> once and <span class="mono">Forward</span> once</li>
+        </ul>
+      </li>
+      <li>Open <a href="https://www.reuters.com" target="_blank" rel="noopener">Reuters</a>
+        <ul>
+          <li>Click one article link and scroll the opened page</li>
+          <li>Copy a short piece of text from that page</li>
+          <li>Paste it into the same tab's address bar and press <span class="mono">Enter</span></li>
+        </ul>
+      </li>
+      <li>Open <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a>
+        <ul>
+          <li>Click one article link and scroll the opened page</li>
+          <li>Click one additional link within that tab</li>
+          <li>Use browser <span class="mono">Back</span> once and <span class="mono">Forward</span> once</li>
+        </ul>
+      </li>
     </ol>
 
     <h2>Gemini</h2>
@@ -143,7 +248,7 @@ layout: perplexity
     <ol>
       <li><strong>Rapid tab cycle:</strong>
       Click each button below and close the opened tab immediately.
-      <div class="rapid-buttons">
+      <div class="rapid-buttons" data-button-group="rapid-cycle">
         <a class="btn track-link" href="https://www.reuters.com" target="_blank" rel="noopener">Open Reuters</a>
         <a class="btn track-link" href="https://www.netflix.com" target="_blank" rel="noopener">Open Netflix</a>
         <a class="btn track-link" href="https://www.cnn.com" target="_blank" rel="noopener">Open CNN</a>
@@ -180,17 +285,23 @@ layout: perplexity
       </li>
     </ol>
 
-    <h2>Window Reopen Cycle</h2>
+    <h2 id="window-reopen-cycle" tabindex="-1">Window Reopen Cycle</h2>
     <ol>
+      <li>Copy the return URL below — you will paste it into Chrome after reopening.
+        <div style="margin: 8px 0;">
+          <button class="copy-url-btn" id="copyReturnUrlBtn">Copy Return URL</button>
+          <span class="copy-confirm" id="copyConfirm">&#10003; Copied!</span>
+        </div>
+      </li>
       <li>Close the browser window.</li>
       <li>Wait at least 30 seconds.</li>
-      <li>Reopen Chrome.</li>
+      <li>Reopen Chrome, paste the copied URL into the address bar, and press <span class="mono">Enter</span>.</li>
       <li>Continue browsing for 2-3 minutes on <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a> and <a href="https://x.com" target="_blank" rel="noopener">X</a>.</li>
     </ol>
 
     <h2>Uninstall the Extension at the End</h2>
     <p>
-      At the end of the test, verify that extension uninstall works from browser extension settings.
+      The extension is scheduled to uninstall automatically after 20 minutes.
     </p>
 
     <h2>Continue Even If Not Logged In</h2>
@@ -207,11 +318,109 @@ layout: perplexity
     </ul>
 
     <script>
-      document.querySelectorAll('.track-link').forEach((element) => {
+      const clickedLinksStorageKey = 'newsEvalClickedLinks';
+      const countdownStartStorageKey = 'newsEvalCountdownStart';
+      const countdownDurationMs = 20 * 60 * 1000;
+      const countdownWarningMs = 2 * 60 * 1000;
+      const windowReopenHash = '#window-reopen-cycle';
+
+      const readClickedLinks = () => {
+        try {
+          const storedValue = localStorage.getItem(clickedLinksStorageKey);
+          return storedValue ? JSON.parse(storedValue) : [];
+        } catch {
+          return [];
+        }
+      };
+
+      const writeClickedLinks = (links) => {
+        try {
+          localStorage.setItem(clickedLinksStorageKey, JSON.stringify(Array.from(new Set(links))));
+        } catch {
+          // Ignore storage failures and continue with in-memory behavior.
+        }
+      };
+
+      const clickedLinks = readClickedLinks();
+      const linkElements = Array.from(document.querySelectorAll('.track-link'));
+      const countdownBanner = document.getElementById('countdownBanner');
+      const countdownTime = document.getElementById('countdownTime');
+
+      let countdownStart = Number(localStorage.getItem(countdownStartStorageKey));
+
+      if (!Number.isFinite(countdownStart) || (Date.now() - countdownStart > countdownDurationMs && window.location.hash !== windowReopenHash)) {
+        countdownStart = Date.now();
+        localStorage.setItem(countdownStartStorageKey, String(countdownStart));
+      }
+
+      const formatRemainingTime = (remainingMs) => {
+        const totalSeconds = Math.max(0, Math.ceil(remainingMs / 1000));
+        const minutes = String(Math.floor(totalSeconds / 60)).padStart(2, '0');
+        const seconds = String(totalSeconds % 60).padStart(2, '0');
+        return `${minutes}:${seconds}`;
+      };
+
+      const updateCountdown = () => {
+        if (!countdownBanner || !countdownTime) {
+          return;
+        }
+
+        const elapsedMs = Date.now() - countdownStart;
+        const remainingMs = Math.max(0, countdownDurationMs - elapsedMs);
+
+        countdownTime.textContent = formatRemainingTime(remainingMs);
+
+        const isWarning = remainingMs <= countdownWarningMs;
+        countdownBanner.classList.toggle('warning', isWarning);
+        countdownBanner.classList.toggle('blink', isWarning);
+      };
+
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+
+      linkElements.forEach((element) => {
+        if (clickedLinks.includes(element.href)) {
+          element.classList.add('clicked');
+        }
+
         element.addEventListener('click', () => {
           element.classList.add('clicked');
+          if (!clickedLinks.includes(element.href)) {
+            clickedLinks.push(element.href);
+            writeClickedLinks(clickedLinks);
+          }
         });
       });
+
+      const copyReturnUrlBtn = document.getElementById('copyReturnUrlBtn');
+      const copyConfirm = document.getElementById('copyConfirm');
+      if (copyReturnUrlBtn) {
+        copyReturnUrlBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText('https://www.csmapsurveys.org/news_eval_testing#window-reopen-cycle').then(() => {
+            copyConfirm.style.display = 'inline';
+            setTimeout(() => { copyConfirm.style.display = 'none'; }, 3000);
+          });
+        });
+      }
+
+      if (window.location.hash === windowReopenHash) {
+        const rapidCycleLinks = Array.from(document.querySelectorAll('[data-button-group="rapid-cycle"] .track-link'));
+
+        rapidCycleLinks.forEach((element) => {
+          element.classList.add('clicked');
+          if (!clickedLinks.includes(element.href)) {
+            clickedLinks.push(element.href);
+          }
+        });
+
+        writeClickedLinks(clickedLinks);
+
+        const windowReopenHeading = document.getElementById('window-reopen-cycle');
+        if (windowReopenHeading) {
+          windowReopenHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          windowReopenHeading.focus({ preventScroll: true });
+        }
+      }
     </script>
   </body>
 </html>
