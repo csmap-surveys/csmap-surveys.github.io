@@ -194,7 +194,7 @@ layout: perplexity
         <li>All data collected for this testing cycle will be removed by CSMAP engineers after analysis.</li>
         <li>You are required to complete all sections of this test within 20 minutes. Work through each section in order.</li>
         <li>You may use Gemini, ChatGPT, and Perplexity whether or not you are signed in. Please report any platform where you were not logged in.</li>
-        <li>Double clicking on the task link provide will open a tab and an instruction window.
+        <li>Double clicking on the task link or button will open a tab and an instruction window.
           <ul>
             <li>Click on the main page(page you landed to) and resize it to preferred side (left or right).</li>
             <li>Reposition the revealed instructions window in such a way you can see both the instructions and the main page.</li>
@@ -335,7 +335,7 @@ layout: perplexity
       </li>
       <li class="guide-inline-hidden">Wait at least 30 seconds.</li>
       <li class="guide-inline-hidden">Reopen Chrome, paste the copied URL into the address bar, and press <span class="mono">Enter</span>.</li>
-      <li class="guide-inline-hidden">Continue browsing for 2-3 minutes on <a href="https://apnews.com" target="_blank" rel="noopener" data-task-id="reopen-apnews">AP News</a> and <a href="https://x.com" target="_blank" rel="noopener" data-task-id="reopen-x">X</a>.</li>
+      <li class="guide-inline-hidden">Browse <a href="https://www.youtube.com" target="_blank" rel="noopener" data-task-id="reopen-youtube">YouTube</a> for 2-3 minutes.</li>
     </ol>
 
     <h2>Auto Uninstall </h2>
@@ -383,7 +383,7 @@ layout: perplexity
             'Click the close (x) button to try to close this browser window. If blocked, close Chrome manually.',
             'Wait at least 30 seconds before reopening Chrome.',
             'Paste the copied URL into the address bar and press Enter.',
-            'Complete 2-3 minutes of browsing on AP News and X.'
+            'Browse YouTube for 2-3 minutes — open at least one video and scroll the feed.'
           ]
         },
         'single-google': {
@@ -516,18 +516,13 @@ layout: perplexity
             'Close the link and then close the tab.'
           ]
         },
-        'reopen-apnews': {
-          title: 'Window Reopen: AP News Guide',
+        'reopen-youtube': {
+          title: 'Window Reopen: YouTube Guide',
           steps: [
-            'Continue browsing on AP News for 2-3 minutes.',
-            'Open at least one page and scroll during the visit.'
-          ]
-        },
-        'reopen-x': {
-          title: 'Window Reopen: X Guide',
-          steps: [
-            'Continue browsing on X for 2-3 minutes.',
-            'Scroll through the feed or open one item during the visit.'
+            'Browse YouTube for 2-3 minutes.',
+            'Open at least one video and watch a portion of it.',
+            'Scroll the home feed or search results at least once.',
+            'Use the browser Back button to return to the feed before closing the tab.'
           ]
         }
       };
@@ -902,6 +897,7 @@ layout: perplexity
           windowReopenHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
           windowReopenHeading.focus({ preventScroll: true });
         }
+        openTaskGuideWindow('window-reopen-instructions', window.location.href, getSplitLayout());
       }
     </script>
   </body>
