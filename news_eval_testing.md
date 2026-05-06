@@ -550,11 +550,7 @@ layout: perplexity
         'reopen-youtube': {
           title: 'Window Reopen: YouTube Guide',
           steps: [
-            'Open YouTube by navigating to https://www.youtube.com in a new tab.',
-            'Scroll through the home feed and explore recommended videos.',
-            'Click and open at least one video that interests you.',
-            'Watch a portion of the video and scroll through the comments or recommendations.',
-            'Browse for 2-3 minutes total, then close the tab when done.'
+            'Browse YouTube for 2-3 minutes — open at least one video and scroll the feed.'
           ]
         }
       };
@@ -945,14 +941,6 @@ layout: perplexity
         openTaskGuideWindow('window-close-cycle', `${window.location.origin}${window.location.pathname}`, getSplitLayout());
       }
 
-      const windowReopenYoutubeBtn = document.getElementById('windowReopenYoutubeBtn');
-      if (windowReopenYoutubeBtn) {
-        windowReopenYoutubeBtn.addEventListener('click', (event) => {
-          event.preventDefault();
-          openTaskGuideWindow('window-reopen-instructions', `${window.location.origin}${window.location.pathname}${windowReopenHash}`, getSplitLayout());
-          window.open(windowReopenYoutubeBtn.href, '_blank', 'noopener');
-        });
-      }
     </script>
   </body>
 </html>
