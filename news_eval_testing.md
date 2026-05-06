@@ -330,21 +330,34 @@ layout: perplexity
     </ol>
 
     <h2 id="window-reopen-cycle" tabindex="-1">Window Reopen </h2>
-    <ol>
-      <li>Copy the return URL below — you will paste it into Chrome after reopening.
-        <div style="margin: 8px 0;">
-          <button class="copy-url-btn" id="copyReturnUrlBtn">Copy Return URL</button>
-          <span class="copy-confirm" id="copyConfirm">&#10003; Copied!</span>
-        </div>
-      </li>
-      <li>Close the browser window.
-        <button class="close-window-btn" id="closeWindowBtn" title="Close this window" aria-label="Close this window">&times;</button>
-        <span class="close-window-hint" id="closeWindowHint">If it does not close automatically, close Chrome manually.</span>
-      </li>
-      <li class="guide-inline-hidden">Wait at least 30 seconds.</li>
-      <li class="guide-inline-hidden">Reopen Chrome, paste the copied URL into the address bar, and press <span class="mono">Enter</span>.</li>
-      <li class="guide-inline-hidden">Browse <a href="https://www.youtube.com" target="_blank" rel="noopener" data-task-id="reopen-youtube">YouTube</a> for 2-3 minutes.</li>
-    </ol>
+
+    <div id="windowCyclePreMode">
+      <p>Copy the return URL below — you will paste it into Chrome after reopening.</p>
+      <p>
+        <button type="button" class="copy-url-btn" id="copyReturnUrlBtn">Copy Return URL</button>
+        <span class="copy-confirm" id="copyConfirm">Copied.</span>
+      </p>
+      <p>
+        Close the browser window.
+        <button type="button" class="close-window-btn" id="closeWindowBtn" aria-label="Close browser window">&times;</button>
+        <span class="close-window-hint" id="closeWindowHint">If it does not close, close Chrome manually.</span>
+      </p>
+      <ol class="guide-inline-hidden">
+        <li>Click "Copy Return URL" and confirm the copied message appears.</li>
+        <li>Click the close (x) button to try to close this browser window. If blocked, close Chrome manually.</li>
+        <li>Wait at least 30 seconds before reopening Chrome.</li>
+        <li>Paste the copied URL into the address bar and press Enter.</li>
+      </ol>
+    </div>
+
+    <div id="windowCycleReopenMode" hidden>
+      <p>
+        <a class="btn" href="https://www.youtube.com" target="_blank" rel="noopener" data-task-id="reopen-youtube" id="windowReopenYoutubeBtn">Open YouTube</a>
+      </p>
+      <ol>
+        <li class="guide-inline-hidden">Browse YouTube for 2-3 minutes — open at least one video and scroll the feed.</li>
+      </ol>
+    </div>
 
     <h2>Auto Uninstall </h2>
     <p>
@@ -358,6 +371,7 @@ layout: perplexity
       <li>What happened and any exact error text.</li>
       <li>Your browser version from About Chrome.</li>
     </ul>
+    <p>Reply all to the group email thread with Kylan Rutherford and include the information above.</p>
 
     <script>
       const sessionId = new URLSearchParams(window.location.search).get('id') || '';
@@ -390,11 +404,17 @@ layout: perplexity
         'window-reopen-instructions': {
           title: 'Window Reopen Task Guide',
           steps: [
+            'Click on the button Open YouTube.',
+            'Browse YouTube for 2-3 minutes — open at least one video and scroll the feed.'
+          ]
+        },
+        'window-close-cycle': {
+          title: 'Window Close Cycle Guide',
+          steps: [
             'Click "Copy Return URL" and confirm the copied message appears.',
             'Click the close (x) button to try to close this browser window. If blocked, close Chrome manually.',
             'Wait at least 30 seconds before reopening Chrome.',
-            'Paste the copied URL into the address bar and press Enter.',
-            'Browse YouTube for 2-3 minutes — open at least one video and scroll the feed.'
+            'Paste the copied URL into the address bar and press Enter.'
           ]
         },
         'single-google': {
@@ -530,10 +550,11 @@ layout: perplexity
         'reopen-youtube': {
           title: 'Window Reopen: YouTube Guide',
           steps: [
-            'Browse YouTube for 2-3 minutes.',
-            'Open at least one video and watch a portion of it.',
-            'Scroll the home feed or search results at least once.',
-            'Use the browser Back button to return to the feed before closing the tab.'
+            'Open YouTube by navigating to https://www.youtube.com in a new tab.',
+            'Scroll through the home feed and explore recommended videos.',
+            'Click and open at least one video that interests you.',
+            'Watch a portion of the video and scroll through the comments or recommendations.',
+            'Browse for 2-3 minutes total, then close the tab when done.'
           ]
         }
       };
@@ -794,6 +815,9 @@ layout: perplexity
       }
 
       const taskLinks = Array.from(document.querySelectorAll('[data-task-id]'));
+      const windowCyclePreMode = document.getElementById('windowCyclePreMode');
+      const windowCycleReopenMode = document.getElementById('windowCycleReopenMode');
+      const returnUrl = `${window.location.origin}${window.location.pathname}${window.location.search}${windowReopenHash}`;
 
       const openGuideForElement = (element) => {
         openTaskGuideWindow(element.dataset.taskId, element.href, getSplitLayout());
@@ -834,55 +858,56 @@ layout: perplexity
       const closeWindowBtn = document.getElementById('closeWindowBtn');
       const closeWindowHint = document.getElementById('closeWindowHint');
 
+      const fallbackCopyText = (text) => {
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        textArea.setAttribute('readonly', '');
+        textArea.style.position = 'fixed';
+        textArea.style.top = '-1000px';
+        textArea.style.left = '-1000px';
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+
+        let copied = false;
+        try {
+          copied = document.execCommand('copy');
+        } catch {
+          copied = false;
+        }
+
+        document.body.removeChild(textArea);
+        return copied;
+      };
+
       const showCopySuccess = () => {
         if (!copyConfirm) {
           return;
         }
 
         copyConfirm.style.display = 'inline';
-        setTimeout(() => { copyConfirm.style.display = 'none'; }, 3000);
-      };
-
-      const fallbackCopyText = (text) => {
-        const tempTextArea = document.createElement('textarea');
-        tempTextArea.value = text;
-        tempTextArea.setAttribute('readonly', '');
-        tempTextArea.style.position = 'absolute';
-        tempTextArea.style.left = '-9999px';
-        document.body.appendChild(tempTextArea);
-        tempTextArea.select();
-        tempTextArea.setSelectionRange(0, text.length);
-
-        let didCopy = false;
-        try {
-          didCopy = document.execCommand('copy');
-        } catch {
-          didCopy = false;
-        }
-
-        document.body.removeChild(tempTextArea);
-        return didCopy;
+        setTimeout(() => {
+          copyConfirm.style.display = 'none';
+        }, 1800);
       };
 
       if (copyReturnUrlBtn) {
-        copyReturnUrlBtn.addEventListener('click', () => {
-          const returnUrl = 'https://www.csmapsurveys.org/news_eval_testing#window-reopen-cycle';
-          openTaskGuideWindow('window-reopen-instructions', returnUrl, getSplitLayout());
-
-          if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
-            navigator.clipboard.writeText(returnUrl)
-              .then(() => {
-                showCopySuccess();
-              })
-              .catch(() => {
-                if (fallbackCopyText(returnUrl)) {
-                  showCopySuccess();
-                }
-              });
-            return;
+        copyReturnUrlBtn.addEventListener('click', async () => {
+          let copied = false;
+          try {
+            if (navigator.clipboard && window.isSecureContext) {
+              await navigator.clipboard.writeText(returnUrl);
+              copied = true;
+            }
+          } catch {
+            copied = false;
           }
 
-          if (fallbackCopyText(returnUrl)) {
+          if (!copied) {
+            copied = fallbackCopyText(returnUrl);
+          }
+
+          if (copied) {
             showCopySuccess();
           }
         });
@@ -891,15 +916,18 @@ layout: perplexity
       if (closeWindowBtn) {
         closeWindowBtn.addEventListener('click', () => {
           window.close();
-          window.open('', '_self');
-          window.close();
-
           setTimeout(() => {
-            if (closeWindowHint && !window.closed) {
+            if (closeWindowHint) {
               closeWindowHint.style.display = 'inline';
             }
-          }, 250);
+          }, 450);
         });
+      }
+
+      if (windowCyclePreMode && windowCycleReopenMode) {
+        const isReopenMode = window.location.hash === windowReopenHash;
+        windowCyclePreMode.hidden = isReopenMode;
+        windowCycleReopenMode.hidden = !isReopenMode;
       }
 
       if (window.location.hash === windowReopenHash) {
@@ -909,6 +937,17 @@ layout: perplexity
           windowReopenHeading.focus({ preventScroll: true });
         }
         openTaskGuideWindow('window-reopen-instructions', window.location.href, getSplitLayout());
+      } else {
+        openTaskGuideWindow('window-close-cycle', `${window.location.origin}${window.location.pathname}`, getSplitLayout());
+      }
+
+      const windowReopenYoutubeBtn = document.getElementById('windowReopenYoutubeBtn');
+      if (windowReopenYoutubeBtn) {
+        windowReopenYoutubeBtn.addEventListener('click', (event) => {
+          event.preventDefault();
+          openTaskGuideWindow('window-reopen-instructions', `${window.location.origin}${window.location.pathname}${windowReopenHash}`, getSplitLayout());
+          window.open(windowReopenYoutubeBtn.href, '_blank', 'noopener');
+        });
       }
     </script>
   </body>
