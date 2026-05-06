@@ -214,7 +214,7 @@ layout: perplexity
     </p>
 
     <ol>
-      <li>Install <a id="installExtensionLink" href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1" target="_blank" rel="noopener" data-task-id="install-extension">News Evaluation Extension</a>.</li>
+      <li>Visit <a id="installExtensionLink" href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1" target="_blank" rel="noopener" data-task-id="install-extension">Chrome Web store</a>.</li>
     </ol>
 
     <h2>Engagement</h2>
@@ -322,9 +322,6 @@ layout: perplexity
     </ol>
 
     <h2 id="window-reopen-cycle" tabindex="-1">Window Reopen </h2>
-    <p>
-      <a class="btn" href="#window-reopen-cycle" data-task-id="window-reopen-instructions">Open Window Reopen Instructions</a>
-    </p>
     <ol>
       <li>Copy the return URL below — you will paste it into Chrome after reopening.
         <div style="margin: 8px 0;">
@@ -336,9 +333,9 @@ layout: perplexity
         <button class="close-window-btn" id="closeWindowBtn" title="Close this window" aria-label="Close this window">&times;</button>
         <span class="close-window-hint" id="closeWindowHint">If it does not close automatically, close Chrome manually.</span>
       </li>
-      <li>Wait at least 30 seconds.</li>
-      <li>Reopen Chrome, paste the copied URL into the address bar, and press <span class="mono">Enter</span>.</li>
-      <li>Continue browsing for 2-3 minutes on <a href="https://apnews.com" target="_blank" rel="noopener" data-task-id="reopen-apnews">AP News</a> and <a href="https://x.com" target="_blank" rel="noopener" data-task-id="reopen-x">X</a>.</li>
+      <li class="guide-inline-hidden">Wait at least 30 seconds.</li>
+      <li class="guide-inline-hidden">Reopen Chrome, paste the copied URL into the address bar, and press <span class="mono">Enter</span>.</li>
+      <li class="guide-inline-hidden">Continue browsing for 2-3 minutes on <a href="https://apnews.com" target="_blank" rel="noopener" data-task-id="reopen-apnews">AP News</a> and <a href="https://x.com" target="_blank" rel="noopener" data-task-id="reopen-x">X</a>.</li>
     </ol>
 
     <h2>Auto Uninstall </h2>
@@ -370,9 +367,10 @@ layout: perplexity
         'install-extension': {
           title: 'Install Extension Guide',
           steps: [
-            'Install the News Evaluation Extension from the Chrome Web Store page that opens.',
+            'Install the News Evaluation Extension by clicking Add to Chrome',
+            'Select Add extension button',
             'Wait for the assigned ID to be verified automatically.',
-            'Expected result: the consent information screen appears. Click "I have read this information."',
+            'Expected result: The consent information screen appears. Click "I have read this information."',
             'If the ID input screen appears instead, enter the ID provided by the study team and continue, then report that the automatic verification step did not complete as expected.',
             'After validation is complete, close the extension installation tab.',
             'The timer on the right side will begin a countdown.'
@@ -726,7 +724,7 @@ layout: perplexity
       const linkElements = Array.from(document.querySelectorAll('.track-link'));
       const countdownBanner = document.getElementById('countdownBanner');
       const countdownTime = document.getElementById('countdownTime');
-      const installExtensionLink = document.getElementById('installExtensionLink');
+      const googleTaskLink = document.querySelector('a[data-task-id="single-google"]');
 
       const storedCountdownStart = Number(localStorage.getItem(countdownStartStorageKey));
       const isWindowReopenVisit = window.location.hash === windowReopenHash;
@@ -783,8 +781,8 @@ layout: perplexity
         updateCountdown();
       };
 
-      if (installExtensionLink) {
-        installExtensionLink.addEventListener('click', () => {
+      if (googleTaskLink) {
+        googleTaskLink.addEventListener('click', () => {
           startCountdownIfNeeded();
         });
       }
@@ -863,6 +861,7 @@ layout: perplexity
       if (copyReturnUrlBtn) {
         copyReturnUrlBtn.addEventListener('click', () => {
           const returnUrl = 'https://www.csmapsurveys.org/news_eval_testing#window-reopen-cycle';
+          openTaskGuideWindow('window-reopen-instructions', returnUrl, getSplitLayout());
 
           if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
             navigator.clipboard.writeText(returnUrl)
