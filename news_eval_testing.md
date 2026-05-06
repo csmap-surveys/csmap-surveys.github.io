@@ -152,57 +152,72 @@ layout: perplexity
         font-size: 14px;
       }
 
+      .close-window-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        margin-left: 8px;
+        border: 2px solid #a61e1e;
+        border-radius: 50%;
+        background: #fff5f5;
+        color: #a61e1e;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1;
+        cursor: pointer;
+      }
+
+      .close-window-btn:active {
+        background: #ffe3e3;
+      }
+
+      .close-window-hint {
+        display: none;
+        margin-left: 10px;
+        color: #a61e1e;
+        font-weight: 700;
+        font-size: 13px;
+      }
+
       .guide-inline-hidden {
         display: none;
       }
     </style>
   </head>
   <body>
-    <h1>News Evaluation Test Instructions</h1>
-
-    <p>
-      Follow the steps below in order and complete each action.
-    </p>
-
-    <p class="note">
-      All data collected for this testing cycle will be removed by CSMAP engineers after analysis.
-    </p>
-
-    <p class="note">
-      You are required to complete all sections of this test within 20 minutes. Work through each section in order.
-    </p>
-
-    <p class="note">
-      You may use Gemini, ChatGPT, and Perplexity whether or not you are signed in. Please report any platform where you were not logged in
-    </p>
+    <h1>News Evaluation Extension </h1>
+    <h2>Test Guidelines</h2>
+    <div class="note">
+      <ul>
+        <li>All data collected for this testing cycle will be removed by CSMAP engineers after analysis.</li>
+        <li>You are required to complete all sections of this test within 20 minutes. Work through each section in order.</li>
+        <li>You may use Gemini, ChatGPT, and Perplexity whether or not you are signed in. Please report any platform where you were not logged in.</li>
+        <li>Double clicking on the task link provide will open a tab and an instruction window.
+          <ul>
+            <li>Click on the main page(page you landed to) and resize it to preferred side (left or right).</li>
+            <li>Reposition the revealed instructions window in such a way you can see both the instructions and the main page.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
 
     <div class="countdown-banner" id="countdownBanner" role="status" aria-live="polite">
       <span class="countdown-label">Time Remaining:</span>
       <span class="countdown-time" id="countdownTime">20:00</span>
     </div>
 
-    <h2>Use Chrome Browser</h2>
+    <h2>Install</h2>
     <p>
       Complete this test in Google Chrome.
     </p>
 
     <ol>
-      <li>Install <a id="installExtensionLink" href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1" target="_blank" rel="noopener">News Evaluation Extension</a>.</li>
-      <li>Wait for the assigned ID to be verified automatically.
-        <ul>
-          <li>Expected result: the consent information screen appears. Click <strong>I have read this information</strong>.</li>
-          <li>If the ID input screen appears instead, enter the ID provided by the study team and continue, then report that the automatic verification step did not complete as expected.</li>
-        </ul>
-      </li>
+      <li>Install <a id="installExtensionLink" href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1" target="_blank" rel="noopener" data-task-id="install-extension">News Evaluation Extension</a>.</li>
     </ol>
-      <div class="note">
-        <p>When a guided task link is clicked, a separate instruction window will open.</p>
-        <ul>
-          <li>Click on the main page and resize it to preferred side (left or right)</li>
-          <li>Adjust the instructions window on the opposite side so you can see both the instructions and the main page</li>
-        </ul>
-      </div>
-    <h2>Engagement Metrics</h2>
+
+    <h2>Engagement</h2>
     <p>Complete each task below by following instructions provided.</p>
   
     <ol>
@@ -306,7 +321,10 @@ layout: perplexity
       </li>
     </ol>
 
-    <h2 id="window-reopen-cycle" tabindex="-1">Window Reopen Cycle</h2>
+    <h2 id="window-reopen-cycle" tabindex="-1">Window Reopen </h2>
+    <p>
+      <a class="btn" href="#window-reopen-cycle" data-task-id="window-reopen-instructions">Open Window Reopen Instructions</a>
+    </p>
     <ol>
       <li>Copy the return URL below — you will paste it into Chrome after reopening.
         <div style="margin: 8px 0;">
@@ -314,7 +332,10 @@ layout: perplexity
           <span class="copy-confirm" id="copyConfirm">&#10003; Copied!</span>
         </div>
       </li>
-      <li>Close the browser window.</li>
+      <li>Close the browser window.
+        <button class="close-window-btn" id="closeWindowBtn" title="Close this window" aria-label="Close this window">&times;</button>
+        <span class="close-window-hint" id="closeWindowHint">If it does not close automatically, close Chrome manually.</span>
+      </li>
       <li>Wait at least 30 seconds.</li>
       <li>Reopen Chrome, paste the copied URL into the address bar, and press <span class="mono">Enter</span>.</li>
       <li>Continue browsing for 2-3 minutes on <a href="https://apnews.com" target="_blank" rel="noopener" data-task-id="reopen-apnews">AP News</a> and <a href="https://x.com" target="_blank" rel="noopener" data-task-id="reopen-x">X</a>.</li>
@@ -346,6 +367,27 @@ layout: perplexity
       let activeTaskWindowMonitor = null;
 
       const taskGuideContent = {
+        'install-extension': {
+          title: 'Install Extension Guide',
+          steps: [
+            'Install the News Evaluation Extension from the Chrome Web Store page that opens.',
+            'Wait for the assigned ID to be verified automatically.',
+            'Expected result: the consent information screen appears. Click "I have read this information."',
+            'If the ID input screen appears instead, enter the ID provided by the study team and continue, then report that the automatic verification step did not complete as expected.',
+            'After validation is complete, close the extension installation tab.',
+            'The timer on the right side will begin a countdown.'
+          ]
+        },
+        'window-reopen-instructions': {
+          title: 'Window Reopen Task Guide',
+          steps: [
+            'Click "Copy Return URL" and confirm the copied message appears.',
+            'Click the close (x) button to try to close this browser window. If blocked, close Chrome manually.',
+            'Wait at least 30 seconds before reopening Chrome.',
+            'Paste the copied URL into the address bar and press Enter.',
+            'Complete 2-3 minutes of browsing on AP News and X.'
+          ]
+        },
         'single-google': {
           title: 'Google Task Guide',
           steps: [
@@ -749,6 +791,10 @@ layout: perplexity
 
       const taskLinks = Array.from(document.querySelectorAll('[data-task-id]'));
 
+      const openGuideForElement = (element) => {
+        openTaskGuideWindow(element.dataset.taskId, element.href, getSplitLayout());
+      };
+
       linkElements.forEach((element) => {
         element.addEventListener('click', () => {
           element.classList.add('clicked');
@@ -756,19 +802,98 @@ layout: perplexity
       });
 
       taskLinks.forEach((element) => {
-        element.addEventListener('click', () => {
-          openTaskGuideWindow(element.dataset.taskId, element.href, getSplitLayout());
+        // mousedown fires earlier than click and is less likely to be blocked
+        // when the anchor opens a new tab/window immediately.
+        element.addEventListener('mousedown', (event) => {
+          if (event.button !== 0) {
+            return;
+          }
+
+          openGuideForElement(element);
+          element.dataset.guideOpenedAt = String(Date.now());
+        });
+
+        // Keyboard activation (Enter/Space) uses click with detail=0.
+        element.addEventListener('click', (event) => {
+          const openedAt = Number(element.dataset.guideOpenedAt || '0');
+          const openedRecently = Number.isFinite(openedAt) && (Date.now() - openedAt < 800);
+          if (openedRecently && event.detail > 0) {
+            return;
+          }
+
+          openGuideForElement(element);
         });
       });
 
       const copyReturnUrlBtn = document.getElementById('copyReturnUrlBtn');
       const copyConfirm = document.getElementById('copyConfirm');
+      const closeWindowBtn = document.getElementById('closeWindowBtn');
+      const closeWindowHint = document.getElementById('closeWindowHint');
+
+      const showCopySuccess = () => {
+        if (!copyConfirm) {
+          return;
+        }
+
+        copyConfirm.style.display = 'inline';
+        setTimeout(() => { copyConfirm.style.display = 'none'; }, 3000);
+      };
+
+      const fallbackCopyText = (text) => {
+        const tempTextArea = document.createElement('textarea');
+        tempTextArea.value = text;
+        tempTextArea.setAttribute('readonly', '');
+        tempTextArea.style.position = 'absolute';
+        tempTextArea.style.left = '-9999px';
+        document.body.appendChild(tempTextArea);
+        tempTextArea.select();
+        tempTextArea.setSelectionRange(0, text.length);
+
+        let didCopy = false;
+        try {
+          didCopy = document.execCommand('copy');
+        } catch {
+          didCopy = false;
+        }
+
+        document.body.removeChild(tempTextArea);
+        return didCopy;
+      };
+
       if (copyReturnUrlBtn) {
         copyReturnUrlBtn.addEventListener('click', () => {
-          navigator.clipboard.writeText('https://www.csmapsurveys.org/news_eval_testing#window-reopen-cycle').then(() => {
-            copyConfirm.style.display = 'inline';
-            setTimeout(() => { copyConfirm.style.display = 'none'; }, 3000);
-          });
+          const returnUrl = 'https://www.csmapsurveys.org/news_eval_testing#window-reopen-cycle';
+
+          if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
+            navigator.clipboard.writeText(returnUrl)
+              .then(() => {
+                showCopySuccess();
+              })
+              .catch(() => {
+                if (fallbackCopyText(returnUrl)) {
+                  showCopySuccess();
+                }
+              });
+            return;
+          }
+
+          if (fallbackCopyText(returnUrl)) {
+            showCopySuccess();
+          }
+        });
+      }
+
+      if (closeWindowBtn) {
+        closeWindowBtn.addEventListener('click', () => {
+          window.close();
+          window.open('', '_self');
+          window.close();
+
+          setTimeout(() => {
+            if (closeWindowHint && !window.closed) {
+              closeWindowHint.style.display = 'inline';
+            }
+          }, 250);
         });
       }
 
