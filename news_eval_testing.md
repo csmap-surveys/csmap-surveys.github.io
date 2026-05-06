@@ -184,22 +184,30 @@ layout: perplexity
       .guide-inline-hidden {
         display: none;
       }
+
+      .section-required {
+        display: inline-block;
+        background: #57068c;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        padding: 2px 8px;
+        border-radius: 4px;
+        vertical-align: middle;
+        margin-left: 8px;
+      }
     </style>
   </head>
   <body>
     <h1>News Evaluation Extension </h1>
-    <h2>Test Guidelines</h2>
+    <h2>Test Guidelines <span class="section-required">Read before starting</span></h2>
     <div class="note">
       <ul>
         <li>All data collected for this testing cycle will be removed by CSMAP engineers after analysis.</li>
         <li>You are required to complete all sections of this test within 20 minutes. Work through each section in order.</li>
         <li>You may use Gemini, ChatGPT, and Perplexity whether or not you are signed in. Please report any platform where you were not logged in.</li>
-        <li>Double clicking on the task link or button will open a tab and an instruction window.
-          <ul>
-            <li>Click on the main page(page you landed to) and resize it to preferred side (left or right).</li>
-            <li>Reposition the revealed instructions window in such a way you can see both the instructions and the main page.</li>
-          </ul>
-        </li>
+        <li>Clicking a task link opens the site and a step-by-step instruction window. Place them side by side — the instruction window updates for each task.</li>
       </ul>
     </div>
 
@@ -218,10 +226,10 @@ layout: perplexity
     </ol>
 
     <h2>Engagement</h2>
-    <p>Complete each task below by following instructions provided.</p>
+    <p>Complete each task below by following instructions provided on the instructions windo</p>
   
     <ol>
-      <li>Open <a href="https://www.google.com" target="_blank" rel="noopener" data-task-id="single-google">Google</a>
+      <li>Open <a href="https://www.google.com" target="_blank" rel="noopener" data-task-id="single-google">Google</a> <strong>Starts</strong> the timer on your upper right side 
         <ul class="guide-inline-hidden">
           <li>Search for "latest climate policy update"</li>
           <li>Open one result, scroll down the page, then return near the top</li>
@@ -352,7 +360,10 @@ layout: perplexity
     </ul>
 
     <script>
-      const countdownStartStorageKey = 'newsEvalCountdownStart';
+      const sessionId = new URLSearchParams(window.location.search).get('id') || '';
+      const countdownStartStorageKey = sessionId
+        ? `newsEvalCountdownStart_${sessionId}`
+        : 'newsEvalCountdownStart';
       const countdownDurationMs = 20 * 60 * 1000;
       const countdownWarningMs = 2 * 60 * 1000;
       const windowReopenHash = '#window-reopen-cycle';
