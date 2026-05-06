@@ -151,6 +151,10 @@ layout: perplexity
         font-weight: 700;
         font-size: 14px;
       }
+
+      .guide-inline-hidden {
+        display: none;
+      }
     </style>
   </head>
   <body>
@@ -165,7 +169,11 @@ layout: perplexity
     </p>
 
     <p class="note">
-      You are required to complete all sections of this test within 20 minutes. Work through each section in order without pausing.
+      You are required to complete all sections of this test within 20 minutes. Work through each section in order.
+    </p>
+
+    <p class="note">
+      You may use Gemini, ChatGPT, and Perplexity whether or not you are signed in. Please report any platform where you were not logged in
     </p>
 
     <div class="countdown-banner" id="countdownBanner" role="status" aria-live="polite">
@@ -179,7 +187,7 @@ layout: perplexity
     </p>
 
     <ol>
-      <li>Install <a href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1" target="_blank" rel="noopener">News Evaluation Extension</a>.</li>
+      <li>Install <a id="installExtensionLink" href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1" target="_blank" rel="noopener">News Evaluation Extension</a>.</li>
       <li>Wait for the assigned ID to be verified automatically.
         <ul>
           <li>Expected result: the consent information screen appears. Click <strong>I have read this information</strong>.</li>
@@ -187,100 +195,113 @@ layout: perplexity
         </ul>
       </li>
     </ol>
-
-    <h2>Single-Tab Browsing Cycles</h2>
-    <p>Complete each task below, then close the tab to return here.</p>
-    <ol>
-      <li>Open <a href="https://www.google.com" target="_blank" rel="noopener">Google</a>
+      <div class="note">
+        <p>When a guided task link is clicked, a separate instruction window will open.</p>
         <ul>
+          <li>Click on the main page and resize it to preferred side (left or right)</li>
+          <li>Adjust the instructions window on the opposite side so you can see both the instructions and the main page</li>
+        </ul>
+      </div>
+    <h2>Engagement Metrics</h2>
+    <p>Complete each task below by following instructions provided.</p>
+  
+    <ol>
+      <li>Open <a href="https://www.google.com" target="_blank" rel="noopener" data-task-id="single-google">Google</a>
+        <ul class="guide-inline-hidden">
           <li>Search for "latest climate policy update"</li>
-          <li>Open one result and scroll the page</li>
-          <li>Copy a sentence from that page and paste it into the Google search bar</li>
-          <li>Search it</li>
+          <li>Open one result, scroll down the page, then return near the top</li>
+          <li>Copy one full sentence from that page, paste it into the Google search bar, add the word "source," and search</li>
+          <li>Open one result from that second search and briefly scroll the page</li>
+          <li>Close the tab</li>
         </ul>
       </li>
-      <li>Open <a href="https://www.nytimes.com" target="_blank" rel="noopener">NYTimes</a>
-        <ul>
-          <li>Click one article link</li>
-          <li>Scroll the opened page</li>
-          <li>Use browser <span class="mono">Back</span> once and <span class="mono">Forward</span> once</li>
+      <li>Open <a href="https://www.nytimes.com" target="_blank" rel="noopener" data-task-id="single-nytimes">NYTimes</a>
+        <ul class="guide-inline-hidden">
+          <li>Click one article link within the page</li>
+          <li>Quickly scroll down, pause briefly, then scroll back toward the top of the opened page</li>
+          <li>Click one non-article element on the page such as a section label, menu item, or related item, then return to the article if needed</li>
+          <li>Press the browser <span class="mono">Back</span> once and <span class="mono">Forward</span> once</li>
+          <li>Close the tab</li>
         </ul>
       </li>
-      <li>Open <a href="https://www.reuters.com" target="_blank" rel="noopener">Reuters</a>
-        <ul>
-          <li>Click one article link and scroll the opened page</li>
-          <li>Copy a short piece of text from that page</li>
+      <li>Open <a href="https://www.reuters.com" target="_blank" rel="noopener" data-task-id="single-reuters">Reuters</a>
+        <ul class="guide-inline-hidden">
+          <li>Click one article link and scroll about halfway down the opened page</li>
+          <li>Copy a short piece of text from the middle of that page</li>
           <li>Paste it into the same tab's address bar and press <span class="mono">Enter</span></li>
+          <li>On the page that opens, scroll once near the top and once farther down</li>
+          <li>Close the tab</li>
         </ul>
       </li>
-      <li>Open <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a>
-        <ul>
-          <li>Click one article link and scroll the opened page</li>
-          <li>Click one additional link within that tab</li>
+      <li>Open <a href="https://apnews.com" target="_blank" rel="noopener" data-task-id="single-apnews">AP News</a>
+        <ul class="guide-inline-hidden">
+          <li>Click one article link and scroll through the opened page</li>
+          <li>Click one additional related link within that same tab</li>
+          <li>On the second page, scroll to a different section of the page</li>
           <li>Use browser <span class="mono">Back</span> once and <span class="mono">Forward</span> once</li>
         </ul>
       </li>
     </ol>
 
-    <h2>Gemini</h2>
+    <h3>Gemini</h3>
     <ol>
-      <li>Open <a href="https://gemini.google.com" target="_blank" rel="noopener">Gemini</a>.</li>
-      <li>Ask 2 questions and wait for each response to fully render before sending the next question.</li>
-      <li>Ask 3 more questions successively without waiting for the previous response to fully render.</li>
+      <li>Open <a href="https://gemini.google.com" target="_blank" rel="noopener" data-task-id="ai-gemini">Gemini</a>.</li>
+      <li class="guide-inline-hidden">Ask 2 questions and wait for each response to fully render before sending the next question.</li>
+      <li class="guide-inline-hidden">Ask 3 more questions successively without waiting for the previous response to fully render.</li>
     </ol>
 
-    <h2>ChatGPT</h2>
+    <h3>ChatGPT</h3>
     <ol>
-      <li>Open <a href="https://chatgpt.com" target="_blank" rel="noopener">ChatGPT</a>.</li>
-      <li>Ask 2 questions and wait for each response to fully render before sending the next question.</li>
-      <li>Ask 3 more questions successively without waiting for the previous response to fully render.</li>
+      <li>Open <a href="https://chatgpt.com" target="_blank" rel="noopener" data-task-id="ai-chatgpt">ChatGPT</a>.</li>
+      <li class="guide-inline-hidden">Ask 2 questions and wait for each response to fully render before sending the next question.</li>
+      <li class="guide-inline-hidden">Ask 3 more questions successively without waiting for the previous response to fully render.</li>
     </ol>
 
-    <h2>Perplexity</h2>
+    <h3>Perplexity</h3>
     <ol>
-      <li>Open <a href="https://www.perplexity.ai" target="_blank" rel="noopener">Perplexity</a>.</li>
-      <li>Ask 2 questions and wait for each response to fully render before sending the next question.</li>
-      <li>If logged in, ask 3 more questions successively without waiting for each response to finish.</li>
-      <li>If not logged in, stop after the first 2 questions.</li>
+      <li>Open <a href="https://www.perplexity.ai" target="_blank" rel="noopener" data-task-id="ai-perplexity">Perplexity</a>.</li>
+      <li class="guide-inline-hidden">Ask 2 questions and wait for each response to fully render before sending the next question.</li>
+      <li class="guide-inline-hidden">If logged in, ask 3 more questions successively without waiting for each response to finish.</li>
+      <li class="guide-inline-hidden">If not logged in, stop after the first 2 questions.</li>
     </ol>
 
-    <h2>Tab Navigation</h2>
+    <h3>Tab Navigation</h3>
     <ol>
       <li><strong>Rapid tab cycle:</strong>
       Click each button below and close the opened tab immediately.
       <div class="rapid-buttons" data-button-group="rapid-cycle">
-        <a class="btn track-link" href="https://www.reuters.com" target="_blank" rel="noopener">Open Reuters</a>
-        <a class="btn track-link" href="https://www.netflix.com" target="_blank" rel="noopener">Open Netflix</a>
-        <a class="btn track-link" href="https://www.cnn.com" target="_blank" rel="noopener">Open CNN</a>
-        <a class="btn track-link" href="https://www.msnbc.com" target="_blank" rel="noopener">Open MSNBC</a>
+        <a class="btn track-link" href="https://www.reuters.com" target="_blank" rel="noopener" data-task-id="rapid-reuters">Open Reuters</a>
+        <a class="btn track-link" href="https://www.netflix.com" target="_blank" rel="noopener" data-task-id="rapid-netflix">Open Netflix</a>
+        <a class="btn track-link" href="https://www.cnn.com" target="_blank" rel="noopener" data-task-id="rapid-cnn">Open CNN</a>
+        <a class="btn track-link" href="https://www.msnbc.com" target="_blank" rel="noopener" data-task-id="rapid-msnbc">Open MSNBC</a>
       </div></li>
       <li><strong>Delayed close cycle:</strong>
         <p><strong>Copy and Paste</strong></p>
         <ul>
           <li>Open the two tabs below
             <div class="rapid-buttons">
-              <a class="btn track-link" href="https://www.nytimes.com" target="_blank" rel="noopener">Open NYTimes</a>
-              <a class="btn track-link" href="https://www.aljazeera.com/" target="_blank" rel="noopener">Open Aljazeera</a>
+              <a class="btn track-link" href="https://www.nytimes.com" target="_blank" rel="noopener" data-task-id="delayed-copy-nytimes">Open NYTimes</a>
+              <a class="btn track-link" href="https://www.aljazeera.com/" target="_blank" rel="noopener" data-task-id="delayed-copy-aljazeera">Open Aljazeera</a>
             </div>
           </li>
-          <li>With each tab scroll up and down</li>
-          <li>Copy a short piece of text from each site and paste it into that tab's address bar</li>
-          <li>Press Enter</li>
-          <li>Scroll up and down the new page and then close</li>
+          <li class="guide-inline-hidden">In the NYTimes tab, scroll down and then back up; in the Aljazeera tab, scroll first near the top and then farther down the page</li>
+          <li class="guide-inline-hidden">Copy a full sentence from NYTimes and a short phrase from Aljazeera, then paste each one into that tab's address bar</li>
+          <li class="guide-inline-hidden">Press Enter</li>
+          <li class="guide-inline-hidden">On each new page, scroll once near the top and once lower on the page, then close</li>
         </ul>
         <p><strong>Click and Browse</strong></p>
         <ul>
           <li>Open the two tabs below
             <div class="rapid-buttons">
-              <a class="btn track-link" href="https://www.perplexity.ai" target="_blank" rel="noopener">Open Perplexity</a>
-              <a class="btn track-link" href="https://apnews.com" target="_blank" rel="noopener">Open AP News</a>
+              <a class="btn track-link" href="https://www.perplexity.ai" target="_blank" rel="noopener" data-task-id="delayed-browse-perplexity">Open Perplexity</a>
+              <a class="btn track-link" href="https://apnews.com" target="_blank" rel="noopener" data-task-id="delayed-browse-apnews">Open AP News</a>
             </div>
           </li>
-          <li>With each of the open tab ...</li>
-          <li>Scroll up and down each site</li>
-          <li>Click one link within each page</li>
-          <li>Slowly browse the new open link</li>
-          <li>Close the link and then close the tab</li>
+          <li class="guide-inline-hidden">In the Perplexity tab, type a short 3-5 word question and submit it if the input is available; in the AP News tab, scroll the page before opening an article</li>
+          <li class="guide-inline-hidden">Scroll up and down each site</li>
+          <li class="guide-inline-hidden">Click one link within each page; for Perplexity, prefer a cited source if visible</li>
+          <li class="guide-inline-hidden">Slowly browse the new open link, including one downward scroll and one upward scroll</li>
+          <li class="guide-inline-hidden">Close the link and then close the tab</li>
         </ul>
       </li>
     </ol>
@@ -296,61 +317,387 @@ layout: perplexity
       <li>Close the browser window.</li>
       <li>Wait at least 30 seconds.</li>
       <li>Reopen Chrome, paste the copied URL into the address bar, and press <span class="mono">Enter</span>.</li>
-      <li>Continue browsing for 2-3 minutes on <a href="https://apnews.com" target="_blank" rel="noopener">AP News</a> and <a href="https://x.com" target="_blank" rel="noopener">X</a>.</li>
+      <li>Continue browsing for 2-3 minutes on <a href="https://apnews.com" target="_blank" rel="noopener" data-task-id="reopen-apnews">AP News</a> and <a href="https://x.com" target="_blank" rel="noopener" data-task-id="reopen-x">X</a>.</li>
     </ol>
 
-    <h2>Uninstall the Extension at the End</h2>
+    <h2>Auto Uninstall </h2>
     <p>
       The extension is scheduled to uninstall automatically after 20 minutes.
-    </p>
-
-    <h2>Continue Even If Not Logged In</h2>
-    <p>
-      If you are not logged in to one or more AI platforms, captured AI data can be reduced. Continue the test and report which platforms were not logged in.
     </p>
 
     <h2>Report Any Problems</h2>
     <p>If something fails, please report:</p>
     <ul>
-      <li>Step number (for example, Step 6).</li>
+      <li>Section name (e.g, Gemini).</li>
       <li>What happened and any exact error text.</li>
       <li>Your browser version from About Chrome.</li>
     </ul>
 
     <script>
-      const clickedLinksStorageKey = 'newsEvalClickedLinks';
       const countdownStartStorageKey = 'newsEvalCountdownStart';
       const countdownDurationMs = 20 * 60 * 1000;
       const countdownWarningMs = 2 * 60 * 1000;
       const windowReopenHash = '#window-reopen-cycle';
+      const taskGuideWindowName = 'newsEvalTaskGuide';
+      const taskMainWindowName = 'newsEvalTaskMain';
 
-      const readClickedLinks = () => {
-        try {
-          const storedValue = localStorage.getItem(clickedLinksStorageKey);
-          return storedValue ? JSON.parse(storedValue) : [];
-        } catch {
-          return [];
+      let activeTaskMainWindow = null;
+      let activeTaskGuideWindow = null;
+      let activeTaskWindowMonitor = null;
+
+      const taskGuideContent = {
+        'single-google': {
+          title: 'Google Task Guide',
+          steps: [
+            'Search for "latest climate policy update."',
+            'Open one result, scroll down the page, then return near the top.',
+            'Copy one full sentence from that page, paste it into the Google search bar, add the word "source," and search.',
+            'Open one result from that second search and briefly scroll the page.',
+            'Close the tab.'
+          ]
+        },
+        'single-nytimes': {
+          title: 'NYTimes Task Guide',
+          steps: [
+            'Click one article link within the page.',
+            'Quickly scroll down, pause briefly, then scroll back toward the top of the opened page.',
+            'Click one non-article element on the page such as a section label, menu item, or related item, then return to the article if needed.',
+            'Press Back once and Forward once.',
+            'Close the tab.'
+          ]
+        },
+        'single-reuters': {
+          title: 'Reuters Task Guide',
+          steps: [
+            'Click one article link and scroll about halfway down the opened page.',
+            'Copy a short piece of text from the middle of that page.',
+            'Paste it into the same tab\'s address bar and press Enter.',
+            'On the page that opens, scroll once near the top and once farther down.',
+            'Close the tab.'
+          ]
+        },
+        'single-apnews': {
+          title: 'AP News Task Guide',
+          steps: [
+            'Click one article link and scroll through the opened page.',
+            'Click one additional related link within that same tab.',
+            'On the second page, scroll to a different section of the page.',
+            'Use Back once and Forward once.',
+            'Close the tab.'
+          ]
+        },
+        'ai-gemini': {
+          title: 'Gemini Task Guide',
+          steps: [
+            'Ask 2 questions and wait for each response to fully render before sending the next question.',
+            'Ask 3 more questions successively without waiting for the previous response to fully render.'
+          ]
+        },
+        'ai-chatgpt': {
+          title: 'ChatGPT Task Guide',
+          steps: [
+            'Ask 2 questions and wait for each response to fully render before sending the next question.',
+            'Ask 3 more questions successively without waiting for the previous response to fully render.'
+          ]
+        },
+        'ai-perplexity': {
+          title: 'Perplexity Task Guide',
+          steps: [
+            'Ask 2 questions and wait for each response to fully render before sending the next question.',
+            'If logged in, ask 3 more questions successively without waiting for each response to finish.',
+            'If not logged in, stop after the first 2 questions.'
+          ]
+        },
+        'rapid-reuters': {
+          title: 'Rapid Tab Cycle Guide - Reuters',
+          steps: [
+            'Open the site in a new tab or window.',
+            'Close the opened tab immediately.'
+          ]
+        },
+        'rapid-netflix': {
+          title: 'Rapid Tab Cycle Guide - Netflix',
+          steps: [
+            'Open the site in a new tab or window.',
+            'Close the opened tab immediately.'
+          ]
+        },
+        'rapid-cnn': {
+          title: 'Rapid Tab Cycle Guide - CNN',
+          steps: [
+            'Open the site in a new tab or window.',
+            'Close the opened tab immediately.'
+          ]
+        },
+        'rapid-msnbc': {
+          title: 'Rapid Tab Cycle Guide - MSNBC',
+          steps: [
+            'Open the site in a new tab or window.',
+            'Close the opened tab immediately.'
+          ]
+        },
+        'delayed-copy-nytimes': {
+          title: 'Delayed Close: NYTimes Guide',
+          steps: [
+            'Scroll down and then back up in the NYTimes tab.',
+            'Copy a full sentence from the page.',
+            'Paste it into that tab\'s address bar and press Enter.',
+            'On the new page, scroll once near the top and once lower on the page.',
+            'Close the tab.'
+          ]
+        },
+        'delayed-copy-aljazeera': {
+          title: 'Delayed Close: Aljazeera Guide',
+          steps: [
+            'Scroll first near the top and then farther down the page.',
+            'Copy a short phrase from the page.',
+            'Paste it into that tab\'s address bar and press Enter.',
+            'On the new page, scroll once near the top and once lower on the page.',
+            'Close the tab.'
+          ]
+        },
+        'delayed-browse-perplexity': {
+          title: 'Delayed Close: Perplexity Guide',
+          steps: [
+            'Type a short 3-5 word question and submit it if the input is available.',
+            'Scroll up and down the site.',
+            'Click one link within the page, preferably a cited source if visible.',
+            'Slowly browse the new open link, including one downward scroll and one upward scroll.',
+            'Close the link and then close the tab.'
+          ]
+        },
+        'delayed-browse-apnews': {
+          title: 'Delayed Close: AP News Guide',
+          steps: [
+            'Scroll the page before opening an article.',
+            'Scroll up and down the site.',
+            'Click one link within the page.',
+            'Slowly browse the new open link, including one downward scroll and one upward scroll.',
+            'Close the link and then close the tab.'
+          ]
+        },
+        'reopen-apnews': {
+          title: 'Window Reopen: AP News Guide',
+          steps: [
+            'Continue browsing on AP News for 2-3 minutes.',
+            'Open at least one page and scroll during the visit.'
+          ]
+        },
+        'reopen-x': {
+          title: 'Window Reopen: X Guide',
+          steps: [
+            'Continue browsing on X for 2-3 minutes.',
+            'Scroll through the feed or open one item during the visit.'
+          ]
         }
       };
 
-      const writeClickedLinks = (links) => {
-        try {
-          localStorage.setItem(clickedLinksStorageKey, JSON.stringify(Array.from(new Set(links))));
-        } catch {
-          // Ignore storage failures and continue with in-memory behavior.
+      const escapeHtml = (value) => String(value)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+
+      const renderTaskGuideHtml = (title, url, steps) => `<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>${escapeHtml(title)}</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 18px;
+        font-family: Georgia, serif;
+        line-height: 1.45;
+        background: #f6fbfd;
+        color: #12303d;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: 22px;
+      }
+
+      p {
+        margin: 0 0 12px;
+        font-size: 14px;
+      }
+
+      .url {
+        margin: 0 0 16px;
+        padding: 10px 12px;
+        border-left: 4px solid #2c6f8e;
+        background: #eaf6fb;
+        font-size: 13px;
+        word-break: break-word;
+      }
+
+      ol {
+        padding-left: 22px;
+        margin: 0;
+      }
+
+      li {
+        margin: 0 0 10px;
+        font-size: 15px;
+      }
+
+      .note {
+        margin-top: 18px;
+        padding-top: 12px;
+        border-top: 1px solid #c8dfe8;
+        font-size: 13px;
+        color: #395865;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>${escapeHtml(title)}</h1>
+    <p>Keep this guide open while completing the task in the site window.</p>
+    <div class="url">Site: ${escapeHtml(url)}</div>
+    <ol>
+      ${steps.map((step) => `<li>${escapeHtml(step)}</li>`).join('')}
+    </ol>
+    <p class="note">If the guide does not appear beside the site automatically, move the guide window to one side and resize the main browser window manually.</p>
+  </body>
+</html>`;
+
+      const getSplitLayout = () => {
+        const screenLeft = Number.isFinite(window.screenX) ? window.screenX : 0;
+        const screenTop = Number.isFinite(window.screenY) ? window.screenY : 0;
+        const totalWidth = Math.max(window.outerWidth || 1280, 1000);
+        const totalHeight = Math.max(window.outerHeight || 800, 700);
+
+        const guideWidth = Math.max(360, Math.floor(totalWidth * 0.34));
+        const mainWidth = Math.max(620, totalWidth - guideWidth);
+
+        return {
+          top: screenTop,
+          left: screenLeft,
+          height: totalHeight,
+          guide: {
+            left: screenLeft,
+            top: screenTop,
+            width: guideWidth,
+            height: totalHeight
+          },
+          main: {
+            left: screenLeft + guideWidth,
+            top: screenTop,
+            width: mainWidth,
+            height: totalHeight
+          }
+        };
+      };
+
+      const openTaskGuideWindow = (taskId, url, layout) => {
+        const guide = taskGuideContent[taskId];
+        if (!guide) {
+          return null;
+        }
+
+        const features = [
+          'popup=yes',
+          'resizable=yes',
+          'scrollbars=yes',
+          `width=${layout.guide.width}`,
+          `height=${layout.guide.height}`,
+          `left=${layout.guide.left}`,
+          `top=${layout.guide.top}`
+        ].join(',');
+
+        const guideWindow = window.open('', taskGuideWindowName, features);
+        if (!guideWindow) {
+          return null;
+        }
+
+        guideWindow.document.open();
+        guideWindow.document.write(renderTaskGuideHtml(guide.title, url, guide.steps));
+        guideWindow.document.close();
+        return guideWindow;
+      };
+
+      const resetTaskWindowMonitor = () => {
+        if (activeTaskWindowMonitor) {
+          clearInterval(activeTaskWindowMonitor);
+          activeTaskWindowMonitor = null;
         }
       };
 
-      const clickedLinks = readClickedLinks();
+      const monitorTaskMainWindow = () => {
+        resetTaskWindowMonitor();
+        activeTaskWindowMonitor = setInterval(() => {
+          if (!activeTaskMainWindow || activeTaskMainWindow.closed) {
+            if (activeTaskGuideWindow && !activeTaskGuideWindow.closed) {
+              activeTaskGuideWindow.close();
+            }
+            activeTaskMainWindow = null;
+            activeTaskGuideWindow = null;
+            resetTaskWindowMonitor();
+          }
+        }, 500);
+      };
+
+      const openTaskWindows = (taskId, url) => {
+        const guide = taskGuideContent[taskId];
+        if (!guide) {
+          window.open(url, '_blank');
+          return;
+        }
+
+        const layout = getSplitLayout();
+        const mainFeatures = [
+          'popup=yes',
+          'resizable=yes',
+          'scrollbars=yes',
+          `width=${layout.main.width}`,
+          `height=${layout.main.height}`,
+          `left=${layout.main.left}`,
+          `top=${layout.main.top}`
+        ].join(',');
+
+        activeTaskMainWindow = window.open('', taskMainWindowName, mainFeatures);
+        if (!activeTaskMainWindow) {
+          activeTaskMainWindow = window.open(url, '_blank');
+        } else {
+          try {
+            activeTaskMainWindow.location.href = url;
+          } catch {
+            activeTaskMainWindow = window.open(url, '_blank');
+          }
+        }
+
+        if (!activeTaskMainWindow) {
+          return;
+        }
+
+        activeTaskGuideWindow = openTaskGuideWindow(taskId, url, layout);
+        if (activeTaskGuideWindow && !activeTaskGuideWindow.closed) {
+          activeTaskGuideWindow.focus();
+        }
+
+        activeTaskMainWindow.focus();
+        monitorTaskMainWindow();
+      };
+
       const linkElements = Array.from(document.querySelectorAll('.track-link'));
       const countdownBanner = document.getElementById('countdownBanner');
       const countdownTime = document.getElementById('countdownTime');
+      const installExtensionLink = document.getElementById('installExtensionLink');
 
-      let countdownStart = Number(localStorage.getItem(countdownStartStorageKey));
+      const storedCountdownStart = Number(localStorage.getItem(countdownStartStorageKey));
+      const isWindowReopenVisit = window.location.hash === windowReopenHash;
+      const now = Date.now();
+      const hasValidStoredCountdownStart = Number.isFinite(storedCountdownStart) && (now - storedCountdownStart <= countdownDurationMs);
 
-      if (!Number.isFinite(countdownStart) || (Date.now() - countdownStart > countdownDurationMs && window.location.hash !== windowReopenHash)) {
-        countdownStart = Date.now();
-        localStorage.setItem(countdownStartStorageKey, String(countdownStart));
+      let countdownStart;
+      if (isWindowReopenVisit && hasValidStoredCountdownStart) {
+        countdownStart = storedCountdownStart;
+      } else if (hasValidStoredCountdownStart) {
+        countdownStart = storedCountdownStart;
+      } else {
+        countdownStart = null;
       }
 
       const formatRemainingTime = (remainingMs) => {
@@ -362,6 +709,12 @@ layout: perplexity
 
       const updateCountdown = () => {
         if (!countdownBanner || !countdownTime) {
+          return;
+        }
+
+        if (!Number.isFinite(countdownStart)) {
+          countdownTime.textContent = formatRemainingTime(countdownDurationMs);
+          countdownBanner.classList.remove('warning', 'blink');
           return;
         }
 
@@ -378,17 +731,33 @@ layout: perplexity
       updateCountdown();
       setInterval(updateCountdown, 1000);
 
-      linkElements.forEach((element) => {
-        if (clickedLinks.includes(element.href)) {
-          element.classList.add('clicked');
+      const startCountdownIfNeeded = () => {
+        if (Number.isFinite(countdownStart)) {
+          return;
         }
 
+        countdownStart = Date.now();
+        localStorage.setItem(countdownStartStorageKey, String(countdownStart));
+        updateCountdown();
+      };
+
+      if (installExtensionLink) {
+        installExtensionLink.addEventListener('click', () => {
+          startCountdownIfNeeded();
+        });
+      }
+
+      const taskLinks = Array.from(document.querySelectorAll('[data-task-id]'));
+
+      linkElements.forEach((element) => {
         element.addEventListener('click', () => {
           element.classList.add('clicked');
-          if (!clickedLinks.includes(element.href)) {
-            clickedLinks.push(element.href);
-            writeClickedLinks(clickedLinks);
-          }
+        });
+      });
+
+      taskLinks.forEach((element) => {
+        element.addEventListener('click', () => {
+          openTaskGuideWindow(element.dataset.taskId, element.href, getSplitLayout());
         });
       });
 
@@ -404,17 +773,6 @@ layout: perplexity
       }
 
       if (window.location.hash === windowReopenHash) {
-        const rapidCycleLinks = Array.from(document.querySelectorAll('[data-button-group="rapid-cycle"] .track-link'));
-
-        rapidCycleLinks.forEach((element) => {
-          element.classList.add('clicked');
-          if (!clickedLinks.includes(element.href)) {
-            clickedLinks.push(element.href);
-          }
-        });
-
-        writeClickedLinks(clickedLinks);
-
         const windowReopenHeading = document.getElementById('window-reopen-cycle');
         if (windowReopenHeading) {
           windowReopenHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
