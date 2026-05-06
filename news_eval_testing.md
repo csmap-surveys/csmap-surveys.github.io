@@ -351,6 +351,7 @@ layout: perplexity
     </div>
 
     <div id="windowCycleReopenMode" hidden>
+      <p>Click on the button Open YouTube.</p>
       <p>
         <a class="btn" href="https://www.youtube.com" target="_blank" rel="noopener" data-task-id="reopen-youtube" id="windowReopenYoutubeBtn">Open YouTube</a>
       </p>
@@ -404,7 +405,6 @@ layout: perplexity
         'window-reopen-instructions': {
           title: 'Window Reopen Task Guide',
           steps: [
-            'Click on the button Open YouTube.',
             'Browse YouTube for 2-3 minutes — open at least one video and scroll the feed.'
           ]
         },
@@ -828,6 +828,10 @@ layout: perplexity
           element.classList.add('clicked');
         });
       });
+
+      if (isWindowReopenVisit) {
+        linkElements.forEach((element) => element.classList.add('clicked'));
+      }
 
       taskLinks.forEach((element) => {
         // mousedown fires earlier than click and is less likely to be blocked
