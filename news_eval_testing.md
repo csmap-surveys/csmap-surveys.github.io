@@ -1,7 +1,6 @@
 ---
 title: News Evaluation Test Instructions
 layout: perplexity
-published: false
 ---
 <html>
   <head>
