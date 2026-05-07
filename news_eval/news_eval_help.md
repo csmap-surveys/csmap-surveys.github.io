@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions
+title: FAQ
 layout: news_eval
 permalink: /news_eval_help.html
 ---
