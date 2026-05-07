@@ -1,6 +1,6 @@
 ---
 layout: perplexity
-published: false
+permalink: /news_eval_perplexity.html
 ---
 <a id="top"></a>
 <html>

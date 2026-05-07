@@ -36,14 +36,14 @@ masa:
   - how_to_install_and_register.md
 facebook:
   - thankyou_fb.md
-news_evaluation:
-  - news_eval.md
-  - news_eval_policy.md
-  - news_eval_help.md
+news_eval:
+  - news_eval/news_eval.md
+  - news_eval/news_eval_policy.md
+  - news_eval/news_eval_help.md
 news_eval_perplexity:
-  - news_eval_perplexity.md
+  - news_eval/news_eval_perplexity.md
 news_eval_chatgpt:
-  - news_eval_chatgpt.md
+  - news_eval/news_eval_chatgpt.md
 include:
   - README.md
   - index.md

@@ -1,6 +1,6 @@
 ---
 layout: chatgpt
-published: false
+permalink: /news_eval_chatgpt.html
 ---
 <a id="top"></a>
 <html>

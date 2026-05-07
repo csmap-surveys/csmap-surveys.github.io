@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions
 layout: news_eval
-published: false
+permalink: /news_eval_help.html
 ---
 <a id="top"></a>
 <html>

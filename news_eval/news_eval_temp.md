@@ -17,5 +17,3 @@ published: false
 3. When the confirmation popup appears, click <button style="background-color: #FFFFFF; color: #0000FF;">Add Extension</button>.
 
 ## Privacy and Support {#privacy}
-
-

@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 layout: news_eval
-published: false
+permalink: /news_eval_policy.html
 ---
 This Privacy Policy (“Policy”) pertains to the CSMaP News Evaluation extension provided by New York University’s Center for Social Media and Politics (“CSMaP”, “Company,” “we,” “us,” or “our”). We are committed to protecting your personal information and research participants (“you,”your”) right to privacy.
 
