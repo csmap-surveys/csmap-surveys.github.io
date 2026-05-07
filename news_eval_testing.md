@@ -1,6 +1,7 @@
 ---
 title: News Evaluation Test Instructions
 layout: perplexity
+published: false
 ---
 <html>
   <head>
@@ -197,6 +198,23 @@ layout: perplexity
         vertical-align: middle;
         margin-left: 8px;
       }
+
+      .popup-warning {
+        margin: 10px 0 14px;
+        padding: 10px 12px;
+        border-left: 4px solid #c92a2a;
+        background: #fff5f5;
+        color: #7a1f1f;
+        font-weight: 700;
+      }
+
+      .guide-inline-hidden {
+        display: none;
+      }
+
+      .guide-inline-visible {
+        display: block;
+      }
     </style>
   </head>
   <body>
@@ -214,6 +232,10 @@ layout: perplexity
     <div class="countdown-banner" id="countdownBanner" role="status" aria-live="polite">
       <span class="countdown-label">Time Remaining:</span>
       <span class="countdown-time" id="countdownTime">20:00</span>
+    </div>
+
+    <div id="popupWarning" class="popup-warning" hidden>
+      Instruction popup was blocked. Allow pop-ups for this page and continue using the inline steps shown under each task.
     </div>
 
     <h2>Install</h2>
@@ -745,6 +767,7 @@ layout: perplexity
       };
 
       const linkElements = Array.from(document.querySelectorAll('.track-link'));
+      const popupWarning = document.getElementById('popupWarning');
       const countdownBanner = document.getElementById('countdownBanner');
       const countdownTime = document.getElementById('countdownTime');
       const googleTaskLink = document.querySelector('a[data-task-id="single-google"]');
@@ -816,7 +839,20 @@ layout: perplexity
       const returnUrl = `${window.location.origin}${window.location.pathname}${window.location.search}${windowReopenHash}`;
 
       const openGuideForElement = (element) => {
-        openTaskGuideWindow(element.dataset.taskId, element.href, getSplitLayout());
+        const guideWindow = openTaskGuideWindow(element.dataset.taskId, element.href, getSplitLayout());
+        if (!guideWindow) {
+          if (popupWarning) {
+            popupWarning.hidden = false;
+          }
+
+          const parentTaskItem = element.closest('li');
+          if (parentTaskItem) {
+            parentTaskItem.querySelectorAll('.guide-inline-hidden').forEach((node) => {
+              node.classList.remove('guide-inline-hidden');
+              node.classList.add('guide-inline-visible');
+            });
+          }
+        }
       };
 
       linkElements.forEach((element) => {
@@ -936,9 +972,23 @@ layout: perplexity
           windowReopenHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
           windowReopenHeading.focus({ preventScroll: true });
         }
-        openTaskGuideWindow('window-reopen-instructions', window.location.href, getSplitLayout());
+        const reopenGuideWindow = openTaskGuideWindow('window-reopen-instructions', window.location.href, getSplitLayout());
+        if (!reopenGuideWindow && popupWarning) {
+          popupWarning.hidden = false;
+        }
       } else {
-        openTaskGuideWindow('window-close-cycle', `${window.location.origin}${window.location.pathname}`, getSplitLayout());
+        const closeCycleGuideWindow = openTaskGuideWindow('window-close-cycle', `${window.location.origin}${window.location.pathname}`, getSplitLayout());
+        if (!closeCycleGuideWindow) {
+          if (popupWarning) {
+            popupWarning.hidden = false;
+          }
+
+          const closeCycleList = windowCyclePreMode ? windowCyclePreMode.querySelector('ol') : null;
+          if (closeCycleList) {
+            closeCycleList.classList.remove('guide-inline-hidden');
+            closeCycleList.classList.add('guide-inline-visible');
+          }
+        }
       }
 
     </script>
