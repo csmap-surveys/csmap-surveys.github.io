@@ -1,8 +1,7 @@
 ---
 title: News Evaluation Test Instructions
 layout: perplexity
-permalink: /news_eval_testing.html
-published: false
+permalink: /news_eval_testing
 ---
 <html>
   <head>
@@ -215,6 +214,28 @@ published: false
 
       .guide-inline-visible {
         display: block;
+      }
+
+      .guide-inline-fallback {
+        margin-top: 10px;
+        padding: 10px 12px;
+        border-left: 4px solid #2c6f8e;
+        background: #f3fbfe;
+      }
+
+      .guide-inline-fallback-title {
+        margin: 0 0 8px;
+        font-weight: 700;
+        color: #12303d;
+      }
+
+      .guide-inline-fallback ol {
+        margin: 0;
+        padding-left: 22px;
+      }
+
+      .guide-inline-fallback li {
+        margin-bottom: 6px;
       }
     </style>
   </head>
@@ -840,20 +861,83 @@ published: false
       const returnUrl = `${window.location.origin}${window.location.pathname}${window.location.search}${windowReopenHash}`;
 
       const openGuideForElement = (element) => {
-        const guideWindow = openTaskGuideWindow(element.dataset.taskId, element.href, getSplitLayout());
-        if (!guideWindow) {
-          if (popupWarning) {
-            popupWarning.hidden = false;
+        const taskId = element.dataset.taskId;
+        const guide = taskGuideContent[taskId];
+
+        const showInlineGuideForElement = () => {
+          const parentTaskItem = element.closest('li');
+          if (!parentTaskItem) {
+            return;
           }
 
-          const parentTaskItem = element.closest('li');
-          if (parentTaskItem) {
-            parentTaskItem.querySelectorAll('.guide-inline-hidden').forEach((node) => {
-              node.classList.remove('guide-inline-hidden');
-              node.classList.add('guide-inline-visible');
-            });
+          let revealedExistingGuide = false;
+          parentTaskItem.querySelectorAll('.guide-inline-hidden').forEach((node) => {
+            node.classList.remove('guide-inline-hidden');
+            node.classList.add('guide-inline-visible');
+            revealedExistingGuide = true;
+          });
+
+          if (revealedExistingGuide || !guide) {
+            return;
           }
+
+          let fallbackBlock = parentTaskItem.querySelector(`.guide-inline-fallback[data-task-id="${taskId}"]`);
+          if (fallbackBlock) {
+            fallbackBlock.hidden = false;
+            return;
+          }
+
+          fallbackBlock = document.createElement('div');
+          fallbackBlock.className = 'guide-inline-fallback guide-inline-visible';
+          fallbackBlock.dataset.taskId = taskId;
+
+          const title = document.createElement('p');
+          title.className = 'guide-inline-fallback-title';
+          title.textContent = guide.title;
+          fallbackBlock.appendChild(title);
+
+          const list = document.createElement('ol');
+          guide.steps.forEach((step) => {
+            const item = document.createElement('li');
+            item.textContent = step;
+            list.appendChild(item);
+          });
+          fallbackBlock.appendChild(list);
+
+          parentTaskItem.appendChild(fallbackBlock);
+        };
+
+        const showGuideFallbackWarning = () => {
+          if (!popupWarning) {
+            return;
+          }
+
+          popupWarning.hidden = false;
+          popupWarning.textContent = 'Instruction popup did not render the expected guide. Continue using the inline steps shown under the active task.';
+        };
+
+        const guideWindow = openTaskGuideWindow(taskId, element.href, getSplitLayout());
+        if (!guideWindow) {
+          showGuideFallbackWarning();
+          showInlineGuideForElement();
+          return;
         }
+
+        window.setTimeout(() => {
+          try {
+            const bodyText = guideWindow.document?.body?.innerText || '';
+            const expectedTitleVisible = guide ? bodyText.includes(guide.title) : false;
+            const expectedStepVisible = guide?.steps?.[0] ? bodyText.includes(guide.steps[0]) : false;
+
+            if (!expectedTitleVisible || !expectedStepVisible) {
+              showGuideFallbackWarning();
+              showInlineGuideForElement();
+            }
+          } catch {
+            showGuideFallbackWarning();
+            showInlineGuideForElement();
+          }
+        }, 250);
       };
 
       linkElements.forEach((element) => {

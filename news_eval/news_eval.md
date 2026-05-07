@@ -4,14 +4,51 @@ layout: news_eval
 permalink: /news_eval.html
 ---
 <style>
-	button {
-		border-radius: 6px;
+	.chrome-btn {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		vertical-align: baseline;
+		font-family: "Segoe UI", Tahoma, sans-serif;
+		font-size: 13px;
+		line-height: 1.15;
+		font-weight: 600;
+		padding: 5px 12px;
+		margin: 0 2px;
+		border-radius: 7px;
+		border: 1px solid transparent;
+		box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
+		text-shadow: 0 1px 0 rgba(0, 0, 0, 0.18);
+		white-space: nowrap;
+	}
+
+	.chrome-btn:active {
+		transform: translateY(1px);
+		box-shadow: 0 1px 0 rgba(0, 0, 0, 0.12) inset;
+	}
+
+	.chrome-btn-primary {
+		background: linear-gradient(#2f75ff, #1e60e8);
+		color: #fff;
+		border-color: #1a56cf;
+	}
+
+	.chrome-btn-secondary {
+		background: linear-gradient(#ffffff, #f1f3f7);
+		color: #1f4fb8;
+		border-color: #c9d0dd;
+		text-shadow: none;
 	}
 </style>  
 **News Evaluation** is a Chrome extension developed by New York University's <a href="https://csmapnyu.org/">Center for Social Media and Politics </a>. This extension allows participants to share data on their online search experience while searching for in formation regarding the factuality of news articles. This data contributes to better understanding of how search tools influence are used in learning about and understanding breaking news events.
 <p>Data collected through News Evaluation is anonymized and used for academic purposes only. All collected data is securely stored on Amazon Web Services (AWS) and only accessible by CSMaP researchers and software engineers.</p>
 
 ## Install the extension
-1. Visit the <a href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1">News Evaluation</a> Chrome Web Store page from a laptop or desktop computer using Google Chrome.
-2. Click <button style="background-color: #0000FF; color: white;">Add to Chrome</button>.
-3. When the confirmation popup appears, click <button style="background-color: #FFFFFF; color: #0000FF;">Add Extension</button>.
+1. Visit the <a href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1">Chrome Web Store</a> Chrome Web Store page from a laptop or desktop computer using Google Chrome.
+2. Install the News Evaluation Extension by clicking <button class="chrome-btn chrome-btn-primary">Add to Chrome</button> button.
+3. Click on <button class="chrome-btn chrome-btn-secondary">Add Extension</button> button.
+4. Wait for the assigned ID to be verified automatically.
+5. Click <button class="chrome-btn chrome-btn-primary">I have read this information</button>.
+6. You participation is verified and you can close the extension tab
+7. Continue with the assigned survey task
+8. At end of the study the extension will remove itself from the browser 
