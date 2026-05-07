@@ -11,14 +11,14 @@ layout: youtube_takeout
 3. You will see the window **Select data to include** with Products listed as *Youtube and YouTube Music* (pictured below).
 4. Wait and then click on the option **All YouTube data included** - This is an important step that will allow you to limit the data that you share 
 
-<img src="images/yt-select_options.png" width="500" style="margin:auto;">
+<img src="images/yt-select_options.png" style="margin:auto;">
 
 On the pop-up window (pictured below)
 * Press  **Deselect all**
 * Select **history** and **subscriptions**
 * Click  **OK**
 
-<img src="images/yt-what_to_select_2.png" width="300" style="margin:auto;">
+<img src="images/yt-what_to_select_2.png" style="margin:auto;">
 
 On the original window, click **CONTINUE**.
 
@@ -32,7 +32,7 @@ Ensure the following choices are selected
 
 Then click **Create export** button.
 
-<img src="images/choose_file_type.png" width="600" style="margin:auto;">
+<img src="images/choose_file_type.png" style="margin:auto;">
 
 <div style="padding-top:10px;"></div>
 ## Step 2: Wait for your takeout data to become available

@@ -3,77 +3,61 @@ title: Frequently Asked Questions
 layout: news_eval
 permalink: /news_eval_help.html
 ---
-<a id="top"></a>
-<html>
-<head>
-	<style>
-		h2 {font-size: 25px;
-		    font-weight:600;}
-		ol li {padding-bottom:5px;}
-		.extrapadding{padding:3px;}
-		</style>	
-</head>
-<body>
-<p>Thank you for downloading the News Evaluation Extension. This page provides guidance to issues that might come up when using the extension.</p>
-<strong style="font-size: 20px;">Table of contents</strong>
-	<p><a href="#userid">How do I get a User ID?</a></p>
-	<p><a href="#activate">How do I register and activate the extension?</a></p>
-	<p><a href="#invalid">Why is the extension not accepting my ID?</a></p>
-	<p><a href="#remove">How do I remove the extension from my Chrome browser?</a></p>
-	<p><a href="#help">How do I contact support?</a></p>
+Thank you for downloading the News Evaluation Extension. This page provides guidance for common issues that may come up when using the extension.
 
-<div class="extrapadding">
- 	<h2 id="userid">How do I get my User ID?</h2>
-	<p>Your user ID is the ID associated with the service through which you were recruited. There are two ways to obtain your user ID</p>
-	<p>If you are coming from <strong>MTurk</strong>, your ID is your <em>MTurk Worker ID</em>.</p>
-	<p>If you are coming from <strong>CloudResearch or Connect</strong>, your ID is your <em>Connect ID</em>.</p>
-</div>	
-<div class="extrapadding">
-	<h2 id="activate">How do I register and activate the extension?</h2>
-	<p>After you install the extension, use the User ID <a href="#userid"> provided </a> and do the following</p>
-	<ol>	
-		<li>On the extension <strong>Home</strong> tab, enter the User ID in the field <strong>Enter your User ID</strong>. as shown below on the highlighted section.</li>
-		<p>Perhaps add image here</p>
-		<!-- <p align="center"><img src="images/User_ID_Install.png" style="padding:10px;"></p> -->
-		<li>After entering your User ID, press the <strong>Register</strong> button</li>
-		<li>The extension will now be registered and activated to automatically collect your activity on Perplexity AI.</li>
-	</ol>
-	<a href="#top">Return to top </a>
-</div>
-<div class="extrapadding">
-	<h2 id="invalid">Why is the extension not accepting my ID?</h2>
-	<p>You must input the same User ID in the survey and the extension fields in order to activate the extension.</p>
-	<p>Please ensure that the ID you put in the News Evaluation Extension Plugin is exactly the same as the User ID used in the survey</p>
-	<a href="#top">Return to top </a>
-</div>
+## Table of Contents
+- [How do I get my participant ID?](#how-do-i-get-my-participant-id)
+- [How do I activate the extension?](#how-do-i-activate-the-extension)
+- [Why is my ID not being accepted?](#why-is-my-id-not-being-accepted)
+- [How do I remove the extension from Chrome?](#how-do-i-remove-the-extension-from-chrome)
+- [How do I contact support?](#how-do-i-contact-support)
 
-<!-- <div class="extrapadding">
-	<h2 id="pause">How do I use Perplexity AI</h2>
-	<a href="#top">Return to top</a>
-</div> -->
+## How do I get my participant ID?
+For most participants, you do not need to manually enter a participant ID during setup. The extension handles verification automatically.
 
-<div class="extrapadding">
-	<h2 id="remove">How do I remove the extension from my Chrome browser?</h2>
-	<p>You can remove the extension from your Chrome browser in two ways.</p>
-	<p>First, you can remove it through the Chrome browser:</p>
-	<ol>
-		<li>Go to the extension menu in your Chrome browser, located next to the address bar (puzzle piece icon).</li> 
-		<li>From the extensions menu, you will see News Evaluation listed. Select the three dots next to the extension name to reveal a submenu. The submenu provides the option <strong>Remove from Chrome…</strong> to uninstall the extension.</li>
-	</ol>
-	<p>Alternatively, visit the <a href="https://chrome.google.com/webstore/url-historian/imdfbahhoamgbblienjdoeafphlngdim?authuser=0&hl=en">News Evaluation </a> listing on the Chrome webstore. Click the <strong style="color:blue"> Remove from Chrome</strong> button in the top right corner </p>
-</div>
+You may still be provided an assigned participant ID for study records and support follow-up. Keep it for your records.
 
-<div class="extrapadding">
-	<h2 id="help">How do I contact support</h2>
-	<p>Please email <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> if you:</p>
-	<ul>
-		<li>To revoke your consent for the study</li>
-		<li>To request your data be deleted</li>
-		<li>To report a technical problem</li>
-		<li>To know more about the research project or your participation that is unclear or that you do not understand</li>
-	</ul>
-	<p>Thank you for supporting our research!</p>
-	<a href="#top">Return to top </a>
-</div>
+## How do I activate the extension?
+**What you do:**
+1. Install the extension and open it from Chrome's extension menu.
+2. Wait for automatic ID verification to complete.
+3. If an ID input screen appears, enter the ID provided by the study team and click **Submit**.
+4. Read the study information screen and click **I have read this information**.
 
+**What the extension does automatically:**
+- If validation succeeds, it loads your study configuration and moves you into the active extension flow.
+- If your assignment link already includes a valid ID, the extension pre-fills and processes it automatically.
 
+## Why is my ID not being accepted?
+**What you should check:**
+- If you were asked to type an ID, enter the exact ID provided by the study team (no extra spaces or typos).
+- If you were not asked to type an ID and setup does not continue, wait briefly and then try reopening the extension.
+
+**What the extension is checking:**
+- The extension sends your ID to the study validation service.
+- If validation fails, the extension will not activate and you may see a validation error.
+- If the service is temporarily unavailable, validation can fail even with a correct ID. Try again shortly.
+
+## How do I remove the extension from Chrome?
+**1) Remove it manually from the extension (first option):**
+1. Open the News Evaluation extension.
+2. Use the in-extension remove option to start uninstall and confirm when prompted.
+
+**2) Remove it manually through Chrome (browser method):**
+1. Open Chrome's extension menu (puzzle piece icon), find **News Evaluation**, and choose **Remove from Chrome**.
+2. Or open [chrome://extensions](chrome://extensions), find **News Evaluation**, and click **Remove**.
+
+**3) Automatic uninstall is also enabled:**
+When the study period ends, the extension may trigger its own uninstall flow automatically.
+
+If removal does not complete, close and reopen Chrome, then try again from [chrome://extensions](chrome://extensions).
+
+## How do I contact support?
+Please email [csmapsupport@nyu.edu](mailto:csmapsupport@nyu.edu) if you:
+- Want to revoke your consent for the study.
+- Want to request deletion of your study data.
+- Need help with participant ID validation or extension activation.
+- Need to report a technical issue.
+- Need clarification about the study or your participation.
+
+Thank you for supporting our research!

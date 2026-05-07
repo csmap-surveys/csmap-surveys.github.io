@@ -3,16 +3,28 @@ title: Privacy Policy
 layout: news_eval
 permalink: /news_eval_policy.html
 ---
-This Privacy Policy (“Policy”) pertains to the CSMaP News Evaluation extension provided by New York University’s Center for Social Media and Politics (“CSMaP”, “Company,” “we,” “us,” or “our”). We are committed to protecting your personal information and research participants (“you,”your”) right to privacy.
+This Privacy Policy applies to the CSMaP News Evaluation extension provided by New York University's Center for Social Media and Politics (CSMaP, "we," "us," or "our"). We are committed to protecting participant privacy.
 
-## What does News Evaluation Extension collect
-News Evaluation is a Chrome extension that collects browsing data from registered research participants who agree to be part of a study. To be part of a CSMaP study, a participant first completes a survey and opts-in to sharing web browsing data through the News Evaluation extension. This data will consist of the URL you visit and any of your search engine results from Google and/or AI assistants if you search for anything. 
+## What The News Evaluation Extension Collects
+The News Evaluation extension collects browsing data from participants who opt in to a CSMaP study.
 
-**Participation**
-<p>Participation in this study is voluntary. You may refuse to participate or withdraw at any time without penalty. To revoke your consent of any portion of this study, email factcheckingsurvey@gmail.com with your request.
- 
-## Data storage and access
-Data collected through the News Evaluation extension will be held on an encrypted postgres database in Amazon Web Services(AWS). Only approved researchers and app engineers will have access to the data. CSMaP will not share or sell your data to commercial third-parties. All data collected will be anonymized and used for research purposes only. 
+Collected data includes:
+- URLs you visit.
+- Search results you view on Google and/or AI assistants when you perform searches.
+
+To participate, users complete the study survey and consent to data collection through the extension.
+
+## Participation
+Participation is voluntary. You may refuse to participate or withdraw at any time without penalty.
+
+To revoke consent for any part of the study, email csmapsupport@nyu.edu.
+
+## Data Storage And Access
+Data collected through the News Evaluation extension is stored in an encrypted PostgreSQL database on Amazon Web Services (AWS).
+
+Access is limited to approved researchers and app engineers.
+
+CSMaP does not share or sell participant data to commercial third parties. Data is anonymized and used only for research purposes.
 
 ## Contact 
 If there is anything about the study or your participation that is unclear or that you do not understand, if you have questions or wish to report a research-related problem, you may contact Joshua Tucker at (212) 998-7598, joshua.tucker@nyu.edu, 19 W. 4th Street, New York, NY, 10012.

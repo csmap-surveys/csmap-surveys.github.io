@@ -1,63 +1,104 @@
 <style>
-  .wrapper {;
-    max-width:fit-content;
-    padding-right: 15px;
-    padding-left: 0;
-    margin-left:0;
-  }
-  .site-header{
+  .news-eval-header {
     border-top: 0;
     border-bottom: 0;
-    min-height: 55.95px;
-    position: relative;
-    padding: 5px;
-}
+    background: linear-gradient(135deg, #6714a6, #4f0f83);
+    box-shadow: 0 2px 8px rgba(34, 12, 56, 0.2);
+  }
 
-  .site-title {
-    float: inline-start;
-    line-height: 0;
-    font-size: 10px;
+  .news-eval-header .wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
   }
-  .page-content{
-    padding-top: 0;
-    padding-right: 2px;
-    padding-left: 20px;
-    padding-bottom: 0;
-  }
-  table {
-    margin-bottom: 0.5px;
-    border-collapse: collapse;
-    margin-right: 1px;
-    border: 0;
-}
-  table td {
-    font-weight: 900;
-    border: 0;
-    padding: 12px 15px;
 
+  .news-eval-header .site-title {
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    text-decoration: none;
   }
-  p,li {
-    margin: 5px;
-  }
-  h1,h2,h3 {
-    font-weight: 400px;
-    margin: 2px;
-  }
-  body {
-    font:300 16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" ;
-  }
-  img {
-    width: 400px;
-    vertical-align: middle;
-    margin-left: 10px;
-  }
-  .site-nav {
-    float: inline-end;
-    line-height: 55px;
-  }
-</style> 
 
-<header class="site-header">
+  .news-eval-header .brand-icon-wrap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  }
+
+  .news-eval-header .brand-icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+  }
+
+  .news-eval-header .brand-text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+  }
+
+  .news-eval-header .trigger {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .news-eval-header .page-link {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    font-weight: 650;
+    letter-spacing: 0.01em;
+    padding: 7px 12px;
+    text-decoration: none;
+    transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease;
+  }
+
+  .news-eval-header .page-link:hover {
+    background: rgba(255, 255, 255, 0.22);
+    border-color: rgba(255, 255, 255, 0.42);
+    color: #ffffff;
+  }
+
+  .news-eval-header .page-link.current {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #5a1396;
+  }
+
+  @media (max-width: 760px) {
+    .news-eval-header .wrapper {
+      justify-content: center;
+      padding: 12px;
+    }
+
+    .news-eval-header .trigger {
+      justify-content: center;
+    }
+  }
+</style>
+
+<header class="site-header news-eval-header">
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.news_eval | default: default_paths -%}
@@ -65,19 +106,19 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     {%- if titles_size > 0 -%}
 
-    <a class="site-title" rel="author">
-      <img src="images/news_eval/news-eval.png" style="padding-bottom: 8px"></a>
+    <a class="site-title" rel="author" href="{{ '/news_eval.html' | relative_url }}">
+      <span class="brand-icon-wrap">
+        <img class="brand-icon" src="{{ '/images/news_eval/icon-128.png' | relative_url }}" alt="News Evaluation icon">
+      </span>
+      <span class="brand-text">News Evaluation</span>
+    </a>
       <div class="trigger">
-        <table>
-          <tr>
         {%- for path in page_paths -%}
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
-          <td><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></td>
+          <a class="page-link{% if page.url == my_page.url %} current{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {%- endif -%}
         {%- endfor -%}
-          </tr>
-        </table>
       </div>
     {%- endif -%}
   </div>

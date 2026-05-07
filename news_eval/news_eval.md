@@ -43,12 +43,13 @@ permalink: /news_eval.html
 **News Evaluation** is a Chrome extension developed by New York University's <a href="https://csmapnyu.org/">Center for Social Media and Politics </a>. This extension allows participants to share data on their online search experience while searching for in formation regarding the factuality of news articles. This data contributes to better understanding of how search tools influence are used in learning about and understanding breaking news events.
 <p>Data collected through News Evaluation is anonymized and used for academic purposes only. All collected data is securely stored on Amazon Web Services (AWS) and only accessible by CSMaP researchers and software engineers.</p>
 
-## Install the extension
-1. Visit the <a href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1">Chrome Web Store</a> Chrome Web Store page from a laptop or desktop computer using Google Chrome.
-2. Install the News Evaluation Extension by clicking <button class="chrome-btn chrome-btn-primary">Add to Chrome</button> button.
-3. Click on <button class="chrome-btn chrome-btn-secondary">Add Extension</button> button.
-4. Wait for the assigned ID to be verified automatically.
-5. Click <button class="chrome-btn chrome-btn-primary">I have read this information</button>.
-6. You participation is verified and you can close the extension tab
-7. Continue with the assigned survey task
-8. At end of the study the extension will remove itself from the browser 
+## Install the extension 
+1. Before installing, make sure you are using the Google Chrome browser on a laptop or desktop computer.
+2. Visit the <a href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1">Chrome Web Store</a>.
+3. Install the News Evaluation Extension by clicking <button class="chrome-btn chrome-btn-primary">Add to Chrome</button> button.
+4. Click on <button class="chrome-btn chrome-btn-secondary">Add Extension</button> button.
+5. Wait for the assigned ID to be verified automatically.
+6. Click <button class="chrome-btn chrome-btn-primary">I have read this information</button>.
+7. You participation is verified and you can close the extension tab
+8. Continue with the assigned survey task
+9. At end of the study the extension will remove itself from the browser
