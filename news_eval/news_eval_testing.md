@@ -436,11 +436,13 @@ permalink: /news_eval_testing
       const countdownStartStorageKey = sessionId
         ? `newsEvalCountdownStart_${sessionId}`
         : 'newsEvalCountdownStart';
+      const countdownResumeArmedKey = sessionId
+        ? `newsEvalCountdownResumeArmed_${sessionId}`
+        : 'newsEvalCountdownResumeArmed';
       const countdownDurationMs = 20 * 60 * 1000;
       const countdownWarningMs = 2 * 60 * 1000;
       const windowReopenHash = '#window-reopen-cycle';
       const taskGuideWindowName = 'newsEvalTaskGuide';
-      const taskMainWindowName = 'newsEvalTaskMain';
 
       let activeTaskMainWindow = null;
       let activeTaskGuideWindow = null;
@@ -762,31 +764,15 @@ permalink: /news_eval_testing
       const openTaskWindows = (taskId, url) => {
         const guide = taskGuideContent[taskId];
         if (!guide) {
-          window.open(url, '_blank');
+          activeTaskMainWindow = window.open(url, '_blank');
+          if (activeTaskMainWindow) {
+            monitorTaskMainWindow();
+          }
           return;
         }
 
         const layout = getSplitLayout();
-        const mainFeatures = [
-          'popup=yes',
-          'resizable=yes',
-          'scrollbars=yes',
-          `width=${layout.main.width}`,
-          `height=${layout.main.height}`,
-          `left=${layout.main.left}`,
-          `top=${layout.main.top}`
-        ].join(',');
-
-        activeTaskMainWindow = window.open('', taskMainWindowName, mainFeatures);
-        if (!activeTaskMainWindow) {
-          activeTaskMainWindow = window.open(url, '_blank');
-        } else {
-          try {
-            activeTaskMainWindow.location.href = url;
-          } catch {
-            activeTaskMainWindow = window.open(url, '_blank');
-          }
-        }
+        activeTaskMainWindow = window.open(url, '_blank');
 
         if (!activeTaskMainWindow) {
           return;
@@ -821,16 +807,18 @@ permalink: /news_eval_testing
 
       const storedCountdownStart = Number(localStorage.getItem(countdownStartStorageKey));
       const isWindowReopenVisit = window.location.hash === windowReopenHash;
+      const isResumeArmed = localStorage.getItem(countdownResumeArmedKey) === '1';
       const now = Date.now();
       const hasValidStoredCountdownStart = Number.isFinite(storedCountdownStart) && (now - storedCountdownStart <= countdownDurationMs);
 
       let countdownStart;
-      if (isWindowReopenVisit && hasValidStoredCountdownStart) {
+      if (isWindowReopenVisit && isResumeArmed && hasValidStoredCountdownStart) {
         countdownStart = storedCountdownStart;
-      } else if (hasValidStoredCountdownStart) {
-        countdownStart = storedCountdownStart;
+        localStorage.removeItem(countdownResumeArmedKey);
       } else {
         countdownStart = null;
+        localStorage.removeItem(countdownStartStorageKey);
+        localStorage.removeItem(countdownResumeArmedKey);
       }
 
       const formatRemainingTime = (remainingMs) => {
@@ -846,7 +834,7 @@ permalink: /news_eval_testing
         }
 
         if (!Number.isFinite(countdownStart)) {
-          countdownTime.textContent = formatRemainingTime(countdownDurationMs);
+          countdownTime.textContent = '00:00';
           countdownBanner.classList.remove('warning', 'blink');
           return;
         }
@@ -1038,6 +1026,10 @@ permalink: /news_eval_testing
           }
 
           if (copied) {
+            if (Number.isFinite(countdownStart)) {
+              localStorage.setItem(countdownStartStorageKey, String(countdownStart));
+              localStorage.setItem(countdownResumeArmedKey, '1');
+            }
             showCopySuccess();
           }
         });
