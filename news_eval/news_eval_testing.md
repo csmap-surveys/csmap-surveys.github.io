@@ -79,10 +79,10 @@ permalink: /news_eval_testing
       }
 
       .countdown-banner {
-        position: fixed;
-        top: 16px;
-        right: 16px;
-        z-index: 1000;
+        position: static;
+        display: inline-flex;
+        align-items: center;
+        margin-left: auto;
         padding: 10px 14px;
         border: 2px solid #57068c;
         border-radius: 8px;
@@ -112,6 +112,19 @@ permalink: /news_eval_testing
 
       .countdown-banner.warning .countdown-time {
         color: #c92a2a;
+      }
+
+      .countdown-banner.in-header {
+        flex-shrink: 0;
+      }
+
+      @media (max-width: 760px) {
+        .countdown-banner {
+          margin-top: 10px;
+          margin-left: 0;
+          width: 100%;
+          justify-content: center;
+        }
       }
 
       .countdown-banner.blink {
@@ -792,7 +805,19 @@ permalink: /news_eval_testing
       const popupWarning = document.getElementById('popupWarning');
       const countdownBanner = document.getElementById('countdownBanner');
       const countdownTime = document.getElementById('countdownTime');
-      const googleTaskLink = document.querySelector('a[data-task-id="single-google"]');
+      const mountCountdownBannerInHeader = () => {
+        if (!countdownBanner) {
+          return;
+        }
+
+        const headerWrapper = document.querySelector('.news-eval-header .wrapper');
+        if (!headerWrapper) {
+          return;
+        }
+
+        countdownBanner.classList.add('in-header');
+        headerWrapper.appendChild(countdownBanner);
+      };
 
       const storedCountdownStart = Number(localStorage.getItem(countdownStartStorageKey));
       const isWindowReopenVisit = window.location.hash === windowReopenHash;
@@ -836,6 +861,7 @@ permalink: /news_eval_testing
         countdownBanner.classList.toggle('blink', isWarning);
       };
 
+      mountCountdownBannerInHeader();
       updateCountdown();
       setInterval(updateCountdown, 1000);
 
@@ -848,12 +874,6 @@ permalink: /news_eval_testing
         localStorage.setItem(countdownStartStorageKey, String(countdownStart));
         updateCountdown();
       };
-
-      if (googleTaskLink) {
-        googleTaskLink.addEventListener('click', () => {
-          startCountdownIfNeeded();
-        });
-      }
 
       const taskLinks = Array.from(document.querySelectorAll('[data-task-id]'));
       const windowCyclePreMode = document.getElementById('windowCyclePreMode');
@@ -916,7 +936,8 @@ permalink: /news_eval_testing
           popupWarning.textContent = 'Instruction popup did not render the expected guide. Continue using the inline steps shown under the active task.';
         };
 
-        const guideWindow = openTaskGuideWindow(taskId, element.href, getSplitLayout());
+        openTaskWindows(taskId, element.href);
+        const guideWindow = activeTaskGuideWindow;
         if (!guideWindow) {
           showGuideFallbackWarning();
           showInlineGuideForElement();
@@ -951,23 +972,11 @@ permalink: /news_eval_testing
       }
 
       taskLinks.forEach((element) => {
-        // mousedown fires earlier than click and is less likely to be blocked
-        // when the anchor opens a new tab/window immediately.
-        element.addEventListener('mousedown', (event) => {
-          if (event.button !== 0) {
-            return;
-          }
-
-          openGuideForElement(element);
-          element.dataset.guideOpenedAt = String(Date.now());
-        });
-
-        // Keyboard activation (Enter/Space) uses click with detail=0.
         element.addEventListener('click', (event) => {
-          const openedAt = Number(element.dataset.guideOpenedAt || '0');
-          const openedRecently = Number.isFinite(openedAt) && (Date.now() - openedAt < 800);
-          if (openedRecently && event.detail > 0) {
-            return;
+          event.preventDefault();
+
+          if (element.dataset.taskId === 'single-google') {
+            startCountdownIfNeeded();
           }
 
           openGuideForElement(element);
@@ -1057,22 +1066,11 @@ permalink: /news_eval_testing
           windowReopenHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
           windowReopenHeading.focus({ preventScroll: true });
         }
-        const reopenGuideWindow = openTaskGuideWindow('window-reopen-instructions', window.location.href, getSplitLayout());
-        if (!reopenGuideWindow && popupWarning) {
-          popupWarning.hidden = false;
-        }
       } else {
-        const closeCycleGuideWindow = openTaskGuideWindow('window-close-cycle', `${window.location.origin}${window.location.pathname}`, getSplitLayout());
-        if (!closeCycleGuideWindow) {
-          if (popupWarning) {
-            popupWarning.hidden = false;
-          }
-
-          const closeCycleList = windowCyclePreMode ? windowCyclePreMode.querySelector('ol') : null;
-          if (closeCycleList) {
-            closeCycleList.classList.remove('guide-inline-hidden');
-            closeCycleList.classList.add('guide-inline-visible');
-          }
+        const closeCycleList = windowCyclePreMode ? windowCyclePreMode.querySelector('ol') : null;
+        if (closeCycleList) {
+          closeCycleList.classList.remove('guide-inline-hidden');
+          closeCycleList.classList.add('guide-inline-visible');
         }
       }
 
