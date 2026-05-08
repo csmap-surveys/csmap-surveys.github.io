@@ -5,21 +5,15 @@
   }
 
   body.site-background {
-    position: relative;
     min-height: 100vh;
-    background: #f7f3fb;
-  }
-
-  body.site-background::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background-image: url("https://socialarchive.csmapnyuapps.org/login-bg3.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    pointer-events: none;
-    z-index: -1;
+    background-color: #f7f3fb;
+    background-image:
+      linear-gradient(180deg, rgba(247, 243, 251, 0.92), rgba(247, 243, 251, 0.88)),
+      url("{{ '/images/backgrounds/login-bg3.svg' | relative_url }}");
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+    background-position: center top, center center;
+    background-attachment: scroll, fixed;
   }
 
   .page-content {

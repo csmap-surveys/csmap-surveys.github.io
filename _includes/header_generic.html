@@ -1,0 +1,40 @@
+<style>
+  .generic-header {
+    border-top: 0;
+    border-bottom: 0;
+    background: linear-gradient(135deg, #6714a6, #4f0f83);
+    box-shadow: 0 2px 8px rgba(34, 12, 56, 0.2);
+  }
+
+  .generic-header .wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 14px 18px;
+  }
+
+  .generic-header .site-title {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+
+  @media (max-width: 760px) {
+    .generic-header .wrapper {
+      padding: 12px 14px;
+    }
+
+    .generic-header .site-title {
+      font-size: 22px;
+    }
+  }
+</style>
+
+<header class="site-header generic-header">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+  </div>
+</header>

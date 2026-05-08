@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" width="1440" height="900">
+  <!-- Bottom right concentric circles -->
+  <circle cx="1380" cy="780" r="260" fill="#E0BCD9"/>
+  <circle cx="1380" cy="780" r="200" fill="#C4A0D0"/>
+  <circle cx="1380" cy="780" r="150" fill="#8968AC"/>
+  <circle cx="1380" cy="780" r="100" fill="#522E90"/>
+  <circle cx="1380" cy="780" r="55" fill="#5BAAAA"/>
+
+  <!-- Small concentric circle - right side (teal outer, purple inner) -->
+  <circle cx="1200" cy="300" r="55" fill="#5BAAAA"/>
+  <circle cx="1200" cy="300" r="28" fill="#8968AC"/>
+
+  <!-- RIGHT SIDE: Magenta dashed line going up-left -->
+  <line x1="1320" y1="500" x2="1220" y2="420" stroke="#A3248C" stroke-width="2.5" stroke-dasharray="12 8" opacity="0.5"/>
+
+  <!-- RIGHT SIDE: Purple dot at the start of line -->
+  <circle cx="1320" cy="500" r="10" fill="#522E90"/>
+
+  <!-- LEFT SIDE: Purple dot - above Snoo -->
+  <circle cx="350" cy="150" r="18" fill="#8968AC"/>
+
+  <!-- LEFT SIDE: Dashed line - above Snoo -->
+  <line x1="80" y1="280" x2="200" y2="230" stroke="#8968AC" stroke-width="2.5" stroke-dasharray="12 8" opacity="0.45"/>
+
+  <!-- LEFT SIDE: Magenta dot - above Snoo at line start -->
+  <circle cx="80" cy="280" r="10" fill="#A3248C"/>
+
+  <!-- LEFT SIDE: Small concentric circle - below Snoo (purple outer, teal inner) -->
+  <circle cx="120" cy="750" r="55" fill="#8968AC"/>
+  <circle cx="120" cy="750" r="28" fill="#5BAAAA"/>
+
+  <!-- LEFT SIDE: Small dark dot - below Snoo -->
+  <circle cx="300" cy="820" r="6" fill="#2D1A54"/>
+</svg>
