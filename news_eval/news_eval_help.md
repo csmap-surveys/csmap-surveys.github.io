@@ -6,7 +6,7 @@ permalink: /news_eval_help.html
 Thank you for downloading the News Evaluation Extension. This page provides guidance for common issues that may come up when using the extension.
 
 <details id="q-participant-id">
-	<summary><strong>How do I get my participant ID?</strong></summary>
+	<summary>How do I get my participant ID?</summary>
 
 	For most participants, you do not need to manually enter a participant ID during setup. The extension handles verification automatically.
 
@@ -14,7 +14,7 @@ Thank you for downloading the News Evaluation Extension. This page provides guid
 </details>
 
 <details id="q-activate">
-	<summary><strong>How do I activate the extension?</strong></summary>
+	<summary>How do I activate the extension?</summary>
 
 	<p><strong>What you do:</strong></p>
 
@@ -30,7 +30,7 @@ Thank you for downloading the News Evaluation Extension. This page provides guid
 </details>
 
 <details id="q-invalid-id">
-	<summary><strong>Why is my ID not being accepted?</strong></summary>
+	<summary>Why is my ID not being accepted?</summary>
 
 	<p><strong>What you should check:</strong></p>
 
@@ -45,16 +45,19 @@ Thank you for downloading the News Evaluation Extension. This page provides guid
 </details>
 
 <details id="q-remove">
-	<summary><strong>How do I remove the extension from Chrome?</strong></summary>
+	<summary>How do I remove the extension from Chrome?</summary>
 
 	<p><strong>1) Remove it manually from the extension (first option):</strong></p>
-	1. Open the News Evaluation extension.
-	2. Use the in-extension remove option to start uninstall and confirm when prompted.
-	
-	<p><strong>2) Remove it manually through Chrome (browser method):</strong></p>
+	<ol>
+		<li>Open the News Evaluation extension.</li>
+		<li>Use the in-extension remove option to start uninstall and confirm when prompted.</li>
+	</ol>
 
-	1. Open Chrome's extension menu (puzzle piece icon), find <strong>News Evaluation</strong>, and choose <strong>Remove from Chrome</strong>.
-	2. Or open <a href="chrome://extensions">chrome://extensions</a>, find <strong>News Evaluation</strong>, and click <strong>Remove</strong>.
+	<p><strong>2) Remove it manually through Chrome (browser method):</strong></p>
+	<ol>
+		<li>Open Chrome's extension menu (puzzle piece icon), find <strong>News Evaluation</strong>, and choose <strong>Remove from Chrome</strong>.</li>
+		<li>Or open <a href="chrome://extensions">chrome://extensions</a>, find <strong>News Evaluation</strong>, and click <strong>Remove</strong>.</li>
+	</ol>
 
 	<p><strong>3) Automatic uninstall is also enabled:</strong></p>
 
@@ -64,7 +67,7 @@ Thank you for downloading the News Evaluation Extension. This page provides guid
 </details>
 
 <details id="q-support">
-	<summary><strong>How do I contact support?</strong></summary>
+	<summary>How do I contact support?</summary>
 
 	Please email <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> if you:
 
