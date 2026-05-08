@@ -326,22 +326,22 @@ permalink: /news_eval_testing
     <h3>Gemini</h3>
     <ol>
       <li>Open <a href="https://gemini.google.com" target="_blank" rel="noopener" data-task-id="ai-gemini">Gemini</a>.</li>
-      <li class="guide-inline-hidden">Type and send question 1, wait for the response to fully render, then type and send question 2, and wait for that response to fully render.</li>
-      <li class="guide-inline-hidden">Type and send question 3. While waiting for its response, type question 4 so it is ready to send as soon as the input field becomes available.</li>
+      <li class="guide-inline-hidden">Type and prompt question 1, wait for the response to fully render, then type and prompt question 2, and wait for that response to fully render.</li>
+      <li class="guide-inline-hidden">Type and prompt question 3. While waiting for its response, type question 4 so it is ready to prompt as soon as the input field becomes available.</li>
     </ol>
 
     <h3>ChatGPT</h3>
     <ol>
       <li>Open <a href="https://chatgpt.com" target="_blank" rel="noopener" data-task-id="ai-chatgpt">ChatGPT</a>.</li>
-      <li class="guide-inline-hidden">Type and send question 1, wait for the response to fully render, then type and send question 2, and wait for that response to fully render.</li>
-      <li class="guide-inline-hidden">Type and send question 3. While waiting for its response, type question 4 so it is ready to send as soon as the input field becomes available.</li>
+      <li class="guide-inline-hidden">Type and prompt question 1, wait for the response to fully render, then type and prompt question 2, and wait for that response to fully render.</li>
+      <li class="guide-inline-hidden">Type and prompt question 3. While waiting for its response, type question 4 so it is ready to prompt as soon as the input field becomes available.</li>
     </ol>
 
     <h3>Perplexity</h3>
     <ol>
       <li>Open <a href="https://www.perplexity.ai" target="_blank" rel="noopener" data-task-id="ai-perplexity">Perplexity</a>.</li>
-      <li class="guide-inline-hidden">Type and send question 1, wait for the response to fully render, then type and send question 2, and wait for that response to fully render.</li>
-      <li class="guide-inline-hidden">Type and send question 3. While waiting for its response, type question 4 so it is ready to send as soon as the input field becomes available.</li>
+      <li class="guide-inline-hidden">Type and prompt question 1, wait for the response to fully render, then type and prompt question 2, and wait for that response to fully render.</li>
+      <li class="guide-inline-hidden">Type and prompt question 3. While waiting for its response, type question 4 so it is ready to prompt as soon as the input field becomes available.</li>
     </ol>
 
     <h3>Tab Navigation</h3>
