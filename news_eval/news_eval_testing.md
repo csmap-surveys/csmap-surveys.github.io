@@ -1,6 +1,6 @@
 ---
 title: News Evaluation Test Instructions
-layout: perplexity
+layout: news_eval
 permalink: /news_eval_testing
 ---
 <html>
