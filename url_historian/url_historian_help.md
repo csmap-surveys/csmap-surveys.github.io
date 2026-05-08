@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
 layout: url_historian
+permalink: /url_historian_help.html
 ---
 <a id="top"></a>
 <html>

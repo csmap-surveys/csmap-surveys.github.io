@@ -1,6 +1,7 @@
 ---
 title: Laptop or Desktop
 layout: tiktok
+permalink: /tiktok_browsers.html
 ---
 <style>
 ol li {padding-bottom:10px;}  

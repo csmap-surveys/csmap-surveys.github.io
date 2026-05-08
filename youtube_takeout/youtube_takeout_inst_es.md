@@ -1,6 +1,7 @@
 ---
 title: Instrucciones
 layout: youtube_takeout
+permalink: /youtube_takeout_inst_es.html
 ---
 <style>
 ol li {padding-bottom:15px;}  

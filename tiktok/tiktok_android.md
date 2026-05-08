@@ -1,6 +1,7 @@
 ---
 title: Android Device
 layout: tiktok
+permalink: /tiktok_android.html
 ---
 <style>
 ol li {padding-bottom:15px;}  

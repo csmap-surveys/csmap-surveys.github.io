@@ -1,6 +1,7 @@
 ---
 title: iOS Device 
 layout: tiktok
+permalink: /tiktok_ios.html
 ---
 <style>
 ol li {padding-bottom:15px;}  

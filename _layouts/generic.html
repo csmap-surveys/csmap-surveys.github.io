@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  
 
   {%- include head.html -%}
-  
+
   <style>
     body {
       background-image: url("https://socialarchive.csmapnyuapps.org/login-bg3.svg");
@@ -21,11 +20,12 @@
       backdrop-filter: blur(1px);
     }
   </style>
-<body>
-     
-    {%- include header_tiktok_upload.html -%}
 
-    <main class="page-content" aria-label="Content" style="flex: 0; padding: 10px 0 0;">
+  <body>
+
+    {%- include header_generic.html -%}
+
+    <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>

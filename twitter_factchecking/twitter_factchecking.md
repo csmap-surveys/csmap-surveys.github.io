@@ -1,6 +1,7 @@
 ---
 title: Twitter Factchecking
 layout: twitter_factchecking
+permalink: /twitter_factchecking.html
 ---
 <style>
 ol li {padding-bottom:15px;}  

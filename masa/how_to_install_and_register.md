@@ -1,6 +1,7 @@
 ---
 title: How to install and register 
 layout: masa
+permalink: /how_to_install_and_register.html
 ---
 
 <div>

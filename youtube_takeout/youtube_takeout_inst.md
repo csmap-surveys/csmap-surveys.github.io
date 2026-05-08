@@ -1,5 +1,6 @@
 ---
 layout: youtube_takeout
+permalink: /youtube_takeout_inst.html
 ---
  
 <div style="padding-top:20px;"></div>

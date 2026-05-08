@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy
 layout: tiktok
+permalink: /tiktok_policy.html
 ---
 <style>
 	p{

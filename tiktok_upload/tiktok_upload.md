@@ -1,5 +1,6 @@
 ---
 layout: upload_tiktok
+permalink: /tiktok_upload.html
 ---
 <style>
 	.qr_code {

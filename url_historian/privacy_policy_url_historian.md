@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy
 layout: url_historian
+permalink: /privacy_policy_url_historian.html
 ---
 # Privacy Policy
 

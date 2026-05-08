@@ -1,6 +1,7 @@
 ---
 title: Twitter Timeline 
 layout: twitter_timeline
+permalink: /twitter_timeline.html
 ---
 <style>
 ol li {padding-bottom:15px;}  

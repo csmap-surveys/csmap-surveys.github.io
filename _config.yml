@@ -5,37 +5,37 @@ relative_links:
   enabled: true
   collections: true
 url_historian_pages:
-  - url_historian_about.md
-  - privacy_policy_url_historian.md
-  - url_historian_help.md
+  - url_historian/url_historian_about.md
+  - url_historian/privacy_policy_url_historian.md
+  - url_historian/url_historian_help.md
 url_historian_pages_es:
-  - url_historian_sobre.md
-  - privacidad_url_historian.md
-  - url_historian_ayuda.md
+  - url_historian/url_historian_sobre.md
+  - url_historian/privacidad_url_historian.md
+  - url_historian/url_historian_ayuda.md
 url_historian_testing:
-  - url_historian_testing.md
+  - url_historian/url_historian_testing.md
 other_pages:
   - index.md
 youtube_takeout:
-  - youtube_takeout_inst.md
+  - youtube_takeout/youtube_takeout_inst.md
 tiktok:
-  - tiktok_ios.md
-  - tiktok_android.md
-  - tiktok_browsers.md
-  - tiktok_video.md
-  - tiktok_policy.md
+  - tiktok/tiktok_ios.md
+  - tiktok/tiktok_android.md
+  - tiktok/tiktok_browsers.md
+  - tiktok/tiktok_video.md
+  - tiktok/tiktok_policy.md
 tiktok_upload:
-  - tiktok_upload.md
+  - tiktok_upload/tiktok_upload.md
 twitter_factchecking:
-  - twitter_factchecking.md 
+  - twitter_factchecking/twitter_factchecking.md 
 twitter_timeline:
-  - twitter_timeline.md
+  - twitter_timeline/twitter_timeline.md
 masa:
-  - about_masa.md
-  - privacy_policy_masa.md
-  - how_to_install_and_register.md
+  - masa/about_masa.md
+  - masa/privacy_policy_masa.md
+  - masa/how_to_install_and_register.md
 facebook:
-  - thankyou_fb.md
+  - facebook/thankyou_fb.md
 news_eval:
   - news_eval/news_eval.md
   - news_eval/news_eval_policy.md

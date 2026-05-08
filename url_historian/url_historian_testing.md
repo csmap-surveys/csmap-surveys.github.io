@@ -1,6 +1,7 @@
 ---
 title: URL Historian Testing Instructions
 layout: url_historian_testing
+permalink: /url_historian_testing.html
 ---
 # URL Historian Testing Instructions
 <html>

@@ -1,6 +1,7 @@
 ---
 title: About
 layout: url_historian
+permalink: /url_historian_about.html
 ---
 
 [Overview](#overview)<br>

@@ -1,6 +1,7 @@
 ---
 title: Sobre
 layout: url_historian
+permalink: /url_historian_sobre.html
 ---
 
 [Descripción general](#descripciongeneral)<br>

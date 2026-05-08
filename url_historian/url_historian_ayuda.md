@@ -1,6 +1,7 @@
 ---
 title: Preguntas Frecuentes
 layout: url_historian
+permalink: /url_historian_ayuda.html
 ---
 
 	

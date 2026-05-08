@@ -1,6 +1,7 @@
 ---
 title: About
 layout: masa
+permalink: /about_masa.html
 ---
 <style>
     .text {

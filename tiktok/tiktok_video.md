@@ -1,6 +1,7 @@
 ---
 title:  Video Instructions
 layout: tiktok
+permalink: /tiktok_video.html
 ---
 <style>
 	body {

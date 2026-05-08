@@ -1,6 +1,7 @@
 ---
 title: 	Política de Privacidad
 layout: url_historian
+permalink: /privacidad_url_historian.html
 ---
 # Política de Privacidad
 
