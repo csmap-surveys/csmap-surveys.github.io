@@ -326,23 +326,19 @@ permalink: /news_eval_testing
     <h3>Gemini</h3>
     <ol>
       <li>Open <a href="https://gemini.google.com" target="_blank" rel="noopener" data-task-id="ai-gemini">Gemini</a>.</li>
-      <li class="guide-inline-hidden">Ask 2 questions and wait for each response to fully render before sending the next question.</li>
-      <li class="guide-inline-hidden">Ask 3 more questions successively without waiting for the previous response to fully render.</li>
+      <li class="guide-inline-hidden">Ask up to 4 questions. Wait for each response to fully render before sending the next question.</li>
     </ol>
 
     <h3>ChatGPT</h3>
     <ol>
       <li>Open <a href="https://chatgpt.com" target="_blank" rel="noopener" data-task-id="ai-chatgpt">ChatGPT</a>.</li>
-      <li class="guide-inline-hidden">Ask 2 questions and wait for each response to fully render before sending the next question.</li>
-      <li class="guide-inline-hidden">Ask 3 more questions successively without waiting for the previous response to fully render.</li>
+      <li class="guide-inline-hidden">Ask up to 4 questions. Wait for each response to fully render before sending the next question.</li>
     </ol>
 
     <h3>Perplexity</h3>
     <ol>
       <li>Open <a href="https://www.perplexity.ai" target="_blank" rel="noopener" data-task-id="ai-perplexity">Perplexity</a>.</li>
-      <li class="guide-inline-hidden">Ask 2 questions and wait for each response to fully render before sending the next question.</li>
-      <li class="guide-inline-hidden">If logged in, ask 3 more questions successively without waiting for each response to finish.</li>
-      <li class="guide-inline-hidden">If not logged in, stop after the first 2 questions.</li>
+      <li class="guide-inline-hidden">Ask up to 4 questions. Wait for each response to fully render before sending the next question.</li>
     </ol>
 
     <h3>Tab Navigation</h3>
