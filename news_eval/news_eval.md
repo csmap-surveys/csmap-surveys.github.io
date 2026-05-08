@@ -40,12 +40,12 @@ permalink: /news_eval.html
 		text-shadow: none;
 	}
 </style>  
-**News Evaluation** is a Chrome extension developed by New York University's <a href="https://csmapnyu.org/">Center for Social Media and Politics </a>. This extension allows participants to share data on their online search experience while searching for in formation regarding the factuality of news articles. This data contributes to better understanding of how search tools influence are used in learning about and understanding breaking news events.
-<p>Data collected through News Evaluation is anonymized and used for academic purposes only. All collected data is securely stored on Amazon Web Services (AWS) and only accessible by CSMaP researchers and software engineers.</p>
+**News Evaluation** is a Chrome extension developed by New York University's <a href="https://csmapnyu.org/">Center for Social Media and Politics </a> (CSMAP). This extension allows participants to share data on their online search experience while searching for information regarding the factuality of news articles. This data contributes to better understanding of how search tools are used in learning about and understanding breaking news events.
+<p>Data collected through News Evaluation is anonymized and used for academic purposes only. All collected data is securely stored on Amazon Web Services (AWS) and only accessible to CSMaP researchers and engineers.</p>
 
 ## Install the extension 
 1. Before installing, make sure you are using the Google Chrome browser on a laptop or desktop computer.
-2. Visit the <a href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1">Chrome Web Store</a>.
+2. Visit the <a href="https://chromewebstore.google.com/detail/news-evaluation-extension/deelgjiaicpdbfjmpifibadbhpijoofi?pli=1">Chrome Web Store</a> from a laptop or desktop computer using Google Chrome Browser.
 3. Install the News Evaluation Extension by clicking <button class="chrome-btn chrome-btn-primary">Add to Chrome</button> button.
 4. Click on <button class="chrome-btn chrome-btn-secondary">Add Extension</button> button.
 5. Wait for the assigned ID to be verified automatically.

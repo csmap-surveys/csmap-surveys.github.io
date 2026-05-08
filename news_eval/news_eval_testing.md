@@ -444,9 +444,7 @@ permalink: /news_eval_testing
       const windowReopenHash = '#window-reopen-cycle';
       const taskGuideWindowName = 'newsEvalTaskGuide';
 
-      let activeTaskMainWindow = null;
       let activeTaskGuideWindow = null;
-      let activeTaskWindowMonitor = null;
 
       const taskGuideContent = {
         'install-extension': {
@@ -740,41 +738,17 @@ permalink: /news_eval_testing
         return guideWindow;
       };
 
-      const resetTaskWindowMonitor = () => {
-        if (activeTaskWindowMonitor) {
-          clearInterval(activeTaskWindowMonitor);
-          activeTaskWindowMonitor = null;
-        }
-      };
-
-      const monitorTaskMainWindow = () => {
-        resetTaskWindowMonitor();
-        activeTaskWindowMonitor = setInterval(() => {
-          if (!activeTaskMainWindow || activeTaskMainWindow.closed) {
-            if (activeTaskGuideWindow && !activeTaskGuideWindow.closed) {
-              activeTaskGuideWindow.close();
-            }
-            activeTaskMainWindow = null;
-            activeTaskGuideWindow = null;
-            resetTaskWindowMonitor();
-          }
-        }, 500);
-      };
-
       const openTaskWindows = (taskId, url) => {
         const guide = taskGuideContent[taskId];
         if (!guide) {
-          activeTaskMainWindow = window.open(url, '_blank');
-          if (activeTaskMainWindow) {
-            monitorTaskMainWindow();
-          }
+          window.open(url, '_blank');
           return;
         }
 
         const layout = getSplitLayout();
-        activeTaskMainWindow = window.open(url, '_blank');
+        const openedTab = window.open(url, '_blank');
 
-        if (!activeTaskMainWindow) {
+        if (!openedTab) {
           return;
         }
 
@@ -783,8 +757,7 @@ permalink: /news_eval_testing
           activeTaskGuideWindow.focus();
         }
 
-        activeTaskMainWindow.focus();
-        monitorTaskMainWindow();
+        openedTab.focus();
       };
 
       const linkElements = Array.from(document.querySelectorAll('.track-link'));
@@ -860,7 +833,22 @@ permalink: /news_eval_testing
 
         countdownStart = Date.now();
         localStorage.setItem(countdownStartStorageKey, String(countdownStart));
+        localStorage.removeItem(countdownResumeArmedKey);
         updateCountdown();
+      };
+
+      const clearCountdownSession = () => {
+        countdownStart = null;
+        localStorage.removeItem(countdownStartStorageKey);
+        localStorage.removeItem(countdownResumeArmedKey);
+        updateCountdown();
+      };
+
+      const closeGuideWindow = () => {
+        if (activeTaskGuideWindow && !activeTaskGuideWindow.closed) {
+          activeTaskGuideWindow.close();
+        }
+        activeTaskGuideWindow = null;
       };
 
       const taskLinks = Array.from(document.querySelectorAll('[data-task-id]'));
@@ -1037,6 +1025,11 @@ permalink: /news_eval_testing
 
       if (closeWindowBtn) {
         closeWindowBtn.addEventListener('click', () => {
+          if (localStorage.getItem(countdownResumeArmedKey) !== '1') {
+            clearCountdownSession();
+          }
+
+          closeGuideWindow();
           window.close();
           setTimeout(() => {
             if (closeWindowHint) {
@@ -1045,6 +1038,12 @@ permalink: /news_eval_testing
           }, 450);
         });
       }
+
+      window.addEventListener('beforeunload', () => {
+        if (localStorage.getItem(countdownResumeArmedKey) !== '1') {
+          localStorage.removeItem(countdownStartStorageKey);
+        }
+      });
 
       if (windowCyclePreMode && windowCycleReopenMode) {
         const isReopenMode = window.location.hash === windowReopenHash;
