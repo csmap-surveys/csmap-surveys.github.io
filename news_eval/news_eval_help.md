@@ -17,31 +17,35 @@ Thank you for downloading the News Evaluation Extension. This page provides guid
 	<summary>How do I activate the extension?</summary>
 
 	<p><strong>What you do:</strong></p>
-
-	1. Install the extension and open it from Chrome's extension menu.
-	2. Wait for automatic ID verification to complete.
-	3. If an ID input screen appears, enter the ID provided by the study team and click <strong>Submit</strong>.
-	4. Read the study information screen and click <strong>I have read this information</strong>.
+	<ol>
+		<li>Install the extension and open it from Chrome's extension menu.</li>
+		<li>Wait for automatic ID verification to complete.</li>
+		<li>If an ID input screen appears, enter the ID provided by the study team and click <strong>Submit</strong>.</li>
+		<li>Read the study information screen and click <strong>I have read this information</strong>.</li>
+	</ol>
 
 	<p><strong>What the extension does automatically:</strong></p>
-
-	- If validation succeeds, it loads your study configuration and moves you into the active extension flow.
-	- If your assignment link already includes a valid ID, the extension pre-fills and processes it automatically.
+	<ul>
+		<li>If validation succeeds, it loads your study configuration and moves you into the active extension flow.</li>
+		<li>If your assignment link already includes a valid ID, the extension pre-fills and processes it automatically.</li>
+	</ul>
 </details>
 
 <details id="q-invalid-id">
 	<summary>Why is my ID not being accepted?</summary>
 
 	<p><strong>What you should check:</strong></p>
-
-	- If you were asked to type an ID, enter the exact ID provided by the study team (no extra spaces or typos).
-	- If you were not asked to type an ID and setup does not continue, wait briefly and then try reopening the extension.
+	<ul>
+		<li>If you were asked to type an ID, enter the exact ID provided by the study team (no extra spaces or typos).</li>
+		<li>If you were not asked to type an ID and setup does not continue, wait briefly and then try reopening the extension.</li>
+	</ul>
 
 	<p><strong>What the extension is checking:</strong></p>
-
-	- The extension sends your ID to the study validation service.
-	- If validation fails, the extension will not activate and you may see a validation error.
-	- If the service is temporarily unavailable, validation can fail even with a correct ID. Try again shortly.
+	<ul>
+		<li>The extension sends your ID to the study validation service.</li>
+		<li>If validation fails, the extension will not activate and you may see a validation error.</li>
+		<li>If the service is temporarily unavailable, validation can fail even with a correct ID. Try again shortly.</li>
+	</ul>
 </details>
 
 <details id="q-remove">
@@ -70,12 +74,13 @@ Thank you for downloading the News Evaluation Extension. This page provides guid
 	<summary>How do I contact support?</summary>
 
 	Please email <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> if you:
-
-	- Want to revoke your consent for the study.
-	- Want to request deletion of your study data.
-	- Need help with participant ID validation or extension activation.
-	- Need to report a technical issue.
-	- Need clarification about the study or your participation.
+	<ul>
+		<li>Want to revoke your consent for the study.</li>
+		<li>Want to request deletion of your study data.</li>
+		<li>Need help with participant ID validation or extension activation.</li>
+		<li>Need to report a technical issue.</li>
+		<li>Need clarification about the study or your participation.</li>
+	</ul>
 
 	Thank you for supporting our research!
 </details>

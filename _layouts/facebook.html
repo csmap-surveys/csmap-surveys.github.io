@@ -3,25 +3,9 @@
 
   {%- include head.html -%}
 
-  <style>
-    body {
-      background-image: url("https://socialarchive.csmapnyuapps.org/login-bg3.svg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-      background-attachment: fixed;
-    }
+  <body class="site-background">
 
-    .page-content {
-      background: rgba(255, 255, 255, 0.88);
-      border-radius: 12px;
-      margin-top: 12px;
-      margin-bottom: 12px;
-      backdrop-filter: blur(1px);
-    }
-  </style>
-
-  <body>
+    {%- include site_background.html -%}
 
     {%- include header_facebook.html -%}
 

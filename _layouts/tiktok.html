@@ -2,24 +2,6 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
    {%- include head.html -%}
-   
-  <style>
-    body {
-      background-image: url("https://socialarchive.csmapnyuapps.org/login-bg3.svg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-      background-attachment: fixed;
-    }
-
-    .page-content {
-      background: rgba(255, 255, 255, 0.88);
-      border-radius: 12px;
-      margin-top: 12px;
-      margin-bottom: 12px;
-      backdrop-filter: blur(1px);
-    }
-  </style>
 <style>
     .site-footer {
       border-top: 1px solid #e8e8e8;
@@ -27,7 +9,9 @@
     }
   </style>
    
-  <body>
+  <body class="site-background">
+
+  {%- include site_background.html -%}
      
   {%- include header_tiktok_takeout.html -%}
     <main class="page-content" aria-label="Content">

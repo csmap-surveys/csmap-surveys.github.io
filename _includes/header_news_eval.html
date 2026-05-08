@@ -122,7 +122,9 @@
 
   /* Collapsible FAQ summary styling */
   details {
-    margin: 0 0 10px 0;
+    margin: 0 0 14px 0;
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 8px;
   }
 
   details:last-of-type {
@@ -140,6 +142,41 @@
     justify-content: space-between;
     font-weight: normal;
     gap: 10px;
+  }
+
+  details[open] > summary {
+    margin-bottom: 14px;
+  }
+
+  details p,
+  details ol,
+  details ul {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+
+  details p,
+  details ol,
+  details ul,
+  details > div {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  details ol,
+  details ul {
+    padding-left: 22px;
+  }
+
+  details li {
+    margin-bottom: 8px;
+  }
+
+  details li:last-child,
+  details p:last-child,
+  details ol:last-child,
+  details ul:last-child {
+    margin-bottom: 14px;
   }
 
   details > summary::-webkit-details-marker {
