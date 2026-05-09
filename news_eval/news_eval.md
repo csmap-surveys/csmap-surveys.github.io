@@ -34,14 +34,14 @@ permalink: /news_eval.html
       }
 
       .install-link {
-        display: inline-block;
-        margin: 2px 0;
-        border: 1px solid #2c6f8e;
-        border-radius: 6px;
-        background: #2f9e44;
-        color: #fff;
-        padding: 7px 10px;
-        text-decoration: none;
+        display: inline;
+        margin: 0;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        color: #1a56cf;
+        padding: 0;
+        text-decoration: underline;
       }
 
       .chrome-btn {
