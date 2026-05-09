@@ -26,43 +26,11 @@ permalink: /news_eval.html
         font-size: 15px;
       }
 
-      .status-card {
+      .auto-validation-note {
         margin: 14px 0;
         padding: 12px 14px;
         border-left: 4px solid #2c6f8e;
         background: #f3fbfe;
-      }
-
-      .status-line {
-        margin: 0;
-        font-weight: 700;
-      }
-
-      .hint-line {
-        margin: 6px 0 0;
-        color: #395865;
-      }
-
-      .timer-wrap {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        margin: 8px 0 4px;
-        padding: 8px 10px;
-        border: 2px solid #2c6f8e;
-        border-radius: 8px;
-        background: #f3fbfe;
-        font-weight: 700;
-      }
-
-      .timer-value {
-        font-family: monospace;
-        font-size: 17px;
-      }
-
-      .timer-wrap.warn {
-        border-color: #c92a2a;
-        background: #fff5f5;
       }
 
       .install-link {
@@ -74,32 +42,6 @@ permalink: /news_eval.html
         color: #fff;
         padding: 7px 10px;
         text-decoration: none;
-      }
-
-      .install-link.clicked {
-        background: #c92a2a;
-        border-color: #a61e1e;
-      }
-
-      .popup-warning {
-        margin: 10px 0 0;
-        padding: 10px 12px;
-        border-left: 4px solid #c92a2a;
-        background: #fff5f5;
-        color: #7a1f1f;
-        font-weight: 700;
-      }
-
-      .guide-fallback {
-        margin-top: 10px;
-        padding: 10px 12px;
-        border-left: 4px solid #2c6f8e;
-        background: #f3fbfe;
-      }
-
-      .guide-fallback h3 {
-        margin: 0 0 8px;
-        font-size: 16px;
       }
 
       .chrome-btn {
@@ -146,14 +88,8 @@ permalink: /news_eval.html
 
     <p>Data collected through News Evaluation is anonymized and used for academic purposes only. All collected data is securely stored on Amazon Web Services (AWS) and only accessible to CSMaP researchers and engineers.</p>
 
-    <div class="status-card" id="autoValidationStatus" role="status" aria-live="polite">
-      <p class="status-line" id="statusHeadline">Waiting for extension install step.</p>
-      <p class="hint-line" id="statusHint">Open this page with your assigned ID in the URL. The extension should validate it automatically after install.</p>
-    </div>
-
-    <div class="timer-wrap" id="countdownBox" aria-live="polite" hidden>
-      <span>Install Window:</span>
-      <span class="timer-value" id="countdownValue">15:00</span>
+    <div class="auto-validation-note" id="autoValidationStatus" role="status" aria-live="polite">
+      Open this page using your assigned survey link with the ID in the URL, then install the extension. Auto-validation runs in the extension after install.
     </div>
 
     <h2>Install the extension</h2>
@@ -179,121 +115,16 @@ permalink: /news_eval.html
       <li>At end of the study the extension will remove itself from the browser.</li>
     </ol>
 
-    <div id="popupWarning" class="popup-warning" hidden>Guide popup was blocked. Use the inline steps below to continue.</div>
-
-    <div id="guideFallback" class="guide-fallback" hidden>
-      <h3>Inline Install Guide</h3>
-      <ol>
-        <li>Click the install link once.</li>
-        <li>Confirm Chrome install prompts.</li>
-        <li>Wait for auto-validation to complete in the extension popup.</li>
-        <li>If auto-validation fails, report it and include the ID shown in this page URL.</li>
-      </ol>
-    </div>
-
     <script>
       const searchParams = new URLSearchParams(window.location.search);
-      const sessionId = searchParams.get('id') || '';
+      const sessionId = searchParams.get('id') || searchParams.get('identifier') || searchParams.get('tid') || '';
+      const statusElement = document.getElementById('autoValidationStatus');
 
-      const statusHeadline = document.getElementById('statusHeadline');
-      const statusHint = document.getElementById('statusHint');
-      const installLink = document.getElementById('installExtensionLink');
-      const popupWarning = document.getElementById('popupWarning');
-      const guideFallback = document.getElementById('guideFallback');
-
-      const countdownBox = document.getElementById('countdownBox');
-      const countdownValue = document.getElementById('countdownValue');
-
-      const countdownMinutes = 15;
-      const countdownMs = countdownMinutes * 60 * 1000;
-      const warningThresholdMs = 2 * 60 * 1000;
-      const countdownKey = sessionId ? `newsEvalInstallCountdown_${sessionId}` : 'newsEvalInstallCountdown_default';
-      let countdownStartedAt = Number(localStorage.getItem(countdownKey));
-
-      const hasSessionId = sessionId.trim().length > 0;
-      if (hasSessionId) {
-        statusHeadline.textContent = 'Assigned ID detected in page URL.';
-        statusHint.textContent = 'Install the extension and wait for automatic validation.';
-      } else {
-        statusHeadline.textContent = 'No ID detected in URL.';
-        statusHint.textContent = 'Open this page from the assigned survey link so the extension can auto-validate.';
+      if (statusElement) {
+        statusElement.textContent = sessionId.trim().length > 0
+          ? 'Assigned ID detected in URL. Install the extension and wait for automatic validation to complete in the extension.'
+          : 'No assignment ID detected in URL. Open this page from your assigned survey link so automatic validation can run.';
       }
-
-      const renderCountdown = () => {
-        if (!Number.isFinite(countdownStartedAt)) {
-          countdownBox.hidden = true;
-          return;
-        }
-
-        const elapsed = Date.now() - countdownStartedAt;
-        const remaining = Math.max(0, countdownMs - elapsed);
-        const secs = Math.ceil(remaining / 1000);
-        const mm = String(Math.floor(secs / 60)).padStart(2, '0');
-        const ss = String(secs % 60).padStart(2, '0');
-
-        countdownBox.hidden = false;
-        countdownValue.textContent = `${mm}:${ss}`;
-        countdownBox.classList.toggle('warn', remaining <= warningThresholdMs);
-
-        if (remaining === 0) {
-          localStorage.removeItem(countdownKey);
-          countdownStartedAt = NaN;
-          statusHeadline.textContent = 'Install window elapsed.';
-          statusHint.textContent = 'If validation did not complete, reopen the extension and continue with your assigned ID flow.';
-        }
-      };
-
-      const startCountdown = () => {
-        if (Number.isFinite(countdownStartedAt)) {
-          return;
-        }
-        countdownStartedAt = Date.now();
-        localStorage.setItem(countdownKey, String(countdownStartedAt));
-        renderCountdown();
-      };
-
-      const openGuidePopup = () => {
-        const popup = window.open('', 'newsEvalInstallGuide', 'popup=yes,resizable=yes,scrollbars=yes,width=430,height=620');
-        if (!popup) {
-          popupWarning.hidden = false;
-          guideFallback.hidden = false;
-          return;
-        }
-
-        popup.document.open();
-        popup.document.write(`<!doctype html>
-<html>
-  <head><meta charset="utf-8"><title>Install Guide</title></head>
-  <body style="font-family:Georgia,serif;line-height:1.5;padding:16px;color:#12303d;background:#f6fbfd;">
-    <h1 style="margin-top:0;font-size:22px;">Install Guide</h1>
-    <p>Keep this guide open while you install and verify the extension.</p>
-    <ol>
-      <li>Click <strong>Add to Chrome</strong>.</li>
-      <li>Click <strong>Add extension</strong>.</li>
-      <li>Wait for automatic ID verification.</li>
-      <li>If prompted, complete consent in extension and continue the survey.</li>
-    </ol>
-  </body>
-</html>`);
-        popup.document.close();
-      };
-
-      installLink.addEventListener('click', () => {
-        installLink.classList.add('clicked');
-        startCountdown();
-        openGuidePopup();
-
-        if (hasSessionId) {
-          statusHeadline.textContent = 'Install started. Waiting for auto-validation.';
-          statusHint.textContent = 'After installation, the extension should continue without manual ID entry.';
-        } else {
-          statusHeadline.textContent = 'Install started, but no ID was detected.';
-          statusHint.textContent = 'Auto-validation may not complete without the assigned survey URL.';
-        }
-      });
-
-      renderCountdown();
-      setInterval(renderCountdown, 1000);
     </script>
   </body>
 </html>
