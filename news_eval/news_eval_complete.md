@@ -34,6 +34,15 @@ permalink: /news_eval_complete.html
         display: none !important;
       }
 
+      .trigger,
+      .site-nav .trigger,
+      .site-header .trigger,
+      .page-link,
+      .site-nav .page-link,
+      .site-header .page-link {
+        display: none !important;
+      }
+
       .page-header {
         display: none !important;
       }
@@ -61,6 +70,15 @@ permalink: /news_eval_complete.html
           'SameSite=Lax',
           'Secure'
         ].join('; ');
+
+        // Fallback: remove layout nav links if the theme injects them after CSS.
+        const navTrigger = document.querySelector('.trigger');
+        if (navTrigger) {
+          navTrigger.remove();
+        }
+
+        const navLinks = document.querySelectorAll('.page-link');
+        navLinks.forEach((link) => link.remove());
 
         if (statusElement) {
           statusElement.textContent = 'Completion recorded. You may close this tab.';
