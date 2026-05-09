@@ -36,6 +36,7 @@ permalink: /news_eval_complete.html
     <div class="complete-note" role="status" aria-live="polite">
       <p>This study is now complete. The News Evaluation extension will uninstall itself shortly.</p>
       <p id="cookieStatus">Finalizing completion status...</p>
+      <p><a href="/news_eval_policy.html">Privacy Policy</a></p>
     </div>
 
     <script>
