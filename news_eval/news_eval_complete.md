@@ -28,6 +28,15 @@ permalink: /news_eval_complete.html
         border-left: 4px solid #2c6f8e;
         background: #f3fbfe;
       }
+
+      /* Hide Jekyll theme navigation for this standalone completion page */
+      nav, .site-nav, .navbar, .header, .nav-header, [role="navigation"] {
+        display: none !important;
+      }
+
+      .page-header {
+        display: none !important;
+      }
     </style>
   </head>
   <body>
