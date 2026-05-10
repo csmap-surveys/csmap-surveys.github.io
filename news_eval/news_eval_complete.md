@@ -63,6 +63,15 @@ permalink: /news_eval_complete.html
         const COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24;
         const statusElement = document.getElementById('cookieStatus');
 
+        // Clear any prior completion cookie first so the browser registers a real change.
+        document.cookie = [
+          COOKIE_NAME + '=;'
+          , 'Path=/'
+          , 'Max-Age=0'
+          , 'SameSite=Lax'
+          , 'Secure'
+        ].join('; ');
+
         document.cookie = [
           COOKIE_NAME + '=' + encodeURIComponent(COOKIE_VALUE),
           'Path=/',
