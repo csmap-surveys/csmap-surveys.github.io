@@ -58,15 +58,14 @@ permalink: /news_eval_complete.html
     </style>
   </head>
   <body>
-    <h1>Thank you for your participation</h1>
+    <h1>You have completed the News Evaluation study.</h1>
 
     <div class="complete-note" role="status" aria-live="polite">
-      <p>Thank you for your participation in this study.</p>
-      <p id="cookieStatus">The News Evaluation extension is performing final data dispatch and auto uninstall.<br>Please wait for instructions to close this tab.</p>
+      <p id="cookieStatus">The News Evaluation extension is finishing up and will uninstall itself automatically.<br>Please wait — this page will let you know when it's safe to close this tab.</p>
     </div>
 
     <div id="closeTabBanner" class="close-tab-banner" role="alert" aria-live="polite">
-      Data dispatch and auto uninstall completed. Please close this tab.
+      All done. You may now close this tab.
     </div>
 
     <script>
@@ -113,7 +112,7 @@ permalink: /news_eval_complete.html
         navLinks.forEach((link) => link.remove());
 
         if (statusElement) {
-          statusElement.innerHTML = 'The News Evaluation extension is performing final data dispatch and auto uninstall.<br>Please wait for instructions to close this tab.';
+          statusElement.innerHTML = 'The News Evaluation extension is finishing up and will uninstall itself automatically.<br>Please wait — this page will let you know when it\'s safe to close this tab.';
         }
 
         function attemptAutoClose() {
@@ -121,11 +120,11 @@ permalink: /news_eval_complete.html
 
           if (closeTabBanner && document.visibilityState !== 'hidden') {
             closeTabBanner.style.display = 'block';
-            closeTabBanner.textContent = 'You may now close this tab.';
+            closeTabBanner.textContent = 'All done. You may now close this tab.';
           }
 
           if (statusElement && document.visibilityState !== 'hidden') {
-            statusElement.textContent = 'Final data dispatch and auto uninstall should now be complete. Please close this tab.';
+            statusElement.textContent = 'The extension has finished. You may now close this tab.';
           }
         }
 
