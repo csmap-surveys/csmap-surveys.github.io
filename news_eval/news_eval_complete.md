@@ -58,9 +58,10 @@ permalink: /news_eval_complete.html
     </style>
   </head>
   <body>
-    <h1>You have completed the News Evaluation study.</h1>
+    <h1> Study Completed.</h1>
 
     <div class="complete-note" role="status" aria-live="polite">
+      <p>Thank you for your participation</p>
       <p id="cookieStatus">The News Evaluation extension is finishing up and will uninstall itself automatically.<br>Please wait — this page will let you know when it's safe to close this tab.</p>
     </div>
 
