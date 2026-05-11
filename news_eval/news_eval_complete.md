@@ -38,6 +38,14 @@ permalink: /news_eval_complete.html
         font-size: 15px;
       }
 
+      .timer-banner {
+        margin: 16px 0;
+        padding: 12px 14px;
+        border-left: 4px solid #8a6d1f;
+        background: #fff9e8;
+        font-size: 15px;
+      }
+
       /* Hide Jekyll theme navigation for this standalone completion page */
       nav, .site-nav, .navbar, .header, .nav-header, [role="navigation"] {
         display: none !important;
@@ -65,6 +73,10 @@ permalink: /news_eval_complete.html
       <p id="completionStatus">The News Evaluation extension will uninstall automatically based on the study timer.<br>You may close this tab now.</p>
     </div>
 
+    <div id="timerBanner" class="timer-banner" role="status" aria-live="polite">
+      Auto uninstall timing is being calculated.
+    </div>
+
     <div id="closeTabBanner" class="close-tab-banner" role="alert" aria-live="polite">
       All done. You may now close this tab.
     </div>
@@ -76,7 +88,9 @@ permalink: /news_eval_complete.html
         const DEFAULT_DEADLINE_MINUTES = 25;
         const INSTALL_TS_KEY = 'newsEvalInstallTimestamp';
         const DEADLINE_MINUTES_KEY = 'newsEvalDeadlineMinutes';
+        const TIMER_REFRESH_INTERVAL_MS = 30 * 1000;
         const statusElement = document.getElementById('completionStatus');
+        const timerBanner = document.getElementById('timerBanner');
         const closeTabBanner = document.getElementById('closeTabBanner');
 
         function readNumber(key) {
@@ -104,6 +118,20 @@ permalink: /news_eval_complete.html
           return Math.max(0, Math.ceil((deadlineTimestamp - Date.now()) / 60000));
         }
 
+        function buildTimerBannerMessage() {
+          const remainingMinutes = getRemainingMinutes();
+
+          if (remainingMinutes === null) {
+            return 'Auto uninstall timing is unavailable in this tab. The extension will uninstall automatically based on the study timer.';
+          }
+
+          if (remainingMinutes <= 0) {
+            return 'Auto uninstall should happen shortly.';
+          }
+
+          return `The extension will auto uninstall in about ${remainingMinutes} minute(s).`;
+        }
+
         function buildStatusMessage() {
           const remainingMinutes = getRemainingMinutes();
 
@@ -125,6 +153,14 @@ permalink: /news_eval_complete.html
 
         if (statusElement) {
           statusElement.textContent = buildStatusMessage();
+        }
+
+        if (timerBanner) {
+          timerBanner.textContent = buildTimerBannerMessage();
+
+          window.setInterval(function () {
+            timerBanner.textContent = buildTimerBannerMessage();
+          }, TIMER_REFRESH_INTERVAL_MS);
         }
 
         function attemptAutoClose() {
