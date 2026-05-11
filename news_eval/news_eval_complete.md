@@ -113,7 +113,7 @@ permalink: /news_eval_complete.html
         navLinks.forEach((link) => link.remove());
 
         if (statusElement) {
-          statusElement.textContent = 'Completion signal recorded. Final data dispatch and auto uninstall are in progress. Please wait for instructions to close this tab.';
+          statusElement.textContent = 'The News Evaluation extension is performing final data dispatch and auto uninstall. Please wait for instructions to close this tab.';
         }
 
         function attemptAutoClose() {
