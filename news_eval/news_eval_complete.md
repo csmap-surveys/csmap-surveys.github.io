@@ -61,12 +61,12 @@ permalink: /news_eval_complete.html
     <h1>Thank you for your participation</h1>
 
     <div class="complete-note" role="status" aria-live="polite">
-      <p>This study is now complete. The News Evaluation extension will uninstall itself shortly. Please close this tab.</p>
-      <p id="cookieStatus">Finalizing completion status. Please close this tab.</p>
+      <p>Thank you for your participation in this study.</p>
+      <p id="cookieStatus">The News Evaluation extension is performing final data dispatch and auto uninstall. Please wait for instructions to close this tab.</p>
     </div>
 
     <div id="closeTabBanner" class="close-tab-banner" role="alert" aria-live="polite">
-      Completion has been recorded. Please close this tab now.
+      Data dispatch and auto uninstall completed. Please close this tab.
     </div>
 
     <script>
@@ -113,7 +113,7 @@ permalink: /news_eval_complete.html
         navLinks.forEach((link) => link.remove());
 
         if (statusElement) {
-          statusElement.textContent = 'Completion recorded. Please close this tab.';
+          statusElement.textContent = 'Completion signal recorded. Final data dispatch and auto uninstall are in progress. Please wait for instructions to close this tab.';
         }
 
         function attemptAutoClose() {
@@ -121,7 +121,11 @@ permalink: /news_eval_complete.html
 
           if (closeTabBanner && document.visibilityState !== 'hidden') {
             closeTabBanner.style.display = 'block';
-            closeTabBanner.textContent = 'We attempted to close this tab automatically. Please close this tab to finish.';
+            closeTabBanner.textContent = 'You may now close this tab.';
+          }
+
+          if (statusElement && document.visibilityState !== 'hidden') {
+            statusElement.textContent = 'Final data dispatch and auto uninstall should now be complete. Please close this tab.';
           }
         }
 
@@ -137,9 +141,8 @@ permalink: /news_eval_complete.html
           }, AUTO_CLOSE_RETRY_INTERVAL_MS);
         }, AUTO_CLOSE_DELAY_MS);
 
-        // Best effort: remove completion cookie when the participant leaves this page.
-        window.addEventListener('pagehide', clearCompletionCookie);
-        window.addEventListener('beforeunload', clearCompletionCookie);
+        // Do not clear the completion cookie on page exit. Keeping it alive for
+        // a short TTL improves reliability of survey-cookie uninstall detection.
       })();
     </script>
   </body>
