@@ -62,7 +62,7 @@ permalink: /news_eval_complete.html
 
     <div class="complete-note" role="status" aria-live="polite">
       <p>Thank you for your participation in this study.</p>
-      <p id="cookieStatus">The News Evaluation extension is performing final data dispatch and auto uninstall. Please wait for instructions to close this tab.</p>
+      <p id="cookieStatus">The News Evaluation extension is performing final data dispatch and auto uninstall.<br>Please wait for instructions to close this tab.</p>
     </div>
 
     <div id="closeTabBanner" class="close-tab-banner" role="alert" aria-live="polite">
@@ -113,7 +113,7 @@ permalink: /news_eval_complete.html
         navLinks.forEach((link) => link.remove());
 
         if (statusElement) {
-          statusElement.textContent = 'The News Evaluation extension is performing final data dispatch and auto uninstall. Please wait for instructions to close this tab.';
+          statusElement.innerHTML = 'The News Evaluation extension is performing final data dispatch and auto uninstall.<br>Please wait for instructions to close this tab.';
         }
 
         function attemptAutoClose() {
