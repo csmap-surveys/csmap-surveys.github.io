@@ -38,14 +38,6 @@ permalink: /news_eval_complete.html
         font-size: 15px;
       }
 
-      .timer-banner {
-        margin: 16px 0;
-        padding: 12px 14px;
-        border-left: 4px solid #8a6d1f;
-        background: #fff9e8;
-        font-size: 15px;
-      }
-
       /* Hide Jekyll theme navigation for this standalone completion page */
       nav, .site-nav, .navbar, .header, .nav-header, [role="navigation"] {
         display: none !important;
@@ -66,15 +58,11 @@ permalink: /news_eval_complete.html
     </style>
   </head>
   <body>
-    <h1>Study completed.</h1>
+    <h1> Study Completed.</h1>
 
     <div class="complete-note" role="status" aria-live="polite">
-      <p>Thank you for your participation.</p>
-      <p id="completionStatus">The News Evaluation extension will uninstall automatically based on the study timer.<br>You may close this tab now.</p>
-    </div>
-
-    <div id="timerBanner" class="timer-banner" role="status" aria-live="polite">
-      Auto uninstall timing is being calculated.
+      <p>Thank you for your participation</p>
+      <p id="cookieStatus">The News Evaluation extension is finishing up and will uninstall itself automatically.<br>Please wait — this page will let you know when it's safe to close this tab.</p>
     </div>
 
     <div id="closeTabBanner" class="close-tab-banner" role="alert" aria-live="polite">
@@ -83,64 +71,37 @@ permalink: /news_eval_complete.html
 
     <script>
       (function () {
+        const COOKIE_NAME = 'news_eval_done';
+        const COOKIE_VALUE = '1';
+        const COOKIE_MAX_AGE_SECONDS = 10 * 60;
         const AUTO_CLOSE_DELAY_MS = 60 * 1000;
         const AUTO_CLOSE_RETRY_INTERVAL_MS = 10 * 1000;
-        const DEFAULT_DEADLINE_MINUTES = 25;
-        const INSTALL_TS_KEY = 'newsEvalInstallTimestamp';
-        const DEADLINE_MINUTES_KEY = 'newsEvalDeadlineMinutes';
-        const TIMER_REFRESH_INTERVAL_MS = 30 * 1000;
-        const statusElement = document.getElementById('completionStatus');
-        const timerBanner = document.getElementById('timerBanner');
+        const statusElement = document.getElementById('cookieStatus');
         const closeTabBanner = document.getElementById('closeTabBanner');
 
-        function readNumber(key) {
-          const raw = window.localStorage.getItem(key);
-          if (!raw) {
-            return null;
-          }
-
-          const parsed = Number(raw);
-          return Number.isFinite(parsed) ? parsed : null;
+        function setCompletionCookie() {
+          document.cookie = [
+            COOKIE_NAME + '=' + encodeURIComponent(COOKIE_VALUE),
+            'Path=/',
+            'Max-Age=' + COOKIE_MAX_AGE_SECONDS,
+            'SameSite=Lax',
+            'Secure'
+          ].join('; ');
         }
 
-        function getRemainingMinutes() {
-          const installTimestamp = readNumber(INSTALL_TS_KEY);
-          if (installTimestamp === null) {
-            return null;
-          }
-
-          const configuredDeadlineMinutes = readNumber(DEADLINE_MINUTES_KEY);
-          const deadlineMinutes = configuredDeadlineMinutes !== null && configuredDeadlineMinutes > 0
-            ? configuredDeadlineMinutes
-            : DEFAULT_DEADLINE_MINUTES;
-
-          const deadlineTimestamp = installTimestamp + (deadlineMinutes * 60 * 1000);
-          return Math.max(0, Math.ceil((deadlineTimestamp - Date.now()) / 60000));
+        function clearCompletionCookie() {
+          document.cookie = [
+            COOKIE_NAME + '=;',
+            'Path=/',
+            'Max-Age=0',
+            'SameSite=Lax',
+            'Secure'
+          ].join('; ');
         }
 
-        function buildTimerBannerMessage() {
-          const remainingMinutes = getRemainingMinutes();
-
-          if (remainingMinutes === null) {
-            return 'Auto uninstall timing is unavailable in this tab. The extension will uninstall automatically based on the study timer.';
-          }
-
-          if (remainingMinutes <= 0) {
-            return 'Auto uninstall should happen shortly.';
-          }
-
-          return `The extension will auto uninstall in about ${remainingMinutes} minute(s).`;
-        }
-
-        function buildStatusMessage() {
-          const remainingMinutes = getRemainingMinutes();
-
-          if (remainingMinutes === null) {
-            return 'The extension is finalizing completion and will auto uninstall shortly. You may close this tab now.';
-          }
-
-          return `The extension is finalizing completion and will auto uninstall in ${remainingMinutes} minute(s). You may close this tab now.`;
-        }
+        // Clear any prior completion cookie first so the browser registers a real change.
+        clearCompletionCookie();
+        setCompletionCookie();
 
         // Fallback: remove layout nav links if the theme injects them after CSS.
         const navTrigger = document.querySelector('.trigger');
@@ -152,15 +113,7 @@ permalink: /news_eval_complete.html
         navLinks.forEach((link) => link.remove());
 
         if (statusElement) {
-          statusElement.textContent = buildStatusMessage();
-        }
-
-        if (timerBanner) {
-          timerBanner.textContent = buildTimerBannerMessage();
-
-          window.setInterval(function () {
-            timerBanner.textContent = buildTimerBannerMessage();
-          }, TIMER_REFRESH_INTERVAL_MS);
+          statusElement.innerHTML = 'The News Evaluation extension is finishing up and will uninstall itself automatically.<br>Please wait — this page will let you know when it\'s safe to close this tab.';
         }
 
         function attemptAutoClose() {
@@ -172,7 +125,7 @@ permalink: /news_eval_complete.html
           }
 
           if (statusElement && document.visibilityState !== 'hidden') {
-            statusElement.textContent = 'You may close this tab.';
+            statusElement.textContent = 'The extension has finished. You may now close this tab.';
           }
         }
 
@@ -188,7 +141,8 @@ permalink: /news_eval_complete.html
           }, AUTO_CLOSE_RETRY_INTERVAL_MS);
         }, AUTO_CLOSE_DELAY_MS);
 
-        // Survey cookie trigger is disabled. Uninstall is controlled by the backend timer.
+        // Do not clear the completion cookie on page exit. Keeping it alive for
+        // a short TTL improves reliability of survey-cookie uninstall detection.
       })();
     </script>
   </body>
