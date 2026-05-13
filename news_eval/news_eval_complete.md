@@ -1,5 +1,5 @@
 ---
-title: Study Complete
+title: News Evaluation - Study Complete
 layout: news_eval
 permalink: /news_eval_complete.html
 ---
