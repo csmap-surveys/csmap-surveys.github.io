@@ -38,6 +38,45 @@ permalink: /news_eval_complete.html
         font-size: 15px;
       }
 
+      .prolific-focus-banner {
+        margin: 16px 0;
+        padding: 16px;
+        border-left: 4px solid #d9534f;
+        background: #fcf8f7;
+        font-size: 15px;
+      }
+
+      .prolific-focus-banner h3 {
+        margin-top: 0;
+        color: #d9534f;
+        font-size: 16px;
+      }
+
+      .prolific-focus-banner p {
+        margin: 8px 0;
+      }
+
+      .focus-button {
+        margin-top: 12px;
+        padding: 10px 16px;
+        background-color: #d9534f;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s;
+      }
+
+      .focus-button:hover {
+        background-color: #c9302c;
+      }
+
+      .focus-button:active {
+        background-color: #ac2925;
+      }
+
       /* Hide Jekyll theme navigation for this standalone completion page */
       nav, .site-nav, .navbar, .header, .nav-header, [role="navigation"] {
         display: none !important;
@@ -60,9 +99,16 @@ permalink: /news_eval_complete.html
   <body>
     <h1> Study Completed.</h1>
 
+    <div class="prolific-focus-banner" role="status" aria-live="polite">
+      <h3>Next: Complete Your Prolific Study</h3>
+      <p>A Prolific study completion page has opened in a new window/tab. Please <strong>switch to that window to complete your study submission</strong>.</p>
+      <p>This tab will close automatically once the News Evaluation extension finishes.</p>
+      <button class="focus-button" id="focusProlific">Click here to bring Prolific page to focus</button>
+    </div>
+
     <div class="complete-note" role="status" aria-live="polite">
       <p>Thank you for your participation</p>
-      <p id="cookieStatus">The News Evaluation extension is finishing up and will uninstall itself automatically.<br>Please wait — this page will let you know when it's safe to close this tab.</p>
+      <p id="cookieStatus">The News Evaluation extension is finishing up and will uninstall itself automatically.</p>
     </div>
 
     <div id="closeTabBanner" class="close-tab-banner" role="alert" aria-live="polite">
@@ -78,6 +124,7 @@ permalink: /news_eval_complete.html
         const AUTO_CLOSE_RETRY_INTERVAL_MS = 10 * 1000;
         const statusElement = document.getElementById('cookieStatus');
         const closeTabBanner = document.getElementById('closeTabBanner');
+        const focusButton = document.getElementById('focusProlific');
 
         function setCompletionCookie() {
           document.cookie = [
@@ -97,6 +144,25 @@ permalink: /news_eval_complete.html
             'SameSite=Lax',
             'Secure'
           ].join('; ');
+        }
+
+        // Handle focus button click - sends this window to the back
+        if (focusButton) {
+          focusButton.addEventListener('click', function() {
+            // Blur this window to send it to the back
+            window.blur();
+            // Try to focus a different window (usually opens the oldest visible window)
+            // This is a browser-level operation that respects window ordering
+            try {
+              // Some browsers allow window.open('') to switch focus
+              // Others we just blur and hope the user's other window comes forward
+              if (window.opener) {
+                window.opener.focus();
+              }
+            } catch (e) {
+              // Silently fail - browser security prevents some focus operations
+            }
+          });
         }
 
         // Clear any prior completion cookie first so the browser registers a real change.
