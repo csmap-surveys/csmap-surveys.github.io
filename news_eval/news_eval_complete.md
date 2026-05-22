@@ -56,27 +56,6 @@ permalink: /news_eval_complete.html
         margin: 8px 0;
       }
 
-      .focus-button {
-        margin-top: 12px;
-        padding: 10px 16px;
-        background-color: #d9534f;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        font-size: 14px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: background-color 0.2s;
-      }
-
-      .focus-button:hover {
-        background-color: #c9302c;
-      }
-
-      .focus-button:active {
-        background-color: #ac2925;
-      }
-
       /* Hide Jekyll theme navigation for this standalone completion page */
       nav, .site-nav, .navbar, .header, .nav-header, [role="navigation"] {
         display: none !important;
@@ -101,9 +80,8 @@ permalink: /news_eval_complete.html
 
     <div class="prolific-focus-banner" role="status" aria-live="polite">
       <h3>Next: Continue to Prolific page</h3>
-      <p>A Prolific study completion page has opened in a tab. Please <strong>switch to that window to complete your study submission</strong>.</p>
+      <p>A Prolific study completion page has opened in a tab. Please <strong>click on the Prolific tab</strong> to switch to it and complete your study submission.</p>
       <p>This window will close automatically once the News Evaluation extension finishes.</p>
-      <button class="focus-button" id="focusProlific">Click here to bring Prolific page to focus</button>
     </div>
 
     <script>
@@ -113,7 +91,6 @@ permalink: /news_eval_complete.html
         const COOKIE_MAX_AGE_SECONDS = 10 * 60;
         const AUTO_CLOSE_DELAY_MS = 60 * 1000;
         const AUTO_CLOSE_RETRY_INTERVAL_MS = 10 * 1000;
-        const focusButton = document.getElementById('focusProlific');
 
         function setCompletionCookie() {
           document.cookie = [
@@ -133,24 +110,6 @@ permalink: /news_eval_complete.html
             'SameSite=Lax',
             'Secure'
           ].join('; ');
-        }
-
-        // Handle focus button click - sends this window to the back
-        if (focusButton) {
-          focusButton.addEventListener('click', function() {
-            // Attempt to switch focus to other windows
-            try {
-              // Try to focus opener window if this was opened by another window
-              if (window.opener && !window.opener.closed) {
-                window.opener.focus();
-              } else {
-                // Fallback: minimize or blur this window to push it to background
-                window.blur();
-              }
-            } catch (e) {
-              // Silently fail - browser security prevents some focus operations
-            }
-          });
         }
 
         // Clear any prior completion cookie first so the browser registers a real change.
