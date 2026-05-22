@@ -119,11 +119,62 @@ permalink: /news_eval.html
       const searchParams = new URLSearchParams(window.location.search);
       const sessionId = searchParams.get('id') || searchParams.get('identifier') || searchParams.get('tid') || '';
       const statusElement = document.getElementById('autoValidationStatus');
+      const installLink = document.getElementById('installExtensionLink');
+      const launchEndpoint =
+        searchParams.get('launchEndpoint') ||
+        'https://news-eval.csmapnyuapps.org/apps/qualtrics/launch-proxy.json';
+      const EVENT_PAGE_VIEW = 'news_eval_page_view';
+      const EVENT_INSTALL_LINK_CLICK = 'news_eval_install_link_click';
+
+      function postInstallEvent(eventName) {
+        if (!launchEndpoint || !sessionId) {
+          return;
+        }
+
+        const now = new Date().toISOString();
+        const payload = JSON.stringify({
+          participantId: sessionId,
+          ts: now,
+          source: 'news-eval-funnel',
+          event: eventName,
+          page: window.location.pathname,
+        });
+
+        if (navigator.sendBeacon) {
+          try {
+            const body = new Blob([payload], { type: 'application/json' });
+            navigator.sendBeacon(launchEndpoint, body);
+            return;
+          } catch (error) {
+            // Fall back to keepalive fetch below.
+          }
+        }
+
+        fetch(launchEndpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          keepalive: true,
+          body: payload,
+        }).catch(function() {
+          // Silent fail: tracking should not block participant flow.
+        });
+      }
 
       if (statusElement) {
         statusElement.textContent = sessionId.trim().length > 0
           ? 'Assigned ID detected in URL. Install the extension and wait for automatic validation to complete in the extension.'
           : 'No assignment ID detected in URL. Open this page from your assigned survey link so automatic validation can run.';
+      }
+
+      // The reliable journey signal is that the participant loaded this page.
+      postInstallEvent(EVENT_PAGE_VIEW);
+
+      if (installLink) {
+        installLink.addEventListener('click', function() {
+          postInstallEvent(EVENT_INSTALL_LINK_CLICK);
+        });
       }
     </script>
   </body>
