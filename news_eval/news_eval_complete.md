@@ -100,7 +100,7 @@ permalink: /news_eval_complete.html
     <h1> Study Completed.</h1>
 
     <div class="prolific-focus-banner" role="status" aria-live="polite">
-      <h3>Next: Complete Your Prolific Study</h3>
+      <h3>Next: Continue to Prolific page</h3>
       <p>A Prolific study completion page has opened in a tab. Please <strong>switch to that window to complete your study submission</strong>.</p>
       <p>This window will close automatically once the News Evaluation extension finishes.</p>
       <button class="focus-button" id="focusProlific">Click here to bring Prolific page to focus</button>
