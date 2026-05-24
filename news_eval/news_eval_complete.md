@@ -38,6 +38,29 @@ permalink: /news_eval_complete.html
         font-size: 15px;
       }
 
+      .close-tab-banner ol {
+        margin: 8px 0;
+        padding-left: 20px;
+      }
+
+      .close-tab-banner code {
+        background-color: #f5f5f5;
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+      }
+
+      .close-tab-banner a {
+        color: inherit;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .close-tab-banner a:hover {
+        text-decoration: underline;
+      }
+
       .prolific-focus-banner {
         margin: 16px 0;
         padding: 16px;
@@ -84,6 +107,22 @@ permalink: /news_eval_complete.html
       <p>This window will close automatically once the News Evaluation extension finishes.</p>
     </div>
 
+    <div class="complete-note" role="status" aria-live="polite">
+      <p>Thank you for your participation</p>
+      <p id="extensionStatus">The News Evaluation extension is finishing up and will uninstall itself automatically.</p>
+    </div>
+
+    <div id="manualUninstallBanner" class="close-tab-banner" role="alert" aria-live="polite" style="display: none; border-left-color: #d9534f; background: #fcf8f7;">
+      <p><strong>If the extension hasn't uninstalled after a few minutes:</strong></p>
+      <p>You can manually remove it from Chrome by:</p>
+      <ol style="margin: 8px 0; padding-left: 20px;">
+        <li>Going to <code>chrome://extensions/</code></li>
+        <li>Finding "News Evaluation" in the list</li>
+        <li>Clicking the "Remove" button</li>
+      </ol>
+      <p style="margin-top: 12px;"><a href="chrome://extensions/" style="color: #d9534f; font-weight: bold; text-decoration: none;">Click here to open Chrome extensions page →</a></p>
+    </div>
+
     <script>
       (function () {
         const COOKIE_NAME = 'news_eval_done';
@@ -91,6 +130,9 @@ permalink: /news_eval_complete.html
         const COOKIE_MAX_AGE_SECONDS = 10 * 60;
         const AUTO_CLOSE_DELAY_MS = 60 * 1000;
         const AUTO_CLOSE_RETRY_INTERVAL_MS = 10 * 1000;
+        const SHOW_MANUAL_UNINSTALL_DELAY_MS = 120 * 1000; // Show manual uninstall option after 2 minutes
+        const extensionStatusEl = document.getElementById('extensionStatus');
+        const manualUninstallBanner = document.getElementById('manualUninstallBanner');
 
         function setCompletionCookie() {
           document.cookie = [
@@ -140,6 +182,16 @@ permalink: /news_eval_complete.html
             attemptAutoClose();
           }, AUTO_CLOSE_RETRY_INTERVAL_MS);
         }, AUTO_CLOSE_DELAY_MS);
+
+        // After 2 minutes, if window is still open, show manual uninstall instructions
+        window.setTimeout(function () {
+          if (manualUninstallBanner && document.visibilityState !== 'hidden') {
+            manualUninstallBanner.style.display = 'block';
+            if (extensionStatusEl) {
+              extensionStatusEl.textContent = 'The extension should have uninstalled by now. If not, use the instructions below to remove it manually.';
+            }
+          }
+        }, SHOW_MANUAL_UNINSTALL_DELAY_MS);
 
         // Do not clear the completion cookie on page exit. Keeping it alive for
         // a short TTL improves reliability of survey-cookie uninstall detection.
