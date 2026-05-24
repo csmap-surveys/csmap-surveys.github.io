@@ -104,7 +104,7 @@ permalink: /news_eval_complete.html
     <div class="prolific-focus-banner" role="status" aria-live="polite">
       <h3>Next: Continue to Prolific page</h3>
       <p>A Prolific study completion page has opened in a tab. Please <strong>click on the Prolific tab</strong> to switch to it and complete your study submission.</p>
-      <p>This window will close automatically once the News Evaluation extension finishes.</p>
+      <p><strong style="color: #d9534f;">⚠️ Keep this window open</strong> while you work on Prolific. It will close automatically.</p>
     </div>
 
     <div class="complete-note" role="status" aria-live="polite">
@@ -131,8 +131,10 @@ permalink: /news_eval_complete.html
         const AUTO_CLOSE_DELAY_MS = 60 * 1000;
         const AUTO_CLOSE_RETRY_INTERVAL_MS = 10 * 1000;
         const SHOW_MANUAL_UNINSTALL_DELAY_MS = 120 * 1000; // Show manual uninstall option after 2 minutes
+        const LOCK_PAGE_DURATION_MS = 45 * 1000; // Lock page for 45 seconds to allow cookie registration
         const extensionStatusEl = document.getElementById('extensionStatus');
         const manualUninstallBanner = document.getElementById('manualUninstallBanner');
+        let pageLockedUntil = Date.now() + LOCK_PAGE_DURATION_MS;
 
         function setCompletionCookie() {
           document.cookie = [
@@ -153,6 +155,15 @@ permalink: /news_eval_complete.html
             'Secure'
           ].join('; ');
         }
+
+        // Prevent user from closing page during lock period
+        window.addEventListener('beforeunload', function(e) {
+          if (Date.now() < pageLockedUntil) {
+            e.preventDefault();
+            e.returnValue = 'Please keep this window open while accessing Prolific. It will close automatically once the extension finishes (about 60 seconds).';
+            return e.returnValue;
+          }
+        });
 
         // Clear any prior completion cookie first so the browser registers a real change.
         clearCompletionCookie();
