@@ -51,16 +51,6 @@ permalink: /news_eval_complete.html
         font-size: 14px;
       }
 
-      .close-tab-banner a {
-        color: inherit;
-        font-weight: bold;
-        text-decoration: none;
-      }
-
-      .close-tab-banner a:hover {
-        text-decoration: underline;
-      }
-
       .prolific-focus-banner {
         margin: 16px 0;
         padding: 16px;
@@ -114,13 +104,14 @@ permalink: /news_eval_complete.html
 
     <div id="manualUninstallBanner" class="close-tab-banner" role="alert" aria-live="polite" style="display: none; border-left-color: #d9534f; background: #fcf8f7;">
       <p><strong>If the extension hasn't uninstalled after a few minutes:</strong></p>
-      <p>You can manually remove it from Chrome by:</p>
+      <p>You can manually uninstall it by clicking the extension menu item:</p>
       <ol style="margin: 8px 0; padding-left: 20px;">
-        <li>Going to <code>chrome://extensions/</code></li>
-        <li>Finding "News Evaluation" in the list</li>
-        <li>Clicking the "Remove" button</li>
+        <li>Look for the <strong>News Evaluation extension icon</strong> in your browser toolbar (top-right corner)</li>
+        <li>Click on it to open the extension popup</li>
+        <li>Look for the <strong>"Remove extension"</strong> or <strong>"Uninstall"</strong> menu option</li>
+        <li>Click to remove the extension</li>
       </ol>
-      <p style="margin-top: 12px;"><a href="chrome://extensions/" style="color: #d9534f; font-weight: bold; text-decoration: none;">Click here to open Chrome extensions page →</a></p>
+      <p style="margin-top: 12px; color: #666; font-size: 14px;">This will notify our backend that you've completed the study.</p>
     </div>
 
     <script>
