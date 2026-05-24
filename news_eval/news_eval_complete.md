@@ -277,16 +277,18 @@ permalink: /news_eval_complete.html
             if (elapsedMs >= EXTENSION_POLL_TIMEOUT_MS) {
               window.clearInterval(pollInterval);
               
-              // If no response received by now, extension likely uninstalled
-              if (!extensionResponseReceived && document.visibilityState !== 'hidden') {
-                console.log('[Completion Page] Extension poll timeout - showing fallback badge');
-                // Extension didn't respond within timeout - show manual uninstall option
+              // If extension DID respond during polling, it means auto-uninstall failed
+              if (extensionResponseReceived && document.visibilityState !== 'hidden') {
+                console.log('[Completion Page] Extension is still responding - auto-uninstall failed, showing fallback');
+                // Extension is still installed - show manual uninstall option
                 if (badgeEl) {
                   badgeEl.style.display = 'block';
                 }
                 if (extensionStatusEl) {
-                  extensionStatusEl.textContent = 'The extension should have uninstalled by now. If not, see the notification below.';
+                  extensionStatusEl.textContent = 'The extension is still installed. Please use the notification below to remove it manually.';
                 }
+              } else {
+                console.log('[Completion Page] Extension did not respond - likely already uninstalled');
               }
               return;
             }
