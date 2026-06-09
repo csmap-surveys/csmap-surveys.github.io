@@ -5,3 +5,7 @@ videos/*
 news_eval/news_eval_ids_2026.csv
 t*html
 .vscode/
+images/alerts/*
+images/archive/*
+images/masa/*
+images/qr_code/*

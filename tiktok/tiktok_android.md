@@ -67,26 +67,27 @@ ol li {padding-bottom:15px;}
 
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
-<div style="text-align: left;">
-<img src="images/tiktok_data_box.png" width="250" style="margin-bottom: 5px;">
-<p>10. Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97" target="_blank">https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97</a>. Enter your participation ID in the "Identifier" field, then tap "Select Files".</p>
-</div>
-<div style="text-align: left;">
-<img src="images/Android/android_11.png" width="250" style="margin-bottom: 5px;">
-<p>11. This will take you to your phone's files. Open "Downloads" (or your device's media picker) and select the TikTok data ZIP file (file name starts with "TikTok_Data_"). Do not extract the file.</p>
-</div>
-<div style="text-align: left;">
-<img src="images/Android/android_12.png" width="250" style="margin-bottom: 5px;">
-<p>12. Once the file appears in "Upload files" on the Box page, check the terms/privacy confirmation checkbox.</p>
-</div>
-<div style="text-align: left;">
-<img src="images/Android/android_13.png" width="250" style="margin-bottom: 5px;">
-<p>13. Press "Submit" at the bottom of the page.</p>
-</div>
-<div style="text-align: left;">
-<img src="images/Android/android_14.png" width="250" style="margin-bottom: 5px;">
-<p>14. You will know your file is uploaded once you see the confirmation screen. You can then exit your browser.</p>
-</div>
+	<div style="text-align: left;">
+		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97" target="_blank">https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97</a></p>
+		<ul>
+			<li>Enter your participation ID in the Identifier section.</li>
+			<li>Tap <button style="background-color: #e7e7e7; color:black;"> Select Files</button> and then press <button style="background-color: #6A6767;color: white;"> Choose Files</button></li>
+			<li>Select the TikTok data ZIP file (file name starts with "TikTok_Data_"). Do not extract the file.</li>
+		</ul>
+		<img src="images/universal/tiktok_data_box.png" width="250" style="margin-bottom: 5px;">
+	</div>
+	<div style="text-align: left;">
+		<p>After the file appears in Upload files, check the Box terms/privacy confirmation checkbox.</p>
+		<img src="images/Android/android_12.png" width="250" style="margin-bottom: 5px;">
+	</div>
+	<div style="text-align: left;">
+		<p>Once the file is ready, tap <button style="background-color: #57068c; color:white;">Submit</button>.</p>
+		<img src="images/universal/tiktok_submit.jpg" width="250" style="margin-bottom: 5px;">
+	</div>
+	<div style="text-align: left;">
+		<p>Your file is successfully shared and you can close your browser.</p>
+		<img src="images/universal/tiktok_upload_successful.png" width="250" style="margin-bottom: 5px;">
+	</div>
 </div>
 <div style="padding-top:30px;"></div>
 <div style="padding-top:80px;"></div>

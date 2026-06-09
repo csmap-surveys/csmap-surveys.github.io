@@ -82,7 +82,7 @@ an iphone or ipad</p>
 			<li>Click on <button style="background-color: #e7e7e7; color:black;"> Select Files</button> and then press <button style="background-color: #6A6767;color: white;"> Choose Files</button></li>
 			<li>Select the TikTok data ZIP file (file name starts with "TikTok_Data_"). Do not extract the file.</li>
 		</ul>
-		<img src="images/tiktok_data_box.png" width="250" style="margin-bottom: 5px;">
+		<img src="images/universal/tiktok_data_box.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
 		<p>After the file appears in Upload files, check the Box terms/privacy confirmation checkbox.</p>
@@ -90,11 +90,11 @@ an iphone or ipad</p>
 	</div>
 	<div style="text-align: left;">
 		<p>Once the file is ready, tap <button style="background-color: #57068c; color:white;">Submit</button>.</p>
-		<img src="images/iOS/iphone_12.png" width="250" style="margin-bottom: 5px;">
+		<img src="images/images/universal/tiktok_submit.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
 		<p>Your file is successfully shared and you can close your browser.</p>
-		<img src="images/iOS/iphone_13.png" width="250" style="margin-bottom: 5px;">
+		<img src="images/universal/tiktok_upload_successful.png" width="250" style="margin-bottom: 5px;">
 	</div>
 </div>
 <div>
