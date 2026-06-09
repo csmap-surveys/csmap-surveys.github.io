@@ -76,15 +76,20 @@ an iphone or ipad</p>
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div style="text-align: left;">
-		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> then Tap <button style="background-color: #e7e7e7; color:black;"> Select Files</button> and finally tap <button style="background-color: #6A6767;color: white;"> Choose Files</button></p>
-		<img src="images/iOS/iphone_10.png" width="250" style="margin-bottom: 5px;">
+		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97" target="_blank">https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97</a></p>
+		<ul>
+			<li>Enter your participation ID in the Identifier section.</li>
+			<li>Click on <button style="background-color: #e7e7e7; color:black;"> Select Files</button> and then press <button style="background-color: #6A6767;color: white;"> Choose Files</button></li>
+			<li>Select the TikTok data ZIP file (file name starts with "TikTok_Data_"). Do not extract the file.</li>
+		</ul>
+		<img src="images/tiktok_data_box.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
-		<p>Select the <strong>TikTok_Data</strong> file and tap <strong style="color:#6495ED;">Open</strong>.</p>
+		<p>After the file appears in Upload files, check the Box terms/privacy confirmation checkbox.</p>
 		<img src="images/iOS/iphone_11.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
-		<p>Once the file uploads, tap <button style="background-color: #57068c; color:white;">Submit</button> button</p>
+		<p>Once the file is ready, tap <button style="background-color: #57068c; color:white;">Submit</button>.</p>
 		<img src="images/iOS/iphone_12.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">

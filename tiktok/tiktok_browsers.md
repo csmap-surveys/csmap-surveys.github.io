@@ -54,21 +54,20 @@ ol li {padding-bottom:10px;}
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
-<img src="images/Windows/windows_6.png" width="250" style="margin-bottom: 5px;">
-<p>6. Navigate to the data upload page located at <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f </a> and click "Select Files".</p>
+<p>6. Navigate to the data upload page located at <a href="https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97" target="_blank">https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97</a>. Enter your participation ID in the "Identifier" field, then click "Select Files".</p>
+<img src="images/tiktok_data_box.png" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
+<p>7. A file explorer window will pop up. Click "Downloads", then select the TikTok data ZIP file you downloaded (file name starts with "TikTok_Data_"). Click "Open". Do not extract the file.</p>
 <img src="images/Windows/windows_7_1.png" width="250" style="margin-bottom: 5px;">
-<p>7. A file explorer window will pop up, click "Downloads", then double click the TikTok data file you have just downloaded (the file name should start "TikTok_Data_"). Alternatively, you can click the data file once and then click "Open".</p>
 </div>
 <div style="text-align: left;">
+<p>8. You should now see your data file in the "Upload files" section. Check the Box terms/privacy confirmation checkbox, then click "Submit" in the bottom right corner.</p>
 <img src="images/Windows/windows_8.png" width="250" style="margin-bottom: 5px;">
-<p>8. You should now see your data file in the "Upload files" section. (If you do not, return to the previous step and repeat the file selection process.) Click "Submit" in the bottom right corner. You will then see the file upload success page to confirm the data upload is complete.</p>
 </div>
 <div style="text-align: left;">
+<p>9. You will then see the file upload success page to confirm the data upload is complete.</p>
 <img src="images/Windows/windows_9.png" width="250" style="margin-bottom: 5px;">
-<p>9.Check for an email from “Google Takeout” with the subject “Your Google data is ready to download.” This may take a while.</p>
-<p>10.Download the zip file attachment from Google to your computer.</p>
 </div>
 </div>
 <div style="padding-top:80px;"></div>

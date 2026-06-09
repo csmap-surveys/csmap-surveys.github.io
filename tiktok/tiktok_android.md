@@ -68,25 +68,24 @@ ol li {padding-bottom:15px;}
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
-<img src="images/Android/android_10.png" width="250" style="margin-bottom: 5px;">
-<p>10. Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f" target="_blank">https://nyu.app.box.com/f/c7acc7cbc97c4b76a6589394b53b235f</a> and click "Select Files".</p>
+<img src="images/tiktok_data_box.png" width="250" style="margin-bottom: 5px;">
+<p>10. Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97" target="_blank">https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97</a>. Enter your participation ID in the "Identifier" field, then tap "Select Files".</p>
 </div>
 <div style="text-align: left;">
 <img src="images/Android/android_11.png" width="250" style="margin-bottom: 5px;">
-<p>11. This will take you to your phone’s files. Select "Downloads".
-On other Android devices, you may need to navigate to the “downloads” folder, such as "media picker".</p>
+<p>11. This will take you to your phone's files. Open "Downloads" (or your device's media picker) and select the TikTok data ZIP file (file name starts with "TikTok_Data_"). Do not extract the file.</p>
 </div>
 <div style="text-align: left;">
 <img src="images/Android/android_12.png" width="250" style="margin-bottom: 5px;">
-<p>12. Once within the Downloads file, Select the TikTok file and press "Extract" at the bottom of the screen. Other Android devices might take you directly to the upload.</p>
+<p>12. Once the file appears in "Upload files" on the Box page, check the terms/privacy confirmation checkbox.</p>
 </div>
 <div style="text-align: left;">
 <img src="images/Android/android_13.png" width="250" style="margin-bottom: 5px;">
-<p>12. Once you see your file in "Uploaded files" back on the Box upload page, press "Submit" at the bottom of the screen.</p>
+<p>13. Press "Submit" at the bottom of the page.</p>
 </div>
 <div style="text-align: left;">
 <img src="images/Android/android_14.png" width="250" style="margin-bottom: 5px;">
-<p>13. You will know your file is uploaded once you see this screen. You can then exit your browser.</p>
+<p>14. You will know your file is uploaded once you see the confirmation screen. You can then exit your browser.</p>
 </div>
 </div>
 <div style="padding-top:30px;"></div>
