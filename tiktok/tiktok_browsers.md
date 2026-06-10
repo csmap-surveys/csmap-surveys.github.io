@@ -29,8 +29,14 @@ ol li {padding-bottom:10px;}
 <p>2. Click "Download your data".</p>
 </div>
 <div style="text-align: left;">
-<img src="images/Windows/windows_3.png" width="250" style="margin-bottom: 5px;">
-<p>3. Select "JSON", then click "Request data".</p>
+<p>3. Click on <strong>Request data</strong> on <br><strong>File format</strong> select <em>JSON</em><br> .</p>
+<img src="images/universal/tiktok_file_format.jpg" width="250" style="margin-bottom: 5px;">
+</div>
+<div style="text-align: left;">
+<p>Scroll to <em>Select data to download</em> and select as shown below</p>
+
+<img src="images/universal/tiktok_select_data.jpg" width="250" style="margin-bottom: 5px;">
+<p>Then click <strong>"Request data"</strong>.</p>
 </div>
 <h1 style="text-align: left;"><strong style="font-size: 30px; color: #FF0000">STOP!</strong></h1> 
 <p>Your data file won’t be ready immediately. For some users it might take a few minutes and for others it might take up to  <strong>4</strong> days. Remember to check back daily on this screen to see when your data file is ready. We will also be sending out email reminders to check back for it.</p>

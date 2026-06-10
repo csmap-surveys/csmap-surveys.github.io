@@ -31,11 +31,13 @@ ol li {padding-bottom:15px;}
 <p>3. Tap "Download your data".</p>
 </div>
 <div style="text-align: left;">
-<img src="images/Android/android_4.png" width="250" style="margin-bottom: 5px;">
-<p>4. Select a "JSON" file format and tap "Done".</p>
+<p>4. Tap on <strong>Request data</strong> on <br><strong>File format</strong> select <em>JSON</em><br> .</p>
+<img src="images/universal/tiktok_file_format.jpg" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
-<img src="images/Android/android 5.png" width="250" style="margin-bottom: 5px;">
+<p>Scroll to <em>Select data to download</em> and  select as shown below</p>
+
+<img src="images/universal/tiktok_select_data.jpg" width="250" style="margin-bottom: 5px;">
 <p>5. Tap "Request data".</p>
 </div>
 <div style="padding-top:30px;"></div>

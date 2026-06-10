@@ -32,23 +32,27 @@ an iphone or ipad</p>
 
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
-<img src="images/iOS/iphone_1.png" width="250" style="margin-bottom: 5px;">
-<p>1. In your Tik Tok app, go to your profile and tap the ☰ in the upper right corner. Then tap "Settings and privacy".</p>
+<img src="images/iOS/ios_profile.jpg" width="250" style="margin-bottom: 5px;">
+<p>1. In your Tik Tok app, go to your profile and tap the ☰ in the upper right corner. </p>
 </div>
 <div style="text-align: left;">
-<img src="images/iOS/iphone_2.png" width="250" style="margin-bottom: 5px;">
+<p>On the next window, select "Settings and privacy".
+<img src="images/iOS/choose_settings.jpg" width="250" style="margin-bottom: 5px;">
 <p>2. Tap "Account".</p>
+<img src="images/iOS/settings.png" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
-<img src="images/iOS/iphone_3.png" width="250" style="margin-bottom: 5px;">
 <p>3. Tap "Download your data".</p>
+<img src="images/universal/tiktok_account.jpg" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
-<img src="images/iOS/iphone_4.png" width="250" style="margin-bottom: 5px;">
-<p>4. Select "select file format" and then tap "JSON" file format and tap "Done".</p>
+<p>4. Tap on <strong>Request data"<s/trong> on <br><strong>File format</strong> select <em>JSON</em><br> .</p>
+<img src="images/universal/tiktok_file_format.jpg" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
-<img src="images/iOS/iphone_5.png" width="250" style="margin-bottom: 5px;">
+<p>Scroll to <em>Select data to download</em> and  select as shown below</p>
+
+<img src="images/universal/tiktok_select_data.jpg" width="250" style="margin-bottom: 5px;">
 <p>5. Tap "Request data".</p>
 </div>
 <h1 style="text-align: left;"><strong style="font-size: 30px; color: #FF0000">STOP!</strong></h1> 
@@ -60,19 +64,16 @@ an iphone or ipad</p>
 ## Part 2: Download Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div id="iphone" style="text-align: left;">
-		<p>Return to your <strong>Download Tik Tok data</strong> page (Menu > Settings and privacy > Account > Download Your Data)</p>
-		<img src="images/iOS/iphone_supp.png" width="250" style="margin-bottom: 5px;x">
-	</div>
-	<div  style="text-align: left;">
+		<p>Return to  <strong>Download TikTok data</strong> page (Menu > Settings and privacy > Account > Download Your Data)</p>
 		<p>Tap the <strong>Download data</strong> tab then select <button style="background-color: #ED2939; color: white;">Download</button> button.</p>
-		<img src="images/iOS/iphone_6.png" width="250" style="margin-bottom: 5px;">
+		<img src="images/universal/download.jpg" width="250" style="margin-bottom: 5px;x">
 	</div>
 	<div style="text-align: left;">
 		<p>On the pop-up window that appears, tap <strong style="color: #6495ED;">Download</strong>.</p>
 		<img src="images/iOS/iphone_7.png" width="250" style="margin-bottom: 5px;">
 	</div>
 </div>
-
+<br>gi
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div style="text-align: left;">
@@ -90,7 +91,7 @@ an iphone or ipad</p>
 	</div>
 	<div style="text-align: left;">
 		<p>Once the file is ready, tap <button style="background-color: #57068c; color:white;">Submit</button>.</p>
-		<img src="images/images/universal/tiktok_submit.png" width="250" style="margin-bottom: 5px;">
+		<img src="images/images/universal/tiktok_submit.jpg" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
 		<p>Your file is successfully shared and you can close your browser.</p>
