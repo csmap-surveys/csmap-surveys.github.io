@@ -66,11 +66,11 @@ an iphone or ipad</p>
 	<div id="iphone" style="text-align: left;">
 		<p>Return to  <strong>Download TikTok data</strong> page (Menu > Settings and privacy > Account > Download Your Data)</p>
 		<p>Tap the <strong>Download data</strong> tab then select <button style="background-color: #ED2939; color: white;">Download</button> button.</p>
-		<img src="images/universal/download.jpg" width="250" style="margin-bottom: 5px;x">
+		<img src="images/universal/tiktok_download.jpg" width="250" style="margin-bottom: 5px;x">
 	</div>
 	<div style="text-align: left;">
 		<p>On the pop-up window that appears, tap <strong style="color: #6495ED;">Download</strong>.</p>
-		<img src="images/iOS/iphone_7.png" width="250" style="margin-bottom: 5px;">
+		<img src="images/iOS/iphone_7.jpg" width="250" style="margin-bottom: 5px;">
 	</div>
 </div>
 <br>gi
@@ -83,7 +83,7 @@ an iphone or ipad</p>
 			<li>Click on <button style="background-color: #e7e7e7; color:black;"> Select Files</button> and then press <button style="background-color: #6A6767;color: white;"> Choose Files</button></li>
 			<li>Select the TikTok data ZIP file (file name starts with "TikTok_Data_"). Do not extract the file.</li>
 		</ul>
-		<img src="images/universal/tiktok_data_box.png" width="250" style="margin-bottom: 5px;">
+		<img src="images/universal/tiktok_data_box.jpg" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
 		<p>After the file appears in Upload files, check the Box terms/privacy confirmation checkbox.</p>
@@ -91,7 +91,7 @@ an iphone or ipad</p>
 	</div>
 	<div style="text-align: left;">
 		<p>Once the file is ready, tap <button style="background-color: #57068c; color:white;">Submit</button>.</p>
-		<img src="images/images/universal/tiktok_submit.jpg" width="250" style="margin-bottom: 5px;">
+		<img src="images/universal/tiktok_submit.jpg" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
 		<p>Your file is successfully shared and you can close your browser.</p>
