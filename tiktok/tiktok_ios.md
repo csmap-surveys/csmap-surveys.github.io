@@ -30,34 +30,35 @@ an iphone or ipad</p>
 
 # Part 1: Request Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
-<div style="text-align: left;">
-<p>1. In your TikTok app, go to your profile and tap the ☰ in the upper right corner. </p>
-<img src="images/iOS/profile.jpg" width="250" style="margin-bottom: 5px;">
-</div>
-<div style="text-align: left;">
-<p>2 Tap <strong>Settings and privacy</strong></p>
-<img src="images/iOS/choose_settings.jpg" width="250" style="margin-bottom: 5px;">
-</div>
-<div style="text-align: left;">
-<p>3. Tap <strong>Account</strong></p>
-<img src="images/iOS/settings.jpg" width="250" style="margin-bottom: 5px;">
-</div>
-<div style="text-align: left;">
-<p>4. Tap <strong>Download your data</strong> </p>
-<img src="images/universal/tiktok_account.jpg" width="250" style="margin-bottom: 5px;">
-</div>
-<div style="text-align: left;">
-<p>5. Tap <strong>Request data</strong><br>
-In the <em>File format </em> section select <strong>JSON</strong></p>
-<img src="images/universal/tiktok_file_format.jpg" width="250" style="margin-bottom: 5px;">
-</div>
-<div style="text-align: left;">
-<p>6. In the <em>Select data to download </em><br> and select as shown below</p>
-<img src="images/universal/tiktok_select_data.jpg" width="250" style="margin-bottom: 5px;">
-<p>Finally tap <button style="background-color: #ED2939; color: white;"> Request data </button> button </p>
-</div>
-<div style="text-align: left; padding-top:5px;" >
-<p>Your data file will not be immediately ready <br>It might take a few minutes or up to <strong>4</strong> days <br> Remember to check frequently to see when your data file is ready </p>
+	<div style="text-align: left;">
+		<p>1. In your TikTok app, go to your profile and tap the ☰ in the upper right corner. </p>
+		<img src="images/iOS/profile.jpg" width="250" style="margin-bottom: 5px;">
+	</div>
+		<div style="text-align: left;">
+		<p>2 Tap <strong>Settings and privacy</strong></p>
+		<img src="images/iOS/choose_settings.jpg" width="250" style="margin-bottom: 5px;">
+	</div>
+	<div style="text-align: left;">
+		<p>3. Tap <strong>Account</strong></p>
+		<img src="images/iOS/settings.jpg" width="250" style="margin-bottom: 5px;">
+	</div>
+	<div style="text-align: left;">
+		<p>4. Tap <strong>Download your data</strong> </p>
+		<img src="images/universal/tiktok_account.jpg" width="250" style="margin-bottom: 5px;">
+	</div>
+	<div style="text-align: left;">
+		<p>5. Tap <strong>Request data</strong><br>
+		In the <em>File format </em> section select <strong>JSON</strong></p>
+		<img src="images/universal/tiktok_file_format.jpg" width="250" style="margin-bottom: 5px;">
+	</div>
+	<div style="text-align: left;">
+		<p>6. In the <em>Select data to download </em><br> and select as shown below</p>
+		<img src="images/universal/tiktok_select_data.jpg" width="250" style="margin-bottom: 5px;">
+		<p>Finally tap <button style="background-color: #ED2939; color: white;"> Request data </button> button </p>
+	</div>
+	<div style="text-align: left; padding-top:5px;" >
+		<p>Your data file will not be immediately ready <br>It might take a few minutes or up to <strong>4</strong> days <br> Remember to check frequently to see when your data file is ready </p>
+	</div>
 </div>
 
 # Part 2: Download Your Data
