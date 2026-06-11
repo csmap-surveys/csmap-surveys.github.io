@@ -32,31 +32,33 @@ an iphone or ipad</p>
 
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
-<img src="images/iOS/ios_profile.jpg" width="250" style="margin-bottom: 5px;">
 <p>1. In your Tik Tok app, go to your profile and tap the ☰ in the upper right corner. </p>
+<img src="images/iOS/profile.jpg" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
-<p>On the next window, select "Settings and privacy".
+<p>2. On the next window, select <strong>Settings and privacy</strong></p>
 <img src="images/iOS/choose_settings.jpg" width="250" style="margin-bottom: 5px;">
-<p>2. Tap "Account".</p>
-<img src="images/iOS/settings.png" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
-<p>3. Tap "Download your data".</p>
+<p>3. Tap <strong>Account</strong></p>
+<img src="images/iOS/settings.jpg" width="250" style="margin-bottom: 5px;">
+</div>
+<div style="text-align: left;">
+<p>4. Tap <strong>Download your data</strong> </p>
 <img src="images/universal/tiktok_account.jpg" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
-<p>4. Tap on <strong>Request data"<s/trong> on <br><strong>File format</strong> select <em>JSON</em><br> .</p>
+<p>5. Tap on <strong>Request data"</strong><br>
+<em>File format</em> select <em>JSON</em><br></p>
 <img src="images/universal/tiktok_file_format.jpg" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
-<p>Scroll to <em>Select data to download</em> and  select as shown below</p>
-
+<p>6. Scroll to <em>Select data to download</em> and <br> select as shown below</p>
+<p>Then tap <strong>Request data</strong></p>
 <img src="images/universal/tiktok_select_data.jpg" width="250" style="margin-bottom: 5px;">
-<p>5. Tap "Request data".</p>
 </div>
 <h1 style="text-align: left;"><strong style="font-size: 30px; color: #FF0000">STOP!</strong></h1> 
-<p>Your data file won’t be ready immediately. For some users it might take a few minutes and for others it might take up to <strong>4</strong> days. Remember to check back daily on this screen to see when your data file is ready. We will also be sending out email reminders to check back for it.</p>
+<p>Your data file won’t be ready immediately. For some users it might take a few minutes and for others it might take up to <strong>4</strong> days <br> Remember to check back daily on this screen to see when your data file is ready. We will also be sending out email reminders to check back for it</p>
 <br/> 
 <div style="padding-top:30px;"></div>
 </div>
@@ -70,10 +72,10 @@ an iphone or ipad</p>
 	</div>
 	<div style="text-align: left;">
 		<p>On the pop-up window that appears, tap <strong style="color: #6495ED;">Download</strong>.</p>
-		<img src="images/iOS/iphone_7.jpg" width="250" style="margin-bottom: 5px;">
+		<img src="images/iOS/iphone_7.png" width="250" style="margin-bottom: 5px;">
 	</div>
 </div>
-<br>gi
+<br>
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div style="text-align: left;">
@@ -83,7 +85,7 @@ an iphone or ipad</p>
 			<li>Click on <button style="background-color: #e7e7e7; color:black;"> Select Files</button> and then press <button style="background-color: #6A6767;color: white;"> Choose Files</button></li>
 			<li>Select the TikTok data ZIP file (file name starts with "TikTok_Data_"). Do not extract the file.</li>
 		</ul>
-		<img src="images/universal/tiktok_data_box.jpg" width="250" style="margin-bottom: 5px;">
+		<img src="images/universal/tiktok_data_box.png" width="250" style="margin-bottom: 5px;">
 	</div>
 	<div style="text-align: left;">
 		<p>After the file appears in Upload files, check the Box terms/privacy confirmation checkbox.</p>
