@@ -103,7 +103,7 @@ In the <em>File format </em> section select <strong>JSON</strong></p>
 		<img src="images/universal/tiktok_upload_successful.png" width="250" style="margin-bottom: 5px;">
 	</div>
 </div>
-<div style="padding-top:30px;"></div>
+<div style="padding-top:10px;"></div>
 <div>
 	If you encounter issues, please reach out to <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a>
 	<br> Our team will be in touch to help you troubleshoot
