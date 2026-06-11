@@ -32,11 +32,11 @@ an iphone or ipad</p>
 
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
-<p>1. In your Tik Tok app, go to your profile and tap the ☰ in the upper right corner. </p>
+<p>1. In your TikTok app, go to your profile and tap the ☰ in the upper right corner. </p>
 <img src="images/iOS/profile.jpg" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
-<p>2. On the next window, select <strong>Settings and privacy</strong></p>
+<p>2 Tap <strong>Settings and privacy</strong></p>
 <img src="images/iOS/choose_settings.jpg" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
@@ -48,17 +48,17 @@ an iphone or ipad</p>
 <img src="images/universal/tiktok_account.jpg" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
-<p>5. Tap on <strong>Request data"</strong><br>
-<em>File format</em> select <em>JSON</em><br></p>
+<p>5. Tap <strong>Request data</strong><br>
+In the <em>File format</em> select <em>JSON</em><br></p>
 <img src="images/universal/tiktok_file_format.jpg" width="250" style="margin-bottom: 5px;">
 </div>
 <div style="text-align: left;">
 <p>6. Scroll to <em>Select data to download</em> and <br> select as shown below</p>
-<p>Then tap <strong>Request data</strong></p>
 <img src="images/universal/tiktok_select_data.jpg" width="250" style="margin-bottom: 5px;">
+<p>Finally tap <strong style="color: #FF0000">Request data</strong>button </p>
 </div>
 <h1 style="text-align: left;"><strong style="font-size: 30px; color: #FF0000">STOP!</strong></h1> 
-<p>Your data file won’t be ready immediately. For some users it might take a few minutes and for others it might take up to <strong>4</strong> days <br> Remember to check back daily on this screen to see when your data file is ready. We will also be sending out email reminders to check back for it</p>
+<p>Your data file won’t be ready immediately. It might take a few minutes or up to <strong>4</strong> days <br> Remember to check back daily on this screen to see when your data file is ready<br> We will also be sending out email reminders to check back for it</p>
 <br/> 
 <div style="padding-top:30px;"></div>
 </div>
