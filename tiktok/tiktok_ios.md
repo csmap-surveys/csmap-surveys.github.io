@@ -75,7 +75,7 @@ In the <em>File format</em> select <em>JSON</em><br></p>
 		<img src="images/iOS/iphone_7.png" width="250" style="margin-bottom: 5px;">
 	</div>
 </div>
-<br>
+
 ## Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div style="text-align: left;">
