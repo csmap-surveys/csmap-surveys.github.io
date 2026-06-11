@@ -28,7 +28,7 @@ ol li {padding-bottom:15px;}
 <p>Below are instructions for using an iOS device such as
 an iphone or ipad</p>
 
-## Part 1: Request Your Data
+# Part 1: Request Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 <div style="text-align: left;">
 <p>1. In your TikTok app, go to your profile and tap the ☰ in the upper right corner. </p>
@@ -60,7 +60,7 @@ In the <em>File format </em> section select <strong>JSON</strong></p>
 <p>Your data file will not be immediately ready <br>It might take a few minutes or up to <strong>4</strong> days <br> Remember to check frequently to see when your data file is ready </p>
 </div>
 
-## Part 2: Download Your Data
+# Part 2: Download Your Data
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px; padding-top:10px;">
 	<div id="iphone" style="text-align: left;">
 		<p>Return to  <strong>Download data</strong> page<br>
@@ -78,7 +78,7 @@ In the <em>File format </em> section select <strong>JSON</strong></p>
 	</div>
 </div>
 
-## Part 3: Share Your Data with Researchers
+# Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div style="text-align: left;">
 		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97" target="_blank">https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97</a></p>
