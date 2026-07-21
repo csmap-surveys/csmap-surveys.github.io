@@ -52,7 +52,7 @@ permalink: /news_eval_complete.html
       }
 
       .uninstall-failed-badge {
-        display: block;
+        display: none;
         margin: 16px 0;
         background: #fff;
         border: 2px solid #d9534f;
@@ -61,6 +61,16 @@ permalink: /news_eval_complete.html
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         font-size: 14px;
         max-width: 760px;
+      }
+
+      .uninstall-failed-badge.attention {
+        animation: uninstallBlink 1s step-start infinite;
+      }
+
+      @keyframes uninstallBlink {
+        50% {
+          opacity: 0.45;
+        }
       }
 
       .uninstall-failed-badge h4 {
@@ -204,17 +214,16 @@ permalink: /news_eval_complete.html
     <div class="prolific-focus-banner" role="status" aria-live="polite">
       <h3>Next: Continue to Prolific page</h3>
       <p>A Prolific study completion page has opened in a tab. Please <strong>click on the Prolific tab</strong> to switch to it and complete your study submission.</p>
-      <p><strong style="color: #d9534f;">⚠️ Keep this window open</strong> while you work on Prolific. It will close automatically.</p>
+      <p><strong style="color: #d9534f;">⚠️ Keep this window open</strong> while you work on Prolific.</p>
     </div>
 
     <div class="complete-note" role="status" aria-live="polite">
       <p>Thank you for your participation</p>
-      <p id="extensionStatus">Please follow the manual uninstall steps below.</p>
+      <p id="extensionStatus">Please wait about 3 minutes while uninstall finalizes. Manual uninstall steps will appear below if needed.</p>
     </div>
 
     <div id="uninstallFailedBadge" class="uninstall-failed-badge" role="status" aria-live="polite" aria-labelledby="badgeTitle">
       <h4 id="badgeTitle">How to uninstall the extension</h4>
-      <p style="margin-top: 8px;">Use the extension page so finalize logic can run:</p>
       <ol class="uninstall-steps">
         <li>
           Click <button id="copyExtensionUrlBtn" type="button" class="copy-url-btn">Copy URL</button>
@@ -222,11 +231,12 @@ permalink: /news_eval_complete.html
           <code>chrome-extension://deelgjiaicpdbfjmpifibadbhpijoofi/index.html</code>
           <span id="copyExtensionUrlStatus" class="copy-url-status" aria-live="polite"></span>
         </li>
-        <li>On the News Evaluation extension page, follow the on-screen uninstall prompt.</li>
-        <li>Click <span class="quote-text">"Remove from Chrome"</span> once.</li>
+        <li>If the extension page opens, click <span class="quote-text">"Remove from Chrome"</span> once.</li>
         <li>Click <span class="ok-btn">OK</span> on the popup <span class="quote-text">"Remove News Evaluation from Chrome now"</span>.</li>
-        <li>The extension will take a few minutes to finalize the study.</li>
-        <li>This tab will close automatically when the extension uninstalls.</li>
+        <li>Wait for the extension to finalize uninstall (this may take a few minutes).</li>
+        <li>Paste the same URL again in this tab to recheck status.</li>
+        <li>If you get the page message <span class="quote-text">"This page has been blocked by Chrome"</span>, uninstall is complete.</li>
+        <li>If the extension page still opens, the extension is still installed. Repeat steps 2 to 4.</li>
       </ol>
     </div>
 
@@ -235,20 +245,13 @@ permalink: /news_eval_complete.html
         const COOKIE_NAME = 'news_eval_done';
         const COOKIE_VALUE = '1';
         const COOKIE_MAX_AGE_SECONDS = 10 * 60;
-        const AUTO_CLOSE_DELAY_MS = 60 * 1000;
-        const AUTO_CLOSE_RETRY_INTERVAL_MS = 10 * 1000;
-        const LOCK_PAGE_DURATION_MS = 0;
-        const EXTENSION_POLL_INTERVAL_MS = 5 * 1000; // Poll every 5 seconds
-        const EXTENSION_POLL_TIMEOUT_MS = 110 * 1000; // After 110 seconds, assume extension died
+        const MANUAL_UNINSTALL_REVEAL_MS = 3 * 60 * 1000;
         
         const extensionStatusEl = document.getElementById('extensionStatus');
         const badgeEl = document.getElementById('uninstallFailedBadge');
         const extensionUrl = 'chrome-extension://deelgjiaicpdbfjmpifibadbhpijoofi/index.html';
         const copyBtnEl = document.getElementById('copyExtensionUrlBtn');
         const copyStatusEl = document.getElementById('copyExtensionUrlStatus');
-        let pageLockedUntil = Date.now() + LOCK_PAGE_DURATION_MS;
-        let extensionResponseReceived = false;
-        let pollStartTime = Date.now();
 
         function setCopyStatus(message) {
           if (!copyStatusEl) {
@@ -292,6 +295,24 @@ permalink: /news_eval_complete.html
           fallbackCopyExtensionUrl();
         }
 
+        function checkExtensionStillInstalled(callback) {
+          try {
+            chrome.runtime.sendMessage(
+              { messageType: 'poll-uninstall-status' },
+              function(response) {
+                if (chrome.runtime.lastError) {
+                  callback(false);
+                  return;
+                }
+
+                callback(Boolean(response && response.status === 'extension-alive'));
+              }
+            );
+          } catch (e) {
+            callback(false);
+          }
+        }
+
         function setCompletionCookie() {
           document.cookie = [
             COOKIE_NAME + '=' + encodeURIComponent(COOKIE_VALUE),
@@ -312,38 +333,6 @@ permalink: /news_eval_complete.html
           ].join('; ');
         }
 
-        // Poll extension to check if it's still alive
-        function pollExtensionStatus() {
-          try {
-            chrome.runtime.sendMessage(
-              { messageType: 'poll-uninstall-status' },
-              function(response) {
-                if (chrome.runtime.lastError) {
-                  // Extension not responding or already uninstalled
-                  console.log('[Completion Page] Extension not responding:', chrome.runtime.lastError.message);
-                  return;
-                }
-                
-                if (response && response.status === 'extension-alive') {
-                  extensionResponseReceived = true;
-                  console.log('[Completion Page] Extension is alive');
-                }
-              }
-            );
-          } catch (e) {
-            console.log('[Completion Page] Extension poll failed:', e.message);
-          }
-        }
-
-        // Prevent user from closing page during lock period
-        window.addEventListener('beforeunload', function(e) {
-          if (Date.now() < pageLockedUntil) {
-            e.preventDefault();
-            e.returnValue = 'Please keep this window open while accessing Prolific. It will close automatically once the extension finishes (about 60 seconds).';
-            return e.returnValue;
-          }
-        });
-
         // Clear any prior completion cookie so browser registers a real change
         clearCompletionCookie();
         setCompletionCookie();
@@ -361,50 +350,29 @@ permalink: /news_eval_complete.html
           copyBtnEl.addEventListener('click', copyExtensionUrl);
         }
 
-        function attemptAutoClose() {
-          window.close();
-        }
-
-        // Start auto-close attempts after 60 seconds
-        window.setTimeout(function () {
-          attemptAutoClose();
-
-          window.setInterval(function () {
-            if (document.visibilityState === 'hidden') {
-              return;
-            }
-            attemptAutoClose();
-          }, AUTO_CLOSE_RETRY_INTERVAL_MS);
-        }, AUTO_CLOSE_DELAY_MS);
-
-        // Start polling extension after lock period expires
-        window.setTimeout(function () {
-          const pollInterval = window.setInterval(function () {
-            const elapsedMs = Date.now() - pollStartTime;
-            
-            // Stop polling after timeout
-            if (elapsedMs >= EXTENSION_POLL_TIMEOUT_MS) {
-              window.clearInterval(pollInterval);
-              
-              // If extension DID respond during polling, it means auto-uninstall failed
-              if (extensionResponseReceived && document.visibilityState !== 'hidden') {
-                console.log('[Completion Page] Extension is still responding - auto-uninstall failed, showing fallback');
-                // Extension is still installed - show manual uninstall option
-                if (badgeEl) {
-                  badgeEl.style.display = 'block';
-                }
-                if (extensionStatusEl) {
-                  extensionStatusEl.textContent = 'The extension is still installed. Please use the notification below to remove it manually.';
-                }
-              } else {
-                console.log('[Completion Page] Extension did not respond - likely already uninstalled');
+        // After waiting 3 minutes, only show manual uninstall if extension is still installed.
+        window.setTimeout(function() {
+          checkExtensionStillInstalled(function(isInstalled) {
+            if (isInstalled) {
+              if (badgeEl) {
+                badgeEl.style.display = 'block';
+                badgeEl.classList.add('attention');
+              }
+              if (extensionStatusEl) {
+                extensionStatusEl.textContent = 'The extension is still installed. Complete the manual uninstall steps below now.';
               }
               return;
             }
-            
-            pollExtensionStatus();
-          }, EXTENSION_POLL_INTERVAL_MS);
-        }, LOCK_PAGE_DURATION_MS);
+
+            if (badgeEl) {
+              badgeEl.style.display = 'none';
+              badgeEl.classList.remove('attention');
+            }
+            if (extensionStatusEl) {
+              extensionStatusEl.textContent = 'Extension has been uninstalled. You can close this page.';
+            }
+          });
+        }, MANUAL_UNINSTALL_REVEAL_MS);
 
         // Do not clear completion cookie on page exit - TTL helps reliability
       })();
