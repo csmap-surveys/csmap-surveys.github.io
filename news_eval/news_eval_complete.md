@@ -52,18 +52,15 @@ permalink: /news_eval_complete.html
       }
 
       .uninstall-failed-badge {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
+        display: block;
+        margin: 16px 0;
         background: #fff;
         border: 2px solid #d9534f;
         border-radius: 4px;
         padding: 12px 14px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         font-size: 14px;
-        z-index: 10000;
-        max-width: 280px;
+        max-width: 520px;
       }
 
       .uninstall-failed-badge h4 {
@@ -78,6 +75,21 @@ permalink: /news_eval_complete.html
         font-size: 13px;
         line-height: 1.4;
         color: #333;
+      }
+
+      .menu-icon {
+        display: inline-block;
+        min-width: 18px;
+        text-align: center;
+        border: 1px solid #bbb;
+        border-radius: 3px;
+        background: #f6f6f6;
+        color: #222;
+        font-size: 14px;
+        line-height: 1;
+        padding: 1px 4px;
+        margin: 0 2px;
+        vertical-align: middle;
       }
 
       .uninstall-failed-badge a {
@@ -157,17 +169,20 @@ permalink: /news_eval_complete.html
 
     <div class="complete-note" role="status" aria-live="polite">
       <p>Thank you for your participation</p>
-      <p id="extensionStatus">The News Evaluation extension is finishing up and will uninstall itself automatically.</p>
+      <p id="extensionStatus">If the extension is still installed, please follow the manual uninstall steps below.</p>
     </div>
 
-    <div id="uninstallFailedBadge" class="uninstall-failed-badge" role="alert" aria-live="assertive" aria-labelledby="badgeTitle">
-      <h4 id="badgeTitle">Extension Still Installed</h4>
-      <p>The extension didn't uninstall automatically. You can remove it manually:</p>
+    <div id="uninstallFailedBadge" class="uninstall-failed-badge" role="status" aria-live="polite" aria-labelledby="badgeTitle">
+      <h4 id="badgeTitle">How to uninstall the extension</h4>
+      <p>If the extension did not uninstall automatically, please follow these steps:</p>
       <ol style="margin: 8px 0; padding-left: 20px; font-size: 13px;">
-        <li>Click the extension icon in your browser toolbar</li>
-        <li>Select "Remove extension" from the menu</li>
+        <li><a href="chrome-extension://deelgjiaicpdbfjmpifibadbhpijoofi/index.html">Open the News Evaluation extension page</a>.</li>
+        <li>Click the three-lines menu icon <span class="menu-icon" aria-hidden="true">&#9776;</span>.</li>
+        <li>Click <strong>"Remove from Chrome"</strong> once.</li>
+        <li>Click "OK" on the popup "Remove News Evaluation from Chrome now".</li>
+        <li>The extension will take a few minutes to finalize the study.</li>
+        <li>This tab will close automatically when the extension uninstalls.</li>
       </ol>
-      <button onclick="document.getElementById('uninstallFailedBadge').style.display = 'none'; event.preventDefault();" aria-label="Dismiss notification">Dismiss</button>
     </div>
 
     <script>

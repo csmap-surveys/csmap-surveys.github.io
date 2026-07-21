@@ -79,6 +79,15 @@ permalink: /news_eval.html
         border-color: #c9d0dd;
         text-shadow: none;
       }
+
+      .important-step {
+        font-size: 17px;
+      }
+
+      .prolific-highlight {
+        color: #1a56cf;
+        font-weight: 700;
+      }
     </style>
   </head>
   <body>
@@ -111,8 +120,8 @@ permalink: /news_eval.html
       <li>Wait for the assigned ID to be verified automatically.</li>
       <li>Click <button class="chrome-btn chrome-btn-primary" type="button">I have read this information</button>.</li>
       <li>You participation is verified and you can close the extension tab.</li>
-      <li>Continue with the assigned survey task.</li>
-      <li>At end of the study the extension will remove itself from the browser.</li>
+      <li class="important-step">After installing the extension, please return to the <span class="prolific-highlight">Prolific</span> survey page.</li>
+      <li>At the end of the study, you will be provided instructions on how to uninstall the extension.</li>
     </ol>
 
     <script>
