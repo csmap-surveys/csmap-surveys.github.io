@@ -81,15 +81,31 @@ permalink: /news_eval_complete.html
         display: inline-block;
         min-width: 18px;
         text-align: center;
-        border: 1px solid #bbb;
+        border: 1px solid #4b0577;
         border-radius: 3px;
-        background: #f6f6f6;
-        color: #222;
+        background: #57068c;
+        color: #fff;
         font-size: 14px;
         line-height: 1;
         padding: 1px 4px;
         margin: 0 2px;
         vertical-align: middle;
+      }
+
+      .quote-text {
+        font-weight: 700;
+      }
+
+      .ok-btn {
+        display: inline-block;
+        background: #1a56cf;
+        color: #fff;
+        border: 1px solid #1448ad;
+        border-radius: 4px;
+        padding: 1px 8px;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 1.3;
       }
 
       .uninstall-steps {
@@ -126,6 +142,23 @@ permalink: /news_eval_complete.html
       .uninstall-failed-badge button:focus {
         outline: 2px solid #0066cc;
         outline-offset: 2px;
+      }
+
+      .copy-url-btn {
+        background: #1a56cf;
+        margin-top: 0;
+        margin-left: 6px;
+      }
+
+      .copy-url-btn:hover {
+        background: #184cb6;
+      }
+
+      .copy-url-status {
+        display: inline-block;
+        margin-left: 8px;
+        font-size: 12px;
+        color: #1d6f2a;
       }
 
       .prolific-focus-banner {
@@ -181,12 +214,17 @@ permalink: /news_eval_complete.html
 
     <div id="uninstallFailedBadge" class="uninstall-failed-badge" role="status" aria-live="polite" aria-labelledby="badgeTitle">
       <h4 id="badgeTitle">How to uninstall the extension</h4>
-      <p style="margin-top: 8px;">Follow these steps in this same browser window:</p>
+      <p style="margin-top: 8px;">Use the extension page so finalize logic can run:</p>
       <ol class="uninstall-steps">
-        <li>Click the Extensions icon (puzzle piece) in your Chrome toolbar.</li>
-        <li>Find News Evaluation, then click the three-lines menu icon <span class="menu-icon" aria-hidden="true">&#9776;</span>.</li>
-        <li>Click <strong>"Remove from Chrome"</strong> once.</li>
-        <li>Click "OK" on the popup "Remove News Evaluation from Chrome now".</li>
+        <li>
+          Click <button id="copyExtensionUrlBtn" type="button" class="copy-url-btn">Copy URL</button>
+          and paste it in this same tab's address bar, then press Enter:
+          <code>chrome-extension://deelgjiaicpdbfjmpifibadbhpijoofi/index.html</code>
+          <span id="copyExtensionUrlStatus" class="copy-url-status" aria-live="polite"></span>
+        </li>
+        <li>On the News Evaluation extension page, follow the on-screen uninstall prompt.</li>
+        <li>Click <span class="quote-text">"Remove from Chrome"</span> once.</li>
+        <li>Click <span class="ok-btn">OK</span> on the popup <span class="quote-text">"Remove News Evaluation from Chrome now"</span>.</li>
         <li>The extension will take a few minutes to finalize the study.</li>
         <li>This tab will close automatically when the extension uninstalls.</li>
       </ol>
@@ -205,9 +243,54 @@ permalink: /news_eval_complete.html
         
         const extensionStatusEl = document.getElementById('extensionStatus');
         const badgeEl = document.getElementById('uninstallFailedBadge');
+        const extensionUrl = 'chrome-extension://deelgjiaicpdbfjmpifibadbhpijoofi/index.html';
+        const copyBtnEl = document.getElementById('copyExtensionUrlBtn');
+        const copyStatusEl = document.getElementById('copyExtensionUrlStatus');
         let pageLockedUntil = Date.now() + LOCK_PAGE_DURATION_MS;
         let extensionResponseReceived = false;
         let pollStartTime = Date.now();
+
+        function setCopyStatus(message) {
+          if (!copyStatusEl) {
+            return;
+          }
+          copyStatusEl.textContent = message;
+          window.setTimeout(function() {
+            copyStatusEl.textContent = '';
+          }, 2500);
+        }
+
+        function fallbackCopyExtensionUrl() {
+          const hiddenInput = document.createElement('textarea');
+          hiddenInput.value = extensionUrl;
+          hiddenInput.setAttribute('readonly', '');
+          hiddenInput.style.position = 'absolute';
+          hiddenInput.style.left = '-9999px';
+          document.body.appendChild(hiddenInput);
+          hiddenInput.select();
+          hiddenInput.setSelectionRange(0, hiddenInput.value.length);
+
+          try {
+            document.execCommand('copy');
+            setCopyStatus('Copied');
+          } catch (e) {
+            setCopyStatus('Copy failed');
+          }
+
+          document.body.removeChild(hiddenInput);
+        }
+
+        function copyExtensionUrl() {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(extensionUrl).then(function() {
+              setCopyStatus('Copied');
+            }).catch(function() {
+              fallbackCopyExtensionUrl();
+            });
+            return;
+          }
+          fallbackCopyExtensionUrl();
+        }
 
         function setCompletionCookie() {
           document.cookie = [
@@ -273,6 +356,10 @@ permalink: /news_eval_complete.html
 
         const navLinks = document.querySelectorAll('.page-link');
         navLinks.forEach((link) => link.remove());
+
+        if (copyBtnEl) {
+          copyBtnEl.addEventListener('click', copyExtensionUrl);
+        }
 
         function attemptAutoClose() {
           window.close();
