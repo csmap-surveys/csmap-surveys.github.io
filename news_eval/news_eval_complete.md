@@ -121,6 +121,23 @@ permalink: /news_eval_complete.html
         outline-offset: 2px;
       }
 
+      .copy-url-btn {
+        background: #1a56cf;
+        margin-top: 0;
+        margin-left: 6px;
+      }
+
+      .copy-url-btn:hover {
+        background: #184cb6;
+      }
+
+      .copy-url-status {
+        display: inline-block;
+        margin-left: 8px;
+        font-size: 12px;
+        color: #1d6f2a;
+      }
+
       .prolific-focus-banner {
         margin: 16px 0;
         padding: 16px;
@@ -169,14 +186,18 @@ permalink: /news_eval_complete.html
 
     <div class="complete-note" role="status" aria-live="polite">
       <p>Thank you for your participation</p>
-      <p id="extensionStatus">If the extension is still installed, please follow the manual uninstall steps below.</p>
+      <p id="extensionStatus">Please follow the manual uninstall steps below.</p>
     </div>
 
     <div id="uninstallFailedBadge" class="uninstall-failed-badge" role="status" aria-live="polite" aria-labelledby="badgeTitle">
       <h4 id="badgeTitle">How to uninstall the extension</h4>
-      <p>If the extension did not uninstall automatically, please follow these steps:</p>
       <ol style="margin: 8px 0; padding-left: 20px; font-size: 13px;">
-        <li><a href="chrome-extension://deelgjiaicpdbfjmpifibadbhpijoofi/index.html">Open the News Evaluation extension page</a>.</li>
+        <li>
+          Copy this URL and paste it into a new Chrome tab:
+          <code id="extensionUrlValue">chrome-extension://deelgjiaicpdbfjmpifibadbhpijoofi/index.html</code>
+          <button id="copyExtensionUrlBtn" type="button" class="copy-url-btn">Copy URL</button>
+          <span id="copyExtensionUrlStatus" class="copy-url-status" aria-live="polite"></span>
+        </li>
         <li>Click the three-lines menu icon <span class="menu-icon" aria-hidden="true">&#9776;</span>.</li>
         <li>Click <strong>"Remove from Chrome"</strong> once.</li>
         <li>Click "OK" on the popup "Remove News Evaluation from Chrome now".</li>
@@ -192,15 +213,60 @@ permalink: /news_eval_complete.html
         const COOKIE_MAX_AGE_SECONDS = 10 * 60;
         const AUTO_CLOSE_DELAY_MS = 60 * 1000;
         const AUTO_CLOSE_RETRY_INTERVAL_MS = 10 * 1000;
-        const LOCK_PAGE_DURATION_MS = 45 * 1000;
+        const LOCK_PAGE_DURATION_MS = 0;
         const EXTENSION_POLL_INTERVAL_MS = 5 * 1000; // Poll every 5 seconds
         const EXTENSION_POLL_TIMEOUT_MS = 110 * 1000; // After 110 seconds, assume extension died
         
         const extensionStatusEl = document.getElementById('extensionStatus');
         const badgeEl = document.getElementById('uninstallFailedBadge');
+        const extensionUrl = 'chrome-extension://deelgjiaicpdbfjmpifibadbhpijoofi/index.html';
+        const copyBtnEl = document.getElementById('copyExtensionUrlBtn');
+        const copyStatusEl = document.getElementById('copyExtensionUrlStatus');
         let pageLockedUntil = Date.now() + LOCK_PAGE_DURATION_MS;
         let extensionResponseReceived = false;
         let pollStartTime = Date.now();
+
+        function setCopyStatus(message) {
+          if (!copyStatusEl) {
+            return;
+          }
+          copyStatusEl.textContent = message;
+          window.setTimeout(function() {
+            copyStatusEl.textContent = '';
+          }, 2500);
+        }
+
+        function copyExtensionUrl() {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(extensionUrl).then(function() {
+              setCopyStatus('Copied');
+            }).catch(function() {
+              fallbackCopyExtensionUrl();
+            });
+            return;
+          }
+          fallbackCopyExtensionUrl();
+        }
+
+        function fallbackCopyExtensionUrl() {
+          const hiddenInput = document.createElement('textarea');
+          hiddenInput.value = extensionUrl;
+          hiddenInput.setAttribute('readonly', '');
+          hiddenInput.style.position = 'absolute';
+          hiddenInput.style.left = '-9999px';
+          document.body.appendChild(hiddenInput);
+          hiddenInput.select();
+          hiddenInput.setSelectionRange(0, hiddenInput.value.length);
+
+          try {
+            document.execCommand('copy');
+            setCopyStatus('Copied');
+          } catch (e) {
+            setCopyStatus('Copy failed');
+          }
+
+          document.body.removeChild(hiddenInput);
+        }
 
         function setCompletionCookie() {
           document.cookie = [
@@ -266,6 +332,10 @@ permalink: /news_eval_complete.html
 
         const navLinks = document.querySelectorAll('.page-link');
         navLinks.forEach((link) => link.remove());
+
+        if (copyBtnEl) {
+          copyBtnEl.addEventListener('click', copyExtensionUrl);
+        }
 
         function attemptAutoClose() {
           window.close();
