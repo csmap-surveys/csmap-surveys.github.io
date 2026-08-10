@@ -133,7 +133,7 @@ permalink: /news_eval.html
         searchParams.get('launchEndpoint') ||
         'https://news-eval.csmapnyuapps.org/apps/qualtrics/launch-proxy.json';
       const EVENT_PAGE_VIEW = 'news_eval_page_view';
-      const EVENT_INSTALL_LINK_CLICK = 'news_eval_install_link_click';
+      const EVENT_INSTALL_LINK_CLICK = 'chrome_store_link_click';
 
       function postInstallEvent(eventName) {
         if (!launchEndpoint || !sessionId) {
@@ -144,7 +144,7 @@ permalink: /news_eval.html
         const payload = JSON.stringify({
           participantId: sessionId,
           ts: now,
-          source: 'news-eval-funnel',
+          source: 'news_eval_page',
           event: eventName,
           page: window.location.pathname,
         });
