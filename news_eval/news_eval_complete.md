@@ -222,6 +222,18 @@ permalink: /news_eval_complete.html
       <p id="extensionStatus">Please wait about 3 minutes while uninstall finalizes. Manual uninstall steps will appear below if needed.</p>
     </div>
 
+    <!-- Populated by the script below from the ?installed= param
+         (set in qualtric_completion.js from ${e://Field/installConfirmed}).
+         Shown only for participants who reached this page without ever
+         confirming an extension install (e.g. via the Verification
+         question's finalNotFoundMessage exit path) -- for them there is
+         nothing to uninstall, so the extension-status/uninstall-badge flow
+         below is skipped entirely rather than misleadingly telling them to
+         wait for an uninstall that was never applicable. -->
+    <div id="noInstallNote" class="complete-note" role="status" aria-live="polite" style="display: none;">
+      <p>Thank you for your participation.</p>
+    </div>
+
     <div id="uninstallFailedBadge" class="uninstall-failed-badge" role="status" aria-live="polite" aria-labelledby="badgeTitle">
       <h4 id="badgeTitle">How to uninstall the extension</h4>
       <ol class="uninstall-steps">
@@ -246,12 +258,39 @@ permalink: /news_eval_complete.html
         const COOKIE_VALUE = '1';
         const COOKIE_MAX_AGE_SECONDS = 10 * 60;
         const MANUAL_UNINSTALL_REVEAL_MS = 3 * 60 * 1000;
-        
+
+        // Set by qualtric_completion.js from ${e://Field/installConfirmed}
+        // when it opens this page. Absent/anything other than '1' means the
+        // participant reached survey end without ever confirming an
+        // install (e.g. exited via the Verification question's
+        // finalNotFoundMessage path) -- there is no extension to uninstall
+        // and no completed study run, so this page should say so plainly
+        // and skip the uninstall-check flow and completion cookie below.
+        const params = new URLSearchParams(window.location.search);
+        const wasInstalled = params.get('installed') === '1';
+
+        const completeNoteEl = document.querySelector('.complete-note');
+        const noInstallNoteEl = document.getElementById('noInstallNote');
         const extensionStatusEl = document.getElementById('extensionStatus');
         const badgeEl = document.getElementById('uninstallFailedBadge');
         const extensionUrl = 'chrome-extension://deelgjiaicpdbfjmpifibadbhpijoofi/index.html';
         const copyBtnEl = document.getElementById('copyExtensionUrlBtn');
         const copyStatusEl = document.getElementById('copyExtensionUrlStatus');
+
+        if (!wasInstalled) {
+          if (completeNoteEl) {
+            completeNoteEl.style.display = 'none';
+          }
+          if (noInstallNoteEl) {
+            noInstallNoteEl.style.display = 'block';
+          }
+          if (badgeEl) {
+            badgeEl.style.display = 'none';
+          }
+          // Prolific banner still shows -- Qualtrics' own end-of-survey
+          // redirect fires regardless of install status, so the participant
+          // still needs to be pointed at that tab.
+        }
 
         function setCopyStatus(message) {
           if (!copyStatusEl) {
@@ -333,9 +372,13 @@ permalink: /news_eval_complete.html
           ].join('; ');
         }
 
-        // Clear any prior completion cookie so browser registers a real change
-        clearCompletionCookie();
-        setCompletionCookie();
+        if (wasInstalled) {
+          // Clear any prior completion cookie so browser registers a real change.
+          // Only set for a genuinely confirmed install -- a participant who
+          // never installed has nothing to mark "done" via this cookie.
+          clearCompletionCookie();
+          setCompletionCookie();
+        }
 
         // Fallback: remove layout nav links if theme injects them after CSS
         const navTrigger = document.querySelector('.trigger');
@@ -348,6 +391,12 @@ permalink: /news_eval_complete.html
 
         if (copyBtnEl) {
           copyBtnEl.addEventListener('click', copyExtensionUrl);
+        }
+
+        // Uninstall-status check only makes sense if the participant actually
+        // had the extension installed at some point.
+        if (!wasInstalled) {
+          return;
         }
 
         // After waiting 3 minutes, only show manual uninstall if extension is still installed.
