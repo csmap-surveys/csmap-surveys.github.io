@@ -82,7 +82,7 @@ an iphone or ipad</p>
 # Part 3: Share Your Data with Researchers
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 20px;">
 	<div style="text-align: left;">
-		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97" target="_blank">https://nyu.app.box.com/f/e06d0a67ae564d20b1c1024b12c3ea97</a></p>
+		<p>Navigate to the data upload page located at: <a href="https://nyu.app.box.com/f/51aa4eee7d964aac937e7d0a6baac5b7" target="_blank">https://nyu.app.box.com/f/51aa4eee7d964aac937e7d0a6baac5b7</a></p>
 		<ul>
 			<li>Enter your participation ID in the Identifier section.</li>
 			<li>Click on <button style="background-color: #e7e7e7; color:black;"> Select Files</button> </li>
