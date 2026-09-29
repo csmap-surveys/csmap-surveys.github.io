@@ -28,5 +28,5 @@ permalink: /tiktok_video.html
 	<h1 class="blink-two" ><center><strong style="font-size: 25px; margin-bottom: 3px; color: #000">Attention!</strong></center></h1> 
 	<p>The availability of your data download request will vary and can be immediate-as in the video-but can take up to 4 days. Please check on your Download data tab daily for when your data file will be ready. We will also be sending out email reminders to check back for it.
 	</p>
-	<p>If you have trouble with the steps outlined in this video, please reach out to <a href="mailto:csmapsupport@nyu.edu">email support</a>. Our team will be in touch to help you troubleshoot.</p>
+	<p>If you have trouble with the steps outlined in this video, please reach out to <a href="mailto:tiktok.research.issues@gmail.com">email support</a>. Our team will be in touch to help you troubleshoot.</p>
 </div>

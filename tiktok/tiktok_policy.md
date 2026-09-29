@@ -24,7 +24,7 @@ To be part of a CSMaP study, a participant first completes a survey and opts-in 
 Data files we collect will be held in encrypted stored managed by CSMaP. Only approved researchers will have access to the data. CSMaP will not share or sell your data to commercial third-parties. All data collected will be anonymized and used for research purposes only. Information that is anonymized and does not contain personal identifying information may be used in more than one research study, shared with other academic researchers, or placed in a data repository without your additional consent.
 
 ## Contact
-Please email <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a> our support team if you wish
+Please email <a href="mailto:tiktok.research.issues@gmail.com">tiktok.research.issues@gmail.com</a> our support team if you wish
 * To revoke part or all of your shared data at any time.
 * To know more about the study or your participation that is unclear or that you do not understand.
 * To report a technical or research-related problem.

@@ -106,6 +106,6 @@ an iphone or ipad</p>
 </div>
 <div style="padding-top:10px;"></div>
 <div>
-	If you encounter issues, please reach out to <a href="mailto:csmapsupport@nyu.edu">csmapsupport@nyu.edu</a>
+	If you encounter issues, please reach out to <a href="mailto:tiktok.research.issues@gmail.com">tiktok.research.issues@gmail.com</a>
 	<br> Our team will be in touch to help you troubleshoot
 </div> 
